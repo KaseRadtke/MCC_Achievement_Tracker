@@ -11,6 +11,8 @@
       <button>Steam</button>
       <br>
       <SearchUser @search-user="searchUser"/>
+      <br>
+      <h6 id="notFoundText" v-if="userNotFound">Xbox LIVE Gamertag not found. Are you sure you spelled it correctly?</h6>
 
   </div>
 </template>
@@ -23,24 +25,29 @@ import axios from "axios";
 export default {
 name: 'WelcomePage',
 
+data() {
+    return {
+        usersCompletedAchievements : [],
+        userNotFound : false,
+    }
+},
 
 methods: {
 
         async searchUser(userGamerID) {
-
-            const config = {
-                headers: {
-                    'X-AUTH': '83c11e736651a79389a76caf80c71056aad847ea',
-                    'Content-Type' : 'application/json'
-                }
-            }
-
             try {
-            //const res = await axios.get(`https://xapi.us/v2/xuid/${userGamerID}`, config);
-            const res = await axios.get(`http://localhost:3000/`, config);
-            console.log(res);
-            } catch (err) {
-                console.log(err);
+                const res = await axios.get(`/api/xbox/${userGamerID}`);
+                console.log(res.data)
+                if (res.data == false){
+                    this.userNotFound = true;
+                } 
+                else {
+                    this.usersCompletedAchievements = JSON.stringify(res.data);
+                    console.log(`${userGamerID}'s achievement data is: ${this.usersCompletedAchievements}`);
+                }
+            } 
+            catch (err) {
+                console.log("error!: " + err);
             }
         }
     },
@@ -52,7 +59,9 @@ methods: {
 </script>
 
 <style>
-
+#notFoundText {
+    color: rgb(252, 65, 65);
+}
 .container #welcomeContainer{
   border: black solid;
   margin: 0 auto;

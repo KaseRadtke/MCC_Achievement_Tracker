@@ -1,10 +1,7 @@
 <template>
   <div class="container">
 
-
-          
-
-          <WelcomePage/>
+          <WelcomePage v-if="valid_user_response"/>
 
           <!--<video autoplay muted loop id="myVideo">
           <source src="default.mp4" type="video/mp4">
@@ -28,8 +25,11 @@ export default {
                 content: 'Track and get guides for all 700 achievements in Halo: The Master Chief Collection'
             }]
         }
-    }
+    },
 
+  data() {
+  return { valid_user_response : true }
+  }
 
 }
 </script>
