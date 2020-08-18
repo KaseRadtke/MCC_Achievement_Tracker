@@ -11,8 +11,10 @@
       <button>Steam</button>
       <br>
       <SearchUser @search-user="searchUser"/>
+      <p class="description"> Enter your Xbox LIVE Gamertag to pull your current achievement progress for Halo: The Master Chief Collection </p>
       <br>
       <h6 id="notFoundText" v-if="userNotFound">Xbox LIVE Gamertag not found. Are you sure you spelled it correctly?</h6>
+      
 
   </div>
 </template>
@@ -59,51 +61,52 @@ methods: {
 </script>
 
 <style>
-#notFoundText {
-    color: rgb(252, 65, 65);
-}
-.container #welcomeContainer{
-  border: black solid;
-  margin: 0 auto;
-  width: 400px 400px;
-  min-height: 10vh;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-} 
+    #notFoundText {
+        color: rgb(252, 65, 65);
+    }
+    .container #welcomeContainer{
+    border: rgb(230, 230, 230) solid 2px;
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 400px 400px;
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    } 
 
-.description {
-    font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-color: #ffffff;
- font-size: 15px;
+    .description {
+        font-family:
+        'Quicksand',
+        'Source Sans Pro',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        'Helvetica Neue',
+        Arial,
+        sans-serif;
+    color: #ffffff;
+    font-size: 15px;
 
-}
-.title {
-    font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 50px;
-  color: #ffffff;
-  letter-spacing: 1px;
+    }
+    .title {
+        font-family:
+        'Quicksand',
+        'Source Sans Pro',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        'Helvetica Neue',
+        Arial,
+        sans-serif;
+    display: block;
+    font-weight: 300;
+    font-size: 50px;
+    color: #ffffff;
+    letter-spacing: 1px;
 
-}
+    }
 
 </style>
