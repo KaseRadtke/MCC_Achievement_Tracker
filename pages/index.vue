@@ -1,18 +1,6 @@
 <template>
-  <div class="container">
-
-
-          
-
+  <div class="container" id="welcomeContainer">
           <WelcomePage/>
-
-          <!--<video autoplay muted loop id="myVideo">
-          <source src="default.mp4" type="video/mp4">
-          Your browser does not support HTML5 video.
-          </video> -->
-
-
-    
   </div>
 </template>
 
@@ -28,24 +16,16 @@ export default {
                 content: 'Track and get guides for all 700 achievements in Halo: The Master Chief Collection'
             }]
         }
-    }
-
-
+    },
 }
 </script>
 
 <style>
-
 body {
-  background-color: #28347a;
-}
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  z-index: -100;
+  background-color: #2e3038;
 }
 
+#welcomeContainer{
+  padding-top: 200px;
+}
 </style>

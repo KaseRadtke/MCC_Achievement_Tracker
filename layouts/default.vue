@@ -1,10 +1,23 @@
 <template>
   <div>
     <Nuxt />
+    <video autoplay muted loop id="myVideo">
+          <source src="default.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+    </video>
   </div>
 </template>
 
 <style>
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -100;
+}
 html {
   font-family:
     'Source Sans Pro',
@@ -31,32 +44,4 @@ html {
   margin: 0;
 }
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
-
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
 </style>

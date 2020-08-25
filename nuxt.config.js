@@ -38,7 +38,7 @@ export default {
   ],
 
   serverMiddleware: [
-    '~/api/getXboxUser.js'
+    '~/api/'
   ],
 
   /*
@@ -64,5 +64,6 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
+    watch: ['api'],
   }
 }

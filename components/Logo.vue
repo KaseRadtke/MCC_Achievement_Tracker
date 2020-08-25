@@ -1,12 +1,12 @@
 <template>
-  <img class="NuxtLogo" src="../static/Logo_placeholder.png" alt="Logo Placeholder">
+  <img class="NuxtLogo" src="../static/Logo_placeholder2.png" alt="Logo Placeholder">
 </template>
 
 <style>
 .NuxtLogo {
-  animation: 2s appear;
+  
   margin: auto;
-  width: 15%;
+  width: 175px;
 }
 
 @keyframes appear {
