@@ -1,15 +1,6 @@
 <template>
-  <div class="container">
-
-          <WelcomePage v-if="valid_user_response"/>
-
-          <!--<video autoplay muted loop id="myVideo">
-          <source src="default.mp4" type="video/mp4">
-          Your browser does not support HTML5 video.
-          </video> -->
-
-
-    
+  <div class="container" id="welcomeContainer">
+          <WelcomePage/>
   </div>
 </template>
 
@@ -26,26 +17,15 @@ export default {
             }]
         }
     },
-
-  data() {
-  return { valid_user_response : true }
-  }
-
 }
 </script>
 
 <style>
-
 body {
-  background-color: #28347a;
-}
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  z-index: -100;
+  background-color: #2e3038;
 }
 
+#welcomeContainer{
+  padding-top: 200px;
+}
 </style>

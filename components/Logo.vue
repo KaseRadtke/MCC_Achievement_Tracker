@@ -4,9 +4,9 @@
 
 <style>
 .NuxtLogo {
-  animation: 5s appear;
+  
   margin: auto;
-  width: 15%;
+  width: 175px;
 }
 
 @keyframes appear {
