@@ -4,9 +4,9 @@
 
 <style>
 .NuxtLogo {
-  
   margin: auto;
   width: 175px;
+  position: relative;
 }
 
 @keyframes appear {

@@ -34,8 +34,12 @@ export default {
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
-  plugins: [
-  ],
+ plugins: [
+  {
+    src: '~/plugins/vue-video-background',
+    ssr: false
+  }
+ ],
 
   serverMiddleware: [
     '~/api/'
@@ -65,5 +69,10 @@ export default {
   */
   build: {
     watch: ['api'],
-  }
+  },
+
+  loading: {
+    color: 'white',
+    height: '5px'
+  },
 }

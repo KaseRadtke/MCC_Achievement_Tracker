@@ -1,6 +1,6 @@
 <template>
-  <div class="container" id="welcomeContainer">
-          <WelcomePage/>
+  <div class="container">
+          <StartPage/>
   </div>
 </template>
 
@@ -24,8 +24,5 @@ export default {
 body {
   background-color: #2e3038;
 }
-
-#welcomeContainer{
-  padding-top: 200px;
-}
 </style>
+
