@@ -139,7 +139,7 @@ export default {
         font-size: 50px;
         color: #ffffff;
         letter-spacing: 1px;
-padding-bottom: 10px;
+        padding-bottom: 10px;
     }
 
 </style>

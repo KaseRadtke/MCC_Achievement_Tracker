@@ -1,0 +1,34 @@
+{  
+    "modes":[
+        { "text": "Multiplayer", "value": "multiplayer" }
+    ],
+
+    "campaign_maps":[
+    ],
+
+    "multiplayer_maps":[
+        { "text": "Bloodline", "value": "bloodline" },
+        { "text": "Lockdown", "value": "lockdown" },
+        { "text": "Remnant", "value": "remnant" },
+        { "text": "Shrine", "value": "shrine" },
+        { "text": "Skyward", "value": "skyward" },
+        { "text": "Stonetown", "value": "stonetown" },
+        { "text": "Warlord", "value": "warlord" },
+        { "text": "Zenith", "value": "zenith" }
+    ],
+
+    "selected": [
+        "multiplayer",
+        "bloodline",
+        "lockdown",
+        "remnant",
+        "shrine",
+        "skyward",
+        "stonetown",
+        "warlord",
+        "zenith"
+    ],
+    "allSelected" : true,
+    "campaignSelected": false,
+    "multiplayerSelected": true
+}  

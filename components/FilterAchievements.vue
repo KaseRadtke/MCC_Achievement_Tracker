@@ -1,55 +1,76 @@
 <template>
   <div id='filter_achievements'>
-   <div id='search'>
-        <div class="search_header"><p> Search Criteria </p> </div>
-        <b-form @submit.prevent="onSubmit">
-            <div class="form-group mx-sm-3 mb-2" style="flex-flow: nowrap;">
+   <div class='search'>
+        <div class="search_header"><h5 class="heading"> Search Criteria </h5> </div>
+        <b-form class="achievement_form" @submit.prevent="onSubmit">
+            <div class="form-group mx-sm-3 mb-2 search_achievement_bar">
                 <b-input type="text" class="form-control" id="achievement_search" placeholder='Search for specific achievement'></b-input>
                 <b-button variant="primary" type="submit" value="Search Achievements">Find Achievement</b-button>
             </div>
         </b-form>
     </div>
-    <div class="form-check" v-show="reach == 'kase'">
-      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-      <label class="form-check-label" for="defaultCheck1" v-show="reach">
-        Default checkbox
-      </label>
-    </div>
+    <GameSearchSettings :currentGame="currentGame" :gameData="require(`../static/game_settings/${currentGame}_search_settings.json`)"/>
   </div>
 </template>
 
 <script>
+import GameSearchSettings from "../components/GameSearchSettings"
+
+
 export default {
 name: 'FilterAchievements',
 
+components: {
+        GameSearchSettings,
+    },
+
 props:{
-        game: String,
+        currentGame: String,
     },
-
-data(){
-        return{
-            reach: 'kase'
-        }
-    },
-
 }
 </script>
 
 <style>
-  #search {
-    background-color: violet;
+  .criteria_selection{
+    padding-top: 2em;
+  }
+  .selection_heading{
+    color:#FFFFFF;
+    font-size: 17px;
   }
 
+  .form-check{
+    margin-left: 0em;
+  }
+
+
+ #filter_achievements {
+    grid-column: 1;
+    grid-row: 1/11;
+  }
+
+ .heading{
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
   .search_header{
     text-align: left;
     color: white;
     padding-left: 2em;
     margin-top: 2em;
   }
- #filter_achievements {
-    background-color: green;
-    grid-column: 1;
-    grid-row: 1/11;
+  .search_achievement_bar{
+    flex-flow: nowrap;
+    width: 20em;
+    text-align: center;
+  }
+
+  .achievement_form{
+    padding-left: 3em;
+  }
+
+  .form-check{
+    color: white;
   }
 
   .header{

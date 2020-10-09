@@ -5,7 +5,7 @@
     </div>
 
     <div id='wrapper'>
-      <FilterAchievements />
+      <FilterAchievements :currentGame="this.game"/>
       <div id="achievements">
           <p> achievements </p>
       </div>
@@ -26,13 +26,9 @@ export default {
         FilterAchievements
     },
 
-    props:{
-        game: String,
-    },
-
     data(){
       return{
-        currentGame: 'reach'
+        game: 'reach',
       }
     },
 
@@ -44,8 +40,8 @@ export default {
   },
 
   methods: {
-    gameSelected(game) {
-      console.log(game)
+    gameSelected(selectedGame) {
+      this.game = selectedGame
     }
   }
 
@@ -71,9 +67,8 @@ export default {
           overflow: auto;
           min-width: 10vh;
           justify-content: center;
-          align-items: center;
-          text-align: center;     
-          background-color:rgba(0,0, 0, 0.7);
+          align-items: center;  
+          background-color:rgba(0,0, 0, 0.5);
           backdrop-filter: blur(10px);
   }
 

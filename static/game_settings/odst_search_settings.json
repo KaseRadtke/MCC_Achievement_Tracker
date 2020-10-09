@@ -1,0 +1,38 @@
+{  
+    "modes":[
+        { "text": "Campaign", "value": "campaign" },
+        { "text": "Co-op Campaign", "value": "coop" }
+    ],
+
+    "campaign_maps":[
+        { "text": "Mombasa Streets","value": "mombasa_streets" },
+        { "text": "Tayari_Plaza","value": "tayari_plaza" },
+        { "text": "Uplift Reserve","value": "uplift_reserve" },
+        { "text": "Kizingo Boulevard","value": "kizingo_boulevard" },
+        { "text": "ONI Alpha Site","value": "oni_alpha_site" },
+        { "text": "NMPD HQ","value": "nmpd_hq" },
+        { "text": "Kikowani Station","value": "kikowani_station" },
+        { "text": "Data Hive","value": "data_hive" },
+        { "text": "Coastal Highway","value": "coastal_highway" }
+    ],
+
+    "multiplayer_maps":[
+    ],
+
+    "selected": [
+        "campaign",
+        "coop",
+        "mombasa_streets",
+        "tayari_plaza",
+        "uplift_reserve",
+        "kizingo_boulevard",
+        "oni_alpha_site",
+        "nmpd_hq",
+        "kikowani_station",
+        "data_hive",
+        "coastal_highway"
+    ],
+    "allSelected" : true,
+    "campaignSelected": true,
+    "multiplayerSelected": false
+}  

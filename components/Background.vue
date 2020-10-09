@@ -1,8 +1,8 @@
 <template>
   <div>
       <video-background 
-            src="\default.mp4"
-            style="max-height: 100vh; height: 100vh;"
+            src="\test.mp4"
+            style="max-height: 100vh; height: 100vh;" 
             >
       </video-background>
   </div>
