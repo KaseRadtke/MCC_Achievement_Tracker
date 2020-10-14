@@ -1,7 +1,7 @@
 <template>
   <div>
     <Nuxt/>
-    <Background id='test'/>
+    <Background id='background_default'/>
   </div>
 </template>
 
@@ -45,7 +45,7 @@ export default {
     box-sizing: border-box;
     margin: 0;
   }
- #test{
+ #background_default{
    position: relative;
  }
 </style>

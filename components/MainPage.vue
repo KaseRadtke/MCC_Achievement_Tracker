@@ -5,9 +5,21 @@
     </div>
 
     <div id='wrapper'>
-      <FilterAchievements :currentGame="this.game"/>
-      <div id="achievements">
-          <p> achievements </p>
+      <FilterAchievements :currentGame="this.game" @searchCriteriaRecieved="getSearchCriteria"/>
+      <div id="achievements_div">
+        <div id="achievements_grid">
+         <Achievement v-for="achievement in achievementsJSON" 
+         :key="achievement.name" 
+         :achievementName='achievement.name' 
+         :achievementDescription='achievement.description' 
+         :gameTitlesArray="achievement.titles" 
+         :currentGame="game" 
+         :achievementValue="achievement.value"
+         :achievementThumbnail="achievement.mediaAssets"
+         :achievementMaps="achievement.maps"
+         :searchCriteria="searchCriteria"
+         />
+        </div>
       </div>
     </div>
      
@@ -19,16 +31,22 @@
 
 import Gamesbar from "../components/Gamesbar"
 import FilterAchievements from "../components/FilterAchievements"
+import Achievement from "../components/Achievement"
+import json from "../static/mcc_achievement_master.json"
+
 export default {
 
    components: {
         Gamesbar,
-        FilterAchievements
+        FilterAchievements,
+        Achievement
     },
 
     data(){
       return{
         game: 'reach',
+        achievementsJSON: json,
+        searchCriteria: []
       }
     },
 
@@ -42,6 +60,10 @@ export default {
   methods: {
     gameSelected(selectedGame) {
       this.game = selectedGame
+    },
+
+    getSearchCriteria(gameSelectionArray){
+      this.searchCriteria = gameSelectionArray;
     }
   }
 
@@ -50,12 +72,18 @@ export default {
 
 <style>
  
-   #achievements {
-    grid-column: 2/3;
-    grid-row: 1/11;
-    margin-top: 2em;
-    background-color: blue;
+   #achievements_div{
+      grid-column: 2/3;
+      grid-row: 1/11;
+      margin-top: 2em;
+      margin-right: 2em;
+  }
 
+  #achievements_grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-auto-rows:minmax(70px, auto);
+    grid-gap: 5px;
   }
 
   #mainpage {
@@ -70,6 +98,7 @@ export default {
           align-items: center;  
           background-color:rgba(0,0, 0, 0.5);
           backdrop-filter: blur(10px);
+          overflow: hidden;
   }
 
   #wrapper {

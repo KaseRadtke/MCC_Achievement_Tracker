@@ -1,0 +1,1049 @@
+[{
+        "name": "Life Story",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd75eOQJrRlqs.f29BFGYoPtUsHUehiWe3xHaQbIM_WcLBoXM2_vh05T0szSATgsTwQ2R8u5L6O1JIuDBQG2gEAvGaHaphmQMJPzSKOPQ2Q_yGGk0THAuSVWkMrKWSp8Al8nYb_ny1CBBt9BJTINkFEA-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/65f5c247849cc6eeb2b7b09c4bd207e6c0827466.jpg"
+            }
+        ],
+        "description": "Complete the Master Chief Saga playlist.",
+        "lockedDescription": "Complete the Master Chief Saga playlist.",
+        "value": 30,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop"],
+		"titles" : ["haloce","halo2c", "halo3", "halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "To get this achievement, complete the Master Chief Saga Playlist located in the Cross-game section in the campaign lobby. This playlist contains every mission from Halo:CE through Halo 4.",
+		"video_tutorial" : false
+    }, {
+        "name": "Just Getting Started",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdy25tHxuFw8U5s_.ZZ4BvR0rp6PvMjnR2IeSrkzxf1nMfs47wHysIG.8_UbDfm4TFF20HXiTckUdK18x3rT70WQ.KW1nWqITkOJ5LOkWmFSxv4NeVKeB26i4KNzYLplZ4DD03h7.ea7bTV_vIOcoSR4-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/295994d6837f319474877fac6036b13bcc09e7cc.jpg"
+            }
+        ],
+        "description": "Kill 100 enemies or players.",
+        "lockedDescription": "Kill 100 enemies or players.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","odst","halo4"],
+		"maps" : ["All_campaign","All_multiplayer"],
+		"tutorial" : "Kill a combined total of 100 enemies (campaign or multiplayer).",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Balaho's Most Wanted",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.lgC5JoVXxh_CGr2DlAMRsDIIPnBbCmmt4sYy95DJ03oQaev8ZYGipd4.c2Kr4kZceisjmDobjpCF7gAyAKqhbfNw5MYOFakcZ0eoA.bFbKcUk8I736XvNqfpoti7W2FNCjB2h768brNZ3NFTycvq8-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/69f15b3ba103e1ffd9febaecf5f3aa6e5cbda9f6.jpg"
+            }
+        ],
+        "description": "Kill 100 Grunts.",
+        "lockedDescription": "Kill 100 Grunts.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop","firefight","spartan_ops"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","odst","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Kill a combined total of 100 Grunts in PVE mode (Campaign, Firefight, Spartan Ops). This achievement is easily unlocked by playing normally.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "The One Percent",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8fEkwovhkmpMedQaNTH9wS1PE69gSgRXpmL5rBT_7YMTR8mQ3tZOhuo8SMQaC2OccpsQuSNIaCyss_zmludXkEV1o05q_weYMrOT.CjDVB8Zb6Y92MdwF37kSOMm1Tgi7cXRZ2qb0BLcS2C8cEVgKw-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/8462cdf780c272b9ebbae5c31ab859eb3c684841.jpg"
+            }
+        ],
+        "description": "Kill 100 Elites.",
+        "lockedDescription": "Kill 100 Elites.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop","firefight","spartan_ops"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Kill a combined total of 100 Elites in PVE mode (Campaign, Firefight, Spartan Ops). This achievement is easily unlocked by playing normally.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Spoilsport",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0wsvf8rmK9Dr61KsBqB_ArXLGaaHAne.gLWGYRT_9MU99OqGJ8S4pP6xxy10sZEUjIssUvY3UJCuT6X6BEEu_xgY9U0LVNgRaCcaTRF7SmjJx5PbBbhw_BR5UYD8v71ZcUxiylUKSyq76ptD8lpNhk-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/de9f255b9dd5ea58551c52d95195407f60f49051.jpg"
+            }
+        ],
+        "description": "Kill 100 Jackals.",
+        "lockedDescription": "Kill 100 Jackals.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop","firefight","spartan_ops"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","odst","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Kill a combined total of 100 Jackals in PVE mode (Campaign, Firefight, Spartan Ops). This achievement is easily unlocked by playing normally.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Going Bananas",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2hMTSBQPw9Ioce54HbhN2UVGjcZwkj9iGJ7tRCR0xl5j8.YxDcUZBJi2oTVE.z35Aobj3p5IHmE8iJ72qPf90BX8Eqi_0CWQDPshUd8oxY.qb69.w5rO2_Ltv3kN6JkZxM_TaulaFx6nS2I8xcwA6Q-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/6fb647f3b03049b154ff5a4b16ac90993546fd3a.jpg"
+            }
+        ],
+        "description": "Kill 100 Brutes.",
+        "lockedDescription": "Kill 100 Brutes.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop","firefight"],
+		"titles" : ["reach","halo2c","halo3","odst"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Kill a combined total of 100 Brutes in PVE mode (Campaign, Firefight). This achievement is easily unlocked by playing normally.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Hunters Hunted",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2nyV7bOssv17v.Wj96WuvoCuZn0MKChYuAVajMdXUeXZqbIrY9EbwvqNvfzyZjxBu_ax7ZZDLC0e__ckhXGokW6e0myZ2PjQxxibxup5kwFHwy4sEDLLMYzksBgE21h2T6mSiqiu9oxcRIc6GOtHHc-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/3aed1bfe9622080de11937532626835ec73b8826.jpg"
+            }
+        ],
+        "description": "Kill 50 Hunters.",
+        "lockedDescription": "Kill 50 Hunters.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop","firefight"],
+		"titles" : ["reach","halo2c","halo3","odst"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Easiet method: Start a Custom Firefight match in Halo:Reach and set all the enemies to be Hunters, and set the player traits so you are inviniclbe and have a 300% damage boost.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Checkmate",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxeeHpl0Wdu4aq5NoXmngnofVCPv5d.YOhfTIyvNgU599GmjFS7L5qSKAv3rCOFA.0gAWozUHGLL38yjDseQjZ3rwd7HpeGkfoTr1OZhH4cqSNuVZssYhVcp37c2Giq253pCbfhLKqJT56ElPOxODXk-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/6d7fd884027f350e1318c4b7ff0d12e968dfcea7.jpg"
+            }
+        ],
+        "description": "Kill 100 Watchers.",
+        "lockedDescription": "Kill 100 Watchers.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop","spartan_ops"],
+		"titles" : ["halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Kill a combined total of 100 Watchers in PVE mode (Campaign, Spartan Ops). This achievement is easily unlocked by playing normally.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "I Was Wondering What Would Break First",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdy0qigsStrcYgWABxQ1hPbCcuhmWkk1xKwGmYhd4AdMt55bja0Uv81ID6KaTGi9njsUF0iI.HTcMlBKwnADzxqdoTQsrlkS32iAiB5cHVcRliHrGfjH_FhE1JYraE3HWvWxad1S54LtcRYDojrKXj7g-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/3d55e866abedaf110f48ed9eb8646afa8931de87.jpg"
+            }
+        ],
+        "description": "Kill 100 Knights.",
+        "lockedDescription": "Kill 100 Knights.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop","spartan_ops"],
+		"titles" : ["halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Kill a combined total of 100 Knights in PVE mode (Campaign, Spartan Ops). This achievement is easily unlocked by playing normally.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Pest Control",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxg8ibU6A666rv59sWtxfNkiE1dHfAbe9Uq3GUT91HADkWTHKZf_5v8ZfLv0yOkFHUyZOOazdSA5Hb7h49M4JuC62FvZBnq58RW.2L7ATTTrc6VEPtpjTODhK2.uo.3HicuXsJjt._V501M7yOo_xuk-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/f784ffac167abf1641da8152e2b02ddc4ce831c3.jpg"
+            }
+        ],
+        "description": "Kill 100 Crawlers.",
+        "lockedDescription": "Kill 100 Crawlers.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop","spartan_ops"],
+		"titles" : ["halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Kill a combined total of 100 Crawlers in PVE mode (Campaign, Spartan Ops). This achievement is easily unlocked by playing normally.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Thanks A Killion",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzvz7I81CUQ5wM26UDQKV9GBlHKBbRZEGNb7E2Gz.ndyUEzsan.MRFLDKuH6WhTTPNYo2IKNv9k3kfTRZen6y862BpPMORHP0B8mpyddfZHukePUKjnqojotrlTePjAXWZTpsXd7M99_YWztAQQb4PQ-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/6c821587019ec8431a8fa4547caebea6e64a6d39.jpg"
+            }
+        ],
+        "description": "Kill 20,000 enemies or players.",
+        "lockedDescription": "Kill 20,000 enemies or players.",
+        "value": 20,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop","multiplayer","firefight","spartan_ops"],
+		"titles" : ["reach","haloce","halo2c","halo2a", "halo3","odst", "halo4"],
+		"maps" : ["All_campaign", "All_multiplayer"],
+		"tutorial" : "This achievement can be unlocked by playing normally with patience. To speed it up, play Firefight in Halo:Reach or Halo 3:ODST to rack up kills quicker.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Medal Completionist",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3_YkEZKubBtIQrrKCc6jZytZDV334OJXi0DeWaT27.N8JB13qiqu_3iI08A3Z_N4jE7nq8vfcGMiV0EjbPMgY7YvjT1F5mKymRN5mBQGk7VadRUpHoR4HknQDCrGWA78DJRTzMZsPWAXHwT0ebbV74-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/76002d2df62d1455e95975e1a39dba49ea0365b2.jpg"
+            }
+        ],
+        "description": "Collect 10,000 campaign or playlist medals.",
+        "lockedDescription": "Collect 10,000 campaign or playlist medals.",
+        "value": 20,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign", "coop"],
+		"titles" : ["reach","haloce","halo2c", "halo3","odst", "halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "This achievement can be unlocked by playing campaign normally with patience.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "The Guardians Are Coming",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.PBVwHcGehVee7A9X_gOTakMZZVgAJe52pv6z2ggS8UUDJQFGXtHOjSfBp46K1mZ8j.1b34WpDi.CZnkaEQghQAt41bXDyr_xR9XwMpYrxmQhrOD6OK5IxkFUnrpQNZqV.9Sjj3m.apxCDT_DxtzFM-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/be40be591cab35d4ff92e1953a0e679a671934ff.jpg"
+            }
+        ],
+        "description": "Get killed by the Guardians.",
+        "lockedDescription": "Get killed by the Guardians.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["multiplayer"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","halo4"],
+		"maps" : ["All_multiplayer"],
+		"tutorial" : "This can be done on every multiplayer map that has any death boundries. Example: Load the map Terminal in Halo 2 and die from the train.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=Dm7xLp4wA_Q"
+    },
+	{
+        "name": "Bite The Hand",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3_YkEZKubBtIQrrKCc6jZytZDV334OJXi0DeWaT27.N8JB13qiqu_3iI08A3Z_N4jE7nq8vfcGMiV0EjbPMgY7YvjT1F5mKymRN5mBQGk7VadRUpHoR4HknQDCrGWA78DJRTzMZsPWAXHwT0ebbV74-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/df75e2dbc9cbd91b41cd52a551a306e27cca56c6.jpg"
+            }
+        ],
+        "description": "Kill a 343 developer in matchmaking or someone who has this achievement.",
+        "lockedDescription": "Kill a 343 developer in matchmaking or someone who has this achievement.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["multiplayer"],
+		"titles" : ["reach","haloce","halo2c","halo2a", "halo3", "halo4"],
+		"maps" : ["All_multiplayer"],
+		"tutorial" : "Nearly everyone has this achievement (it spreads faster then COVID-19), so this shouldnt take more then a match or two. Just kill players in matchmaking until you get it :). ",
+		"video_tutorial" : "https://youtu.be/PCfN6QCwI4U?t=10"
+    },
+	{
+        "name": "Mystery Achievement",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6NtI8t4Ii6J7JNXBKODEr4JwYUrnkpfUwiUdcFtCnu67EVDvDzTuoEvXYT.1dGiJLAouB9lccUXu_e0ltmmLswSCeAFntcYseIQ6ge7AX3Etdm7dSK7GUtWYMxnLeLnALM2KL82urhVfvnQKiVGNes-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/c801e863aedb16fea3aa8e45adcde40cf4296d4a.jpg"
+            }
+        ],
+		"description": "Inscrutable. Mysterious.",
+        "lockedDescription": "Inscrutable. Mysterious.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["multiplayer", "firefight"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","odst","halo4"],
+		"maps" : ["All_multiplayer"],
+		"tutorial" : "In a Custom game lobby, edit and save a gametype. When the promtp to enter the name appears, enter in '.fortune'. This will reveal a fun easter egg and the achievement will unlock.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=3YiUBR8noQg"
+    },
+	{
+        "name": "Where Am I?",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdw9RSsxOhu_Hgo8bdsJwgzZ9z5yN1X4vUB2.YE4fZoso6S1sH2lbGjM.kfdzG9C8uZmUbWssjp_2S.FLS420SaMDox7ebcK6gp0lRfQaFXtu1jmC8Yu3w_tKf8S.Q5UFomqlU8KNMXoqsBIV2if7FYE-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/883e801b34c009efc89372588f3a8b55b9d149bc.jpg"
+            }
+        ],
+		"description": "Complete 10 missions or multiplayer games.",
+        "lockedDescription": "Complete 10 missions or multiplayer games.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign","coop","multiplayer", "firefight","spartan_ops"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","odst","halo4"],
+		"maps" : ["All_campaign","All_multiplayer"],
+		"tutorial" : "Does this really need a tutorial?",
+		"video_tutorial" : false
+    },
+	{
+        "name": "I Got This",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.9Blxg3i37i0vCTIITUPrZP.z9iXZsz8P4iToaj_QOyqzViD_6Rk5k03LTe9Rq.hD2TeDte0I8.B8fJVaKpdeMMC1G7s2qdJzb.ebUduJeLutvxmh7rL8bDm_Gs.K_lAIOsEDiIl6a3A6sgjosENCA-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/3d7ef93c5c7ab001b202cb591ec730da47fd5cfd.jpg"
+            }
+        ],
+		"description": "Complete 100 missions or multiplayer games.",
+        "lockedDescription": "Complete 100 missions or multiplayer games.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign","coop","multiplayer", "firefight","spartan_ops"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","odst","halo4"],
+		"maps" : ["All_campaign", "All_multiplayer"],
+		"tutorial" : "Does this really need a tutorial?",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Tempered Blade",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1c3FG8rSqRbg3K7IO8lnhTdEeVlF6_aCyvKqH_xNcSGwPz9W3TqqK3AuZ3uk40OHbhabZBcrA5CDcwtEP7YkCBhQZHsr6qD4ocg8.ZRHLu7srontxb8.H90j8D0oNPIc_1WunZQYzV40b1OkamKOS4-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/58a1641538d0e04011e4a2879b53ba14504311c9.jpg"
+            }
+        ],
+		"description": "Win 10 multiplayer games.",
+        "lockedDescription": "Win 10 multiplayer games.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["multiplayer"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","halo4"],
+		"maps" : ["All_multiplayer"],
+		"tutorial" : "Try your best and win matches!",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Forged in Fire",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2GZRl2Na3c5fAlDQuXok1.eQnnp3q7rHMmgshP4PIxiLVdlTkIl2526tcRbZH22dF2UDtG7jblA0q.M.QPQNRGVLaUIE6Z1eux1HOI23A1JEQ78mBrz_Ocufj_6UI515zbuYGTmha.8mcO8VwKJfqU-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/560ffdfe29de620ff91e4856cfa4973efa086a0d.jpg"
+            }
+        ],
+		"description": "Win 100 multiplayer games.",
+        "lockedDescription": "Win 100 multiplayer games.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["multiplayer"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","halo4"],
+		"maps" : ["All_multiplayer"],
+		"tutorial" : "Try your best and win matches!",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Sample Plate",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1.hRTICk48tlgnaAlX74GFR.xbtwmcCZegydIocapkUDmwS28m9FMwwjs9KW9i3qPkIxM6ZSdy95u4MN.o.rJDR6.1zOyz4oTwreekS3Wee9hCWGK.FYvy.XJ9I1qvENRKM8imJdHUnWl5UWBZLzf8-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/925e79473e2fd7c6e5cf21149cf7579a27819cd7.jpg"
+            }
+        ],
+		"description": "Complete three cross-game playlists.",
+        "lockedDescription": "Complete three cross-game playlists.",
+        "value": 20,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign","coop"],
+		"titles" : ["reach","haloce","halo2c","halo3","odst","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Complete any 3 cross-game campaign playlist, located in the campaign lobby under 'cross-game'.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "I Dabble in Slaying",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz59tklyfM4FozsEqjYukks_ddDLKxBn4ZI2gtmaiuXr1mOWnrpdyvH0d3NvSNVGFCz_TwCgAR3g_z7.UQQ5RRg4c3Nvulshu4QICRvlB8Q5Tp8wZKurBhz1wv4gvmSkgnz4M1NtKGKaIHZM8eSjNd4-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/859444f8b59fe91ed3b07202e2dd1df4403256e3.jpg"
+            }
+        ],
+		"description": "Complete one cross-game playlist.",
+        "lockedDescription": "Complete one cross-game playlist.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign","coop"],
+		"titles" : ["reach","haloce","halo2c","halo3","odst","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Complete any cross-game campaign playlist, located in the campaign lobby under 'cross-game'.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Stick With It...A Little Longer",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxAkEFLSAvnePeWDzN4YcqgbnquBDfKb7qHQJU6dt5RF23C_x6c3ZA55dUVrDWHq_f64f8t0P4FKEqmmSCPa9E.mbz2WdH_NFsMe7NaoOppjvvqmrGLumfSVkf._63BkQLOuknPkJfgbftyIvC1NcO0-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/7c8b1632e37e7da26f986dcc5c91e0609c416eed.jpg"
+            }
+        ],
+		"description": "Play a multiplayer or co-op game at least 3 months after your first game.",
+        "lockedDescription": "Play a multiplayer or co-op game at least 3 months after your first game.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["coop", "multiplayer", "firefight"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","odst","halo4"],
+		"maps" : ["All_campaign", "All_multiplayer"],
+		"tutorial" : "For this one, just stick with the game for 3 months. It is Halo after all, so that should be easy!",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Veteran",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1IUN3iZcW96ohuAIPaRsOp98NSMGmzVaIuT9.5s0T0wJhKfz2Ofytru.NMq.5kxKffeHnji6_FHTnTJjiXz2I_7l.f5jCOo85lAl9ROOCcrOWIHK4Nfuql2UYyjwnPcnyRwO5tMdMCZm2BBNpKNeOE-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/9972557425026fbf4c3ea5034a6d0457500a4be2.jpg"
+            }
+        ],
+		"description": "Complete all campaigns on Normal difficulty.",
+        "lockedDescription": "Complete all campaigns on Normal difficulty.",
+        "value": 30,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce","halo2c","halo3","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Complete Halo:CE through Halo 4 on atleast Normal difficulty. This achievement will unlock defaultly if you beat the campaigns on Heroic or Legendary as well.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "War Hero",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd_jF5tve0l5PhVHJR_e88.zZFwdPPBddJ9sCd6rtpCZwZbEq09L1lJcrnFXo87tWsx3Sj_sPIxg7pWM_MjpQnJ7enT2zjr4b7aTM0Dbm0hMVTi3G.4F1h1rESVEYY1YuAjzgwJhR2IL_nydmFfNPVso-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/2c7785b83c1848e2444ff89999e7342e50b37e16.jpg"
+            }
+        ],
+		"description": "Complete all campaigns on Heroic difficulty.",
+        "lockedDescription": "Complete all campaigns on Heroic difficulty.",
+        "value": 40,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce","halo2c","halo3","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Complete Halo:CE through Halo 4 on atleast Heroic difficulty. This achievement will unlock defaultly if you beat the campaigns on Legendary as well.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Legend",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2626UqB4swKK_n4MpOK.40jp_xxtnN3ljrnV2GnZG6Hr_NKkEoP4Ta9m5m6F.cjIREd1pf3BVbREJoJinKfjauDnguANuWRLf6W0rSaIlogZkaxDamGvQVGXjcDAzK9bEaVAIPXrXOVNMlfH5refqc-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/e74bcb63ded712b2d06c8edd39c4aaede6be0c9a.jpg"
+            }
+        ],
+		"description": "Complete all campaigns on Legendary difficulty.",
+        "lockedDescription": "Complete all campaigns on Legendary difficulty.",
+        "value": 50,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce","halo2c","halo3","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Complete Halo:CE through Halo 4 on Legendary difficulty. You can do it!",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Lore Master",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd13y.3UZNYZviUagyLzWmuz2kV4w_ySzXUUvqVdtOf1EvjuHdm8I9MVBnAnhbvKIB5SQ1dSkHPiRPd1I9FwdAyzoHzTDTh6ogy4fSxb.Dz2TkTZjqrw27W5K0jZ4RqB78BostM1TBVKqHrBGkeJnd20-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/e39b0321b1db40a49af73d8f347532bd6105d4ca.jpg"
+            }
+        ],
+		"description": "Activate all terminals.",
+        "lockedDescription": "Activate all terminals.",
+        "value": 30,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce","halo2c","halo3","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Activate all terminals in Halo:CE through Halo 4. Every terminal in the game has its own seperate achievement, so look at those for guides!",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Your Journey Begins",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3LswfZtmNQnUi.WxQAnLjyRrdN2Dlz8kpL_4md2v7tmNI_rGikILnL540E75I4X0VybQhL8zRDWiMZ6_A3m3BZXNCCCnAOtf5xt6U2W7W7H.CBtvRqwgbih7k.Wzu9YQLCs4lMe_O4RsItOtGdYYcs-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/6fb6ed832c24c8e0594c13cb8a7b08ac28b8d603.jpg"
+            }
+        ],
+		"description": "Complete a campaign mission or a match of multiplayer.",
+        "lockedDescription": "Complete a campaign mission or a match of multiplayer.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign","multiplayer"],
+		"titles" : ["reach","haloce","halo2c","halo2a","halo3","odst","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Does this really need a tutorial :)?",
+		"video_tutorial" : false
+    },
+	{
+        "name": "LASO Master",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3CDXGqgt2o6fFdRZDf160jQIbRWv2PIjyukZ8qR3S8uEG3iccb.1pJ_UP1uCLIsKXw3jxUEtS1de5sH0ACJkoipMMQk97yfCsH8YD.DPTcCci7pEtgBrOmwk3icQDCtUMpRGMEeyqTIF_mI35IBv50-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/22a15dbe9acef7c583e08286cad62ef4bd197c06.jpg"
+            }
+        ],
+		"description": "Complete each individual game-specific LASO playlist for every Halo game.",
+        "lockedDescription": "Complete each individual game-specific LASO playlist for every Halo game.",
+        "value": 50,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce","halo2c","halo3","halo4"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Their is an exploit where you can unlock LASO achievements if you find another player who has a checkpoint on the last mission of a games LASO playlist. Other than that? Good luck..",
+		"video_tutorial" : false
+    },
+	{
+        "name": "The Silent Cartographer",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd7AdrYC76rs0etexJUjV3x68ycahW.XvDwBcVgDxOPmAQJSiOh6s2X1j3lYeD8HLdqPYH7P0hntzae8BqoWn1CpCW7yfMMHYl2gDAye5nRuPSRwiy9xrIxUUFCsNhtq4asgwXova4IYrX7Vb1.Iwcnk-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/82c4edff8aa0cb8cb45ce9c8bc2e83c824a00c1a.jpg"
+            }
+        ],
+		"description": "Halo CE: Complete The Silent Cartographer.",
+        "lockedDescription": "Halo CE: Complete The Silent Cartographer.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_silent_cartographer"],
+		"tutorial" : "Complete the mission The Silent Cartographer.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Assault on the Control Room",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9xMXLVldIbzMD_MPCNWTy0CuFNExexLfz1Slfs2RdOLqFlS3xKo5exxdljtHE8SUIhVWcaUxBoPTlW2Vme.wwAPqBCAx3SMLpzPzeQJ_xt9XNMRFUjkbREuqW_l42m26fapDlp6t_Np_AGhnwv56pI-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/b9ed825bee163d4f7efc259c18a69dd6c03b5e92.jpg"
+            }
+        ],
+		"description": "Halo CE: Complete Assault on the Control Room.",
+        "lockedDescription": "Halo CE: Complete Assault on the Control Room.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["assault_on_the_control_room"],
+		"tutorial" : "Complete the mission Assault on the Control Room.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Pillar of Autumn",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd7gR3OiroVBZ06DD3DATNl7vF1XtGkqpeOnUiMZd85dqN2wRtYsb9i6jhAxHTP3CwVGRIriQisO.k2fIsdx0J9FgJoJTyPJlX_Egd3M_9nbeZ2h5wHSsVRe_CmG8jwULogZuOWPVhS2exxmERrBqxYA-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/c4044114ec5ace082384406777e90e1e73f78a7b.jpg"
+            }
+        ],
+		 "description": "Halo CE: Complete The Pillar of Autumn.",
+        "lockedDescription": "Halo CE: Complete The Pillar of Autumn.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_pillar_of_autumn_ce"],
+		"tutorial" : "Complete the mission The Pillar of Autumn.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Halo",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9tRYSjkvkHica._N98m_yMVvwn98m.v.WwgIXOmFLma1VOvfztGJyddUB1yYygcCo8Wx3WG6TPSU_Vfv8Fel6TwayIw2jWi9wexxS.WUOeEcrEsnD4wJu6kHxt.nfLeBv0ZNHOSWHg9NPnepO8CBUE-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/39e524b73b0aa4f3636de289ce6462ce3844b51d.jpg"
+            }
+        ],
+		 "description": "Halo CE: Complete Halo.",
+        "lockedDescription": "Halo CE: Complete Halo.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["halo_ce"],
+		"tutorial" : "Complete the mission Halo.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Truth and Reconciliation",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2V4cKMC6d7xKHdy903vsX5jfHErNWaL5lzzsscQ2svJsvGYHlJGXYWHMOzJkYIqgObx7MTasBTjsF65pky8VWpfXwevlnaZmmr44A7wlMcsWY4xtesl5_s0mfkOw6kcfoRLuLeo5p4ASaSYmrDJmZs-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/998dede96b5044cf5f9dfe5817bd6832b4a27cb6.jpg"
+            }
+        ],
+		"description": "Halo CE: Complete The Truth and Reconciliation.",
+        "lockedDescription": "Halo CE: Complete The Truth and Reconciliation.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_truth_and_reconciliation"],
+		"tutorial" : "Complete the mission The Truth and Reconciliation.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "343 Guilty Spark",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3fEYJUqQkYABnvBtwNy._BPgEq0QaSPVosRcqyzGAkXAxVRxrvQRSpvfMHDlxGZ_8H._6bf5EetDdeFYjmW3X4CMjYgxNc1Dv0hB3IOfazAYCL.UXfD5pVDc1cfRUTMZ1Uh5On7MSU1BCke0z8qD8w-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/3985cf811b27aed7fbc1717533421a68a6103281.jpg"
+            }
+        ],
+		"description": "Halo CE: Complete 343 Guilty Spark.",
+        "lockedDescription": "Halo CE: Complete 343 Guilty Spark.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["343_guilty_spark"],
+		"tutorial" : "Complete the mission 343 Guilty Spark.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "The Library",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.1of5uDO_bu21Vq0OvXBl5Vlf.J9uRb14lyKsSoD6lGLFSxtMpBzgBVclZvy8lq1.sC0WNhr1gG9wlBw6B6lh7bsBHW.o_Gdynfl4w.g1INVJgPB8A_nGmqcBtmmBpKVCRRyOvDk_uHwHk1sWQyN.M-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/c8d5b607fb1302b200d9b8cc52be50f0dbf112f0.jpg"
+            }
+        ],
+		 "description": "Halo CE: Complete The Library.",
+        "lockedDescription": "Halo CE: Complete The Library.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_library"],
+		"tutorial" : "Complete the mission The Library.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Two Betrayals",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdx7rYDqEHNlJ946sA73no3WLlqzgBsb8wlcY784.HfcPeAJKJuLqwY6FkB8Z7yegPN1OJdS89V8K47rLgVYdHkY8JtHPxulT1Xh8r1rRm1W0HT_DxUB9NAgDtxYzNqH.tx7YCdjsEksD_zRVl.K47Dc-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/4f8c8a3af9da42bfbf3b3d5bcc6b8aee6e621bcb.jpg"
+            }
+        ],
+		"description": "Halo CE: Complete Two Betrayals.",
+        "lockedDescription": "Halo CE: Complete Two Betrayals.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["two_betrayals"],
+		"tutorial" : "Complete the mission Two Betrayals.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Keyes",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0yDCq6ix.HAcKku8ll0xuihWJBFFFieoSNpYQofaMFC6h.l40x._Q.PcZNc.l_IBqbtsn3.wrQsSBza9D6xguizxT37sHhn47QBIDQQy1eaJvio01y2hpmO4dZUdqR47M_ouKOVKjrmmmyz2mcu94Q-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/a077e8ba6bffc8dd6964915b628bb1ac4e06068e.jpg"
+            }
+        ],
+		"description": "Halo CE: Complete Keyes.",
+        "lockedDescription": "Halo CE: Complete Keyes.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["keyes"],
+		"tutorial" : "Complete the mission Keyes.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "The Maw",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwmVPCULDl8p0HM_h0aVHli9xfKvPurkBadshfPjG4nAI09Xff9pvkOEe4G_Rtsf5HXPcAwNYfKdl3vRgVnVY.xYXw5fPiZGEoylQ3RTqU3Uk1qAatzQCibwYYGPxVPFe8oYZbKFnVIGtoyHobmNLdE-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/fde1b57b2fedc1cae80a881c171a57a5c2f547bc.jpg"
+            }
+        ],
+		 "description": "Halo CE: Complete The Maw.",
+        "lockedDescription": "Halo CE: Complete The Maw.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_maw"],
+		"tutorial" : "Complete the mission The Maw.",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Hit The Beach",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd._2_MI7HnhuVh7.6_CwP9kFJL0CtI6MbVQYmm_Ap1CViKVNPlSXtNYAfIUsV4I4lOb2lE0D_hdTUf8aJqi_NBTO3VgpWL.Wk6ty34_nKf1KRKmuiqpDJUgzm6gjbwFwIcndG9flLUrC8iTolks7maA-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/4a9ae3aac0e3d5313bfeebe145e485bcb47d5cd0.jpg"
+            }
+        ],
+		"description": "Halo CE: Beat the par time on The Silent Cartographer.",
+        "lockedDescription": "Halo CE: Beat the par time on The Silent Cartographer.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_silent_cartographer"],
+		"tutorial" : "You need to complete the mission in under 15 minutes. Using a Warthog, you can skip the majority of the mission.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=SiR0c9M_APg"
+    },
+	{
+        "name": "Would It've Killed You To Take The Lift",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8B5QuSoJA28uy2uLgphuZUOgCHIHe67eEj8_uw5eQw2AcfVTJKiDiHVH9ZODCo0_h_VeDpLLvrBFLDVr89WvNd2CGqj5Fkx7CDHxKM6Mn6Y2nXt63.mJxH9IKtdQ3o5ZXYz0jOm.8zAXrI1bbw7xSM-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/a9de17b8f4640a45322b4b627e3e9d94ae979e0c.jpg"
+            }
+        ],
+		"description": "Halo CE: Beat the par time on Assault on the Control Room.",
+        "lockedDescription": "Halo CE: Beat the par time on Assault on the Control Room.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["assault_on_the_control_room"],
+		"tutorial" : "You need to complete the mission in under 15 minutes. Using a trick, you can skip the majority of the mission, it is super cool.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=cIcPIvC8WC4"
+    },
+	{
+        "name": "Didn't Like This Ship Anyways",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.wbJSnDfat9.5dhNtO4O_MjTNXOt6DrdvUjH5twHCzhsbqNhMdGnr5JipbPBDYWQGPqOeMq5Uq9nmOlKqSm_ZyxWEMNdgMXtYfllQaAnCJBmzQejmt38Iao0gozMgQV.5dxLGfany_i9wOm4FBFvo8-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/8b117622d1b14cffc8a3c710d3b2cbbbc925b528.jpg"
+            }
+        ],
+		 "description": "Halo CE: Beat the par time on The Pillar of Autumn.",
+        "lockedDescription": "Halo CE: Beat the par time on The Pillar of Autumn.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_pillar_of_autumn_ce"],
+		"tutorial" : "You need to complete the mission in under 15 minutes. Not many tricks on this one, but watch the video for help.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=ihEQEEMuTXQ"
+    },
+	{
+        "name": "Flyover Country",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0AscjVALd7YZ8iAqijlszPHND48uE3EhaEOxCYgzOSP6jKbJgQ88EcUjH8A3TQQd_kUUZXl.2REMBQNmNOxjqouC1aYYt8YVlURYy_FdrPnwvdXKnz_D4e3HnV9pH8QCD0DSFhToAjyfD4fB6TCzp0-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/cb6f6623884e10c89a42d271478683b86995fb6e.jpg"
+            }
+        ],
+		"description": "Halo CE: Beat the par time on Halo.",
+        "lockedDescription": "Halo CE: Beat the par time on Halo.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["halo_ce"],
+		"tutorial" : "You need to complete the mission in under 20 minutes. Their are a couple tricks to save time.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=SRyu3JaiF9I"
+    },
+	{
+        "name": "You Can't Handle the Truth",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.PZzy7hs3lM93.02tVSfdMx_LL8B.0jgQ0idswOEAiT2kFA1RbLf0Lnnftb3L6_lONh1R9d3pBJl5DF_1CtJ_xzkwrcU75C.YskJyp2jdrf0kfyVQHu0GKfSP4j1cDAfC3Wp83U1iUE8JoCdWdScZA-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/6dffb166b1e8d0aa3d9c5dac55aef1b7a124b488.jpg"
+            }
+        ],
+		"description": "Halo CE: Beat the par time on The Truth and Reconciliation.",
+        "lockedDescription": "Halo CE: Beat the par time on The Truth and Reconciliation.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_truth_and_reconciliation"],
+		"tutorial" : "You need to complete the mission in under 20 minutes. Their are a couple tricks to save time. If having trouble, just do this one on Easy difficulty.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=7VyVlJt1BqQ"
+    },
+	{
+        "name": "Lightning in a Bottle",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd9zpna1Th3XZ_OrIVbjc5HDaQJP0d9LlUb72hRCNa_Hy2q_qPw4MZPHGKBco78lZMhO8aWD_h5p7QjZgufwFSgv6Zs5FNg_YNulgW2WdcJqz9ASKhmpOwRV9mW4AQVe29Am1RY08hlg.IILdJptfw7Q-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/955c9b219b3514c4c3d8f8083790e1677924d7c8.jpg"
+            }
+        ],
+		 "description": "Halo CE: Beat the par time on 343 Guilty Spark.",
+        "lockedDescription": "Halo CE: Beat the par time on 343 Guilty Spark.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["343_guilty_spark"],
+		"tutorial" : "You need to complete the mission in under 15 minutes. This one is pretty easy to just run through the mission.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=JKQiQVrrGTM"
+    },
+	{
+        "name": "TLDR",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1UqzT7k0VSJZziTnk52GM7UGTeS1sdVEfGcyOstFWX4w_YsuXIE1vgXs.n9yl.O9X0l46AUQcMdTXvzQwtoDsQl6VqqJmfMr6R26KBzFSK2TjMgpLvfSEErFAMq8P7ytyENUkETnkaF6HwIt0NTjtI-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/af327b3eb712582a7855c3c4af4225995abb2b1f.jpg"
+            }
+        ],
+		"description": "Halo CE: Beat the par time on The Library.",
+        "lockedDescription": "Halo CE: Beat the par time on The Library.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_library"],
+		"tutorial" : "You need to complete the mission in under 25 minutes. I highly recommend watching the guide to learn enemy patterns and skips.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=fQgfx9UfdeI"
+    },
+	{
+        "name": "Whistle Stop Tour",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.82NYD0alkZXCXKAD7Rnauonu2gX05Jb4w354373qp8tQl_GumIeUhOJs37zv.Sqrd14a1.B5VZMIKFsCx5Owyq29cBhRO5gktgxlhPDdF5NVbAt48JsaO9SaB_mcJr2MY_HP99slKpP6ui2GFGzog-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/7c60dca8f463ee31325875f37cc0fce5be54d13c.jpg"
+            }
+        ],
+		 "description": "Halo CE: Beat the par time on Two Betrayals.",
+        "lockedDescription": "Halo CE: Beat the par time on Two Betrayals.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["two_betrayals"],
+		"tutorial" : "You need to complete the mission in under 20 minutes. You can skip a majority of the mission with Naked Eli's guide.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=2-Abc0DJCxg"
+    },
+	{
+        "name": "Scurty Bump",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdy_t4ERdXhPqv2Kn2jgHf3mV7TGmrXvQCfkh7lIypdOt.xDBSzUVKz27HPJhKpC4UIq36AzipD4zO6w_o3P_tXNgTFaw9MdOqok9WBgKLbhizksPsRQIluvhehv.rPPa_9peYdCZghxVD8JzqT7_BbM-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/1dd48f19d6fa8479b6887a765496277d0a67fbdc.jpg"
+            }
+        ],
+		"description": "Halo CE: Beat the par time on Keyes.",
+        "lockedDescription": "Halo CE: Beat the par time on Keyes.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["keyes"],
+		"tutorial" : "You need to complete the mission in under 15 minutes. You can skip a majority of the mission using the 'Keyes Bump' trick, seen in Naked Eli's guide.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=gAXjkJvvnSg&"
+    },
+	{
+        "name": "All You Can Eat",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6NoGj7jZQMki04gpiRpEPvnjE2LL1E38qZTLUF0Q8YKI7GG_UCsXevk5JbbtVbnAUbPn5KlvQi.eyFgYsIJg3ok1D7knuhTA3oGiGmOOcY4xFNgjeHY4yHZ.cEzAqdruXnKLq8.DNGP88O2dwrCqFc-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/7234ff49449ee9d74c5d5f9ff79a88288e5d187c.jpg"
+            }
+        ],
+		"description": "Halo CE: Beat the par time on The Maw.",
+        "lockedDescription": "Halo CE: Beat the par time on The Maw.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_maw"],
+		"tutorial" : "You need to complete the mission in under 15 minutes. Not many tricks on this mission, just need to be fast!",
+		"video_tutorial" : "https://www.youtube.com/watch?v=hVTmBNEW-Ds"
+    },
+	{
+        "name": "Did Somebody Say...",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6NoGj7jZQMki04gpiRpEPvnjE2LL1E38qZTLUF0Q8YKI7GG_UCsXevk5JbbtVbnAUbPn5KlvQi.eyFgYsIJg3ok1D7knuhTA3oGiGmOOcY4xFNgjeHY4yHZ.cEzAqdruXnKLq8.DNGP88O2dwrCqFc-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/b10d89a39570f37150d70627dd09e52e55a85e0e.jpg"
+            }
+        ],
+		 "description": "Halo CE: Beat the par time on all Halo: CE levels.",
+        "lockedDescription": "Halo CE: Beat the par time on all Halo: CE levels.",
+        "value": 20,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["All_campaign"],
+		"tutorial" : "Beat the Par Time on all Halo: CE missions. Each mission has its own par time achievement with guide, so look for those!",
+		"video_tutorial" : false
+    },
+	{
+        "name": "Charted",
+        "progressState": "",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzwXAUBFc057LBMpjPdcMR0Bc4.E8lyhFwey9vFize1uiCBgpjHEJJGmgiU5ay1.ZB1FVXATB5Z3C8CwbqmlkRoSlN2h5ZMzdPHW0ozj0AG85ngXhwP5D3D5j5SZgZkPYleUS6ybZgb7NjdXvLf1KeE-",
+				"thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/1d75ceaf8aa20c85925da0741f20f1b4854f286b.jpg"
+            }
+        ],
+		"description": "Halo CE: Beat the par score on The Silent Cartographer.",
+        "lockedDescription": "Halo CE: Beat the par score on The Silent Cartographer.",
+        "value": 10,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+		"mode" : ["campaign"],
+		"titles" : ["haloce"],
+		"maps" : ["the_silent_cartographer"],
+		"tutorial" : "Score over 18,000 points. Playing on Legendary and killing every enemy will usually net you way over par score.",
+		"video_tutorial" : "https://www.youtube.com/watch?v=uxzvpXxw1oI"
+    }]

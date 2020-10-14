@@ -101,8 +101,6 @@ export default {
   watch: {
     selected(newVal, oldVal) {
       // Checks if all boxes have been selected
-      
-     
       if (newVal.length === 0) {
         this.allSelected = false;
       } else if (
@@ -115,7 +113,6 @@ export default {
       } else {
         this.allSelected = false;
       }
-
 
       // Checks if campaign map is selected
       if (
@@ -136,6 +133,8 @@ export default {
       } else {
         this.removeMapsInSelectedArray('multiplayer')
       }
+
+      this.$emit('gameSelection', this.selected)
     },
 
   gameData(){
@@ -146,7 +145,7 @@ export default {
     this.modes = this.gameData.modes
     this.campaign_maps = this.gameData.campaign_maps
     this.multiplayer_maps = this.gameData.multiplayer_maps
-    console.log(this.selected)
+    this.$emit('gameSelection', this.selected)
   }
     
   },

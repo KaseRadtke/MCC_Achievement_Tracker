@@ -7,7 +7,7 @@
 
     "campaign_maps":[
             { "text": "Pillar of Autumn", "value": "the_pillar_of_autumn_ce" },
-            { "text": "Halo", "value": "halo" },
+            { "text": "Halo", "value": "halo_ce" },
             { "text": "Truth and Reconciliation", "value": "the_truth_and_reconciliation" },
             { "text": "Silent Cartographer", "value": "the_silent_cartographer" },
             { "text": "Assault on the Control Room", "value": "assault_on_the_control_room" },
@@ -15,7 +15,8 @@
             { "text": "The Library", "value": "the_library" },
             { "text": "Two Betrayals", "value": "two_betrayals" },
             { "text": "Keyes", "value": "keyes" },
-            { "text": "The Maw", "value": "the_maw" }
+            { "text": "The Maw", "value": "the_maw" },
+            { "text": "All Campaign (not mission specific)", "value": "All_campaign" }
     ],
 
     "multiplayer_maps":[
@@ -45,7 +46,7 @@
         "coop",
         "multiplayer",
         "the_pillar_of_autumn_ce",
-        "halo",
+        "halo_ce",
         "the_truth_and_reconciliation",
         "the_silent_cartographer",
         "assault_on_the_control_room",
@@ -54,6 +55,7 @@
         "two_betrayals",
         "keyes",
         "the_maw",
+        "All_campaign",
         "battle_creek",
         "blood_gulch",
         "boarding_action",

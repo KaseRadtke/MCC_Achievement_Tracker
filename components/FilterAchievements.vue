@@ -9,7 +9,7 @@
             </div>
         </b-form>
     </div>
-    <GameSearchSettings :currentGame="currentGame" :gameData="require(`../static/game_settings/${currentGame}_search_settings.json`)"/>
+    <GameSearchSettings :currentGame="currentGame" :gameData="require(`../static/game_settings/${currentGame}_search_settings.json`)" @gameSelection="gameSelection" />
   </div>
 </template>
 
@@ -19,6 +19,12 @@ import GameSearchSettings from "../components/GameSearchSettings"
 
 export default {
 name: 'FilterAchievements',
+
+methods:{
+  gameSelection(gameSelectionArray){
+    this.$emit('searchCriteriaRecieved', gameSelectionArray)
+  }
+},
 
 components: {
         GameSearchSettings,
