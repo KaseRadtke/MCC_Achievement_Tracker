@@ -200,7 +200,7 @@ export default {
 }
 
 .multiplayer_maps {
-  display: inline-block;
+  display: grid;
 }
 
 .modes_heading,

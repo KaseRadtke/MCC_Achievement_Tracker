@@ -14,7 +14,8 @@
         { "text": "Skyward", "value": "skyward" },
         { "text": "Stonetown", "value": "stonetown" },
         { "text": "Warlord", "value": "warlord" },
-        { "text": "Zenith", "value": "zenith" }
+        { "text": "Zenith", "value": "zenith" },
+        { "text": "Multiplayer (not map specific)", "value": "All_multiplayer_h2" }
     ],
 
     "selected": [
@@ -26,7 +27,8 @@
         "skyward",
         "stonetown",
         "warlord",
-        "zenith"
+        "zenith",
+        "All_multiplayer_h2"
     ],
     "allSelected" : true,
     "campaignSelected": false,

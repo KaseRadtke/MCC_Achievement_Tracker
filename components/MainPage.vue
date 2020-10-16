@@ -12,10 +12,11 @@
          :key="achievement.name" 
          :achievementName='achievement.name' 
          :achievementDescription='achievement.description' 
-         :gameTitlesArray="achievement.titles" 
-         :currentGame="game" 
          :achievementValue="achievement.value"
          :achievementThumbnail="achievement.mediaAssets"
+         :achievementArt="achievement.mediaAssets[0].url"
+         :gameTitlesArray="achievement.titles" 
+         :currentGame="game" 
          :achievementMaps="achievement.maps"
          :searchCriteria="searchCriteria"
          />
@@ -87,7 +88,7 @@ export default {
   }
 
   #mainpage {
-          border: rgb(230, 230, 230) solid 2px;
+          border: #1e5d79 solid 2px;
           border-radius: 15px;
           margin: 0 auto;
           width: 110rem;

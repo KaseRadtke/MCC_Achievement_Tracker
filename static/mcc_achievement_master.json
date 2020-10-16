@@ -3693,11 +3693,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["delta_halo"],
+        "tutorial": "On the mission Delta Halo, the Master Chief is outside of the playable level on a small peak. You will need a Ghost to drive up the cliffside and drive to the peak. ",
+        "video_tutorial": "https://youtu.be/9u_rrXUDfEE?t=10"
     }, {
         "name": "Regrettable Turn of Events",
         "progressState": "",
@@ -3713,11 +3713,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["regret"],
+        "tutorial": "On the mission Regret, the Regret toy is on a structure with the broken bridge, on the roof. Grenade launch over to the structure and then grenade jump onto of the right side to get the toy.",
+        "video_tutorial": "https://youtu.be/9u_rrXUDfEE?t=102"
     }, {
         "name": "The Will of the Prophets",
         "progressState": "",
@@ -3733,11 +3733,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["sacred_icon"],
+        "tutorial": "On the mission Sacred Icon, the toy is hidden in the rafters, similar to the Mythic skull. Watch Maka91's guide for specific location.",
+        "video_tutorial": "https://youtu.be/9u_rrXUDfEE?t=161"
     }, {
         "name": "Chieftain of the Brutes",
         "progressState": "",
@@ -3753,11 +3753,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["quarantine_zone"],
+        "tutorial": "On the mission Quarantine Zone, at the very end of the mission, the Tartarus toy is ontop of the stucture that you will need to grenade launch up to.",
+        "video_tutorial": "https://youtu.be/9u_rrXUDfEE?t=201"
     }, {
         "name": "Don't Make a Girl a Promise",
         "progressState": "",
@@ -3773,11 +3773,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["gravemind"],
+        "tutorial": "On the mission Gravemind, the Cortana toy is in the exact spot of the Anger skull, which is on the top right wall of the first open area you encounter.",
+        "video_tutorial": "https://youtu.be/9u_rrXUDfEE?t=236"
     }, {
         "name": "My Work is Done",
         "progressState": "",
@@ -3793,11 +3793,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["uprising"],
+        "tutorial": "On the mission Uprising, the Librarian toy is ontop of a small ledge that you will need to either grenade launch up onto, or carefully climb the mountain walls.",
+        "video_tutorial": "https://youtu.be/9u_rrXUDfEE?t=313"
     }, {
         "name": "I Like Crazy",
         "progressState": "",
@@ -3813,11 +3813,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["high_charity"],
+        "tutorial": "On the mission High Charity, in the first room you enter, the rampant Cortana toy is ontop of the rock pillar near the exit of the room.",
+        "video_tutorial": "https://youtu.be/9u_rrXUDfEE?t=453"
     }, {
         "name": "Pyrrhic Solution",
         "progressState": "",
@@ -3833,11 +3833,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["the_great_journey"],
+        "tutorial": "On the mission The Great Journey, you will need to save a Spectre vehicle to use at the end of the mission, as you will need it to drive outside the level and climb the mountain near the Citadel building, where the Didact toy sits on top of the mountain.",
+        "video_tutorial": "https://youtu.be/9u_rrXUDfEE?t=494"
     }, {
         "name": "Toybox",
         "progressState": "",
@@ -3853,11 +3853,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["All_campaign_h2"],
+        "tutorial": "Collect all 8 toy easter eggs in Halo 2: Anniversary's campaign. Watch Maka91's great guide for the location of every one.",
+        "video_tutorial": "https://www.youtube.com/watch?v=9u_rrXUDfEE"
     }, {
         "name": "Warrior",
         "progressState": "",
@@ -3873,11 +3873,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["All_campaign_h2"],
+        "tutorial": "Complete every level on atleast Normal difficulty. Will automaticly unlock if you complete the game on Heroic or Legendary difficulty.",
+        "video_tutorial": "https://www.youtube.com/watch?v=82NUo0PNsrI"
     }, {
         "name": "Hero",
         "progressState": "",
@@ -3893,11 +3893,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["All_campaign_h2"],
+        "tutorial": "Complete every level on atleast Heroic difficulty. Will automaticly unlock if you complete the game on Legendary difficulty.",
+        "video_tutorial": "https://www.youtube.com/watch?v=82NUo0PNsrI"
     }, {
         "name": "Legendary Anniversary",
         "progressState": "",
@@ -3913,11 +3913,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["All_campaign_h2"],
+        "tutorial": "Complete every level Legendary difficulty. You can do it Spartan!",
+        "video_tutorial": "https://www.youtube.com/watch?v=vLr-ouTuMsM"
     }, {
         "name": "Seconds",
         "progressState": "",
@@ -3933,11 +3933,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["All_campaign_h2"],
+        "tutorial": "Complete any Halo 2 Playlist from the campaign playlist lobby located in the main menu.",
+        "video_tutorial": false
     }, {
         "name": "Connoisseur",
         "progressState": "",
@@ -3953,11 +3953,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["All_campaign_h2"],
+        "tutorial": "Complete any three Halo 2 Playlist from the campaign playlist lobby located in the main menu.",
+        "video_tutorial": false
     }, {
         "name": "Six Pedals, Four Directions",
         "progressState": "",
@@ -3973,11 +3973,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["quarantine_zone"],
+        "tutorial": "On the mission Quarntine Zone, you will encounter an enemy Scorpion Tank in the first massive room you enter, near the back. Hijack it and kill the driver, then hop in!",
+        "video_tutorial": "https://www.youtube.com/watch?v=tc5bAIdHUTM"
     }, {
         "name": "Betcha can't stick it...",
         "progressState": "",
@@ -3993,11 +3993,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["outskirts"],
+        "tutorial": "On Outskirts with Legendary diffuclty on and the Assassin Skull acitvated, simply stick an Elite that is in camouflage. Or use Maka91's guide!",
+        "video_tutorial": "https://www.youtube.com/watch?v=1hLCQt7gF84"
     }, {
         "name": "Cowardly Grunt",
         "progressState": "",
@@ -4013,11 +4013,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["uprising"],
+        "tutorial": "On the mission Uprising, once you get inside the main structure with multiple drop down, A cowardly Grunt will be hiding in the corner on the bottom floor.",
+        "video_tutorial": "https://youtu.be/k3_lAUP0p70?t=9"
     }, {
         "name": "Siege of Ivory Tower",
         "progressState": "",
@@ -4033,11 +4033,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2c"],
+        "maps": ["ivory_tower"],
+        "tutorial": "Load up a Custom game on Ivory Tower, and head back to where the elvator is at. Then stand in the right corner where the door as it by the wall and wait. After a couple minutes, a secret song with play and youll get the achievement.",
+        "video_tutorial": "https://youtu.be/TabklaFDOAE?t=7"
     }, {
         "name": "THE Chips Dubbo?",
         "progressState": "",
@@ -4053,11 +4053,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["outskirts"],
+        "tutorial": "On the mission Outskirts, stand in the Hallway with Johnson and the other marines and wait for them to talk. Restart the mission and repeat until Chips Dabbo talks!",
+        "video_tutorial": "https://youtu.be/ZVhNZ1sStv8?t=25"
     }, {
         "name": "Rex Sword",
         "progressState": "",
@@ -4073,11 +4073,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["outskirts"],
+        "tutorial": "On Outskirts, you'll need to jump outside the level onto the rooftops and follow a path to get into a caved in wall. Inside this wall will be a secret with Enery Sword and the word REX written in shotgun shells!",
+        "video_tutorial": "https://youtu.be/Phg-_bU3YdQ?t=8"
     }, {
         "name": "10 Minutes Too Early",
         "progressState": "",
@@ -4093,11 +4093,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["the_oracle"],
+        "tutorial": "On the mission The Oracle in the first room you fight the Flood in, jump up onto the cieling rafters, then grenade jump into the far back right vent opening. The 'Holodrone' will be sitting in the vent. ",
+        "video_tutorial": "https://youtu.be/vMVCBSZtNQg?t=4"
     }, {
         "name": "HI BEN",
         "progressState": "",
@@ -4113,11 +4113,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["regret"],
+        "tutorial": "On the mission Regret, launch yourself towards the first structure you aren't meant to get to. Head inside the building, and in the corner of the room look up and zoom in on the cieling. You'll see a secret message!",
+        "video_tutorial": "https://youtu.be/WjNX2WGzyTM?t=11"
     }, {
         "name": "Animal Habitat",
         "progressState": "",
@@ -4133,11 +4133,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2c"],
+        "maps": ["headlong"],
+        "tutorial": "Load up a Custom game on the map Headlong, and head to the big building with yellow panels. Look at the yellow panels with the hippo signs for a couple moments and the achievement will unlock.",
+        "video_tutorial": "https://youtu.be/pVHVc8rXPBo?t=9"
     }, {
         "name": "Sid Graffiti",
         "progressState": "",
@@ -4153,11 +4153,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2c"],
+        "maps": ["coagulation"],
+        "tutorial": "Start a Custom game on Coagulation. Head to the cave near the red base. Near the opening that drops down, look at the left hand side of the wall and you'll see a secret message!",
+        "video_tutorial": "https://youtu.be/WlnjZaoEvZQ?t=50"
     }, {
         "name": "E E E",
         "progressState": "",
@@ -4173,11 +4173,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["metropolis"],
+        "tutorial": "On the mission Metropolis, in the ending area with two Wraiths, drive to the left side. There will be two signs in this back area, one in the middle and one in the furthest left corner. View both of them and you'll get the achievement.",
+        "video_tutorial": "https://youtu.be/ctJiNWqUz4M?t=9"
     }, {
         "name": "Why So Serious",
         "progressState": "",
@@ -4193,11 +4193,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2c"],
+        "maps": ["coagulation"],
+        "tutorial": "Start a Custom game on Coagulation. Head to the red base. Near the front you'll see 3 rocks in the ground. Look at the middle rock and you'll see a weird face and the achievement will unlock.",
+        "video_tutorial": "https://youtu.be/WlnjZaoEvZQ?t=10"
     }, {
         "name": "Why Am I Here?",
         "progressState": "",
@@ -4213,11 +4213,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2c"],
+        "maps": ["beaver_creek"],
+        "tutorial": "Start a Custom game on Beaver Creek. Up on the ledge for blue teams Sniper will be two rocks on the cliffs edge. Blow those rocks off, and under them is a secret message.",
+        "video_tutorial": "https://youtu.be/XbTgq3eotxo?t=9"
     }, {
         "name": "GOOOAAAAALLLL!",
         "progressState": "",
@@ -4233,11 +4233,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["metropolis"],
+        "tutorial": "Start the missions Metropolis with the Sputnik and Feather skull on. In the city area before you fight two Wraiths you'll see a giant window that is destroyed at the top. Launch yourself up into that area, and a secret massive soccerball will be hidden up there. Then, shoot it!",
+        "video_tutorial": "https://youtu.be/be2SZhOB9Ik?t=15"
     }, {
         "name": "Needs More Whammy Bar",
         "progressState": "",
@@ -4253,11 +4253,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["regret"],
+        "tutorial": "Start the mission Regret with the Prophet Birthday skull on. Play normally, and at the end of the mission when you hyjack Regret's throne and punch him, you'll hear some guitar rifts. Neat!",
+        "video_tutorial": "https://www.youtube.com/watch?v=7CmpIBI8rDA"
     }, {
         "name": "Like Peanut Butter and Chocolate",
         "progressState": "",
@@ -4273,11 +4273,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["coop"],
+        "titles": ["halo2c"],
+        "maps": ["All_campaign_h2"],
+        "tutorial": "Start any mission in co-op with the Masterblaster skull and on Heroic difficulty, and complete it. Outskirts is likely the easiest level to quickly complete.",
+        "video_tutorial": "https://www.youtube.com/watch?v=NXPrGhYR_hQ"
     }, {
         "name": "Starved For Shields",
         "progressState": "",
@@ -4293,11 +4293,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["the_heretic","All_campaign_h2"],
+        "tutorial": "Start the mission The Heretic with the Streaking skull on Heroic. This mission is only a cutscene, but once it is done it will still give you the achievement!",
+        "video_tutorial": "https://www.youtube.com/watch?v=dcTVs2vuneQ"
     }, {
         "name": "Commuter",
         "progressState": "",
@@ -4313,11 +4313,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["metropolis"],
+        "tutorial": "Play through the mission Metropolis without using a vehicle on Heroic or Legendary. You can use the Scarab Gun skull to make it easier. Just lots of walking!",
+        "video_tutorial": "https://www.youtube.com/watch?v=pgU0v_ljHOE"
     }, {
         "name": "He Never Gets Me Anything",
         "progressState": "",
@@ -4333,11 +4333,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["delta_halo"],
+        "tutorial": "Play through the mission Delta Halo without using a vehicle on Heroic or Legendary. You can use the Scarab Gun skull, and speedrun techniques to make it easier. Just lots of walking!",
+        "video_tutorial": "https://www.youtube.com/watch?v=Rla7T6DUbzs"
     }, {
         "name": "Scarab Lord",
         "progressState": "",
@@ -4353,11 +4353,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["metropolis"],
+        "tutorial": "On the mission Metropolis lies a hidden an useable Scarab Gun easter egg. Follow Halo Completionist exact technique, as it is the easiest method to get to the gun out there.",
+        "video_tutorial": "https://www.youtube.com/watch?v=g3VTspm3xX4"
     }, {
         "name": "Silent but Deadly",
         "progressState": "",
@@ -4373,11 +4373,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["gravemind","All_campaign_h2"],
+        "tutorial": "This can be on in any mission, but the easiest section is on the mission Gravemind, when you land down from the lift to save the locked marines. Do not shot, and just assassinate every enemy you can.",
+        "video_tutorial": "https://www.youtube.com/watch?v=YtX7eFpn170"
     }, {
         "name": "Demon",
         "progressState": "",
@@ -4393,11 +4393,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["uprising", "All_campaign_h2"],
+        "tutorial": "This can be done on any mission, but the mission Uprising is the easiest as you can speedrun it within 2 minutes.",
+        "video_tutorial": "https://www.youtube.com/watch?v=nltwaDIhRE0"
     }, {
         "name": "Go Ape Shiv",
         "progressState": "",
@@ -4413,11 +4413,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["uprising", "All_campaign_h2"],
+        "tutorial": "This can be done on any mission, but the mission Uprising is the easiest as the Brutes always immediatly go berserk at the very start. Just punch one to death!",
+        "video_tutorial": "https://www.youtube.com/watch?v=ru3x2uFSJOU"
     }, {
         "name": "Grand Theft Halo",
         "progressState": "",
@@ -4433,11 +4433,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2a"],
+        "maps": ["All_multiplayer_h2"],
+        "tutorial": "Hyjack 5 enemies in one match. Or load up a Custom game with a friend and hyjack them from a vehicle 5 times.",
+        "video_tutorial": "https://www.youtube.com/watch?v=EtxZ68A0At0"
     }, {
         "name": "Tour of Duty",
         "progressState": "",
@@ -4453,11 +4453,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2a"],
+        "maps": ["All_multiplayer_h2"],
+        "tutorial": "Load up and start a Custom game on all Halo 2 Anniversary multiplayer maps.",
+        "video_tutorial": false
     }, {
         "name": "Double Down",
         "progressState": "",
@@ -4473,11 +4473,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2a"],
+        "maps": ["All_multiplayer_h2"],
+        "tutorial": "Get two Double kills in Halo 2 Annivesary multiplayer. Can be done in Matchmaking or in a Custom game with friends.",
+        "video_tutorial": "https://www.youtube.com/watch?v=w_k6jqlr5FQ"
     }, {
         "name": "Warden",
         "progressState": "",
@@ -4493,11 +4493,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2c","halo2a"],
+        "maps": ["All_multiplayer_h2"],
+        "tutorial": "Kill a player who currently is on a Killing Spre (5 kills without dying). Can only be done in Matchmaking, just play normally and you'll eventually get it.",
+        "video_tutorial": "https://www.youtube.com/watch?v=LtVXDkxtiUk"
     }, {
         "name": "Blown Out of the Sky",
         "progressState": "",
@@ -4513,11 +4513,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2a"],
+        "maps": ["All_multiplayer_h2"],
+        "tutorial": "This can be done in Matchmaking or Custom games. Simply use a Rocket Launcher to lock onto and blow up a flying enemy vehicle.",
+        "video_tutorial": "https://www.youtube.com/watch?v=eUWq7E8xBQI"
     }, {
         "name": "Decorated Warrior",
         "progressState": "",
@@ -4533,11 +4533,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2a"],
+        "maps": ["All_multiplayer_h2"],
+        "tutorial": "In Matchmaking or Custom games, get 10 different medals. First-strike/Multi-kills/sprees can easily get you 10 unique medals.",
+        "video_tutorial": "https://www.youtube.com/watch?v=P7jYgYY92YU"
     }, {
         "name": "Ninja Redux",
         "progressState": "",
@@ -4553,11 +4553,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2a"],
+        "maps": ["All_multiplayer_h2"],
+        "tutorial": "This must be done in Matchmaking, but doesn't need to all be in one match. You just need to get a total of 5 melee from behind kills. Play patiently and hide and you'll easily get this.",
+        "video_tutorial": "https://www.youtube.com/watch?v=ZAcuOzYxZDo"
     }, {
         "name": "Flaming Ninja Anniversary",
         "progressState": "",
@@ -4573,11 +4573,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2a"],
+        "maps": ["All_multiplayer_h2"],
+        "tutorial": "You need to kill someone who has this achievement. This achievement spreads faster then COVID-19, so just play Halo 2: Anniversary multiplaer in Matchmaking and you'll get it in a game or two.",
+        "video_tutorial": false
     }, {
         "name": "Legend Slayer",
         "progressState": "",
@@ -4593,11 +4593,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2a"],
+        "maps": ["All_multiplayer_h2"],
+        "tutorial": "You need to kill someone who has this achievement. This achievement spreads faster then COVID-19, so just play Halo 2: Anniversary multiplaer in Matchmaking and you'll get it in a game or two.",
+        "video_tutorial": false
     }, {
         "name": "Back At It",
         "progressState": "",
@@ -4613,11 +4613,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer", "campaign"],
+        "titles": ["halo2c","halo2a"],
+        "maps": ["All_multiplayer_h2","All_campaign_h2"],
+        "tutorial": "Simply play any map or mission in Halo 2 on the 9th of any month. This is because Halo 2 launched on November 8th, 2004.",
+        "video_tutorial": "https://www.youtube.com/watch?v=JRaL1u2zByM"
     }, {
         "name": "Back for More",
         "progressState": "",
@@ -4633,11 +4633,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["All_campaign_h2"],
+        "tutorial": "This one is very challenging, but do-able if you know all the techniques and tricks in Halo 2's campaign. Watch Halo Completionist's great walkthrough of Halo 2 on LASO. If you play in co-op, you can use checkpoints. Good luck!",
+        "video_tutorial": "https://www.youtube.com/watch?v=-ZExV7Ac3zo"
     }, {
         "name": "Monopolised",
         "progressState": "",
@@ -4653,11 +4653,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo2c"],
+        "maps": ["All_campaign_h2"],
+        "tutorial": "This one is very challenging and you will need to learn how to speedrun in order to do it. Get as fast of a time as you can on EVERY mission, as Gravemind alone on Legendary can take upwards of an hour. Watch Naked Eli's fantastic speedrun guides to get this achievement.",
+        "video_tutorial": "https://www.youtube.com/watch?v=KWlmrndjvEE"
     }, {
         "name": "Landfall",
         "progressState": "",
@@ -4673,11 +4673,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["sierra_117"],
+        "tutorial": "Just complete the mission Sieraa 117 in Halo 3 :)!",
+        "video_tutorial": "https://www.youtube.com/watch?v=iASE2rZEclc"
     }, {
         "name": "Holdout",
         "progressState": "",
@@ -4693,11 +4693,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["crows_nest"],
+        "tutorial": "Just complete the mission Crows Nest in Halo 3 :)!",
+        "video_tutorial": "https://www.youtube.com/watch?v=4CO6JfgwbEE"
     }, {
         "name": "The Road",
         "progressState": "",
@@ -4713,11 +4713,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["tsavo_highway"],
+        "tutorial": "Just complete the mission Tsavo Highway in Halo 3 :)!",
+        "video_tutorial": "https://www.youtube.com/watch?v=cf1oZ4CnyqA"
     }, {
         "name": "Assault",
         "progressState": "",
@@ -4733,11 +4733,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["the_storm"],
+        "tutorial": "Just complete the mission The Storm in Halo 3 :)!",
+        "video_tutorial": "https://www.youtube.com/watch?v=8wGOshncvTo"
     }, {
         "name": "Cleansing",
         "progressState": "",
@@ -4753,11 +4753,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["floodgate"],
+        "tutorial": "Just complete the mission Floodgate in Halo 3 :)!",
+        "video_tutorial": "https://www.youtube.com/watch?v=ov9Dy68DOLE"
     }, {
         "name": "Refuge",
         "progressState": "",
@@ -4773,11 +4773,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["the_ark"],
+        "tutorial": "Just complete the mission The Ark in Halo 3 :)!",
+        "video_tutorial": "https://www.youtube.com/watch?v=8lubBUFe-ck"
     }, {
         "name": "Last Stand",
         "progressState": "",
@@ -4793,11 +4793,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["the_covenant"],
+        "tutorial": "Just complete the mission The Covenant in Halo 3 :)!",
+        "video_tutorial": "https://www.youtube.com/watch?v=HrADhRgxQS0"
     }, {
         "name": "The Key",
         "progressState": "",
@@ -4813,11 +4813,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["cortana"],
+        "tutorial": "Just complete the mission Cortana in Halo 3 :)!",
+        "video_tutorial": "https://www.youtube.com/watch?v=Y4Gg41yjwWQ"
     }, {
         "name": "Return",
         "progressState": "",
@@ -4833,11 +4833,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["halo_h3"],
+        "tutorial": "Just complete the mission Halo in Halo 3 :)!",
+        "video_tutorial": "https://www.youtube.com/watch?v=1tlOyjrEuZw"
     }, {
         "name": "Speedy One One Seven",
         "progressState": "",
@@ -4853,11 +4853,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["sierra_117"],
+        "tutorial": "Complete the mission Seirra 117 in under 15 minutes. Can run past most sections on Easy without killing enemies.",
+        "video_tutorial": "https://www.youtube.com/watch?v=4Zkf9vD9Dnc"
     }, {
         "name": "Time Shift",
         "progressState": "",
@@ -4873,11 +4873,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["crows_nest"],
+        "tutorial": "Complete the mission Crow's Nest in under 20 minutes. Can run past most sections on Easy without killing enemies.",
+        "video_tutorial": "https://www.youtube.com/watch?v=NBSQnP33XN0"
     }, {
         "name": "Highway Robbery",
         "progressState": "",
@@ -4893,11 +4893,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["tsavo_highway"],
+        "tutorial": "Complete the mission Tsavo Highway in under 20 minutes. You can drive past every single enemy on this mission and beat it in 5 minutes if you are good.",
+        "video_tutorial": "https://www.youtube.com/watch?v=_NfT9_skVVc&"
     }, {
         "name": "Lightning Strike",
         "progressState": "",
@@ -4913,11 +4913,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["the_storm"],
+        "tutorial": "Complete the mission The Storm in under 15 minutes. You can run past most enemies on Easy difficulty.",
+        "video_tutorial": "https://www.youtube.com/watch?v=43clSLhld98&"
     }, {
         "name": "Dambuster",
         "progressState": "",
@@ -4933,11 +4933,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["floodgate"],
+        "tutorial": "Complete the mission Floodgate in under 15 minutes. You can run through this mission in 3 minutes without killing anyone.",
+        "video_tutorial": "https://www.youtube.com/watch?v=wribn_x4BO4&"
     }, {
         "name": "Waypoint",
         "progressState": "",
@@ -4953,11 +4953,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["the_ark"],
+        "tutorial": "Complete the mission The Ark in under 20 minutes. You can run through the majority of this mission. Watch the video guide for best strategies.",
+        "video_tutorial": "https://www.youtube.com/watch?v=tSYtqIBETw4&"
     }, {
         "name": "Scarab Slide",
         "progressState": "",
@@ -4973,11 +4973,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["the_covenant"],
+        "tutorial": "Complete the mission The Covenant in under 20 minutes. Watch the video guide for best strategies.",
+        "video_tutorial": "https://www.youtube.com/watch?v=8WcMiNaTASM&"
     }, {
         "name": "Making History",
         "progressState": "",
@@ -4993,11 +4993,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["cortana"],
+        "tutorial": "Complete the mission Cortana in under 15 minutes. You can run through the majority of this mission without killing any enemies on Easy difficulty.",
+        "video_tutorial": "https://www.youtube.com/watch?v=0XvM2SqK3yY&"
     }, {
         "name": "Go, Chief! Gun It!",
         "progressState": "",
@@ -5013,11 +5013,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["halo_h3"],
+        "tutorial": "Complete the mission Halo in under 20 minutes. Fairly easy mission to do in under 20 minutes on most Difficulties, and if you skip the walkway section.",
+        "video_tutorial": "https://www.youtube.com/watch?v=QFuyYkD_JDQ&"
     }, {
         "name": "Speed Demon",
         "progressState": "",
@@ -5033,11 +5033,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["All_campaign_h3"],
+        "tutorial": "Complete every mission in Halo 3 under par time. Watch The Halo Completionist great guides for help!",
+        "video_tutorial": "https://www.youtube.com/watch?v=4Zkf9vD9Dnc&"
     }, {
         "name": "Guerilla",
         "progressState": "",
@@ -5053,11 +5053,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["sierra_117"],
+        "tutorial": "Get a score of atleast 13,000 on the mission Sierra 117. Playing on Legendary and killing every enemy will easily net you over the par score.",
+        "video_tutorial": "https://www.youtube.com/watch?v=00PtBp_lOjI"
     }, {
         "name": "Cavalier",
         "progressState": "",
@@ -5073,11 +5073,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["tsavo_highway"],
+        "tutorial": "Get a score of atleast 21,000 on the mission Tsavo Highway. Playing on Legendary and killing every enemy will easily net you over the par score.",
+        "video_tutorial": "https://www.youtube.com/watch?v=w4QKpT3HcwM"
     }, {
         "name": "Askar",
         "progressState": "",
@@ -5093,11 +5093,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["the_storm"],
+        "tutorial": "Get a score of atleast 15,000 on the mission The Storm. Playing on Legendary and killing every enemy will easily net you over the par score.",
+        "video_tutorial": "https://www.youtube.com/watch?v=9u50rlpM6oU"
     }, {
         "name": "Exterminator",
         "progressState": "",
@@ -5113,11 +5113,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["floodgate"],
+        "tutorial": "Get a score of atleast 25,000 on the mission Floodgate. You may want Catch, Mythic, Thunderstorm, Tilt and Tough Luck skulls on for this mission. Playing on Legendary and killing every enemy will easily net you over the par score.",
+        "video_tutorial": "https://www.youtube.com/watch?v=1C8aLIuDPFE"
     }, {
         "name": "Ranger",
         "progressState": "",
@@ -5133,11 +5133,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["the_ark"],
+        "tutorial": "Get a score of atleast 25,000 on the mission The Ark. Playing on Legendary and killing every enemy will easily net you over the par score.",
+        "video_tutorial": "https://www.youtube.com/watch?v=91ofc9CneTU"
     }, {
         "name": "Vanguard",
         "progressState": "",
@@ -5153,11 +5153,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["the_covenant"],
+        "tutorial": "Get a score of atleast 25,000 on the mission The Covenant. Playing on Legendary and killing every enemy will easily net you over the par score.",
+        "video_tutorial": "https://www.youtube.com/watch?v=v5vPHVutkgU"
     }, {
         "name": "Orpheus",
         "progressState": "",
@@ -5173,11 +5173,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["cortana"],
+        "tutorial": "Get a score of atleast 17,000 on the mission The Covenant. Playing on Legendary and killing every enemy will easily net you over the par score.",
+        "video_tutorial": "https://www.youtube.com/watch?v=a5G-b1Q8NR8"
     }, {
         "name": "Torchbearer",
         "progressState": "",
@@ -5193,11 +5193,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["halo_h3"],
+        "tutorial": "Get a score of atleast 24,000 on the mission The Covenant. Playing on Legendary and killing every enemy will net you over the par score.",
+        "video_tutorial": "https://www.youtube.com/watch?v=1gyhCuwZt-A"
     }, {
         "name": "Better With Age",
         "progressState": "",
@@ -5213,11 +5213,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [],
-        "titles": [],
-        "maps": [],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["halo3"],
+        "maps": ["All_campaign_h3"],
+        "tutorial": "Get par score on every mission in Halo 3. Watch The Halo Completionist guides for a walkthrough of each level! Playing on Legendary is recommended, as it gives you 4X the points per kill.",
+        "video_tutorial": "https://www.youtube.com/watch?v=00PtBp_lOjI&list=PL3bi5dIhs8VWwtUtHq1oUt7-Ls5WZwkZM"
     }, {
         "name": "Rising Waters",
         "progressState": "",

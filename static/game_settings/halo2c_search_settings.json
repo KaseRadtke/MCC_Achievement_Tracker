@@ -20,7 +20,8 @@
         { "text": "Gravemind", "value": "gravemind" },
         { "text": "Uprising", "value": "uprising" },
         { "text": "High Charity", "value": "high_charity" },
-        { "text": "The Great Journey", "value": "the_great_journey" }
+        { "text": "The Great Journey", "value": "the_great_journey" },
+        { "text": "All Campaign (non mission specific)", "value": "All_campaign_h2" }
     ],
 
     "multiplayer_maps":[
@@ -48,7 +49,8 @@
         { "text": "Terminal", "value": "terminal" },
         { "text": "Turf", "value": "turf" },
         { "text": "Uplift", "value": "uplift" },
-        { "text": "Zanzibar", "value": "zanzibar" }
+        { "text": "Zanzibar", "value": "zanzibar" },
+       { "text": "Multiplayer (not map specific)", "value": "All_multiplayer_h2" }
     ],
 
     "selected": [
@@ -94,7 +96,9 @@
         "terminal",
         "turf",
         "uplift",
-        "zanzibar"
+        "zanzibar",
+        "All_campaign_h2",
+        "All_multiplayer_h2"
     ],
     "allSelected" : true,
     "campaignSelected": true,

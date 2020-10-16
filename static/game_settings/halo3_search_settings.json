@@ -14,7 +14,7 @@
         { "text": "The Ark", "value": "the_ark" },
         { "text": "The Covenant", "value": "the_covenant" },
         { "text": "Cortana", "value": "cortana" },
-        { "text": "Halo", "value": "halo" }
+        { "text": "Halo", "value": "halo_h3" }
     ],
 
     "multiplayer_maps":[
@@ -56,7 +56,7 @@
         "the_ark",
         "the_covenant",
         "cortana",
-        "halo",
+        "halo_h3",
         "assembly",
         "avalanche",
         "blackout",
