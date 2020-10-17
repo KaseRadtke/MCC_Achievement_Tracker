@@ -8,13 +8,16 @@
       <FilterAchievements :currentGame="this.game" @searchCriteriaRecieved="getSearchCriteria"/>
       <div id="achievements_div">
         <div id="achievements_grid">
-         <Achievement v-for="achievement in achievementsJSON" 
+         <Achievement v-for="achievement in filteredAchievementsJSON"
          :key="achievement.name" 
          :achievementName='achievement.name' 
          :achievementDescription='achievement.description' 
          :achievementValue="achievement.value"
          :achievementThumbnail="achievement.mediaAssets"
          :achievementArt="achievement.mediaAssets[0].url"
+         :achievementTutorial="achievement.tutorial"
+         :videoTutorial="achievement.video_tutorial"
+         :imageTutorial="achievement.image_tutorial"
          :gameTitlesArray="achievement.titles" 
          :currentGame="game" 
          :achievementMaps="achievement.maps"
@@ -46,6 +49,7 @@ export default {
     data(){
       return{
         game: 'reach',
+        filterAchievementState: 'locked',
         achievementsJSON: json,
         searchCriteria: []
       }
@@ -65,6 +69,14 @@ export default {
 
     getSearchCriteria(gameSelectionArray){
       this.searchCriteria = gameSelectionArray;
+      console.log(this.searchCriteria)
+    }
+  },
+
+  computed: {
+    filteredAchievementsJSON(){
+      const hasMapInSearchCriteria = (currentValue) => this.searchCriteria.includes(currentValue)
+      return this.achievementsJSON.filter( i => (i.titles.includes(this.game) && i.maps.every(hasMapInSearchCriteria) && i.mode.every(hasMapInSearchCriteria) && i.progressState === this.filterAchievementState)  )
     }
   }
 

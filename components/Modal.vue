@@ -45,9 +45,9 @@ export default {
 }
 .modal-container {
    width: 55em;
-    height: 64em;
+    height: 65em;
     margin: 0px auto;
-    margin-top: 4em;
+    margin-top: 3em;
     padding: 20px 30px;
     background: rgb(16,40,60);
     background: linear-gradient(83deg, rgba(16,40,60,1) 0%, rgba(0,9,16,1) 100%);

@@ -18,7 +18,8 @@
     "nuxt": "^2.14.0",
     "vue": "^2.6.12",
     "vue-responsive-video-background-player": "^1.1.2",
-    "vue-server-renderer": "^2.6.12"
+    "vue-server-renderer": "^2.6.12",
+    "vue-youtube-embed": "^2.2.2"
   },
   "devDependencies": {}
 }

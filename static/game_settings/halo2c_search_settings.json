@@ -21,7 +21,7 @@
         { "text": "Uprising", "value": "uprising" },
         { "text": "High Charity", "value": "high_charity" },
         { "text": "The Great Journey", "value": "the_great_journey" },
-        { "text": "All Campaign (non mission specific)", "value": "All_campaign_h2" }
+        { "text": "All Campaign (non mission specific)", "value": "All_campaign" }
     ],
 
     "multiplayer_maps":[
@@ -50,7 +50,7 @@
         { "text": "Turf", "value": "turf" },
         { "text": "Uplift", "value": "uplift" },
         { "text": "Zanzibar", "value": "zanzibar" },
-       { "text": "Multiplayer (not map specific)", "value": "All_multiplayer_h2" }
+       { "text": "Multiplayer (not map specific)", "value": "All_multiplayer" }
     ],
 
     "selected": [
@@ -97,8 +97,8 @@
         "turf",
         "uplift",
         "zanzibar",
-        "All_campaign_h2",
-        "All_multiplayer_h2"
+        "All_campaign",
+        "All_multiplayer"
     ],
     "allSelected" : true,
     "campaignSelected": true,

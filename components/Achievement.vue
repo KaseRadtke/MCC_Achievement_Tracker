@@ -2,10 +2,6 @@
   <div
     class="achievement_tab"
     @click.stop="toggleModal()"
-    v-if="
-      gameTitlesArray.includes(currentGame) &&
-      searchCriteria.includes(achievementMaps[0])
-    "
   >
     <AchievementGuideModal
       :show="showModal()"
@@ -14,6 +10,9 @@
       :achievementDescription="achievementDescription"
       :achievementValue="achievementValue"
       :achievementArt="achievementArt"
+      :achievementTutorial="achievementTutorial"
+      :videoTutorial="videoTutorial"
+      :imageTutorial="imageTutorial"
     />
     <img :src="achievementThumbnail[0].thumbnail" class="achievement_icon" />
     <h6 class="achievement_title">{{ achievementName }}</h6>
@@ -56,7 +55,10 @@ export default {
     achievementValue: Number,
     achievementThumbnail: Array,
     achievementArt: String,
+    achievementTutorial: String,
     achievementMaps: Array,
+    videoTutorial: String,
+    imageTutorial: String,
     gameTitlesArray: Array,
     currentGame: String,
     searchCriteria: Array,
