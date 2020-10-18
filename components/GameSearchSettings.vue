@@ -22,7 +22,9 @@
           ></b-form-checkbox-group>
         </div>
       </div>
-      <h5 class="maps_heading" v-show="campaignSelected || multiplayerSelected">Filter by Map</h5>
+      <h5 class="maps_heading" v-show="campaignSelected || multiplayerSelected">
+        Filter by Map
+      </h5>
       <div id="maps_div">
         <div class="campaign_maps" v-show="campaignSelected">
           <div>
@@ -72,30 +74,29 @@ export default {
       this.selected = checked ? checkboxArray.slice() : [];
     },
 
-    removeMapsInSelectedArray(mode){
-      if (mode == 'campaign'){
+    removeMapsInSelectedArray(mode) {
+      if (mode == "campaign") {
         this.campaignSelected = false;
         var i;
         for (i = 0; i < this.campaign_maps.length; i++) {
-            var index = this.selected.indexOf(this.campaign_maps[i].value);
-            if (index > -1) {
-                this.selected.splice(index, 1);
-            }
+          var index = this.selected.indexOf(this.campaign_maps[i].value);
+          if (index > -1) {
+            this.selected.splice(index, 1);
+          }
         }
       }
 
-      if (mode == 'multiplayer'){
+      if (mode == "multiplayer") {
         this.multiplayerSelected = false;
         var i;
         for (i = 0; i < this.multiplayer_maps.length; i++) {
-            var index = this.selected.indexOf(this.multiplayer_maps[i].value);
-            if (index > -1) {
-                this.selected.splice(index, 1);
-            }
+          var index = this.selected.indexOf(this.multiplayer_maps[i].value);
+          if (index > -1) {
+            this.selected.splice(index, 1);
+          }
         }
       }
-    }
-
+    },
   },
 
   watch: {
@@ -105,7 +106,7 @@ export default {
         this.allSelected = false;
       } else if (
         newVal.length ===
-          this.modes.length +
+        this.modes.length +
           this.campaign_maps.length +
           this.multiplayer_maps.length
       ) {
@@ -113,8 +114,6 @@ export default {
       } else {
         this.allSelected = false;
       }
-
-      // Checks if campaign map is selected
       if (
         this.selected.includes("campaign") ||
         this.selected.includes("coop")
@@ -122,32 +121,29 @@ export default {
         this.campaignSelected = true;
       } else {
         // If both campaign and co-op are not selected, then this removes all campaign maps from the selected array, and the campaign form from the HTML is removed.
-        this.removeMapsInSelectedArray('campaign')
+        this.removeMapsInSelectedArray("campaign");
       }
 
-      // Checks if multiplayer is selected
-      if (
-        this.selected.includes("multiplayer")
-      ) {
+      // Check if multiplayer is selected
+      if (this.selected.includes("multiplayer")) {
         this.multiplayerSelected = true;
       } else {
-        this.removeMapsInSelectedArray('multiplayer')
+        this.removeMapsInSelectedArray("multiplayer");
       }
 
-      this.$emit('gameSelection', this.selected)
+      this.$emit("gameSelection", this.selected);
     },
 
-  gameData(){
-    this.selected = this.gameData.selected
-    this.allSelected = this.gameData.allSelected
-    this.campaignSelected = this.gameData.campaignSelected
-    this.multiplayerSelected = this.multiplayerSelected
-    this.modes = this.gameData.modes
-    this.campaign_maps = this.gameData.campaign_maps
-    this.multiplayer_maps = this.gameData.multiplayer_maps
-    this.$emit('gameSelection', this.selected)
-  }
-    
+    gameData() {
+      this.selected = this.gameData.selected;
+      this.allSelected = this.gameData.allSelected;
+      this.campaignSelected = this.gameData.campaignSelected;
+      this.multiplayerSelected = this.multiplayerSelected;
+      this.modes = this.gameData.modes;
+      this.campaign_maps = this.gameData.campaign_maps;
+      this.multiplayer_maps = this.gameData.multiplayer_maps;
+      this.$emit("gameSelection", this.selected);
+    },
   },
 
   data() {
@@ -158,7 +154,7 @@ export default {
       multiplayerSelected: this.gameData.multiplayerSelected,
       modes: this.gameData.modes,
       campaign_maps: this.gameData.campaign_maps,
-      multiplayer_maps: this.gameData.multiplayer_maps
+      multiplayer_maps: this.gameData.multiplayer_maps,
     };
   },
 };

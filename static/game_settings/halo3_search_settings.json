@@ -14,7 +14,8 @@
         { "text": "The Ark", "value": "the_ark" },
         { "text": "The Covenant", "value": "the_covenant" },
         { "text": "Cortana", "value": "cortana" },
-        { "text": "Halo", "value": "halo_h3" }
+        { "text": "Halo", "value": "halo_h3" },
+        { "text": "All Campaign (non mission specific)", "value": "all_campaign" }
     ],
 
     "multiplayer_maps":[
@@ -41,7 +42,8 @@
         { "text": "Snowbound", "value": "snowbound" },
         { "text": "Standoff", "value": "standoff" },
         { "text": "The Pit", "value": "the_pit" },
-        { "text": "Valhalla", "value": "valhalla" }
+        { "text": "Valhalla", "value": "valhalla" },
+        { "text": "All Multiplayer (not map specific)", "value": "all_multiplayer" }
     ],
 
     "selected": [
@@ -80,7 +82,9 @@
         "snowbound",
         "standoff",
         "the_pit",
-        "valhalla"
+        "valhalla",
+        "all_campaign",
+        "all_multiplayer"
     ],
     "allSelected" : true,
     "campaignSelected": true,

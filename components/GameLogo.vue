@@ -1,38 +1,39 @@
 <template>
-    <div :class="active ? 'selected' : 'unselected'">
-        <li class="nav-item">
-            <a class="nav-link" href="#"><img :src="require(`../static/game_symbols/${game}_symbol.png`)" :width="size" @click="$emit('selected', game)"></a>
-        </li>
-    </div>
+  <div :class="active ? 'selected' : 'unselected'">
+    <li class="nav-item">
+      <a class="nav-link" href="#"
+        ><img
+          :src="require(`../static/game_symbols/${game}_symbol.png`)"
+          :width="size"
+          @click="$emit('selected', game)"
+      /></a>
+    </li>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'GameLogo',
+  name: "GameLogo",
 
-    props:{
-        game: String,
-        size: String,
-        isSelected: Boolean
-    },
+  props: {
+    game: String,
+    size: String,
+    isSelected: Boolean,
+  },
 
-    data() {
-        return{
-            active : this.isSelected
-        }
-    }
-
-}
-
+  data() {
+    return {
+      active: this.isSelected,
+    };
+  },
+};
 </script>
 
 <style>
-
-.selected{
+.selected {
   opacity: 100%;
 }
-.unselected{
+.unselected {
   opacity: 25%;
 }
-
 </style>

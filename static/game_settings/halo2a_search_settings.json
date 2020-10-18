@@ -15,7 +15,7 @@
         { "text": "Stonetown", "value": "stonetown" },
         { "text": "Warlord", "value": "warlord" },
         { "text": "Zenith", "value": "zenith" },
-        { "text": "Multiplayer (not map specific)", "value": "All_multiplayer" }
+        { "text": "Multiplayer (not map specific)", "value": "all_multiplayer" }
     ],
 
     "selected": [
@@ -28,7 +28,7 @@
         "stonetown",
         "warlord",
         "zenith",
-        "All_multiplayer"
+        "all_multiplayer"
     ],
     "allSelected" : true,
     "campaignSelected": false,

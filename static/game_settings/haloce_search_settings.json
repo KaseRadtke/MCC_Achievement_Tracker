@@ -16,7 +16,7 @@
             { "text": "Two Betrayals", "value": "two_betrayals" },
             { "text": "Keyes", "value": "keyes" },
             { "text": "The Maw", "value": "the_maw" },
-            { "text": "All Campaign (not mission specific)", "value": "All_campaign" }
+            { "text": "All Campaign (not mission specific)", "value": "all_campaign" }
     ],
 
     "multiplayer_maps":[
@@ -55,7 +55,7 @@
         "two_betrayals",
         "keyes",
         "the_maw",
-        "All_campaign",
+        "all_campaign",
         "battle_creek",
         "blood_gulch",
         "boarding_action",
