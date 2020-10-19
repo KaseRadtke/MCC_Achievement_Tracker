@@ -1,8 +1,9 @@
 {  
     "modes":[
         { "text": "Campaign", "value": "campaign" },
-        { "text": "Co-op Campaign / Spartan Ops", "value": "coop" },
-        { "text": "Multiplayer", "value": "multiplayer" }
+        { "text": "Co-op Campaign", "value": "coop" },
+        { "text": "Multiplayer", "value": "multiplayer"},
+        { "text": "Spartan Ops", "value": "spartan_ops"}
     ],
 
     "campaign_maps":[
@@ -14,42 +15,33 @@
         { "text": "Shutdown", "value": "shutdown" },
         { "text": "The Composer", "value": "composer" },
         { "text": "Midnight", "value": "midnight" },
-        { "text": "All Campaign (non mission specific)", "value": "all_campaign" },
-        { "text": "Spartan Ops (All Missions)", "value": "spartan_ops_all_missions" }
+        { "text": "All Campaign (non mission specific)", "value": "all_campaign" }
+    ],
+
+    "spartan_ops_maps":[
+        { "text": "Episode 1", "value": "episode_1" },
+        { "text": "Episode 2", "value": "episode_2" },
+        { "text": "Episode 3", "value": "episode_3" },
+        { "text": "Episode 4", "value": "episode_4" },
+        { "text": "Episode 5", "value": "episode_5" },
+        { "text": "Episode 6", "value": "episode_6" },
+        { "text": "Episode 7", "value": "episode_7" },
+        { "text": "Episode 8", "value": "episode_8" },
+        { "text": "Episode 9", "value": "episode_9" },
+        { "text": "Episode 10", "value": "episode_10" },
+        { "text": "All Spartan Ops (non mission specific)", "value": "all_spartan_ops" }
     ],
 
     "multiplayer_maps":[
-        { "text": "Abandon", "value": "abandon" },
-        { "text": "Adrift", "value": "adrift" },
-        { "text": "Complex", "value": "complex" },
-        { "text": "Daybreak", "value": "daybreak" },
-        { "text": "Erosion", "value": "erosion" },
-        { "text": "Exile", "value": "exile" },
         { "text": "Forge Island", "value": "forge_island" },
-        { "text": "Harvest", "value": "harvest" },
-        { "text": "Haven", "value": "haven" },
-        { "text": "Impact", "value": "impact" },
-        { "text": "Landfall", "value": "landfall" },
-        { "text": "Longbow", "value": "longbow" },
-        { "text": "Meltdown", "value": "meltdown" },
-        { "text": "Monolith", "value": "monolith" },
-        { "text": "Outcast", "value": "outcast" },
-        { "text": "Perdition", "value": "perdition" },
-        { "text": "Pitfall", "value": "pitfall" },
-        { "text": "Ragnarok", "value": "ragnarock" },
-        { "text": "Ravine", "value": "ravine" },
-        { "text": "Shatter", "value": "shatter" },
-        { "text": "Skyline", "value": "skyline" },
-        { "text": "Solace", "value": "solace" },
-        { "text": "Vertigo", "value": "vertigo" },
-        { "text": "Vortex", "value": "vortex" },
-        { "text": "Wreckage", "value": "wreckage" }
+        { "text": "Multiplayer (not map specific)", "value": "all_multiplayer" }
     ],
 
     "selected": [
         "campaign",
         "coop",
         "multiplayer",
+        "spartan_ops",
         "dawn",
         "requiem",
         "forerunner",
@@ -58,35 +50,23 @@
         "shutdown",
         "composer",
         "midnight",
-        "spartan_ops_all_missions",
-        "abandon",
-        "adrift",
-        "complex",
-        "daybreak",
-        "erosion",
-        "exile",
         "forge_island",
-        "harvest",
-        "haven" ,
-        "impact",
-        "landfall",
-        "longbow",
-        "meltdown",
-        "monolith",
-        "outcast",
-        "perdition",
-        "pitfall",
-        "ragnarock",
-        "ravine",
-        "shatter",
-        "skyline",
-        "solace",
-        "vertigo",
-        "vortex",
-        "wreckage",
-        "all_campaign"
+        "episode_1",
+        "episode_2",
+        "episode_3",
+        "episode_4",
+        "episode_5",
+        "episode_6",
+        "episode_7",
+        "episode_8",
+        "episode_9",
+        "episode_10",
+        "all_campaign",
+        "all_multiplayer",
+        "all_spartan_ops"
     ],
     "allSelected" : true,
     "campaignSelected": true,
-    "multiplayerSelected": true
+    "multiplayerSelected": true,
+    "spartanOpsSelected": true
 }  

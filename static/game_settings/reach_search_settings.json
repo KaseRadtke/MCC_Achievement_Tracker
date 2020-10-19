@@ -16,7 +16,8 @@
         { "text": "New Alexandria", "value": "new_alexandria" },
         { "text": "The Package", "value": "the_package" },
         { "text": "Pillar of Autumn", "value": "the_pillar_of_autumn" },
-        { "text": "Lone Wolf", "value": "lone_wolf" }
+        { "text": "Lone Wolf", "value": "lone_wolf" },
+        { "text": "All Campaign (non mission specific)", "value": "all_campaign" }
     ],
 
     "multiplayer_maps":[
@@ -74,7 +75,9 @@
         "spire",
         "swordbase",
         "tempest",
-        "zealout"],
+        "zealout",
+        "all_campaign"
+    ],
     "allSelected" : true,
     "campaignSelected": true,
     "multiplayerSelected": true

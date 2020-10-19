@@ -10,7 +10,7 @@
     ],
 
     "multiplayer_maps":[
-       { "text": "Multiplayers (not map specific)", "value": "all_multiplayer" }
+       { "text": "Multiplayer", "value": "all_multiplayer" }
     ],
 
     "selected": [

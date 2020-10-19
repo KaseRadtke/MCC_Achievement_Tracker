@@ -1,7 +1,7 @@
 <template>
   <div>
       <video-background 
-            src="\test.mp4"
+            :src="currentVideo"
             style="max-height: 100vh; height: 100vh;" 
             >
       </video-background>
@@ -19,7 +19,15 @@ name: 'Background',
         VideoBackground = require('vue-responsive-video-background-player');
         }
 
-    }
+    },
+
+    data() {
+    return {
+      currentVideo: "/test.mp4"
+    };
+  },
+
+    
 }
 </script>
 

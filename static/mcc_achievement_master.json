@@ -53,7 +53,7 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": ["campaign", "coop", "firefight", "spartan_ops"],
+        "mode": ["campaign", "coop"],
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Kill a combined total of 100 Grunts in PVE mode (Campaign, Firefight, Spartan Ops). This achievement is easily unlocked by playing normally.",
@@ -73,7 +73,7 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": ["campaign", "coop", "firefight", "spartan_ops"],
+        "mode": ["campaign"],
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Kill a combined total of 100 Elites in PVE mode (Campaign, Firefight, Spartan Ops). This achievement is easily unlocked by playing normally.",
@@ -93,7 +93,7 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": ["campaign", "firefight", "spartan_ops"],
+        "mode": ["campaign"],
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Kill a combined total of 100 Jackals in PVE mode (Campaign, Firefight, Spartan Ops). This achievement is easily unlocked by playing normally.",
@@ -113,7 +113,7 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": ["campaign", "firefight"],
+        "mode": ["campaign"],
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Kill a combined total of 100 Brutes in PVE mode (Campaign, Firefight). Easiet method: Start a Custom Firefight match in Halo:Reach and set all the enemies to be Brutes, and set the player traits so you are invinicible and have a 300% damage boost.",
@@ -133,7 +133,7 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": ["campaign", "firefight"],
+        "mode": ["campaign"],
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Easiet method: Start a Custom Firefight match in Halo:Reach and set all the enemies to be Hunters, and set the player traits so you are invinicible and have a 300% damage boost.",
@@ -153,7 +153,7 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": ["campaign", "spartan_ops"],
+        "mode": ["campaign"],
         "titles": ["halo4"],
         "maps": ["all_campaign"],
         "tutorial": "Kill a combined total of 100 Watchers in PVE mode (Campaign, Spartan Ops). This achievement is easily unlocked by playing Halo 4 normally.",
@@ -175,7 +175,7 @@
         },
         "mode": ["campaign", "spartan_ops"],
         "titles": ["halo4"],
-        "maps": ["all_campaign"],
+        "maps": ["all_campaign","all_spartan_ops"],
         "tutorial": "Kill a combined total of 100 Knights in PVE mode (Campaign, Spartan Ops). This achievement is easily unlocked by playing normally.",
         "video_tutorial": "https://www.youtube.com/embed/YtszIbGFTyY"
     }, {
@@ -195,7 +195,7 @@
         },
         "mode": ["campaign", "spartan_ops"],
         "titles": ["halo4"],
-        "maps": ["all_campaign"],
+        "maps": ["all_campaign","all_spartan_ops"],
         "tutorial": "Kill a combined total of 100 Crawlers in PVE mode (Campaign, Spartan Ops). This achievement is easily unlocked by playing normally, but can be sped up by playing the campaign mission Midnight.",
         "video_tutorial": "https://www.youtube.com/embed/V7dKSCeTawY"
     }, {
@@ -213,7 +213,7 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": ["campaign", "multiplayer", "firefight", "spartan_ops"],
+        "mode": ["campaign", "multiplayer"],
         "titles": ["crossgame"],
         "maps": ["all_campaign","all_multiplayer"],
         "tutorial": "This achievement can be unlocked by playing normally with patience. To speed it up, play Firefight in Halo:Reach or Halo 3:ODST to rack up kills quicker.",
@@ -6017,7 +6017,7 @@
         "titles": ["halo3"],
         "maps": ["valhalla"],
         "tutorial": "On the map Valhalla, two symbols will appear on every major Holiday and on 'Bungie Day' (July 7th). Change your systems date to a holiday (example: December 25th) and load up Valhalla. Go to the giant silver wall and a symbol will be painted on it. Then, change your date to another holiday (example: October 31st) and look at thr symbol again.",
-        "video_tutorial": "https://www.youtube.com/watch?v=z5bGoEY6V0s"
+        "video_tutorial": "https://www.youtube.com/embed/z5bGoEY6V0s"
     }, {
         "name": "Third Time's A Charm",
         "progressState": "locked",
@@ -6037,7 +6037,7 @@
         "titles": ["halo3"],
         "maps": ["all_campaign","all_multiplayer"],
         "tutorial": "Start mission or load into any map in Halo 3 on the 25th of any month. This is because Halo 3 launched on September 25th, 2007.",
-        "video_tutorial": "https://www.youtube.com/watch?v=7W8cjPQcQ9k"
+        "video_tutorial": "https://www.youtube.com/embed/7W8cjPQcQ9k"
     }, {
         "name": "Devastating",
         "progressState": "locked",
@@ -6057,7 +6057,7 @@
         "titles": ["halo3"],
         "maps": ["all_campaign"],
         "tutorial": "You will need to learn how to speedrun in order to get this achievement. Watch all of Naked Eli's great guides to become a Halo 3 speed running god, and you'll get this in no time.",
-        "video_tutorial": "https://www.youtube.com/watch?v=T8qtocOvW5M"
+        "video_tutorial": "https://www.youtube.com/embed/T8qtocOvW5M"
     }, {
         "name": "Dawn",
         "progressState": "locked",
@@ -6077,7 +6077,7 @@
         "titles": ["halo4"],
         "maps": ["dawn"],
         "tutorial": "Simply complete the mission Dawn in Halo 4 on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=3xeif_-Y9So"
+        "video_tutorial": "https://www.youtube.com/embed/3xeif_-Y9So"
     }, {
         "name": "Requiem",
         "progressState": "locked",
@@ -6097,7 +6097,7 @@
         "titles": ["halo4"],
         "maps": ["requiem"],
         "tutorial": "Simply complete the mission Requiem in Halo 4 on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=5QLnwNxIFHI"
+        "video_tutorial": "https://www.youtube.com/embed/5QLnwNxIFHI"
     }, {
         "name": "Forerunner",
         "progressState": "locked",
@@ -6117,7 +6117,7 @@
         "titles": ["halo4"],
         "maps": ["forerunner"],
         "tutorial": "Simply complete the mission Forerunner in Halo 4 on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=IbsrNqrbzQw"
+        "video_tutorial": "https://www.youtube.com/embed/IbsrNqrbzQw"
     }, {
         "name": "Infinity",
         "progressState": "locked",
@@ -6137,7 +6137,7 @@
         "titles": ["halo4"],
         "maps": ["infinity"],
         "tutorial": "Simply complete the mission Infinity in Halo 4 on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=OSTEmdRH4wU"
+        "video_tutorial": "https://www.youtube.com/embed/OSTEmdRH4wU"
     }, {
         "name": "Reclaimer",
         "progressState": "locked",
@@ -6157,7 +6157,7 @@
         "titles": ["halo4"],
         "maps": ["reclaimer"],
         "tutorial": "Simply complete the mission Reclaimer in Halo 4 on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=eRmQ-QoJcbc"
+        "video_tutorial": "https://www.youtube.com/embed/eRmQ-QoJcbc"
     }, {
         "name": "Shutdown",
         "progressState": "locked",
@@ -6177,7 +6177,7 @@
         "titles": ["halo4"],
         "maps": ["shutdown"],
         "tutorial": "Simply complete the mission Shutdown in Halo 4 on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=um1LNXj3aMg"
+        "video_tutorial": "https://www.youtube.com/embed/um1LNXj3aMg"
     }, {
         "name": "Composer",
         "progressState": "locked",
@@ -6197,7 +6197,7 @@
         "titles": ["halo4"],
         "maps": ["composer"],
         "tutorial": "Simply complete the mission Composer in Halo 4 on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=jVjnE0DepbE"
+        "video_tutorial": "https://www.youtube.com/embed/jVjnE0DepbE"
     }, {
         "name": "Midnight",
         "progressState": "locked",
@@ -6217,7 +6217,7 @@
         "titles": ["halo4"],
         "maps": ["midnight"],
         "tutorial": "Simply complete the final mission Midnight in Halo 4 on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=HjzIPJJuNno"
+        "video_tutorial": "https://www.youtube.com/embed/HjzIPJJuNno"
     }, {
         "name": "Piece of Cake",
         "progressState": "locked",
@@ -6237,7 +6237,7 @@
         "titles": ["halo4"],
         "maps": ["dawn"],
         "tutorial": "Complete the mission Dawn in under 15 minutes on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=skMDGpO4BI4"
+        "video_tutorial": "https://www.youtube.com/embed/skMDGpO4BI4"
     }, {
         "name": "Interloper",
         "progressState": "locked",
@@ -6257,7 +6257,7 @@
         "titles": ["halo4"],
         "maps": ["requiem"],
         "tutorial": "Complete the mission Requiem in under 15 minutes on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=NnQEdDX9Xvk"
+        "video_tutorial": "https://www.youtube.com/embed/NnQEdDX9Xvk"
     }, {
         "name": "Raging in the Dark",
         "progressState": "locked",
@@ -6277,7 +6277,7 @@
         "titles": ["halo4"],
         "maps": ["forerunner"],
         "tutorial": "Complete the mission Forerunner in under 20 minutes on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=BdLr9AaNB9c"
+        "video_tutorial": "https://www.youtube.com/embed/BdLr9AaNB9c"
     }, {
         "name": "Ouroboros",
         "progressState": "locked",
@@ -6297,7 +6297,7 @@
         "titles": ["halo4"],
         "maps": ["infinity"],
         "tutorial": "Complete the mission Infinity in under 25 minutes on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=pc2J6OHy4sY"
+        "video_tutorial": "https://www.youtube.com/embed/pc2J6OHy4sY"
     }, {
         "name": "Gimme That",
         "progressState": "locked",
@@ -6317,7 +6317,7 @@
         "titles": ["halo4"],
         "maps": ["reclaimer"],
         "tutorial": "Complete the mission Reclaimer in under 20 minutes on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=ukunnzla8IU"
+        "video_tutorial": "https://www.youtube.com/embed/ukunnzla8IU"
     }, {
         "name": "Shut. Down. Everything.",
         "progressState": "locked",
@@ -6337,7 +6337,7 @@
         "titles": ["halo4"],
         "maps": ["shutdown"],
         "tutorial": "Complete the mission Shutdown in under 20 minutes on any difficulty. This missions has major skips that let you complete it in under 3 minutes.",
-        "video_tutorial": "https://www.youtube.com/watch?v=-xx3HRODdak"
+        "video_tutorial": "https://www.youtube.com/embed/-xx3HRODdak"
     }, {
         "name": "Symphony of Pain",
         "progressState": "locked",
@@ -6357,7 +6357,7 @@
         "titles": ["halo4"],
         "maps": ["composer"],
         "tutorial": "Complete the mission Composer in under 20 minutes on any difficulty.",
-        "video_tutorial": "https://www.youtube.com/watch?v=zGlN0RK-TA4"
+        "video_tutorial": "https://www.youtube.com/embed/zGlN0RK-TA4"
     }, {
         "name": "Countdown",
         "progressState": "locked",
@@ -6377,7 +6377,7 @@
         "titles": ["halo4"],
         "maps": ["midnight"],
         "tutorial": "Complete the mission Midnight in under 25 minutes on any difficulty. This mission has skips to make it much easier and faster.",
-        "video_tutorial": "https://www.youtube.com/watch?v=_E0qQIgwfSo"
+        "video_tutorial": "https://www.youtube.com/embed/_E0qQIgwfSo"
     }, {
         "name": "Easy As One Two Three",
         "progressState": "locked",
@@ -6417,7 +6417,7 @@
         "titles": ["halo4"],
         "maps": ["dawn"],
         "tutorial": "Score atleast 25,000 points on the mission Dawn. Recommended to play on Legendary as it gives 4X the score per kill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=xq_Y5XHvP1Y"
+        "video_tutorial": "https://www.youtube.com/embed/xq_Y5XHvP1Y"
     }, {
         "name": "Dark Fortress",
         "progressState": "locked",
@@ -6437,7 +6437,7 @@
         "titles": ["halo4"],
         "maps": ["requiem"],
         "tutorial": "Score atleast 22,000 points on the mission Requiem. Recommended to play on Legendary as it gives 4X the score per kill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=kDiA8pZ9wsk"
+        "video_tutorial": "https://www.youtube.com/embed/kDiA8pZ9wsk"
     }, {
         "name": "Shadow of Sundered Star",
         "progressState": "locked",
@@ -6457,7 +6457,7 @@
         "titles": ["halo4"],
         "maps": ["forerunner"],
         "tutorial": "Score atleast 22,000 points on the mission Forerunner. Recommended to play on Legendary as it gives 4X the score per kill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=8bm7QdoCxZY"
+        "video_tutorial": "https://www.youtube.com/embed/8bm7QdoCxZY"
     }, {
         "name": "Jungle Warfare",
         "progressState": "locked",
@@ -6477,7 +6477,7 @@
         "titles": ["halo4"],
         "maps": ["infinity"],
         "tutorial": "Score atleast 25,000 points on the mission Forerunner. Recommended to play on Legendary as it gives 4X the score per kill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=HGEH0wAm7VU"
+        "video_tutorial": "https://www.youtube.com/embed/HGEH0wAm7VU"
     }, {
         "name": "Librarian's Pet",
         "progressState": "locked",
@@ -6497,7 +6497,7 @@
         "titles": ["halo4"],
         "maps": ["reclaimer"],
         "tutorial": "Score atleast 25,000 points on the mission Reclaimer. Recommended to play on Legendary as it gives 4X the score per kill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=zOeXSmhKpaU"
+        "video_tutorial": "https://www.youtube.com/embed/zOeXSmhKpaU"
     }, {
         "name": "Emergency Shutdown",
         "progressState": "locked",
@@ -6517,7 +6517,7 @@
         "titles": ["halo4"],
         "maps": ["shutdown"],
         "tutorial": "Score atleast 25,000 points on the mission Reclaimer. Recommended to play on Legendary as it gives 4X the score per kill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=TMtaUdSJjPM"
+        "video_tutorial": "https://www.youtube.com/embed/TMtaUdSJjPM"
     }, {
         "name": "Head Banging",
         "progressState": "locked",
@@ -6537,7 +6537,7 @@
         "titles": ["halo4"],
         "maps": ["composer"],
         "tutorial": "Score atleast 25,000 points on the mission Composer. Recommended to play on Legendary as it gives 4X the score per kill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=YYzo-WXdgWM"
+        "video_tutorial": "https://www.youtube.com/embed/YYzo-WXdgWM"
     }, {
         "name": "Witching Hour",
         "progressState": "locked",
@@ -6557,7 +6557,7 @@
         "titles": ["halo4"],
         "maps": ["midnight"],
         "tutorial": "Score atleast 25,000 points on the final mission Midnight. Recommended to play on Legendary as it gives 4X the score per kill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=Drz2o-kPbws"
+        "video_tutorial": "https://www.youtube.com/embed/Drz2o-kPbws"
     }, {
         "name": "You Had it Coming",
         "progressState": "locked",
@@ -6597,7 +6597,7 @@
         "titles": ["halo4"],
         "maps": ["requiem"],
         "tutorial": "Terminal 1 is located at the very end of the mission Requiem. The Terminal is behind the ramp that leads up to the final elevator.",
-        "video_tutorial": "https://www.youtube.com/watch?v=fBpgWs3U0tI"
+        "video_tutorial": "https://www.youtube.com/embed/fBpgWs3U0tI"
     }, {
         "name": "Lord of Admirals",
         "progressState": "locked",
@@ -6617,7 +6617,7 @@
         "titles": ["halo4"],
         "maps": ["forerunner"],
         "tutorial": "Terminal 2 is located about a quarter way through the mission. The Terminal is underneath the platform you are meant to go through.",
-        "video_tutorial": "https://www.youtube.com/watch?v=fBpgWs3U0tI?start=45"
+        "video_tutorial": "https://www.youtube.com/embed/fBpgWs3U0tI?start=45"
     }, {
         "name": "Charum Hakkor",
         "progressState": "locked",
@@ -6637,7 +6637,7 @@
         "titles": ["halo4"],
         "maps": ["infinity"],
         "tutorial": "Terminal 3 is located directly right beind where Rally Point Bravo spawns you.",
-        "video_tutorial": "https://www.youtube.com/watch?v=fBpgWs3U0tI?start=70"
+        "video_tutorial": "https://www.youtube.com/embed/fBpgWs3U0tI?start=70"
     }, {
         "name": "Flood",
         "progressState": "locked",
@@ -6657,7 +6657,7 @@
         "titles": ["halo4"],
         "maps": ["reclaimer"],
         "tutorial": "Terminal 4 is near the end of the mission, after the cutscene with the Librarian. Before you take the elevator down to exit, the terminal is located to the right in the hallway. ",
-        "video_tutorial": "https://www.youtube.com/watch?v=fBpgWs3U0tI?start=82"
+        "video_tutorial": "https://www.youtube.com/embed/fBpgWs3U0tI?start=82"
     }, {
         "name": "Knights",
         "progressState": "locked",
@@ -6677,7 +6677,7 @@
         "titles": ["halo4"],
         "maps": ["shutdown"],
         "tutorial": "Terminal 5 is located at the last rally point, and is on the opposite structure of where the Hunter's come down the gravity lift.",
-        "video_tutorial": "https://www.youtube.com/watch?v=fBpgWs3U0tI?start=106"
+        "video_tutorial": "https://www.youtube.com/embed/fBpgWs3U0tI?start=106"
     }, {
         "name": "Justice",
         "progressState": "locked",
@@ -6697,7 +6697,7 @@
         "titles": ["halo4"],
         "maps": ["composer"],
         "tutorial": "Terminal 6 is located at rally point Bravo, hidden in a small tunnel to the right of where you are supposed to go.",
-        "video_tutorial": "https://www.youtube.com/watch?v=fBpgWs3U0tI?start=143"
+        "video_tutorial": "https://www.youtube.com/embed/fBpgWs3U0tI?start=143"
     }, {
         "name": "Cryptum",
         "progressState": "locked",
@@ -6717,7 +6717,7 @@
         "titles": ["halo4"],
         "maps": ["midnight"],
         "tutorial": "Terminal 7 is located at rally point Bravo, and is in the third room you enter behind the floating pillars.",
-        "video_tutorial": "https://www.youtube.com/watch?v=fBpgWs3U0tI?start=170"
+        "video_tutorial": "https://www.youtube.com/embed/fBpgWs3U0tI?start=170"
     }, {
         "name": "Terminus",
         "progressState": "locked",
@@ -6737,7 +6737,7 @@
         "titles": ["halo4"],
         "maps": ["all_campaign"],
         "tutorial": "Activate all 7 Terminals in Halo 4. Watch Halo Completionist's great guide to see all 7 locations.",
-        "video_tutorial": "https://www.youtube.com/watch?v=fBpgWs3U0tI"
+        "video_tutorial": "https://www.youtube.com/embed/fBpgWs3U0tI"
     }, {
         "name": "Wake Up, John",
         "progressState": "locked",
@@ -6841,7 +6841,7 @@
         "titles": ["halo4"],
         "maps": ["forerunner"],
         "tutorial": "Play through the mission Forerunner on Heroic and keep on you at all times either your Magnum or Assault Rifle. You can use any other weapons you can find, just keep a UNSC weapon as a secondary. ",
-        "video_tutorial": "https://www.youtube.com/watch?v=_RlP6b4WPfw"
+        "video_tutorial": "https://www.youtube.com/embed/_RlP6b4WPfw"
     }, {
         "name": "Bros to the Close",
         "progressState": "locked",
@@ -6861,7 +6861,7 @@
         "titles": ["halo4"],
         "maps": ["infinity"],
         "tutorial": "This achievement is easier in co-op but can be done solo. Give all the marines you see precision weapon or Rail gun. Tnen, simply try your best to keep all 6 marines alive. If any of them die, just revert the checkpoint. The achievement will unlock once the door to the next area opens.",
-        "video_tutorial": "https://www.youtube.com/watch?v=QPG8ml3HHmA"
+        "video_tutorial": "https://www.youtube.com/embed/QPG8ml3HHmA"
     }, {
         "name": "Explore the Floor",
         "progressState": "locked",
@@ -6881,7 +6881,7 @@
         "titles": ["halo4"],
         "maps": ["shutdown"],
         "tutorial": "At the last Rally Point on Shutdown, two Hunters will come down the gravity lift. You will need to bait one into lunging at you, and having them lunge off the edge.",
-        "video_tutorial": "https://www.youtube.com/watch?v=IXAm3vzXG_k"
+        "video_tutorial": "https://www.youtube.com/embed/IXAm3vzXG_k"
     }, {
         "name": "Give Him the Stick",
         "progressState": "locked",
@@ -6901,7 +6901,7 @@
         "titles": ["halo4"],
         "maps": ["composer"],
         "tutorial": "Pick up the Sticky Detonator at the start of the mission, and bring it with you until you reach the science room with Two Hunters. Then kill both Hunters using only the Sticky Detonator. There is extra ammo in an ammo crate in the same room near the back door.",
-        "video_tutorial": "https://www.youtube.com/watch?v=FlrKTrenCqA"
+        "video_tutorial": "https://www.youtube.com/embed/FlrKTrenCqA"
     }, {
         "name": "Chief, Smash!",
         "progressState": "locked",
@@ -6921,7 +6921,7 @@
         "titles": ["halo4"],
         "maps": ["midnight"],
         "tutorial": "On Midnight halfway through the mission you'll teleport to a room with a handful of weapons. Pick up the Gravity hammer, and continue through the teleporter. In the next section will be dozens of Crawlers, and just start swinging at then. Revert the checkpoint if you don't get it and try again.",
-        "video_tutorial": "https://www.youtube.com/watch?v=sjrMAbeK4gE"
+        "video_tutorial": "https://www.youtube.com/embed/sjrMAbeK4gE"
     }, {
         "name": "You're No Chips",
         "progressState": "locked",
@@ -6941,7 +6941,7 @@
         "titles": ["halo4"],
         "maps": ["composer"],
         "tutorial": "On the mission Composer at Rally Point Bravo, run to the left area until you see a marine standing next to a Mantis. Stand next to them and listen to their interaction, and the achievement will unlock.",
-        "video_tutorial": "https://www.youtube.com/watch?v=z9RBF6SAMko"
+        "video_tutorial": "https://www.youtube.com/embed/z9RBF6SAMko"
     }, {
         "name": "A Long Time Ago",
         "progressState": "locked",
@@ -6981,7 +6981,7 @@
         "titles": ["halo4"],
         "maps": ["all_campaign"],
         "tutorial": "Beat every mission in Halo 4 with a combined time of under 3 hours. This achievement only takes into account your best mission times, not in one continous playthrough. Watch Naked Eli's great Halo 4 speedrunning guides to unlock this achievement much easier.",
-        "video_tutorial": "https://www.youtube.com/watch?v=t4guOAbAcyA"
+        "video_tutorial": "https://www.youtube.com/embed/t4guOAbAcyA"
     }, {
         "name": "He's Running a Marathon...",
         "progressState": "locked",
@@ -7001,7 +7001,7 @@
         "titles": ["halo2"],
         "maps": ["gravemind"],
         "tutorial": "Watch the entire cutscene of Gravemind in classic mode on Legendary. If you have keen eye, you will see Bungie president Jason Jones in his gym shorts for a brief moment.",
-        "video_tutorial": "https://www.youtube.com/watch?v=FM0JNtfy4VE"
+        "video_tutorial": "https://www.youtube.com/embed/FM0JNtfy4VE"
     }, {
         "name": "Destination Vacation",
         "progressState": "locked",
@@ -7021,7 +7021,7 @@
         "titles": ["halo2"],
         "maps": ["zanzibar"],
         "tutorial": "Start a custom game on the map Zanzibar on any major holiday, and head to the beach (example: set your systems date to December 25th). At the beach will be a sign, and on holiday's it will have a different texture.",
-        "video_tutorial": "https://www.youtube.com/watch?v=VNOmsaS7F5M"
+        "video_tutorial": "https://www.youtube.com/embed/VNOmsaS7F5M"
     }, {
         "name": "Tighten Up The Graphics",
         "progressState": "locked",
@@ -7062,7 +7062,7 @@
         "titles": ["halo3"],
         "maps": ["tsavo_highway"],
         "tutorial": "On Tsavo Highway (On Legendary difficulty, with Cowbell, Catch, Thunderstorm, Mythic, and Tough Luck skulls on), you need to get four different vehicles over the gap in the broken highway. This achievement is much easier with the Acrophobia skull.",
-        "video_tutorial": "https://www.youtube.com/watch?v=_TGycIsgUHg"
+        "video_tutorial": "https://www.youtube.com/embed/_TGycIsgUHg"
     }, {
         "name": "Back In The Day",
         "progressState": "locked",
@@ -7082,7 +7082,7 @@
         "titles": ["haloce"],
         "maps": ["blood_gulch"],
         "tutorial": "On Steam, just load up a CTF match with 4 players on Blood Gulch. On Xbox, you will need 4 controllers (yeah....) and to load up a 4 player splitscreen game of CTF on Blood Gulch.",
-        "video_tutorial": "https://www.youtube.com/watch?v=VS_XSEg6TzY"
+        "video_tutorial": "https://www.youtube.com/embed/VS_XSEg6TzY"
     }, {
         "name": "Pacifist",
         "progressState": "locked",
@@ -7102,7 +7102,7 @@
         "titles": ["haloce"],
         "maps": ["the_silent_cartographer"],
         "tutorial": "This achievement is much easier in co-op if you just have a friend run through the mission while you do nothing and don't die. Otherwise, you can do this solo on Easy difficulty if you are very careful and just run through everything.",
-        "video_tutorial": "https://www.youtube.com/watch?v=uPpkS8wNoKE"
+        "video_tutorial": "https://www.youtube.com/embed/uPpkS8wNoKE"
     }, {
         "name": "Wraith Hunter",
         "progressState": "locked",
@@ -7122,7 +7122,7 @@
         "titles": ["haloce"],
         "maps": ["assault_on_the_control_room"],
         "tutorial": "When you first come into the large snowy area,  run to the Warthog and then drive ahead and skip the first Wraith so you can get into the Scorpion in the next section. Then drive back, and destroy the first Wraith, and destroy the other 3 Wraiths you encounter later on.",
-        "video_tutorial": "https://www.youtube.com/watch?v=LOR74KmjPZE"
+        "video_tutorial": "https://www.youtube.com/embed/LOR74KmjPZE"
     }, {
         "name": "Close Quarters Combat",
         "progressState": "locked",
@@ -7142,7 +7142,7 @@
         "titles": ["haloce"],
         "maps": ["the_truth_and_reconciliation"],
         "tutorial": "Finish the mission with atleast 4 rounds in your Sniper. Recommended to play on Easy, with the Bandana skull.",
-        "video_tutorial": "https://www.youtube.com/watch?v=mitIlv0Bjx8"
+        "video_tutorial": "https://www.youtube.com/embed/mitIlv0Bjx8"
     }, {
         "name": "This Side Up",
         "progressState": "locked",
@@ -7162,7 +7162,7 @@
         "titles": ["haloce"],
         "maps": ["the_maw"],
         "tutorial": "Complete the entire Warthog run without flipping and getting kicked out. If you do flip and get kicked out, just revert checkpoint immediatly and try again.",
-        "video_tutorial": "https://www.youtube.com/watch?v=984iaUYZtwk"
+        "video_tutorial": "https://www.youtube.com/embed/984iaUYZtwk"
     }, {
         "name": "Mortardom",
         "progressState": "locked",
@@ -7182,7 +7182,7 @@
         "titles": ["halo4"],
         "maps": ["reclaimer"],
         "tutorial": "Hyjack the first Wraith you come across near the crashed pelican. Then, bring it with you to the next areas and destroy any Wraiths you see with it.",
-        "video_tutorial": "https://www.youtube.com/watch?v=kIIVXDDq2cw"
+        "video_tutorial": "https://www.youtube.com/embed/kIIVXDDq2cw"
     }, {
         "name": "All According to Plan...",
         "progressState": "locked",
@@ -7202,7 +7202,7 @@
         "titles": ["haloce"],
         "maps": ["the_truth_and_reconciliation"],
         "tutorial": "Complete the first encounter without being detected by staying as far back as possible, and getting headshots with every sniper shot.",
-        "video_tutorial": "https://www.youtube.com/watch?v=zMaS8A5iahM"
+        "video_tutorial": "https://www.youtube.com/embed/zMaS8A5iahM"
     }, {
         "name": "Beachhead",
         "progressState": "locked",
@@ -7222,7 +7222,7 @@
         "titles": ["haloce"],
         "maps": ["the_silent_cartographer"],
         "tutorial": "Complete the first encounter of enemies as you exit the Pelicans without any Marine deaths on Heroic or Legendary. You will have to be fast and kill every enemy before they kill any marines. The achievement will unlock when Foehammer comes and gives a Warthog.",
-        "video_tutorial": "https://www.youtube.com/watch?v=PJ3B31QQICc"
+        "video_tutorial": "https://www.youtube.com/embed/PJ3B31QQICc"
     }, {
         "name": "The Return of Megg",
         "progressState": "locked",
@@ -7242,7 +7242,7 @@
         "titles": ["halo2"],
         "maps": ["cairo_station"],
         "tutorial": "You need to get to the end of Cairo Station on Legendary without taking a single hit of damage. At the end in the room with the bomb you will hear an announcement about Megg. Watch Maka91's guide for the best strategy.",
-        "video_tutorial": "https://www.youtube.com/watch?v=234h4E2Jl4g"
+        "video_tutorial": "https://www.youtube.com/embed/234h4E2Jl4g"
     }, {
         "name": "No-Fly Zone",
         "progressState": "locked",
@@ -7262,7 +7262,7 @@
         "titles": ["haloce"],
         "maps": ["halo_ce"],
         "tutorial": "At the very start destroy the two Banshee's that fly above you as you head of the hill, using your Magnum. At the end of the mission in the small canyon you will encounter two more Banshee's, and destroy one of them for the achievement.",
-        "video_tutorial": "https://www.youtube.com/watch?v=1400lOxpuuE"
+        "video_tutorial": "https://www.youtube.com/embed/1400lOxpuuE"
     }, {
         "name": "Bro Hammer",
         "progressState": "locked",
@@ -7303,7 +7303,7 @@
         "titles": ["halo4"],
         "maps": ["dawn"],
         "tutorial": "At the very start of Dawn in the first hallway you walk through, take the stairs down to the left and at the bottom will be a computer that talks about the backstory of the Master Chief.",
-        "video_tutorial": "https://www.youtube.com/watch?v=YtsmOUagqvo"
+        "video_tutorial": "https://www.youtube.com/embed/YtsmOUagqvo"
     }, {
         "name": "Missing Link",
         "progressState": "locked",
@@ -7323,7 +7323,7 @@
         "titles": ["halo3"],
         "maps": ["sierra_117"],
         "tutorial": "on Sierra 117 at the section where Banshees fly fast and low, near the far end of the river in the tree's sits a lone monkey. Zoom in on it and you'll get an achievement.",
-        "video_tutorial": "https://www.youtube.com/watch?v=j7y1P5zT2R4"
+        "video_tutorial": "https://www.youtube.com/embed/j7y1P5zT2R4"
     }, {
         "name": "Eminent Domain",
         "progressState": "locked",
@@ -7343,7 +7343,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Start up a Custom game of Territories in Halo 2 Anniversary Multiplayer, and control 3 Territories for 30 seconds.",
-        "video_tutorial": "https://www.youtube.com/watch?v=MVY7VgwsVng"
+        "video_tutorial": "https://www.youtube.com/embed/MVY7VgwsVng"
     }, {
         "name": "Game Master",
         "progressState": "locked",
@@ -7384,7 +7384,7 @@
         "titles": ["halo2"],
         "maps": ["stonetown"],
         "tutorial": "Inside the main base ontop of a platform are two boxes with a blue tarp. Wedged between the boxex is the Blast soda can, shoot it and you'll get the achievement.",
-        "video_tutorial": "https://www.youtube.com/watch?v=vS2CYjoqOfo?start=76"
+        "video_tutorial": "https://www.youtube.com/embed/vS2CYjoqOfo?start=76"
     }, {
         "name": "High Altitude Thirst!",
         "progressState": "locked",
@@ -7404,7 +7404,7 @@
         "titles": ["halo2"],
         "maps": ["zenith"],
         "tutorial": "On Zenith, pick up a Sniper Rifle. Go to the edge of the cliff near the large sniper tower, and the Blast soda can is hidden at the bottom of the pillar in the middle section. ",
-        "video_tutorial": "https://www.youtube.com/watch?v=vS2CYjoqOfo?start=45"
+        "video_tutorial": "https://www.youtube.com/embed/vS2CYjoqOfo?start=45"
     }, {
         "name": "Invaders Repelled",
         "progressState": "locked",
@@ -7424,7 +7424,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Start up a Custom game King of The Hill match with a friend, and kill 5 opponents while in a controlled hill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=9Pl6cmEn9YA"
+        "video_tutorial": "https://www.youtube.com/embed/9Pl6cmEn9YA"
     }, {
         "name": "Master Forger",
         "progressState": "locked",
@@ -7465,7 +7465,7 @@
         "titles": ["halo2"],
         "maps": ["warlord"],
         "tutorial": "Start a Custom game on Warlord, then pick up the center active camouflage 5 times and you'll get the achievement. ",
-        "video_tutorial": "https://www.youtube.com/watch?v=rBeo6z0RY5c"
+        "video_tutorial": "https://www.youtube.com/embed/rBeo6z0RY5c"
     }, {
         "name": "Put Up Your Dukes",
         "progressState": "locked",
@@ -7526,7 +7526,7 @@
         "titles": ["halo2"],
         "maps": ["warlord"],
         "tutorial": "On Warlord, go to the yellow side of the map, on the upper floor. The Blast soda can will be hidden in the corner behind some rocks.",
-        "video_tutorial": "https://www.youtube.com/watch?v=vS2CYjoqOfo?start=159"
+        "video_tutorial": "https://www.youtube.com/embed/vS2CYjoqOfo?start=159"
     }, {
         "name": "Shields Up!",
         "progressState": "locked",
@@ -7546,7 +7546,7 @@
         "titles": ["halo2"],
         "maps": ["zenith"],
         "tutorial": "Zenith has a shield that can be activated from three different buttons on the map, every 60 seconds. In a Matchmade game, activate it three times to get the achievement.",
-        "video_tutorial": "https://www.youtube.com/watch?v=XAFJj0kaV2U"
+        "video_tutorial": "https://www.youtube.com/embed/XAFJj0kaV2U"
     }, {
         "name": "Shook the Hornet's Nest",
         "progressState": "locked",
@@ -7566,7 +7566,7 @@
         "titles": ["halo2"],
         "maps": ["bloodline"],
         "tutorial": "Start a custom game with a friend and hop into a Hornet. Kill your opponent 30 times and the achievement will unlock.",
-        "video_tutorial": "https://www.youtube.com/watch?v=SLUKI3ZakUw"
+        "video_tutorial": "https://www.youtube.com/embed/SLUKI3ZakUw"
     }, {
         "name": "Skeet Shooter",
         "progressState": "locked",
@@ -7586,7 +7586,7 @@
         "titles": ["halo2"],
         "maps": ["bloodline"],
         "tutorial": "Start a custom game on Bloodline with a friend, and then kill them 15 times as they are airborne from the base's Man cannon.",
-        "video_tutorial": "https://www.youtube.com/watch?v=LhchCjVg1O8"
+        "video_tutorial": "https://www.youtube.com/embed/LhchCjVg1O8"
     }, {
         "name": "Stayin' Alive",
         "progressState": "locked",
@@ -7606,7 +7606,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Start up a Juggernaut Custom game by yourself, and try to stay alive for 30 seconds. ",
-        "video_tutorial": "https://www.youtube.com/watch?v=YjCFOGB9F1I"
+        "video_tutorial": "https://www.youtube.com/embed/YjCFOGB9F1I"
     }, {
         "name": "The Goose is Loose",
         "progressState": "locked",
@@ -7626,7 +7626,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Start a Custom game with a friend on a map that has a Gungoose (like Bloodline), and kill them 25 times with it. If you get a kill with the gungoose will airborne you'll get another achievement as well.",
-        "video_tutorial": "https://www.youtube.com/watch?v=s7ZHWxglsO0"
+        "video_tutorial": "https://www.youtube.com/embed/s7ZHWxglsO0"
     }, {
         "name": "Thirst Locked Down!",
         "progressState": "locked",
@@ -7646,7 +7646,7 @@
         "titles": ["halo2"],
         "maps": ["lockdown"],
         "tutorial": "On Lockdown, grab the Sniper rifle and go to the entrance of the blue lift. The Blast soda can is wedged very high up in the ice mountain. Shoot it and you'll get the achievement. ",
-        "video_tutorial": "https://www.youtube.com/watch?v=vS2CYjoqOfo?start=7"
+        "video_tutorial": "https://www.youtube.com/embed/vS2CYjoqOfo?start=7"
     }, {
         "name": "Top Gungoose",
         "progressState": "locked",
@@ -7666,7 +7666,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Start a Custom game with a friend on a map that has a Gungoose (like Bloodline), and get in. Have your friend pick up a Rocket launcher. Shoot your friend with the gungoose, and then get some air. As you are soaring, have your friend kill himself and youll get the achievement.",
-        "video_tutorial": "https://www.youtube.com/watch?v=Is-9aM9F3CQ"
+        "video_tutorial": "https://www.youtube.com/embed/Is-9aM9F3CQ"
     }, {
         "name": "BLASTacular!",
         "progressState": "locked",
@@ -7686,7 +7686,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Destroy all 6 of Blast soda cans on the original Halo 2 Anniversary maps (Remnant not required). Watch Maka91's great guide to see all locations of the soda cans.",
-        "video_tutorial": "https://www.youtube.com/watch?v=vS2CYjoqOfo"
+        "video_tutorial": "https://www.youtube.com/embed/vS2CYjoqOfo"
     }, {
         "name": "Bloody Thirsty!",
         "progressState": "locked",
@@ -7706,7 +7706,7 @@
         "titles": ["halo2"],
         "maps": ["bloodline"],
         "tutorial": "On Bloodline, go to the blue base and pick up the Sniper. The Blast soda can is very far outside the map, in between the canyon to the left of the blue base. ",
-        "video_tutorial": "https://www.youtube.com/watch?v=vS2CYjoqOfo"
+        "video_tutorial": "https://www.youtube.com/embed/vS2CYjoqOfo"
     }, {
         "name": "Bombing Run",
         "progressState": "locked",
@@ -7726,7 +7726,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Start a Custom game of Assault and take, plant, and score the bomb without dying or dropping it. Easy as that!",
-        "video_tutorial": "https://www.youtube.com/watch?v=3ymL5pxnKvA"
+        "video_tutorial": "https://www.youtube.com/embed/3ymL5pxnKvA"
     }, {
         "name": "Cold as Ice",
         "progressState": "locked",
@@ -7746,7 +7746,7 @@
         "titles": ["halo2"],
         "maps": ["lockdown"],
         "tutorial": "Start a Custom game on Lockdown with a friend, and have them stand beneath one of the three hanging stalactites. Shoot at the stalactite and it will kill your friend. ",
-        "video_tutorial": "https://www.youtube.com/watch?v=_UJijVEeNgI"
+        "video_tutorial": "https://www.youtube.com/embed/_UJijVEeNgI"
     }, {
         "name": "Cold Fusion",
         "progressState": "locked",
@@ -7766,7 +7766,7 @@
         "titles": ["halo2"],
         "maps": ["lockdown"],
         "tutorial": "Start a Custom game on Lockdown with a friend. have them stand near a Fusion Coil, and then shoot the Coil. It will kill your friend and give you the achievement.",
-        "video_tutorial": "https://www.youtube.com/watch?v=AXBBmXG8nTU"
+        "video_tutorial": "https://www.youtube.com/embed/AXBBmXG8nTU"
     }, {
         "name": "Counter-Sniped",
         "progressState": "locked",
@@ -7786,7 +7786,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Start a Custom game with a friend on any Halo 2A map with a Sniper Rifle. Then, snipe them while they are zoomed in and you'll get the achievement.",
-        "video_tutorial": "https://www.youtube.com/watch?v=Z7MIltc0iS8"
+        "video_tutorial": "https://www.youtube.com/embed/Z7MIltc0iS8"
     }, {
         "name": "Triple Threat",
         "progressState": "locked",
@@ -7806,7 +7806,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Start a Custom game of Ricochet with atleast 3 people. Pass the ball to a teammate, score a point, and kill an enemy to get the achievement.",
-        "video_tutorial": "https://www.youtube.com/watch?v=JUQLSZ6ACv0"
+        "video_tutorial": "https://www.youtube.com/embed/JUQLSZ6ACv0"
     }, {
         "name": "Wetwork",
         "progressState": "locked",
@@ -7826,7 +7826,7 @@
         "titles": ["halo2"],
         "maps": ["shrine"],
         "tutorial": "Start a Custom game of CTF on Shrine in Halo 2 Anniversary Multiplayer with atleast one other person. Go to the enemy base and shoot the orange glowing object to activate the waterfall, then pick up the flag.",
-        "video_tutorial": "https://www.youtube.com/watch?v=pd-_uZFFPyU"
+        "video_tutorial": "https://www.youtube.com/embed/pd-_uZFFPyU"
     }, {
         "name": "Worship Your Thirst!",
         "progressState": "locked",
@@ -7846,7 +7846,7 @@
         "titles": ["halo2"],
         "maps": ["shrine"],
         "tutorial": "On Shrine, pick up a Sniper rifle. Head to the left of the blue base and the Blast soda can is on top of the shrine incredibly far outside the level. Watch the guide for exact location.",
-        "video_tutorial": "https://www.youtube.com/watch?v=vS2CYjoqOfo?start=175"
+        "video_tutorial": "https://www.youtube.com/embed/vS2CYjoqOfo?start=175"
     }, {
         "name": "Zealot",
         "progressState": "locked",
@@ -7866,7 +7866,7 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "Set your preferred species as an Elite in custimization lobby, then win 10 matches of Halo 2: Anniversary multiplayer.",
-        "video_tutorial": "https://www.youtube.com/watch?v=0NOi69dAj1U"
+        "video_tutorial": "https://www.youtube.com/embed/0NOi69dAj1U"
     }, {
         "name": "Dirty Bird",
         "progressState": "locked",
@@ -7886,7 +7886,7 @@
         "titles": ["halo2"],
         "maps": ["the_arbiter"],
         "tutorial": "Play the mission normally, and just fly the Heretic Banshee that you are forced to use. I don't know how you could possibly not have this achievement if you've beaten Halo 2...",
-        "video_tutorial": "https://www.youtube.com/watch?v=tDlGVVSdziw"
+        "video_tutorial": "https://www.youtube.com/embed/tDlGVVSdziw"
     }, {
         "name": "A Preference for Pain",
         "progressState": "locked",
@@ -7989,7 +7989,7 @@
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Collect every skull from Halo CE, Halo 2, and Halo 3. Each skull has its own achievement, so find only the ones you don't currently have. Watch Halo Completionist's full guide to see every location.",
-        "video_tutorial": "https://www.youtube.com/watch?v=rQV_bbJmcSQ"
+        "video_tutorial": "https://www.youtube.com/embed/rQV_bbJmcSQ"
     }, {
         "name": "Boot Camp Hero",
         "progressState": "locked",
@@ -8639,7 +8639,7 @@
         "titles": ["cross-game"],
         "maps": ["all_campaign"],
         "tutorial": "Get a cummulative total of 1000 Grunt kills. Easy to get just by playing, but if you need to farm, just play Halo:Reach custom Firefight with all the enemies set to grunts.",
-        "video_tutorial": "https://www.youtube.com/watch?v=bI7j-N7RU_4"
+        "video_tutorial": "https://www.youtube.com/embed/bI7j-N7RU_4"
     }, {
         "name": "Were It So Easy",
         "progressState": "locked",
@@ -8659,7 +8659,7 @@
         "titles": ["cross-game"],
         "maps": ["all_campaign"],
         "tutorial": "Get a cummulative total of 1000 Elite kills. Easy to get just by playing, but if you need to farm, just play Halo:Reach custom Firefight with all the enemies set to Elites, with insta-kill settings on. Imagine the above video but with Elites.",
-        "video_tutorial": "https://www.youtube.com/watch?v=bI7j-N7RU_4"
+        "video_tutorial": "https://www.youtube.com/embed/bI7j-N7RU_4"
     }, {
         "name": "Scavenger Hunt",
         "progressState": "locked",
@@ -8679,7 +8679,7 @@
         "titles": ["cross-game"],
         "maps": ["all_campaign"],
         "tutorial": "Get a cummulative total of 1000 Jackal kills. Easy to get just by playing, but if you need to farm, just play Halo:Reach custom Firefight with all the enemies set to Jackals, with insta-kill settings on. Imagine the above video but with Jackals.",
-        "video_tutorial": "https://www.youtube.com/watch?v=bI7j-N7RU_4"
+        "video_tutorial": "https://www.youtube.com/embed/bI7j-N7RU_4"
     }, {
         "name": "Dankey Kang",
         "progressState": "locked",
@@ -8699,7 +8699,7 @@
         "titles": ["cross-game"],
         "maps": ["all_campaign"],
         "tutorial": "Get a cummulative total of 1000 Brute kills. Easy to get just by playing, but if you need to farm, just play Halo:Reach custom Firefight with all the enemies set to Brutes, with insta-kill settings on. Imagine the above video but with Brutes.",
-        "video_tutorial": "https://www.youtube.com/watch?v=bI7j-N7RU_4"
+        "video_tutorial": "https://www.youtube.com/embed/bI7j-N7RU_4"
     }, {
         "name": "Wyrmslayer",
         "progressState": "locked",
@@ -8719,7 +8719,7 @@
         "titles": ["cross-game"],
         "maps": ["all_campaign"],
         "tutorial": "Get a cummulative total of 250 Hunter kills. You'll likely want to farm this one, start a Halo:Reach custom Firefight with all the enemies set to Hunters, with insta-kill settings on. Imagine the above video but with Hunters. Easy 250 in no time at all!",
-        "video_tutorial": "https://www.youtube.com/watch?v=bI7j-N7RU_4"
+        "video_tutorial": "https://www.youtube.com/embed/bI7j-N7RU_4"
     }, {
         "name": "Remove the Bishops From the Board",
         "progressState": "locked",
@@ -8737,9 +8737,9 @@
         },
         "mode": ["campaign","spartan_ops"],
         "titles": ["halo4"],
-        "maps": ["spartan_ops_all_missions"],
+        "maps": ["all_spartan_ops"],
         "tutorial": "Get a cummulative total of 1000 Watcher kills. Can farm Watcher kills on the mission Shutdown at the Rally Point Bravo checkpoint.",
-        "video_tutorial": "https://www.youtube.com/watch?v=QTFk_vcNpM0"
+        "video_tutorial": "https://www.youtube.com/embed/QTFk_vcNpM0"
     }, {
         "name": "Knightbane",
         "progressState": "locked",
@@ -8757,9 +8757,9 @@
         },
        "mode": ["campaign","spartan_ops"],
         "titles": ["halo4"],
-        "maps": ["spartan_ops_all_missions"],
+        "maps": ["all_spartan_ops"],
         "tutorial": "Get a cummulative total of 1000 Knight kills. You can farm Knight kills on the mission Midnight at the Rally Point Charlie checkpoint.",
-        "video_tutorial": "https://www.youtube.com/watch?v=YtszIbGFTyY"
+        "video_tutorial": "https://www.youtube.com/embed/YtszIbGFTyY"
     }, {
         "name": "Dogcatcher",
         "progressState": "locked",
@@ -8777,9 +8777,9 @@
         },
         "mode": ["campaign","spartan_ops"],
         "titles": ["halo4"],
-        "maps": ["spartan_ops_all_missions"],
+        "maps": ["all_spartan_ops"],
         "tutorial": "Get a cummulative total of 1000 Crawler kills. You can farm Crawler kills on the mission Midnight near the Rally Point Charlie checkpoint.",
-        "video_tutorial": "https://www.youtube.com/watch?v=a8LnAjoZoYg"
+        "video_tutorial": "https://www.youtube.com/embed/a8LnAjoZoYg"
     }, {
         "name": "Greenhorn",
         "progressState": "locked",
@@ -8904,7 +8904,7 @@
         "titles": ["halo3"],
         "maps": ["crows_nest"],
         "tutorial": "Get a score of 19,000 on Crows Nest. It is recommend to play on Legendary as it gives 4X the score per kill.",
-        "video_tutorial": "https://www.youtube.com/watch?v=7I9pXhXoRKs"
+        "video_tutorial": "https://www.youtube.com/embed/7I9pXhXoRKs"
     }, {
         "name": "Witch Doctor",
         "progressState": "locked",
@@ -8924,7 +8924,7 @@
         "titles": ["halo3"],
         "maps": ["all_campaign"],
         "tutorial": "Find and Collect all 13 skulls in Halo 3. Each skull has its own individual achievement. Watch Maka91's guide to se the location of all.",
-        "video_tutorial": "https://www.youtube.com/watch?v=QvJwBrlt9NA"
+        "video_tutorial": "https://www.youtube.com/embed/QvJwBrlt9NA"
     }, {
         "name": "Skulltaker Halo 3: Blind",
         "progressState": "locked",
@@ -8944,7 +8944,7 @@
         "titles": ["halo3"],
         "maps": ["sierra_117"],
         "tutorial": "On Sierra 117 at the first enemy encounter, the Blind skull is by the lake sitting on a rock on the right side.",
-        "video_tutorial": "https://www.youtube.com/watch?v=QvJwBrlt9NA?start=9"
+        "video_tutorial": "https://www.youtube.com/embed/QvJwBrlt9NA?start=9"
     }, {
         "name": "Skulltaker Halo 3: Grunt Birthday Party",
         "progressState": "locked",
@@ -8964,7 +8964,7 @@
         "titles": ["halo3"],
         "maps": ["crows_nest"],
         "tutorial": "On Crows Nest, when you drop down into a vent filled with Buggers flying around, the Grunt Birthday Party Skull is at the end of this tunnel, and you need to carefully fall under the platform in order to get to it.",
-        "video_tutorial": "https://www.youtube.com/watch?v=QvJwBrlt9NA?start=116"
+        "video_tutorial": "https://www.youtube.com/embed/QvJwBrlt9NA?start=116"
     }, {
         "name": "Skulltaker Halo 3: Cowbell",
         "progressState": "locked",
@@ -8984,7 +8984,7 @@
         "titles": ["halo3"],
         "maps": ["the_ark"],
         "tutorial": "Near the end of the mission The Ark, you will need a gravity lift. In one of the stairwells, throw the gravity lift and the Cowbell skull is sitting in the 3rd nook attached to the cieling. Watch guide for exact location.",
-        "video_tutorial": "https://www.youtube.com/watch?v=QvJwBrlt9NA?start=340"
+        "video_tutorial": "https://www.youtube.com/embed/QvJwBrlt9NA?start=340"
     }, {
         "name": "Skulltaker Halo 3: IWHBYD",
         "progressState": "locked",
@@ -9004,7 +9004,7 @@
         "titles": ["halo3"],
         "maps": ["the_covenant"],
         "tutorial": "At the very end of the mission The Covenant, after you kill Truth, you will need to jump through the holographic Halo rings in a specific order for the IWHBYD Skull to spawn. Watch the video for exact order.",
-        "video_tutorial": "https://www.youtube.com/watch?v=QvJwBrlt9NA?start=445"
+        "video_tutorial": "https://www.youtube.com/embed/QvJwBrlt9NA?start=445"
     }, {
         "name": "No Stone Unturned",
         "progressState": "locked",
@@ -9024,7 +9024,7 @@
         "titles": ["halo3"],
         "maps": ["all_campaign"],
         "tutorial": "Activate all 8 Terminals hidden in Halo 3. Each Terminal has its own individual achievement. Watch Maka91's great guide to see all the locations of them.",
-        "video_tutorial": "https://www.youtube.com/watch?v=vpySZBy1lio"
+        "video_tutorial": "https://www.youtube.com/embed/vpySZBy1lio"
     }, {
         "name": "MVP",
         "progressState": "locked",
@@ -9040,10 +9040,10 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
+        "mode": ["multiplayer"],
+        "titles": ["halo2"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "You'll need to win a match and be the top play on your team with the most kills in order to get this achievement. If you aren't the best, play SWAT and you will eventually get it.",
         "video_tutorial": ""
     }, {
         "name": "Operation Completion",
@@ -9060,11 +9060,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["all_spartan_ops"],
+        "tutorial": "Complete any mission in Halo 4 Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/GlzaE5q.png"
     }, {
         "name": "Departure",
         "progressState": "locked",
@@ -9080,11 +9081,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_1"],
+        "tutorial": "Complete all 5 chapters in Episode 1 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "https://www.youtube.com/embed/ArA4SQgT4d0"
     }, {
         "name": "Artifact",
         "progressState": "locked",
@@ -9100,11 +9101,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_2"],
+        "tutorial": "Complete all 5 chapters in Episode 2 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "https://www.youtube.com/embed/7rhsDEQCCQo"
     }, {
         "name": "Catherine",
         "progressState": "locked",
@@ -9120,11 +9121,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_3"],
+        "tutorial": "Complete all 5 chapters in Episode 3 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "https://www.youtube.com/embed/oS5kFRYhegY"
     }, {
         "name": "Didact's Hand",
         "progressState": "locked",
@@ -9140,11 +9141,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_4"],
+        "tutorial": "Complete all 5 chapters in Episode 4 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "https://www.youtube.com/embed/aCaOfJN3LXo"
     }, {
         "name": "Memento Mori",
         "progressState": "locked",
@@ -9160,11 +9161,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_5"],
+        "tutorial": "Complete all 5 chapters in Episode 5 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "https://www.youtube.com/embed/VzMie_aisoE"
     }, {
         "name": "Scattered",
         "progressState": "locked",
@@ -9180,11 +9181,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_6"],
+        "tutorial": "Complete all 5 chapters in Episode 6 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "https://www.youtube.com/embed/lie9ir18F0U"
     }, {
         "name": "Invasion",
         "progressState": "locked",
@@ -9200,11 +9201,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_7"],
+        "tutorial": "Complete all 5 chapters in Episode 7 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "https://www.youtube.com/embed/CXZgTHW-0fQ"
     }, {
         "name": "Expendable",
         "progressState": "locked",
@@ -9220,11 +9221,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_8"],
+        "tutorial": "Complete all 5 chapters in Episode 8 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "https://www.youtube.com/embed/b0q28i0ii_4"
     }, {
         "name": "Key",
         "progressState": "locked",
@@ -9240,11 +9241,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_9"],
+        "tutorial": "Complete all 5 chapters in Episode 9 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements.",
+        "video_tutorial": "https://www.youtube.com/embed/D3uyq7MuyQc"
     }, {
         "name": "Exodus",
         "progressState": "locked",
@@ -9260,11 +9261,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_10"],
+        "tutorial": "Complete all 5 chapters in Episode 10 of Spartan Ops. Recommended to play on Legendary to unlock more completion achievements. ",
+        "video_tutorial": "https://www.youtube.com/embed/p2T6_eHVmqU"
     }, {
         "name": "Feet First",
         "progressState": "locked",
@@ -9280,11 +9281,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["all_spartan_ops"],
+        "tutorial": "Complete all 50 chapters of Spartan Ops. Play on Legendary for additional difficulty related achievements. You are in for a real treat!",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/GlzaE5q.png"
     }, {
         "name": "Term of Enlistment",
         "progressState": "locked",
@@ -9300,11 +9302,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["all_spartan_ops"],
+        "tutorial": "Complete all 50 chapters of Spartan Ops on atleast Normal difficulty. This achievement will unlock for completion on Heroic or Legendary.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/GlzaE5q.png"
     }, {
         "name": "Hazard Pay",
         "progressState": "locked",
@@ -9320,11 +9323,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["all_spartan_ops"],
+        "tutorial": "Complete all fifty chapters of Spartan Ops on atleast Heroic difficulty. This achievement will unlock for completion on Legendary as well.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/GlzaE5q.png"
     }, {
         "name": "Icarus",
         "progressState": "locked",
@@ -9340,11 +9344,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["all_spartan_ops"],
+        "tutorial": "Complete all fifty chapters of Spartan Ops on Legendary difficulty. You are in for a real treat!",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/GlzaE5q.png"
     }, {
         "name": "Smooth Operator",
         "progressState": "locked",
@@ -9360,11 +9365,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["all_spartan_ops"],
+        "tutorial": "You can unlock this achievement just by starting every chapter in Solo mode and then just ending the game. Or you could play through every chapter on solo Legendary, if you want ;) ",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/GlzaE5q.png"
     }, {
         "name": "Roses vs Violets",
         "progressState": "locked",
@@ -9380,11 +9386,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_1"],
+        "tutorial": "In Episode 1, Chapter 5 in Spartan Ops, you need to shoot a hidden radio that activates a dialoug easter egg. It is near the lava on the first structured area you come across.",
+        "video_tutorial": "https://www.youtube.com/embed/2Mr31BRsl5w"
     }, {
         "name": "No One Left Behind",
         "progressState": "locked",
@@ -9400,11 +9406,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_2"],
+        "tutorial": "On Episode 2 Chapter 3 in Spartan Ops, make sure you save atleast one marine on Heroic.",
+        "video_tutorial": "https://www.youtube.com/embed/KO5sauoe-8o"
     }, {
         "name": "Knight in White Assassination",
         "progressState": "locked",
@@ -9420,11 +9426,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_1","all_spartan_ops"],
+        "tutorial": "Assassinate a Knight on any Spartan Ops mission. Episode 1 Chapter 4 is likely the easiest, as you encounter a single Knight that you can run up too and assassinate. ",
+        "video_tutorial": "https://www.youtube.com/embed/Ur0zo6qrmnY"
     }, {
         "name": "What Power Outage?",
         "progressState": "locked",
@@ -9440,11 +9446,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_5"],
+        "tutorial": "On Episode 5, Chapter 4 in Spartan Ops on Heroic difficulty, use the Mantis to proect all the generators and don't let any of them get destroyed. Activate the defense turrets for additional assistance.",
+        "video_tutorial": "https://www.youtube.com/embed/hQnY9jpbkTk"
     }, {
         "name": "No Easy Way Out",
         "progressState": "locked",
@@ -9460,11 +9466,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["spartan_ops"],
+        "titles": ["halo4"],
+        "maps": ["episode_5"],
+        "tutorial": "On Episode 5, Chapter 1 of Spartan Ops, finish the entire encounter without any of the sensors getting destroyed.",
+        "video_tutorial": "https://www.youtube.com/embed/ME28AyWzgQ4"
     }, {
         "name": "Nice Work Dawg!",
         "progressState": "locked",
@@ -9480,11 +9486,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Either play normally and you will eventually get this one, or if you want to farm the achievement follow the guide in the video.",
+        "video_tutorial": "https://www.youtube.com/embed/d5M9p4VhOPQ"
     }, {
         "name": "Aim for the Head",
         "progressState": "locked",
@@ -9500,11 +9506,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Best way to get this one is to play SWAT in matchmaking, as every kill you get will be with a headshot.",
+        "video_tutorial": "https://www.youtube.com/embed/lkZDzH8gWmE"
     }, {
         "name": "Dim Mak",
         "progressState": "locked",
@@ -9520,11 +9526,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "If you want to farm this achievement, just start a Forge match with a friend and repeatedly beat them down.",
+        "video_tutorial": "https://www.youtube.com/embed/WPKliJrTQss"
     }, {
         "name": "Domination",
         "progressState": "locked",
@@ -9540,11 +9546,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "One of the harder and longer achievements with no way to farm. You need to get 100 Legendary medals in matchmaking. Legendary medals are the ones circled in red. Steaktaculars are the easiest, which is winning a game with over a 30 point lead. Good luck!",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/BkLnjW7.png"
     }, {
         "name": "Double Trouble",
         "progressState": "locked",
@@ -9560,11 +9567,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Earn 250 double kills in matchmaking. Easiest way to get multikills is by playing SWAT.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/8Bb22N6.jpg"
     }, {
         "name": "Spree Master",
         "progressState": "locked",
@@ -9580,11 +9588,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Earn 100 killing sprees (5 kills without dying) in matchmaking. Easiest way to get this is by playing SWAT. Or just being good 😉",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/2GLRoaH.png"
     }, {
         "name": "Catch This",
         "progressState": "locked",
@@ -9600,11 +9609,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Get 500 kills with grenades in matchmaking. When in doubt, throw a grenade!",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/ISb8Fb0.png"
     }, {
         "name": "Party Pooper",
         "progressState": "locked",
@@ -9620,11 +9630,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Get 250 killjoy medals (killing someone who is on a killing spree). I recommend playing BTB for this one, specially in Halo 4.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/RJ3tkw4.png"
     }, {
         "name": "Planting A Flag",
         "progressState": "locked",
@@ -9640,11 +9651,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Get 250 CTF related medals in matchmaking. Halo 4 and Halo 2 Annivesary give the most medals, so stick with those two if you want to speed this achievement up.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/oBiI04N.png"
     }, {
         "name": "The True King",
         "progressState": "locked",
@@ -9660,11 +9672,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+		"mode": ["multiplayer"],
+        "titles": ["crossgame"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Get 250 King of The Hill related medals in matchmaking. Halo 4 and Halo 2 Annivesary give the most medals, so stick with those two if you want to speed this achievement up.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/8FQYBDt.png"
     }, {
         "name": "Roadkill Rampage",
         "progressState": "locked",
@@ -9680,11 +9693,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Splatter 100 enemies in Halo 2 Annivesary multiplayer. Vehicles are only in BTB, so play that, hop in a Ghost or Warthog and pretend you're a lawn mower.",
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/TVlhWXb.png"
     }, {
         "name": "Rock and Coil Hit Back",
         "progressState": "locked",
@@ -9700,11 +9714,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "You need to get 100 Environmentalist medals(Kill with a Fusion Coil, or stalactite'. Lockdown and Stonetown are the only maps you can do this one. Keep at it and when you try, you can get 2 - 3 medals per match.",
+        "video_tutorial": "https://www.youtube.com/embed/fIhTfjzKzZk"
     }, {
         "name": "No Pain, No Gain",
         "progressState": "locked",
@@ -9720,11 +9734,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["crossgame"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete 1 mission in any LASO campaign playlist. Halo 4 has the easiest LASO of them all. ",
+        "video_tutorial": "https://www.youtube.com/embed/vmnCt9GnvcQ"
     }, {
         "name": "Airborne",
         "progressState": "locked",
@@ -9740,11 +9754,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["haloce"],
+        "maps": ["death_island"],
+        "tutorial": "Start up a custom game on Death Island. You will need to position a Tank on the top of the island, and then drive off of it like a ramp in order to get 5 second of air time. Then, have a second person stand below and assist you so they get splattered.",
+        "video_tutorial": "https://www.youtube.com/embed/gXxdCq0UDwE"
     }, {
         "name": "Assembly Skull",
         "progressState": "locked",
@@ -9760,11 +9774,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo3"],
+        "maps": ["assembly"],
+        "tutorial": "Start a Forge game on Assembly. The Skull will be hidden on top of one of the tubes that connects to the center structure.",
+        "video_tutorial": "https://www.youtube.com/embed/hMJSzBZzMa4"
     }, {
         "name": "Orbital Skull",
         "progressState": "locked",
@@ -9780,11 +9794,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo3"],
+        "maps": ["orbital"],
+        "tutorial": "Start a Forge game on Orbital. The skull is hidden at the very top of the map, inbetween the ceiling and a small ledge. Fly up to it and hold the pick up button, and exit Monitor mode and you will pick it up.",
+        "video_tutorial": "https://www.youtube.com/embed/hMJSzBZzMa4?start=41"
     }, {
         "name": "Sandbox Skull",
         "progressState": "locked",
@@ -9800,11 +9814,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo3"],
+        "maps": ["sandbox"],
+        "tutorial": "Start a Forge game on Sandbox. The skull is hidden out in the beam field. There are multiple methods to getting this skull, such as building a tunnel too it, but the easiest method is seen in the video above.",
+        "video_tutorial": "https://www.youtube.com/embed/hMJSzBZzMa4?start=67"
     }, {
         "name": "Citadel Skull",
         "progressState": "locked",
@@ -9820,11 +9834,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo3"],
+        "maps": ["citadel"],
+        "tutorial": "Start a Forge game on Citadel. The skull is hidden in one of the small rafters in the ceiling.",
+        "video_tutorial": "https://www.youtube.com/embed/hMJSzBZzMa4?start=133"
     }, {
         "name": "Heretic Skull",
         "progressState": "locked",
@@ -9840,11 +9854,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["multiplayer"],
+        "titles": ["halo3"],
+        "maps": ["heretic"],
+        "tutorial": "Start a Forge game on Heretic, and the skull is laying on the ledge above Red sides entry way.",
+        "video_tutorial": "https://www.youtube.com/embed/hMJSzBZzMa4?start=184"
     }, {
         "name": "Longshore Skull",
         "progressState": "locked",
@@ -9860,11 +9874,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo3"],
+        "maps": ["longshore"],
+        "tutorial": "Start a Forge game on Longshore. The skull is behind the airvents next to the large Fronk sign.",
+        "video_tutorial": "https://www.youtube.com/embed/hMJSzBZzMa4?start=205"
     }, {
         "name": "Brainpan",
         "progressState": "locked",
@@ -9880,11 +9894,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo3"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Collect all 6 skulls hidden on the Mythic maps. Watch Halo Completionist's great guide to see all the locations they are in.",
+        "video_tutorial": "https://www.youtube.com/embed/hMJSzBZzMa4"
     }, {
         "name": "Sightseeing",
         "progressState": "locked",
@@ -9900,11 +9914,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["haloce"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start and end a game on 8 different maps in Halo:CE. This does not have to be in matchmaking.",
+        "video_tutorial": "https://www.youtube.com/embed/gt7egA9CT9o"
     }, {
         "name": "Checking Out Your Options",
         "progressState": "locked",
@@ -9920,11 +9934,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["haloce"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start and end a game with 4 different gametypes. This does not have to be in matchmaking.",
+        "video_tutorial": "https://www.youtube.com/embed/gt7egA9CT9o"
     }, {
         "name": "Tourist",
         "progressState": "locked",
@@ -9940,11 +9954,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start and end a game on 8 different maps in Halo 2 Classic Multiplayer. This does not have to be in matchmaking.",
+        "video_tutorial": "https://www.youtube.com/embed/AIyIaEbW96c"
     }, {
         "name": "Window Shopping",
         "progressState": "locked",
@@ -9960,11 +9974,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start and end a game with 4 different gametypes in Halo 2 Classic Multiplayer. This does not have to be in matchmaking.",
+        "video_tutorial": "https://www.youtube.com/embed/AIyIaEbW96c"
     }, {
         "name": "World Traveller",
         "progressState": "locked",
@@ -9980,11 +9994,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["multiplayer"],
+        "titles": ["halo3"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start and end a game on 8 different maps in Halo 3 Multiplayer. This does not have to be in matchmaking.",
+        "video_tutorial": "https://www.youtube.com/embed/FS8nJpb4rcA"
     }, {
         "name": "Just Browsing",
         "progressState": "locked",
@@ -10000,11 +10014,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo3"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start and end a game with 4 different gametypes in Halo 3 Multiplayer. This does not have to be in matchmaking.",
+        "video_tutorial": "https://www.youtube.com/embed/FS8nJpb4rcA"
     }, {
         "name": "Going International",
         "progressState": "locked",
@@ -10020,11 +10034,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo4"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start and end a game on 8 different maps in Halo 4 Multiplayer. This does not have to be in matchmaking.",
+        "video_tutorial": "https://www.youtube.com/embed/a0izQAGnlcA"
     }, {
         "name": "Taste Test",
         "progressState": "locked",
@@ -10040,11 +10054,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["multiplayer"],
+        "titles": ["halo4"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start and end a game with 4 different gametypes in Halo 4 Multiplayer. This does not have to be in matchmaking.",
+        "video_tutorial": "https://www.youtube.com/embed/a0izQAGnlcA"
     }, {
         "name": "Naughty Naughty",
         "progressState": "locked",
@@ -10060,11 +10074,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["read","odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Kill 10 engineers. The mission 'Kikowani Station' in ODST has dozens of Engineers to kill.",
+        "video_tutorial": "https://www.youtube.com/embed/A5kRaeCZ134"
     }, {
         "name": "Well...Maybe One or Two",
         "progressState": "locked",
@@ -10080,11 +10094,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["read","odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Kill 25 engineers. The mission 'Kikowani Station' in ODST has dozens of Engineers to kill.",
+        "video_tutorial": "https://www.youtube.com/embed/A5kRaeCZ134"
     }, {
         "name": "Listener",
         "progressState": "locked",
@@ -10100,11 +10114,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #1 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "An Earful",
         "progressState": "locked",
@@ -10120,11 +10134,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #2 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Tuned In",
         "progressState": "locked",
@@ -10140,11 +10154,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #3 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Do Tell",
         "progressState": "locked",
@@ -10160,11 +10174,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #4 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Hear Me Out",
         "progressState": "locked",
@@ -10180,11 +10194,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #5 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Eavesdropping",
         "progressState": "locked",
@@ -10200,11 +10214,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #6 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Auditor",
         "progressState": "locked",
@@ -10220,11 +10234,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #7 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Overheard",
         "progressState": "locked",
@@ -10240,11 +10254,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #8 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Wiretapping",
         "progressState": "locked",
@@ -10260,11 +10274,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #9 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Monitored",
         "progressState": "locked",
@@ -10280,11 +10294,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #10 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Hang Onto My Words",
         "progressState": "locked",
@@ -10300,11 +10314,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #11 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Give Heed",
         "progressState": "locked",
@@ -10320,11 +10334,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #12 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Get A Load",
         "progressState": "locked",
@@ -10340,11 +10354,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #13 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Snoop Troop",
         "progressState": "locked",
@@ -10360,11 +10374,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #14 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "All Ears",
         "progressState": "locked",
@@ -10380,11 +10394,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #15 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Ear Bender",
         "progressState": "locked",
@@ -10400,11 +10414,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #16 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Plugged In",
         "progressState": "locked",
@@ -10420,11 +10434,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #17 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Attentive",
         "progressState": "locked",
@@ -10440,11 +10454,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #18 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Watchful",
         "progressState": "locked",
@@ -10460,11 +10474,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #19 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Observant",
         "progressState": "locked",
@@ -10480,11 +10494,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #20 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Scout",
         "progressState": "locked",
@@ -10500,11 +10514,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #21 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Adventurer",
         "progressState": "locked",
@@ -10520,11 +10534,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #22 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Spotter",
         "progressState": "locked",
@@ -10540,11 +10554,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #23 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Considerate",
         "progressState": "locked",
@@ -10560,11 +10574,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #24 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "On Your Toes",
         "progressState": "locked",
@@ -10580,11 +10594,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #25 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Archivist",
         "progressState": "locked",
@@ -10600,11 +10614,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #26 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Your Attention Please",
         "progressState": "locked",
@@ -10620,11 +10634,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #27 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Catching On",
         "progressState": "locked",
@@ -10640,11 +10654,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #28 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Wisening Up",
         "progressState": "locked",
@@ -10660,11 +10674,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Find audio log #29 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Audiophile",
         "progressState": "locked",
@@ -10680,11 +10694,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["data_hive"],
+        "tutorial": "Find the last audio log on the mission Data Hive, which is only possible after finding the other 29 first. The crooked cop will lead you to it.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU?start=973"
     }, {
         "name": "Rookie",
         "progressState": "locked",
@@ -10700,11 +10714,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete every mission in ODST on atleast Easy difficulty. This achievement will also unlock for Normal, Heroic, or Legendary completion.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.pinimg.com/originals/d9/56/5c/d9565cb10176da76aeb6ac2347d612d3.jpg"
     }, {
         "name": "Urban Warfare Badge",
         "progressState": "locked",
@@ -10720,11 +10735,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete every mission in ODST on atleast Normal difficulty. This achievement will also unlock for Heroic or Legendary completion.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/r5R4ypR.jpg"
     }, {
         "name": "First In, Last Out",
         "progressState": "locked",
@@ -10740,11 +10756,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete every mission in ODST on atleast Heroic difficulty. This achievement will also unlock for Legendary completion.",
+        "video_tutorial": "",
+		"image_tutorial":"https://www.gamereactor.eu/media/01/halo3_190106b.jpg"
     }, {
         "name": "Mean Streets of New Mombasa",
         "progressState": "locked",
@@ -10760,11 +10777,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete every mission in ODST on Legendary difficulty.",
+        "video_tutorial": "",
+		"image_tutorial":"https://i.imgur.com/rFLdNAf.png"
     }, {
         "name": "Junior Detective",
         "progressState": "locked",
@@ -10780,11 +10798,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "If you play through the game normally you will unlock these achievements by default. The are rewarded when you find the 'clues' for each mission.",
+        "video_tutorial": "https://www.youtube.com/embed/9onVhCPuTKg"
     }, {
         "name": "Investigator",
         "progressState": "locked",
@@ -10800,11 +10818,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "If you play through the game normally you will unlock these achievements by default. The are rewarded when you find the 'clues' for each mission.",
+        "video_tutorial": "https://www.youtube.com/embed/9onVhCPuTKg"
     }, {
         "name": "Gumshoe",
         "progressState": "locked",
@@ -10820,11 +10838,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "If you play through the game normally you will unlock these achievements by default. The are rewarded when you find the 'clues' for each mission.",
+        "video_tutorial": "https://www.youtube.com/embed/9onVhCPuTKg"
     }, {
         "name": "Bloodhound",
         "progressState": "locked",
@@ -10840,11 +10858,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "If you play through the game normally you will unlock these achievements by default. The are rewarded when you find the 'clues' for each mission.",
+        "video_tutorial": "https://www.youtube.com/embed/9onVhCPuTKg"
     }, {
         "name": "Private Eye",
         "progressState": "locked",
@@ -10860,11 +10878,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "If you play through the game normally you will unlock these achievements by default. The are rewarded when you find the 'clues' for each mission.",
+        "video_tutorial": "https://www.youtube.com/embed/9onVhCPuTKg"
     }, {
         "name": "Secret Agent",
         "progressState": "locked",
@@ -10880,11 +10898,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "If you play through the game normally you will unlock these achievements by default. The are rewarded when you find the 'clues' for each mission.",
+        "video_tutorial": "https://www.youtube.com/embed/9onVhCPuTKg"
     }, {
         "name": "Record Shop Owner",
         "progressState": "locked",
@@ -10900,11 +10918,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Find all 30 audio logs in ODST. Watch Maka91's guide to find all 30.",
+        "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Tayari Plaza",
         "progressState": "locked",
@@ -10920,11 +10938,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["tayari_plaza"],
+        "tutorial": "Finish the mission Tayari Plaza 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/1uaUGsZWjtE"
     }, {
         "name": "Uplift Reserve",
         "progressState": "locked",
@@ -10940,11 +10958,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["uplift_reserve"],
+        "tutorial": "Finish the mission Uplift Reserve 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/_4Dzla8P-jw"
     }, {
         "name": "Kizingo Boulevard",
         "progressState": "locked",
@@ -10960,11 +10978,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["kizingo_boulevard"],
+        "tutorial": "Finish the mission Kizingo Blvd 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/ilAyaePTR-o"
     }, {
         "name": "ONI Alpha Site",
         "progressState": "locked",
@@ -10980,11 +10998,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+      "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["oni_alpha_site"],
+        "tutorial": "Finish the mission ONI Alpha Site 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/Ox7_6cRr-hw"
     }, {
         "name": "NMPD HQ",
         "progressState": "locked",
@@ -11000,11 +11018,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+     "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["nmpd_hq"],
+        "tutorial": "Finish the mission NMPD HQ 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/sijJU8t1X90"
     }, {
         "name": "Kikowani Station",
         "progressState": "locked",
@@ -11020,11 +11038,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["kikowani_station"],
+        "tutorial": "Finish the mission Kikowani Station 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/mE7eLkf1TF4"
     }, {
         "name": "Data Hive",
         "progressState": "locked",
@@ -11040,11 +11058,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["data_hive"],
+        "tutorial": "Finish the mission Data Hive 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/aXrg069eBp0"
     }, {
         "name": "Coastal Highway",
         "progressState": "locked",
@@ -11060,11 +11078,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["coastal_highway"],
+        "tutorial": "Finish the mission Coastal Highway 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/cPvAiBnWXJ8"
     }, {
         "name": "Bill Past Due",
         "progressState": "locked",
@@ -11080,11 +11098,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["tayari_plaza"],
+        "tutorial": "Finish the mission Tayari Plaza in under 3 minutes. Play on Easy to and just run past every thing.",
+        "video_tutorial": "https://www.youtube.com/embed/1uaUGsZWjtE"
     }, {
         "name": "Floor It!",
         "progressState": "locked",
@@ -11100,11 +11118,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["uplift_reserve"],
+        "tutorial": "Finish the mission Uplift Reserve in under 4 minutes. You can drive past every encounter on this mission.",
+        "video_tutorial": "https://www.youtube.com/embed/_4Dzla8P-jw"
     }, {
         "name": "An Artist's Canvas",
         "progressState": "locked",
@@ -11120,11 +11138,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["kizingo_boulevard"],
+        "tutorial": "Finish the mission Kizingo Blvd in under 9 minutes. 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/ilAyaePTR-o"
     }, {
         "name": "A Pleasant Trip",
         "progressState": "locked",
@@ -11140,11 +11158,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["oni_alpha_site"],
+        "tutorial": "Finish the mission ONI Alpha Site in under 13 minutes.",
+        "video_tutorial": "https://www.youtube.com/embed/Ox7_6cRr-hw"
     }, {
         "name": "First Stop: Anywhere But Here!",
         "progressState": "locked",
@@ -11160,11 +11178,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["nmpd_hq"],
+        "tutorial": "Finish the mission NMPD HQ in under 10 minutes.",
+        "video_tutorial": "https://www.youtube.com/embed/sijJU8t1X90"
     }, {
         "name": "Feet, Don't Fail Me Now",
         "progressState": "locked",
@@ -11180,11 +11198,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["kikowani_station"],
+        "tutorial": "Finish the mission Kikowani Station in under 10 minutes.",
+        "video_tutorial": "https://www.youtube.com/embed/mE7eLkf1TF4"
     }, {
         "name": "Overtaken By Events",
         "progressState": "locked",
@@ -11200,11 +11218,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["data_hive"],
+        "tutorial": "Finish the mission Data Hive in under 16 minutes.",
+        "video_tutorial": "https://www.youtube.com/embed/aXrg069eBp0"
     }, {
         "name": "Double Time!",
         "progressState": "locked",
@@ -11220,11 +11238,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["coastal_highway"],
+        "tutorial": "Finish the mission Coastal Highway in under 25 minutes.",
+        "video_tutorial": "https://www.youtube.com/embed/cPvAiBnWXJ8"
     }, {
         "name": "Can't Stop Here, This is Brute Country",
         "progressState": "locked",
@@ -11240,11 +11258,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Beat each missions indivual par time. Watch Naked Eli's guides to learn the best strategies and skips!",
+        "video_tutorial": "https://www.youtube.com/embed/1uaUGsZWjtE?list=PL4RoBZrNqFcoc0lcgUrlG5aS7UgxIy-9e"
     }, {
         "name": "Survey Says...",
         "progressState": "locked",
@@ -11260,11 +11278,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["tayari_plaza"],
+        "tutorial": "Score atleast 8,000 points on Tayari Plaza. Recommended to play on Legendary difficulty with Thunderstorm, Tilt and Tough Luck activated to score the most points possible.",
+        "video_tutorial": "https://www.youtube.com/embed/nF8U1HssQZU"
     }, {
         "name": "Don't Strain Your Metaphors",
         "progressState": "locked",
@@ -11280,11 +11298,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["uplift_reserve"],
+        "tutorial": "Score atleast 14,000 points on Uplift Reserve. Recommended to play on Legendary difficulty with Thunderstorm, Tilt and Tough Luck activated to score the most points possible.",
+        "video_tutorial": "https://www.youtube.com/embed/lmljOkXBQR4"
     }, {
         "name": "Son of a Gun",
         "progressState": "locked",
@@ -11300,11 +11318,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["kizingo_boulevard"],
+        "tutorial": "Score atleast 18,000 points on Kizingo Blvd. Recommended to play on Legendary difficulty with Thunderstorm, Tilt and Tough Luck activated to score the most points possible.",
+        "video_tutorial": "https://www.youtube.com/embed/KL2DcW4GYy0"
     }, {
         "name": "I Love My Job",
         "progressState": "locked",
@@ -11320,11 +11338,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["oni_alpha_site"],
+        "tutorial": "Score atleast 16,000 points on ONI Alpha Site. Recommended to play on Legendary difficulty with Thunderstorm, Tilt and Tough Luck activated to score the most points possible.",
+        "video_tutorial": "https://www.youtube.com/embed/CTfx69m-YK8"
     }, {
         "name": "Pour It On",
         "progressState": "locked",
@@ -11340,11 +11358,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["nmpd_hq"],
+        "tutorial": "Score atleast 40,000 points on NMPD HQ. Recommended to play on Legendary difficulty with Thunderstorm, Tilt and Tough Luck activated to score the most points possible.",
+        "video_tutorial": "https://www.youtube.com/embed/xE8L-8NGaBg"
     }, {
         "name": "Squid Jackpot!",
         "progressState": "locked",
@@ -11360,10 +11378,10 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
+         "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["kikowani_station"],
+        "tutorial": "Score atleast 42,000 points on Kikowani Station. Recommended to play on Legendary difficulty with Thunderstorm, Tilt and Tough Luck activated to score the most points possible.",
         "video_tutorial": ""
     }, {
         "name": "Magic Touch",
@@ -11380,11 +11398,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["data_hive"],
+         "tutorial": "Score atleast 8,000 points on Data Hive. Recommended to play on Legendary difficulty with Thunderstorm, Tilt and Tough Luck activated to score the most points possible.",
+        "video_tutorial": "https://www.youtube.com/embed/5iWviWZAA_w"
     }, {
         "name": "This Oliphant Has No Brakes",
         "progressState": "locked",
@@ -11400,11 +11418,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["coastal_highway"],
+         "tutorial": "Score atleast 90,000 points on Coastal Highway. Recommended to play on Legendary difficulty with Thunderstorm, Tilt and Tough Luck activated to score the most points possible.",
+        "video_tutorial": "https://www.youtube.com/embed/q9EXHxucf_w"
     }, {
         "name": "The Marine Corps Gives Its Regards",
         "progressState": "locked",
@@ -11420,11 +11438,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Get the indiviudal par score on every mission in ODST. Watch HaloCompletionist's playlist for a guide for every mission if you need it.",
+        "video_tutorial": "https://www.youtube.com/embed/nF8U1HssQZU?list=PL3bi5dIhs8VUT6Ja1UIg4skxEtRDOIZx-"
     }, {
         "name": "Déjà Vu",
         "progressState": "locked",
@@ -11440,11 +11458,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["coop"],
+        "titles": ["odst"],
+        "maps": ["coastal_highway"],
+        "tutorial": "Start Coastal Highway with the Iron skull on and with 3 other friends. Once you get to the Highway, don't get into the Warthog and run to the exit tunnel. 2 Mongoose's and 4 Rocket Launchers with 1000 rockets each will be down there as a gift. Then, just complete the mission using them. ",
+        "video_tutorial": "https://www.youtube.com/embed/Ah1VwVbvKEs"
     }, {
         "name": "Do You Remember When We Met",
         "progressState": "locked",
@@ -11460,11 +11478,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Play a match of any ODST mission or map on the 22nd of any month. This is in reference to Halo 3:ODST launching on September 22nd, 2009.",
+        "video_tutorial": "https://www.youtube.com/embed/RsJd1UkHSdA"
     }, {
         "name": "Safety Not Guaranteed",
         "progressState": "locked",
@@ -11480,11 +11498,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["coop"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete the Halo 3 ODST LASO playlist. It is recomennded to do this in co-op, as you will get checkpoints. Watch HaloCompletionist's playlist guide for the best tips and strategies.",
+        "video_tutorial": "https://www.youtube.com/embed/SeVZItY0VoQ?list=PL3bi5dIhs8VUtitEn3gOA8ZcoUHdnj4sc"
     }, {
         "name": "Trifecta",
         "progressState": "locked",
@@ -11500,11 +11518,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete any three Halo 3: ODST playlists from the playlist lobby.",
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/mEHE0jV.jpg"
     }, {
         "name": "NEXT!",
         "progressState": "locked",
@@ -11520,11 +11539,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete any Halo 3: ODST playlists from the playlist lobby.",
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/mEHE0jV.jpg"
     }, {
         "name": "Nagato Makes Moving Easy",
         "progressState": "locked",
@@ -11540,11 +11560,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete all missions with a combined time of under 3 hours. This is takes into account your best times for each mission. Watch Naked Eli's great Legendary speedrun guides for each mission and you'll become an ODST master.",
+        "video_tutorial": "https://www.youtube.com/embed/1uaUGsZWjtE"
     }, {
         "name": "One Got Away",
         "progressState": "locked",
@@ -11560,11 +11580,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["epilogue"],
+        "tutorial": "Start the Epilogue. When Johnson is getting his cigar lit by Virgil, hold your right analog to the left, or move your mouse to the left. The camera will move with it, and reveal Buck doing something disturbing to a monkey. ",
+        "video_tutorial": "https://www.youtube.com/embed/1XkKrxXfV4o"
     }, {
         "name": "Like a Broken Record",
         "progressState": "locked",
@@ -11580,11 +11600,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["kikowani_station"],
+        "tutorial": "Start Kikowani Station on Legendary difficulty at rally point Charlie. Fly the Banshee to the right of the first area you go into, and land into the dark red area ontop of the small roof. Then, stand still and be prepared for greatness.",
+        "video_tutorial": "https://www.youtube.com/embed/QDLjiLMh3mg"
     }, {
         "name": "Vandalised",
         "progressState": "locked",
@@ -11600,11 +11620,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["nmpd_hq"],
+        "tutorial": "Start the mission NMPD HQ. In the first section, go all the way to the back. Then, jump off the building while facing it. Look at the graffitied face on the wall.",
+        "video_tutorial": "https://www.youtube.com/embed/11RewJcg6io"
     }, {
         "name": "Saturday Morning Cartoon",
         "progressState": "locked",
@@ -11620,11 +11640,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "At the starting area of Mombassa Streets, you will enter in a dark building normally. At the end of the building before you exit, in the right side their is a couch. Infront of the couch is a box of Web-o's cereal. Look at it and you'll get the achievement. ",
+        "video_tutorial": "https://www.youtube.com/embed/Yuw3ElJ0Kxc"
     }, {
         "name": "Classic",
         "progressState": "locked",
@@ -11640,11 +11660,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["uplift_reserve"],
+        "tutorial": "Start Uplift Reserve on Legendary difficulty, then just drive through the entire mission without shooting or throwing grenades.",
+        "video_tutorial": "https://www.youtube.com/embed/7sYdE9eOwOQ"
     }, {
         "name": "Catch 'Em Napping",
         "progressState": "locked",
@@ -11660,11 +11680,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["mombasa_streets"],
+        "tutorial": "Kill a total of five sleeping Grunts in Mombasa Streets. You will find them normally, scattered throughout the game.",
+        "video_tutorial": "https://www.youtube.com/embed/KL4aXm4Y0-0"
     }, {
         "name": "Strong, Silent Type",
         "progressState": "locked",
@@ -11680,11 +11700,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["data_hive"],
+        "tutorial": "Start the mission Data Hive on rally point Echo, then go and assassinate the 3 Brutes that are near the entrance to Virgil.",
+        "video_tutorial": "https://www.youtube.com/embed/HVD8jIZz9bk"
     }, {
         "name": "Bip! Bap! BAM!",
         "progressState": "locked",
@@ -11700,11 +11720,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "Just get a Triple Kill while using a pistol. This is incredibly easy, ya'll really need a guide for this?",
+        "video_tutorial": "https://www.youtube.com/embed/xgoPbP2bFmo"
     }, {
         "name": "Pineapple Express",
         "progressState": "locked",
@@ -11720,11 +11740,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign"],
+        "tutorial": "This can be done on any mission, but is easy on this mission Data Hive. Get to the room before you meet Dare, and a large group of enemies will be standing still. Throw a Plasma grenade at them and you will get the achievement.",
+        "video_tutorial": "https://www.youtube.com/embed/rkShWToFpBQ"
     }, {
         "name": "Fowl Hunt",
         "progressState": "locked",
@@ -11740,11 +11760,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["oni_alpha_site"],
+        "tutorial": "Start ONI Alpha Site and get to the area where you need to defend the elevators. Pick up a Shotgun from a marine, then hold onto it until you get to the roof of the building. Then just kill 3 Brutes with the Shotgun.",
+        "video_tutorial": "https://www.youtube.com/embed/NsmOIxG5Fbo"
     }, {
         "name": "Does Whatever a Spartan Can?",
         "progressState": "locked",
@@ -11760,11 +11780,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["oni_alpha_site", "kizingo_boulevard"],
+        "tutorial": "Both ONI Alpha Site and Kizingo Boulevard have Wraiths you can kill. Just walk up to one, hijack it and destroy it.",
+        "video_tutorial": "https://www.youtube.com/embed/ehM_UV-8-OM"
     }, {
         "name": "Firefly",
         "progressState": "locked",
@@ -11780,11 +11800,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["data_hive"],
+        "tutorial": "Play through Data Hive and be sure to pick up a fire grenade. Then, when you encounter a Drone, use the fire grenade on it.",
+        "video_tutorial": "https://www.youtube.com/embed/rkShWToFpBQ"
     }, {
         "name": "\"BLAM\" Said The Lady!",
         "progressState": "locked",
@@ -11800,11 +11820,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["coastal_highway"],
+        "tutorial": "At the start of Coastal Highway when you fight the first enemies, pick up a Rocket Launcher near the corner of the buildings. Then, walk up to Dare and swap weapons with her.",
+        "video_tutorial": "https://www.youtube.com/embed/YJIvRhQdp-Y"
     }, {
         "name": "One-Way Ride",
         "progressState": "locked",
@@ -11820,11 +11840,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["uplift_reserve"],
+        "tutorial": "Play Uplift Reserve on Heroic or Legendary, then just drive through the entire mission. Easy!",
+        "video_tutorial": "https://www.youtube.com/embed/xZEai_DImoI"
     }, {
         "name": "Just Sayin...I Ain't Dead",
         "progressState": "locked",
@@ -11840,11 +11860,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign","uplift_reserve"],
+       "tutorial": "Play Uplift Reserve on Heroic or Legendary, then just drive through the entire mission. Easy!",
+        "video_tutorial": "https://www.youtube.com/embed/xZEai_DImoI"
     }, {
         "name": "Deference of Darkness",
         "progressState": "locked",
@@ -11860,11 +11880,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["all_campaign","uplift_reserve"],
+        "tutorial": "Play through any level without acting your enhanced VISR mode. Easy to just do it on Uplift Reserve with the other 5 achievements you can unlock.",
+        "video_tutorial": "https://www.youtube.com/embed/xZEai_DImoI"
     }, {
         "name": "Those Left Behind",
         "progressState": "locked",
@@ -11880,11 +11900,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["tayari_plaza"],
+        "tutorial": "Start the mission Tayari Plaza on Easy, and ensure that one marine is kept alive. Kill every enemy, and if all the marines die revert your checkpoint.",
+        "video_tutorial": "https://www.youtube.com/embed/Nk5lgJMz-V0"
     }, {
         "name": "Shoot and Scoot",
         "progressState": "locked",
@@ -11900,11 +11920,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["nmpd_hq"],
+        "tutorial": "Complete the mission wihtout using your Sniper. Just replace it for a Plasma Pistol and the mission will be just as easy.",
+        "video_tutorial": "https://www.youtube.com/embed/DfEC4H6aV9I"
     }, {
         "name": "Fast and Low",
         "progressState": "locked",
@@ -11920,11 +11940,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["kikowani_station"],
+        "tutorial": "Use your Banshee on Kikowani Station to splatter 7 enemies.",
+        "video_tutorial": "https://www.youtube.com/embed/jGnrachSVwM"
     }, {
         "name": "Shiny...",
         "progressState": "locked",
@@ -11940,11 +11960,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["kizingo_boulevard"],
+        "tutorial": "Watch the video guide above. You will need to do a very precise timing trick in order to pilot a Banshee on this mission.",
+        "video_tutorial": "https://www.youtube.com/embed/9EHFIYrTzzk"
     }, {
         "name": "Bits and Pieces",
         "progressState": "locked",
@@ -11960,11 +11980,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["nmpd_hq"],
+        "tutorial": "At the ending section of NMPD HQ, use the Missile Turrets to destroy 5 Phantoms.",
+        "video_tutorial": "https://www.youtube.com/embed/EgQnqVrS90s"
     }, {
         "name": "What About Those Tanks?",
         "progressState": "locked",
@@ -11980,11 +12000,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["oni_alpha_site"],
+        "tutorial": "At the very start, turn around and blow up the 3 Wraiths you usually ignore. Then, just revert your checkpoint and do it again until you get the achievement.",
+        "video_tutorial": "https://www.youtube.com/embed/gkXgoUM7fjk"
     }, {
         "name": "Two Places, Same Time",
         "progressState": "locked",
@@ -12000,11 +12020,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["tayari_plaza"],
+        "tutorial": "On Tayari Plaza, meet up with the marines behind the destroyed Warthog. Then, listen to there advice and head up the second level of the building so you can flank the Brutes. Once you get up there, the marines will start shooting and you'll get the achievement.",
+        "video_tutorial": "https://www.youtube.com/embed/JGktIR8QAcg"
     }, {
         "name": "Xenophobia",
         "progressState": "locked",
@@ -12020,11 +12040,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["odst"],
+        "maps": ["uplift_reserve","all_campaign"],
+        "tutorial": "This can be done on any mission, but doing it on Uplift Reserve by just driving past all the enemies can get you 4 other achievements, so do it that way.",
+        "video_tutorial": "https://www.youtube.com/embed/V22DNWySwkw"
     }, {
         "name": "Monumental Thirst!",
         "progressState": "locked",
@@ -12040,11 +12060,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["halo2"],
+        "maps": ["remnant"],
+        "tutorial": "Start a Forge game on the map Remnant (not Remnant Anniversary). Head to the back area by the dropship, and under the water near the rocks is the Blast soda can.",
+        "video_tutorial": "https://www.youtube.com/embed/MAq4X8KGQSc"
     }, {
         "name": "We're Just Getting Started",
         "progressState": "locked",
@@ -12060,11 +12080,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["winter_contingency"],
+        "tutorial": "Just complete the mission Winter Contingency 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/cHwVrCVl0rQ"
     }, {
         "name": "No Picnic",
         "progressState": "locked",

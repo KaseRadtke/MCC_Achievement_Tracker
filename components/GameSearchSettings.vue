@@ -44,6 +44,18 @@
             stacked
           ></b-form-checkbox-group>
         </div>
+        <div id="maps_div">
+          <div class="spartan_ops_maps" v-show="spartanOpsSelected">
+            <div>
+              <b-form-checkbox-group
+                v-model="selected"
+                :options="spartan_ops_maps"
+                plain
+                stacked
+              ></b-form-checkbox-group>
+            </div>
+          </div>
+        </div>
       </div>
     </b-form-group>
   </div>
@@ -60,41 +72,57 @@ export default {
 
   methods: {
     toggleAllCheckboxes(checked) {
-      var i;
       var checkboxArray = [];
-      for (i = 0; i < this.modes.length; i++) {
+      for (var i = 0; i < this.modes.length; i++) {
         checkboxArray.push(this.modes[i].value);
       }
-      for (i = 0; i < this.campaign_maps.length; i++) {
+      for (var i = 0; i < this.campaign_maps.length; i++) {
         checkboxArray.push(this.campaign_maps[i].value);
       }
-      for (i = 0; i < this.multiplayer_maps.length; i++) {
+      for (var i = 0; i < this.multiplayer_maps.length; i++) {
         checkboxArray.push(this.multiplayer_maps[i].value);
+      }
+
+      // Check for Spartan ops as only Halo 4 has it.
+      if (this.currentGame == "halo4") {
+        for (var i = 0; i < this.spartan_ops_maps.length; i++) {
+          checkboxArray.push(this.spartan_ops_maps[i].value);
+        }
       }
       this.selected = checked ? checkboxArray.slice() : [];
     },
 
     removeMapsInSelectedArray(mode) {
-      if (mode == "campaign") {
-        this.campaignSelected = false;
-        var i;
-        for (i = 0; i < this.campaign_maps.length; i++) {
-          var index = this.selected.indexOf(this.campaign_maps[i].value);
-          if (index > -1) {
-            this.selected.splice(index, 1);
+      console.log(mode);
+      switch (mode) {
+        case "campaign":
+          this.campaignSelected = false;
+          for (var i = 0; i < this.campaign_maps.length; i++) {
+            var index = this.selected.indexOf(this.campaign_maps[i].value);
+            if (index > -1) {
+              this.selected.splice(index, 1);
+            }
           }
-        }
-      }
+          break;
+        case "multiplayer":
+          this.multiplayerSelected = false;
+          for (var i = 0; i < this.multiplayer_maps.length; i++) {
+            var index = this.selected.indexOf(this.multiplayer_maps[i].value);
+            if (index > -1) {
+              this.selected.splice(index, 1);
+            }
+          }
+          break;
 
-      if (mode == "multiplayer") {
-        this.multiplayerSelected = false;
-        var i;
-        for (i = 0; i < this.multiplayer_maps.length; i++) {
-          var index = this.selected.indexOf(this.multiplayer_maps[i].value);
-          if (index > -1) {
-            this.selected.splice(index, 1);
+        case "spartan_ops":
+          this.spartanOpsSelected = false;
+          for (var i = 0; i < this.spartan_ops_maps.length; i++) {
+            var index = this.selected.indexOf(this.spartan_ops_maps[i].value);
+            if (index > -1) {
+              this.selected.splice(index, 1);
+            }
           }
-        }
+          break;
       }
     },
   },
@@ -104,27 +132,54 @@ export default {
       // Checks if all boxes have been selected
       if (newVal.length === 0) {
         this.allSelected = false;
-      } else if (
-        newVal.length ===
-        this.modes.length +
-          this.campaign_maps.length +
-          this.multiplayer_maps.length
-      ) {
-        this.allSelected = true;
-      } else {
-        this.allSelected = false;
       }
+
+      //Since Halo 4 and Reach have modes other games don't have, have to add in special checks for these games
+      switch (this.currentGame) {
+        case "halo4":
+          if (
+            newVal.length ===
+            this.modes.length +
+              this.campaign_maps.length +
+              this.multiplayer_maps.length +
+              this.spartan_ops_maps.length
+          ) {
+            this.allSelected = true;
+          } else {
+            this.allSelected = false;
+          }
+
+          if (this.selected.includes("spartan_ops")) {
+            this.spartanOpsSelected = true;
+          } else {
+            this.removeMapsInSelectedArray("spartan_ops");
+          }
+
+          break;
+
+        default:
+          if (
+            newVal.length ===
+            this.modes.length +
+              this.campaign_maps.length +
+              this.multiplayer_maps.length
+          ) {
+            this.allSelected = true;
+          } else {
+            this.allSelected = false;
+          }
+      }
+
+      // Checks for every mode filter. Removes div from display if they arent selected, and removes all items from the selected array.
       if (
         this.selected.includes("campaign") ||
         this.selected.includes("coop")
       ) {
         this.campaignSelected = true;
       } else {
-        // If both campaign and co-op are not selected, then this removes all campaign maps from the selected array, and the campaign form from the HTML is removed.
         this.removeMapsInSelectedArray("campaign");
       }
 
-      // Check if multiplayer is selected
       if (this.selected.includes("multiplayer")) {
         this.multiplayerSelected = true;
       } else {
@@ -138,10 +193,13 @@ export default {
       this.selected = this.gameData.selected;
       this.allSelected = this.gameData.allSelected;
       this.campaignSelected = this.gameData.campaignSelected;
-      this.multiplayerSelected = this.multiplayerSelected;
+      this.multiplayerSelected = this.gameData.multiplayerSelected;
+      this.spartanOpsSelected = this.gameData.spartanOpsSelected;
       this.modes = this.gameData.modes;
       this.campaign_maps = this.gameData.campaign_maps;
       this.multiplayer_maps = this.gameData.multiplayer_maps;
+      this.spartan_ops_maps = this.gameData.spartan_ops_maps;
+
       this.$emit("gameSelection", this.selected);
     },
   },
@@ -152,9 +210,11 @@ export default {
       allSelected: this.gameData.allSelected,
       campaignSelected: this.gameData.campaignSelected,
       multiplayerSelected: this.gameData.multiplayerSelected,
+      spartanOpsSelected: this.gameData.spartanOpsSelected,
       modes: this.gameData.modes,
       campaign_maps: this.gameData.campaign_maps,
       multiplayer_maps: this.gameData.multiplayer_maps,
+      spartan_ops_maps: this.gameData.spartan_ops_maps,
     };
   },
 };
@@ -196,6 +256,10 @@ export default {
 }
 
 .multiplayer_maps {
+  display: grid;
+}
+
+.spartan_ops_maps {
   display: grid;
 }
 

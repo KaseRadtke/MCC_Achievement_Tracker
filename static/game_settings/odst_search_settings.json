@@ -13,7 +13,8 @@
         { "text": "NMPD HQ","value": "nmpd_hq" },
         { "text": "Kikowani Station","value": "kikowani_station" },
         { "text": "Data Hive","value": "data_hive" },
-        { "text": "Coastal Highway","value": "coastal_highway" }
+        { "text": "Coastal Highway","value": "coastal_highway" },
+        { "text": "Epilogue","value": "epilogue" }
     ],
 
     "multiplayer_maps":[
@@ -30,7 +31,8 @@
         "nmpd_hq",
         "kikowani_station",
         "data_hive",
-        "coastal_highway"
+        "coastal_highway",
+        "epilogue"
     ],
     "allSelected" : true,
     "campaignSelected": true,
