@@ -49,7 +49,7 @@ export default {
   data() {
     return {
       game: "reach",
-      filterAchievementState: "locked",
+      filterAchievementState: "unlocked",
       achievementsJSON: json,
       searchCriteria: [],
     };
@@ -64,11 +64,11 @@ export default {
   methods: {
     gameSelected(selectedGame) {
       this.game = selectedGame;
+      this.$emit("backgroundChanged", this.game)
     },
 
     getSearchCriteria(gameSelectionArray) {
       this.searchCriteria = gameSelectionArray;
-      console.log(this.searchCriteria);
     },
   },
 
@@ -106,7 +106,7 @@ export default {
 }
 
 #mainpage {
-  border: #1e5d79 solid 2px;
+  border: #7e7f80 solid 2px;
   border-radius: 15px;
   margin: 0 auto;
   width: 110rem;

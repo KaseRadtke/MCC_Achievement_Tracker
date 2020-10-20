@@ -1,12 +1,11 @@
 <template>
   <div :class="active ? 'selected' : 'unselected'">
-    <li class="nav-item">
-      <a class="nav-link" href="#"
-        ><img
+    <li class="nav-item logoselection">
+        <img
           :src="require(`../static/game_symbols/${game}_symbol.png`)"
           :width="size"
           @click="$emit('selected', game)"
-      /></a>
+      />
     </li>
   </div>
 </template>
@@ -35,5 +34,8 @@ export default {
 }
 .unselected {
   opacity: 25%;
+}
+.logoselection{
+  cursor: pointer;
 }
 </style>

@@ -13,11 +13,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": ["campaign", "coop"],
+        "mode": ["campaign"],
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "To get this achievement, complete the Master Chief Saga Playlist located in the Cross-game section in the campaign lobby. This playlist contains every mission from Halo:CE through Halo 4.",
-        "video_tutorial": ""
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/8DnWKTh.png"
     }, {
         "name": "Just Getting Started",
         "progressState": "locked",
@@ -37,7 +38,8 @@
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Kill a combined total of 100 enemies (campaign or multiplayer). Easily obtainable by playing normally.",
-        "video_tutorial": ""
+        "video_tutorial": "",
+		"image_tutorial": "https://i.pinimg.com/originals/cc/1f/60/cc1f603359e294427a8b332b22da7df6.jpg"
     }, {
         "name": "Balaho's Most Wanted",
         "progressState": "locked",
@@ -57,7 +59,8 @@
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Kill a combined total of 100 Grunts in PVE mode (Campaign, Firefight, Spartan Ops). This achievement is easily unlocked by playing normally.",
-        "video_tutorial": ""
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/qihvLbz.jpg"
     }, {
         "name": "The One Percent",
         "progressState": "locked",
@@ -77,7 +80,8 @@
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Kill a combined total of 100 Elites in PVE mode (Campaign, Firefight, Spartan Ops). This achievement is easily unlocked by playing normally.",
-        "video_tutorial": ""
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/pywzjSt.jpg"
     }, {
         "name": "Spoilsport",
         "progressState": "locked",
@@ -237,7 +241,8 @@
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "This achievement can be unlocked by playing campaign normally with patience.",
-        "video_tutorial": ""
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "The Guardians Are Coming",
         "progressState": "locked",
@@ -357,7 +362,8 @@
         "titles": ["crossgame"],
         "maps": ["all_multiplayer"],
         "tutorial": "Try your best and win matches!",
-        "video_tutorial": ""
+         "video_tutorial": "",
+		"image_tutorial": "https://i.ytimg.com/vi/WLJagcey0kQ/maxresdefault.jpg"
     }, {
         "name": "Forged in Fire",
         "progressState": "locked",
@@ -377,7 +383,8 @@
         "titles": ["crossgame"],
         "maps": ["all_multiplayer"],
         "tutorial": "Try your best and win matches!",
-        "video_tutorial": ""
+        "video_tutorial": "",
+		"image_tutorial": "https://i.ytimg.com/vi/WLJagcey0kQ/maxresdefault.jpg"
     }, {
         "name": "Sample Plate",
         "progressState": "locked",
@@ -2249,7 +2256,7 @@
         "maps": ["all_campaign"],
         "tutorial": "This achievement can be unlocked with normal play and patience.",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "A Day To Remember",
         "progressState": "locked",
@@ -5875,7 +5882,7 @@
         },
         "mode": ["multiplayer"],
         "titles": ["halo3"],
-        "maps": ["highground"],
+        "maps": ["high_ground"],
         "tutorial": "Start a custom game on Highground, and head to back area of Red teams spawn, to the room that has a partially destroyed wall. Inside is a computer on table, and a radio underneath. After around 5 - 8 minutes the radio will play the song 'A Night in the Woods' from Halo:CE. The radio also beeps occasionly the message 'Don't make us kick your ass' in morse code. ",
         "video_tutorial": "https://www.youtube.com/embed/9npwQNZrEf4"
     }, {
@@ -8031,7 +8038,7 @@
         "maps": ["all_campaign"],
         "tutorial": "Collect a cummulative total of 2,000 medals in campaign.",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "A Crate of Medals",
         "progressState": "locked",
@@ -8052,7 +8059,7 @@
         "maps": ["all_campaign"],
         "tutorial": "Collect a cummulative total of 3,000 medals in campaign.",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "A Heap of Medals",
         "progressState": "locked",
@@ -8073,7 +8080,7 @@
         "maps": ["all_campaign"],
         "tutorial": "Collect a cummulative total of 4,000 medals in campaign.",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "A Few Trinkets",
         "progressState": "locked",
@@ -8094,7 +8101,7 @@
         "maps": ["all_campaign"],
         "tutorial": "Collect a cummulative total of 5,000 medals in campaign.",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "Chest of Gold",
         "progressState": "locked",
@@ -8136,7 +8143,7 @@
         "maps": ["all_campaign"],
         "tutorial": "Collect a cummulative total of 6,000 medals in campaign.",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "Chesty Puller Starter Kit",
         "progressState": "locked",
@@ -8157,7 +8164,7 @@
         "maps": ["all_campaign"],
         "tutorial": "Collect a cummulative total of 7,000 medals in campaign.",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "Medal Master Chief",
         "progressState": "locked",
@@ -8178,7 +8185,7 @@
         "maps": ["all_campaign"],
         "tutorial": "Collect a cummulative total of 8,000 medals in campaign. Keep playing on Easy with scoring on and you'll get it eventually!",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "Contender",
         "progressState": "locked",
@@ -8577,7 +8584,7 @@
         "maps": ["all_campaign"],
         "tutorial": "Collect a cummulative total of 500 medals in campaign. If you don't know this I am surprised you are looking up guides and clicked this indiviudal guide. Actually I am more suspicous then surprised...",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "All Out of Bubblegum",
         "progressState": "locked",
@@ -8598,7 +8605,7 @@
         "maps": ["all_campaign"],
         "tutorial": "Collect a cummulative total of 1000 medals in campaign. You will get this one naturally if you do other campaign achievements.",
         "video_tutorial": "",
-		"image_tutorial":"https://i.imgur.com/wi5OyxU.png"
+		"image_tutorial": "https://i.imgur.com/MgTeQbs.jpg"
     }, {
         "name": "Foe Hammer",
         "progressState": "locked",
@@ -9044,7 +9051,8 @@
         "titles": ["halo2"],
         "maps": ["all_multiplayer"],
         "tutorial": "You'll need to win a match and be the top play on your team with the most kills in order to get this achievement. If you aren't the best, play SWAT and you will eventually get it.",
-        "video_tutorial": ""
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/oxE1EcA.png"
     }, {
         "name": "Operation Completion",
         "progressState": "locked",
@@ -12100,11 +12108,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["exodus"],
+        "tutorial": "Despite the description, this is located at the start of Exodus. Near the first door is a teddy bear backpack. Look at it and the achievement will unlock.",
+        "video_tutorial": "https://www.youtube.com/embed/SQFzfHO4ZcQ"
     }, {
         "name": "Protocol Dictates Action",
         "progressState": "locked",
@@ -12120,11 +12128,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["oni_swordbase"],
+        "tutorial": "Just complete the mission ONI: Sword Base 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/G8MNe0VtN5Q"
     }, {
         "name": "I Need A Weapon",
         "progressState": "locked",
@@ -12140,11 +12148,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["nightfall"],
+        "tutorial": "Just complete the mission Nightfall 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/h0_nCnLHvSI"
     }, {
         "name": "To War",
         "progressState": "locked",
@@ -12160,11 +12168,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["tip_of_the_spear"],
+        "tutorial": "Just complete the mission The Tip of the Spear 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/6dFZN6oa76k"
     }, {
         "name": "You Flew Pretty Good",
         "progressState": "locked",
@@ -12180,11 +12188,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["long_night_of_solace"],
+        "tutorial": "Just complete the mission The Long Night of Solace 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/Ia6o_TF_Z80"
     }, {
         "name": "Into The Howling Dark",
         "progressState": "locked",
@@ -12200,11 +12208,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["exodus"],
+        "tutorial": "Just complete the mission Exodus 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/1GjzO6gaO9M"
     }, {
         "name": "Dust And Echoes",
         "progressState": "locked",
@@ -12220,11 +12228,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "Just complete the mission New Alexandria 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/qagpEufHjxk"
     }, {
         "name": "This Is Not Your Grave",
         "progressState": "locked",
@@ -12240,11 +12248,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_package"],
+        "tutorial": "Just complete the mission The Package 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/IE4qdU8ZrmY"
     }, {
         "name": "Send Me Out... With A Bang",
         "progressState": "locked",
@@ -12260,11 +12268,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_pillar_of_autumn"],
+        "tutorial": "Just complete the mission The Pillar of Autumn 😊.",
+        "video_tutorial": "https://www.youtube.com/embed/Nv20epegEV8"
     }, {
         "name": "Welcome to Reach",
         "progressState": "locked",
@@ -12280,11 +12288,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete every mission in Halo: Reach on atleast Easy difficulty. This achievement will also unlock for completion on Normal, Heroic, or Legendary.",
+        "video_tutorial": "",
+		"image_tutorial": "https://i.pinimg.com/originals/0f/3c/61/0f3c61c48ce5a67b18b2239c785c8e2a.jpg"
     }, {
         "name": "The Soldier We Need You To Be",
         "progressState": "locked",
@@ -12300,11 +12309,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete every mission in Halo: Reach on atleast Normal difficulty. This achievement will also unlock for completion on Heroic or Legendary.",
+        "video_tutorial": "",
+		"image_tutorial": "https://i.pinimg.com/originals/42/7e/81/427e81a525307774bb83b8c418a98d7c.jpg"
     }, {
         "name": "Folks Need Heroes…",
         "progressState": "locked",
@@ -12320,11 +12330,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete every mission in Halo: Reach on atleast Heroic difficulty. This achievement will also unlock for completion on Legendary.",
+        "video_tutorial": "",
+		"image_tutorial": "https://archive-media-1.nyafuu.org/wg/image/1415/94/1415947795095.jpg"
     }, {
         "name": "Gods Must Be Strong",
         "progressState": "locked",
@@ -12340,11 +12351,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+      "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete every mission in Halo: Reach on Legendary difficulty.",
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/odOLgTT.png"
     }, {
         "name": "A Monument To All Your Sins",
         "progressState": "locked",
@@ -12360,11 +12372,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete every mission in Halo: Reach on Legendary difficulty by yourself. Watch HaloCompletionist's playlist guide for help if you need it.",
+        "video_tutorial": "https://www.youtube.com/embed/UmAVhmiu3zg?list=PL3bi5dIhs8VV9i2XwBEB1EVpyruyMZW__"
     }, {
         "name": "Winter Urgency",
         "progressState": "locked",
@@ -12380,11 +12392,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["winter_contingency"],
+        "tutorial": "Complete the mission Winter Contingency in under 15 minutes. You can use a trick to steal a Falcon and skip a majority of the mission.",
+        "video_tutorial": "https://www.youtube.com/embed/qGDwkcMCgKI"
     }, {
         "name": "Just Like Storming a Castle",
         "progressState": "locked",
@@ -12400,11 +12412,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["oni_swordbase"],
+        "tutorial": "Complete the mission ONI: Sword base in under 10 minutes. Not many tricks on this mission, just have to run past most enemies.",
+        "video_tutorial": "https://www.youtube.com/embed/lm9prjZmpP4"
     }, {
         "name": "Now Just You Gúta Minute",
         "progressState": "locked",
@@ -12420,11 +12432,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["nightfall"],
+        "tutorial": "Complete the mission Nightfall in under 10 minutes. This mission can be done in under 3 minutes but running past all the enemies and using a Forklift to clip through a gate.",
+        "video_tutorial": "https://www.youtube.com/embed/X1eUvtzRVoo"
     }, {
         "name": "Generous Tipper",
         "progressState": "locked",
@@ -12440,11 +12452,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["tip_of_the_spear"],
+        "tutorial": "Complete the mission the Tip of the Spear in under 15 minutes. You can blow up both AA guns using the Warthog turrets very fast and safely, and it saves you the most time.",
+        "video_tutorial": "https://www.youtube.com/embed/bL7zrHwVuuA"
     }, {
         "name": "Sabre Metrics",
         "progressState": "locked",
@@ -12460,11 +12472,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["long_night_of_solace"],
+        "tutorial": "Complete the mission the Long Night of Solace in under 25 minutes. Not many skips of this mission, you just need to know where enemies are and quickly kill them.",
+        "video_tutorial": "https://www.youtube.com/embed/Ia6o_TF_Z80"
     }, {
         "name": "Quicker Than Reading the Book",
         "progressState": "locked",
@@ -12480,11 +12492,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["exodus"],
+        "tutorial": "Complete the mission the Long Night of Solace in under 25 minutes. Not many skips of this mission, you just need to know where enemies are and quickly kill them.",
+        "video_tutorial": "https://www.youtube.com/embed/kCwWJwVMDBE"
     }, {
         "name": "One For the Record Books",
         "progressState": "locked",
@@ -12500,11 +12512,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "Complete the mission the New Alexandria in under 20 minutes.",
+        "video_tutorial": "https://www.youtube.com/embed/8i2zYI96gzw"
     }, {
         "name": "Speedy Delivery",
         "progressState": "locked",
@@ -12520,11 +12532,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_package"],
+        "tutorial": "Complete the mission The Package in under 20 minutes. Not many tricks to skip encounters for this mission. I recommend do it on Easy, as the last area of the mission is much more challenging on higher difficulties. ",
+        "video_tutorial": "https://www.youtube.com/embed/9_xJLIHERyM"
     }, {
         "name": "Wait, How'd the Ship Get Down Here?",
         "progressState": "locked",
@@ -12540,11 +12552,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_pillar_of_autumn"],
+        "tutorial": "Complete the mission The Pillar of Autumn in Halo:Reach in under 20 minutes. Watch the guide above as this mission has plenty of small skips that can save a lot of time.",
+        "video_tutorial": "https://www.youtube.com/embed/-kU_iO5c0k4"
     }, {
         "name": "Fast Fall",
         "progressState": "locked",
@@ -12560,11 +12572,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "beat the par time for all the mission in Halo:Reach. Watch HaloCompletionist's playlist for guides for every mission.",
+        "video_tutorial": "https://www.youtube.com/embed/qGDwkcMCgKI?list=PL3bi5dIhs8VUnggiwfZusaLdNE6w5PffI"
     }, {
         "name": "Ice In Your Veins",
         "progressState": "locked",
@@ -12580,11 +12592,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["winter_contingency"],
+        "tutorial": "Complete the mission Winter Contigency with a score of over 15,000. It is recommended to play on Legendary, as it gives 4X the points per kill.",
+        "video_tutorial": "https://www.youtube.com/embed/HaYtoF6V1HM?list=PL3bi5dIhs8VV2EZrTELF44Vl-51PN__qk"
     }, {
         "name": "Still Sharp",
         "progressState": "locked",
@@ -12600,11 +12612,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["oni_swordbase"],
+        "tutorial": "Complete the mission ONI: Sword Base with a score of over 25,000. It is recommended to play on Legendary, as it gives 4X the points per kill.",
+        "video_tutorial": "https://www.youtube.com/embed/lBBD9R-Vhis"
     }, {
         "name": "Moon's Out, Goons Out",
         "progressState": "locked",
@@ -12620,11 +12632,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["nightfall"],
+        "tutorial": "Complete the mission Nightfall with a score of over 7,500. It is recommended to play on Legendary, as it gives 4X the points per kill.",
+        "video_tutorial": "https://www.youtube.com/embed/ISz7Y2Qfo8M"
     }, {
         "name": "Bake That Cake",
         "progressState": "locked",
@@ -12640,11 +12652,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["tip_of_the_spear"],
+        "tutorial": "Complete the mission 'The Tip of the Spear' with a score of over 30,000. It is recommended to play on Legendary, as it gives 4X the points per kill.",
+        "video_tutorial": "https://www.youtube.com/embed/bh2aq6mQucQ"
     }, {
         "name": "Insomnia",
         "progressState": "locked",
@@ -12660,11 +12672,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["long_night_of_solace"],
+        "tutorial": "Complete the mission 'The Long Night of Solace' with a score of over 45,000. It is recommended to play on Legendary, as it gives 4X the points per kill.",
+        "video_tutorial": "https://www.youtube.com/embed/KXEZ05PdyXE"
     }, {
         "name": "Parting the Sea",
         "progressState": "locked",
@@ -12680,11 +12692,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["exodus"],
+        "tutorial": "Complete the mission 'Exodus' with a score of over 30,000. It is recommended to play on Legendary, as it gives 4X the points per kill.",
+        "video_tutorial": "https://www.youtube.com/embed/29ibY1ydp4I"
     }, {
         "name": "Nine Lives Are a Myth",
         "progressState": "locked",
@@ -12700,11 +12712,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "Complete the mission 'New Alexandria' with a score of over 22,500. This mission esentially has infinite Banshees that you can farm in order to get over 22,500.",
+        "video_tutorial": "https://www.youtube.com/embed/tvK6RxU8rNY"
     }, {
         "name": "How Did I Lose All My Fingers?",
         "progressState": "locked",
@@ -12720,11 +12732,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_package"],
+        "tutorial": "Complete the mission 'The Package' with a score of over 65,000. It is recommended to play on Legendary, as it gives 4X the points per kill. Or on Normal with Catch, Famine, Fog, Thunderstorm, Tilt and Tough Luck skulls activated.",
+        "video_tutorial": "https://www.youtube.com/embed/_PEp8CVT6PI"
     }, {
         "name": "Precious Cargo",
         "progressState": "locked",
@@ -12740,11 +12752,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_pillar_of_autumn"],
+        "tutorial": "Complete the mission 'The Pillar of Autumn' with a score of over 25,000. It is recommended to play on Legendary, as it gives 4X the points per kill.",
+        "video_tutorial": "https://www.youtube.com/embed/3ZW6cGXyYWA"
     }, {
         "name": "We'll Be Back",
         "progressState": "locked",
@@ -12760,11 +12772,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Beat the par score on every mission in Halo: Reach. Watch the HaloCompletionist's playlist for guides for every mission.",
+        "video_tutorial": "https://www.youtube.com/embed/HaYtoF6V1HM?list=PL3bi5dIhs8VV2EZrTELF44Vl-51PN__qk"
     }, {
         "name": "T'vaoan Terminator",
         "progressState": "locked",
@@ -12780,11 +12792,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Kill a cumulative total of 100 Skirmishers. Start a Custom Firefight match and set all the enemies to Skirmishers to quickly get this achievement.",
+        "video_tutorial": "https://www.youtube.com/embed/MHTLjVl-GpU"
     }, {
         "name": "Chol Von's Not Gonna Like This",
         "progressState": "locked",
@@ -12800,11 +12812,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+       "maps": ["all_campaign"],
+        "tutorial": "Kill a cumulative total of 100 Skirmishers. Start a Custom Firefight match and set all the enemies to Skirmishers to quickly get this achievement.",
+        "video_tutorial": "https://www.youtube.com/embed/MHTLjVl-GpU"
     }, {
         "name": "Keep It Clean",
         "progressState": "locked",
@@ -12820,11 +12832,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["winter_contingency"],
+        "tutorial": "Kill every Moa you come across. Don't forget the two at the very start of the mission.",
+        "video_tutorial": "https://www.youtube.com/embed/RZDuHH_IJoo"
     }, {
         "name": "They've Always Been Faster",
         "progressState": "locked",
@@ -12840,11 +12852,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["winter_contingency"],
+        "tutorial": "On Normal or higher, play through Winter Contigency without using the civilian truck. The achievement will pop once you get into the escort Falcon.",
+        "video_tutorial": "https://www.youtube.com/embed/PJ6rh23GhH0"
     }, {
         "name": "Wake Up Buttercup",
         "progressState": "locked",
@@ -12860,11 +12872,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["long_night_of_solace"],
+        "tutorial": "On Heroic or higher, start rally point Bravo and play until you get to the Corvette section. Then as quickly as you can, destroy the engines and kill all the enemies within 3 minutes.",
+        "video_tutorial": "https://www.youtube.com/embed/XZ-vtQE4zWo"
     }, {
         "name": "Two Corpses In One Grave",
         "progressState": "locked",
@@ -12880,11 +12892,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["oni_swordbase"],
+        "tutorial": "On Normal or higher, us the Target Locator at the location where both Wraiths will meet, in order to kill both of them at the same time. Just revert the checkpoint if you only manage to get one, and try again. ",
+        "video_tutorial": "https://www.youtube.com/embed/ovcZm8O6r18"
     }, {
         "name": "Your Heresy Will Stay Your Feet",
         "progressState": "locked",
@@ -12900,11 +12912,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["tip_of_the_spear"],
+        "tutorial": "On Normal or higher, kill the marked Zealot before he escapes at the mine factory section on the mission Tip of the Spear.",
+        "video_tutorial": "https://www.youtube.com/embed/pmuLwAYFYd4"
     }, {
         "name": "I Didn't Train To Be A Pilot",
         "progressState": "locked",
@@ -12920,11 +12932,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "On Normal or higher, blow up 3 anti-aircraft with a Falcon. You will get this achievement if you just play normally, so I don't know why y'all need a guide for this one 🤔",
+        "video_tutorial": "https://www.youtube.com/embed/DTEZ_YCWodo"
     }, {
         "name": "Tank Beats Everything",
         "progressState": "locked",
@@ -12940,11 +12952,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_package"],
+        "tutorial": "On Legendary, don't let your Tank blow up or get destroyed all the way up until the gates of Swordbase. If it does, just revert the checkpoint and try again.",
+        "video_tutorial": "https://www.youtube.com/embed/BAC3QDkD9Uw"
     }, {
         "name": "Swift and Shallow",
         "progressState": "locked",
@@ -12960,11 +12972,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["tip_of_the_spear","new_alexandria","the_package"],
+        "tutorial": "Hijack a Banshee in Halo:Reach's campagin. The missions 'Tip of the Spear', 'New Alexandria', and 'The Package' all have Banshee's that can be hijacked. Use a Plasma Pistol to EMP one then hijack, or soar to the skies with a Jetpack and hijack one. ",
+        "video_tutorial": "https://www.youtube.com/embed/Z-4NoMlsi7A"
     }, {
         "name": "Forza in the Fall",
         "progressState": "locked",
@@ -12980,11 +12992,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["coop"],
+        "titles": ["reach"],
+        "maps": ["oni_swordbase"],
+        "tutorial": "With a friend (or 2nd controller), start the mission ONI: Swordbase at rally point Bravo. There are two secret invisible buttons hidden on opposite ends of the island. Activate both at the same exact time, and you will become a Reach Racer.",
+        "video_tutorial": "https://www.youtube.com/embed/JyT-B9WZfCY"
     }, {
         "name": "HBOrg Special",
         "progressState": "locked",
@@ -13000,11 +13012,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "Underneath the hospital, activate the club easter egg on New Alexandria and then go into the club and stand next to the DJ Brute.",
+        "video_tutorial": "https://www.youtube.com/embed/uUNuBix8bp0"
     }, {
         "name": "Play Us a Sad Song, Claude",
         "progressState": "locked",
@@ -13020,11 +13032,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "Underneath the hospital, activate the club easter egg on New Alexandria and then activate the button ontop of the clubs building to switch the song to Siege of Madrigal. Then, go into the club.",
+        "video_tutorial": "https://www.youtube.com/embed/uUNuBix8bp0"
     }, {
         "name": "We're Gonna Need a Bigger Ship",
         "progressState": "locked",
@@ -13040,11 +13052,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["coop"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "With a friend (or 2nd controller) activate the Pelican/Phantom easter egg at the end of the mission. You will need to fly the Falcon into the ring to become a Pelican, and a hijacked Banshee to become a Phantom.",
+        "video_tutorial": "https://www.youtube.com/embed/yFku_CeJxTM"
     }, {
         "name": "Front Page News",
         "progressState": "locked",
@@ -13060,11 +13072,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "Underneath the hospital, activate the club easter egg on New Alexandria and then go into the club.",
+        "video_tutorial": "https://www.youtube.com/embed/uUNuBix8bp0"
     }, {
         "name": "The Humble Beginnings of Wiljax Brantley",
         "progressState": "locked",
@@ -13080,11 +13092,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["exodus"],
+        "tutorial": "On Exodus, look at the food kiosk's 'Moa burger' deal and the achievement will unlock.",
+        "video_tutorial": "https://www.youtube.com/embed/_qHzgyjVE6w"
     }, {
         "name": "Did You Major in Marine Bio?",
         "progressState": "locked",
@@ -13100,11 +13112,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["exodus"],
+        "tutorial": "On Exodus at the end of the mission, you'll have to get outside the level and back-track to where you fly by in the Falcon. A group of marines will be chilling there, and the achievement will pop.",
+        "video_tutorial": "https://www.youtube.com/embed/OX2BxSjFKGk"
     }, {
         "name": "Fly, You Fools!",
         "progressState": "locked",
@@ -13120,11 +13132,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["coop"],
+        "titles": ["reach"],
+        "maps": ["the_package"],
+        "tutorial": "Start the mission The Package with a friend (or 2nd controller). Then, activate the button hidden out of bounds near the water. As soon as you activate it, have the 2nd person activate the 2nd button hidden behind the crate on the walls of the wooden structures. Once done, 4 Banshees will spawn on top of the first building. ",
+        "video_tutorial": "https://www.youtube.com/embed/y5SVhjMTVR8"
     }, {
         "name": "This is Not the Greatest Lab in the World…",
         "progressState": "locked",
@@ -13140,11 +13152,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_package"],
+        "tutorial": "Get to the very end on the mission The Package. Before you end the mission, head to the back near the Wraith. A secret button is hidden out of bounds that you can jump too and quickly sprint back into the map. Once activated, head to the the doors to Halsey's lab and you'll be teleported to it.",
+        "video_tutorial": "https://www.youtube.com/embed/HUTUiv6uU2U"
     }, {
         "name": "Hey, You Dropped This",
         "progressState": "locked",
@@ -13160,11 +13172,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["winter_contingency"],
+        "tutorial": "Data pad 1 is located near the doorway of a building in the large open section of the mission.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=132"
     }, {
         "name": "Read Halsey's Journal",
         "progressState": "locked",
@@ -13180,11 +13192,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["oni_swordbase"],
+        "tutorial": "Data pad 2 is located inside the Sword Base in the room with the red flooring.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=264"
     }, {
         "name": "Meeting of the (Artificial) Minds",
         "progressState": "locked",
@@ -13200,11 +13212,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["nightfall"],
+        "tutorial": "Data pad 3 is located at the very start of Nightfall, in the cave to the right.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=273"
     }, {
         "name": "Rampant Speculation",
         "progressState": "locked",
@@ -13220,11 +13232,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["tip_of_the_spear"],
+        "tutorial": "Data pad 4 is located inside the mining factory building you jump into, sitting on a rack.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=343"
     }, {
         "name": "Minority Report",
         "progressState": "locked",
@@ -13240,11 +13252,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["long_night_of_solace"],
+        "tutorial": "Data pad 5 is located in the room where you first see the Sabre, in the area with red lights, next to a dead marine.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=425"
     }, {
         "name": "Info Dump",
         "progressState": "locked",
@@ -13260,11 +13272,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["exodus"],
+        "tutorial": "Data pad 6 is located when you fight the Brute with a Concussion Gun, ontop of the catwalk near the ceiling. You will need a jetpack to reach it.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=517"
     }, {
         "name": "Paper Trail",
         "progressState": "locked",
@@ -13280,11 +13292,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "Data pad 7 is at a building near the large building you end the mission at, sitting next to a door on the very top back side.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=726"
     }, {
         "name": "Terminal Conditions",
         "progressState": "locked",
@@ -13300,11 +13312,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_package"],
+        "tutorial": "Data pad 8 is inside Swordbase, on the floor right next to the button you activate to start the cutscene.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=780"
     }, {
         "name": "Digital Destinies",
         "progressState": "locked",
@@ -13320,11 +13332,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_pillar_of_autumn"],
+        "tutorial": "Data pad 9 is in the building after the Boneyard section, in the room you have to jump through the window to get into.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=933"
     }, {
         "name": "Unreliable Narrator",
         "progressState": "locked",
@@ -13340,11 +13352,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["winter_contingency"],
+        "tutorial": "Start Winter Contigency on Legendary. At the very start once you get off the Falcon, an invisible Elite will start running away from the wreckage. Shoot at him with your pistol and kill him before he escapes, and he will drop Data Pad 10.",
+        "video_tutorial": "https://www.youtube.com/embed/kT_JTVX9yrk"
     }, {
         "name": "What Does It All Mean?",
         "progressState": "locked",
@@ -13360,11 +13372,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["oni_swordbase"],
+        "tutorial": "On Legendary, Data pad 11 is on the cliffs with the broken wooden bridge.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=200"
     }, {
         "name": "Unsolved Mysteries",
         "progressState": "locked",
@@ -13380,11 +13392,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["nightfall"],
+        "tutorial": "On Legendary, data pad 12 is in the valley past the water factory. It is ontop of the cliffs.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=286"
     }, {
         "name": "Meddling and Madness",
         "progressState": "locked",
@@ -13400,11 +13412,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["tip_of_the_spear"],
+        "tutorial": "On Legendary, data pad 13 is located at the 2nd AA gun, next to the Warthog on the destroyed bridge.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=378"
     }, {
         "name": "The Answer is Simple",
         "progressState": "locked",
@@ -13420,11 +13432,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["long_night_of_solace"],
+        "tutorial": "On Legendary, data pad 14 is near the docked Sabre, ontop of the beam structure. You will have to jump off the lights to reach it.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=450"
     }, {
         "name": "Of Patience and Partiality",
         "progressState": "locked",
@@ -13440,11 +13452,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["exodus"],
+        "tutorial": "On Legendary, data pad 15 is located in a very weird spot that I can't describe. Just watch the video pls.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=546"
     }, {
         "name": "Curious Composition",
         "progressState": "locked",
@@ -13460,11 +13472,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+       "maps": ["new_alexandria"],
+        "tutorial": "On Legendary, data pad 16 is near the very start of the mission New Alexandria, at the building  right behind you, sitting on ledge that you will have to fly too.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=658"
     }, {
         "name": "Silent Shepherds",
         "progressState": "locked",
@@ -13480,11 +13492,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_package"],
+        "tutorial": "On Legendary, data pad 17 is at Halsey's lab, hidden on an ice cliff that you can only get too with a jetpack.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=812"
     }, {
         "name": "Assembled the Majority",
         "progressState": "locked",
@@ -13500,11 +13512,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_pillar_of_autumn"],
+        "tutorial": "Data pad 18 is located mid mission, at the Boneyard area. It is on top of the building, at the very far right side.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=900"
     }, {
         "name": "Yes No You Decide",
         "progressState": "locked",
@@ -13520,11 +13532,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["lone_wolf"],
+        "tutorial": "On Legendary, Data pad 19 is located inside of one of the upper pipes.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o?start=969"
     }, {
         "name": "Canonical Conundrum",
         "progressState": "locked",
@@ -13540,11 +13552,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Collect all 19 Data pads in Halo: Reach. Each data pad has its own individual achievement. Watch HaloCompletionist's full guide to get all locations.",
+        "video_tutorial": "https://www.youtube.com/embed/dytO4lGOW_o"
     }, {
         "name": "Why Do This To Yourself?",
         "progressState": "locked",
@@ -13560,11 +13572,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["campaign","coop"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Beat the LASO playlist in Halo: Reach. It is recommended to do this in co-op, as it will allow you to have checkpoints. Watch HaloCompletionist's guides for the best tips and strategies.",
+        "video_tutorial": "https://www.youtube.com/embed/46I7-lqhSv4?list=PL3bi5dIhs8VVMXgVnnT9PBSeGwGMraD4n"
     }, {
         "name": "Reach Has Been Good to Me",
         "progressState": "locked",
@@ -13580,11 +13592,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete any Halo: Reach playlist from the playlist lobby.",
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/npRqISg.jpg"
     }, {
         "name": "Who Needs Red Flag?",
         "progressState": "locked",
@@ -13600,11 +13613,12 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete any three Halo: Reach playlist from the playlist lobby.",
+        "video_tutorial": "",
+		"image_tutorial": "https://i.imgur.com/npRqISg.jpg"
     }, {
         "name": "Remember Reach",
         "progressState": "locked",
@@ -13620,11 +13634,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign","all_multiplayer"],
+        "tutorial": "Start a mission or match of Halo: reach on the 14th of any month. This is in reference to the games launch date, of September 14th, 2010.",
+        "video_tutorial": "https://www.youtube.com/embed/Jv4jeiSAZsk"
     }, {
         "name": "Keep Your Foot on the Pedrogas",
         "progressState": "locked",
@@ -13640,11 +13654,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Complete all missions with a combined time that is under 3 hours. This only takes into account your best completion times for each mission. Watch HaloCompletionist's playlist for a full speed-running commentary for each mission.",
+        "video_tutorial": "https://www.youtube.com/embed/R68CarUVXis?list=PL3bi5dIhs8VUlwBM-OVa_aTFR2TQ9y0pk"
     }, {
         "name": "Enemies Everywhere!",
         "progressState": "locked",
@@ -13660,11 +13674,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_firefight"],
+        "tutorial": "Complete a full set (3 rounds / 15 waves) of Firefight in Halo: Reach.",
+        "video_tutorial": "https://www.youtube.com/embed/fzOenAEAJYw"
     }, {
         "name": "Negative, Ghostrider",
         "progressState": "locked",
@@ -13680,11 +13694,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["multiplayer"],
+        "titles": ["reach"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Score 10 skulls at once in a matchmade Headhunter game. Headhunter is in team objective, and FFA objective. This achievement is bugged and is randomly awarded as well in Headhunter.",
+        "video_tutorial": "https://www.youtube.com/embed/e2-dM9B9DZw"
     }, {
         "name": "Skunked",
         "progressState": "locked",
@@ -13700,11 +13714,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+       "mode": ["multiplayer"],
+        "titles": ["reach"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "In Halo: Reach Invasion, don't let the enemy team get past the first phase.",
+        "video_tutorial": "https://www.youtube.com/embed/UhicO_uQgcw"
     }, {
         "name": "Clear and Present Danger",
         "progressState": "locked",
@@ -13720,11 +13734,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["winter_contingency"],
+        "tutorial": "Start Winter Contigency on Legendary. At the very start once you get off the Falcon, an invisible Elite will start running away from the wreckage. Shoot at him with your pistol and kill him before he escapes.",
+        "video_tutorial": "https://www.youtube.com/embed/kT_JTVX9yrk"
     }, {
         "name": "Left Behind",
         "progressState": "locked",
@@ -13740,11 +13754,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["lone_wolf"],
+        "tutorial": "Start Lone Wolf on Easy with all skulls on besides Blind and cowbell. Then, follow the guide in the video to easily get 30,000 points. The achievement will unlock once you 'die' and finish the mission. Do NOT kill yourself but going out of bounds, as that will restart the mission instead.",
+        "video_tutorial": "https://www.youtube.com/embed/w_2D-7d4_3o&t=2s"
     }, {
         "name": "One Final Firefight",
         "progressState": "locked",
@@ -13760,11 +13774,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["lone_wolf"],
+        "tutorial": "Start Lone Wolf on Easy with all skulls on besides Blind and cowbell. Then, follow the guide in the video to easily get 150,000 points. The achievement will unlock once you 'die' and finish the mission. Do NOT kill yourself but going out of bounds, as that will restart the mission instead.",
+        "video_tutorial": "https://www.youtube.com/embed/w_2D-7d4_3o&t=2s"
     }, {
         "name": "What About Bob?",
         "progressState": "locked",
@@ -13780,11 +13794,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign"],
+        "tutorial": "Every mission has a secret 'Bob' Elite, that you will only ever notice with a keen eye, as they always run away. Kill one of these Elites to unlock the achievement.",
+        "video_tutorial": "https://www.youtube.com/embed/VCdNcrYrymQ"
     }, {
         "name": "Jorge Can't Have All the Big Guns",
         "progressState": "locked",
@@ -13800,11 +13814,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["long_night_of_solace"],
+        "tutorial": "At the end of Long Night of Solace, crouch next to the landed pelican and hold the action button next to the turret. You will be able to pilot the gun.",
+        "video_tutorial": "https://www.youtube.com/embed/4Oe-ryuEQcw"
     }, {
         "name": "I'm Sorry, Dave",
         "progressState": "locked",
@@ -13820,11 +13834,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign","multiplayer"],
+        "titles": ["reach"],
+        "maps": ["all_campaign","all_multiplayer"],
+        "tutorial": "Find a weapon that doesn't have a scope, and then zoom in. In the bottom left corner you will see the binary code for the word 'Dave'. This is in reference to David Candland, the UI director for Halo: Reach.",
+        "video_tutorial": "https://www.youtube.com/embed/ROoEebxqwJM"
     }, {
         "name": "Workers' Compensation",
         "progressState": "locked",
@@ -13840,11 +13854,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+        "mode": ["campaign","multiplayer"],
+        "titles": ["reach"],
+        "maps": ["all_firefight","forgeworld"],
+        "tutorial": "Since Forklifts are now in Forge mode on Forgeworld, you just need to load up a match and splatter a friend. Or use the old method and start a Firefight game on Courtyard with a Gravity Hammer, and swing the hammer into the Forklift and try to splatter and enemy.",
+        "video_tutorial": "https://www.youtube.com/embed/_7AlPjz5t5w"
     }, {
         "name": "Capacious Cartography",
         "progressState": "locked",
@@ -13860,11 +13874,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["multiplayer"],
+        "titles": ["reach"],
+        "maps": ["forgeworld"],
+        "tutorial": "Start a Forge game on Forgeworld and build a big, beautiful map. Or not. Then, pause the game and save it.",
+        "video_tutorial": "https://www.youtube.com/embed/PiZhoVv9LBw"
     }, {
         "name": "Requiescat in Pace",
         "progressState": "locked",
@@ -13880,11 +13894,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+          "mode": ["multiplayer"],
+        "titles": ["reach"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start a custom game with a friend, and just assassinate them ten times. Or play normally and you'll eventually get it.",
+        "video_tutorial": "https://www.youtube.com/embed/DiMW8xe238Q"
     }, {
         "name": "Run and Gunned",
         "progressState": "locked",
@@ -13900,11 +13914,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["multiplayer"],
+        "titles": ["reach"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start a SWAT custom game with a friend, and just kill them while they sprint. Or play normally and you'll eventually get it.",
+		 "video_tutorial": "https://www.youtube.com/embed/DiMW8xe238Q"
     }, {
         "name": "Game Breaker",
         "progressState": "locked",
@@ -13920,11 +13934,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["multiplayer"],
+        "titles": ["reach"],
+        "maps": ["all_multiplayer"],
+        "tutorial": "Start a SWAT custom game with a friend, and just kill them while you are jetpackking. Or play normally and you'll eventually get it.",
+        "video_tutorial": "https://www.youtube.com/embed/lZhlgW-cvqc"
     }, {
         "name": "Because It Wasn't Hard Enough",
         "progressState": "locked",
@@ -13940,11 +13954,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+          "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["all_campaign","lone_wolf"],
+        "tutorial": "Beat a mission with 3 skulls activated. Famine, Fog and Tough Luck are the easiest. And if you do it on Lone Wolf, you can just immediatly die and it will count as completing the mission!",
+        "video_tutorial": "https://www.youtube.com/embed/cSiQWsSS39A"
     }, {
         "name": "Classic Completion",
         "progressState": "locked",
@@ -13960,11 +13974,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["coop"],
+        "titles": ["reach"],
+        "maps": ["exodus"],
+        "tutorial": "Start Exodus with a friend (or 2nd controller) on Normal difficulty. Do not at any point use your armor ability. At the jetpack section, you will have to jump off of one another, and time some grenade jumps in order to make it pass the schism.",
+        "video_tutorial": "https://www.youtube.com/embed/Axb1oLfo_sI"
     }, {
         "name": "Confused Callouts",
         "progressState": "locked",
@@ -13980,11 +13994,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["boardwalk"],
+        "tutorial": "On the map Boardwalk, walk to the 'Make Out Point' territory seen in the guide above.",
+        "video_tutorial": "https://www.youtube.com/embed/HaKU-kR4PAM"
     }, {
         "name": "Collection Eligibility Confirmed",
         "progressState": "locked",
@@ -14000,11 +14014,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+          "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["the_pillar_of_autumn"],
+        "tutorial": "In the very ending cutscene of the Pillar of Autumn, while the camera is inside a hangar bay, hold the left thumbstick (or mouse) to the right and the camera will pan to a cryo tube with Master Chief in it.",
+        "video_tutorial": "https://www.youtube.com/embed/8N7_KhyRbvg"
     }, {
         "name": "Mind the Skill Gap",
         "progressState": "locked",
@@ -14020,11 +14034,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["tip_of_the_spear"],
+        "tutorial": "Load up rally point Bravo, and at the mining facility just look at the massive BXR logo on the wall.",
+        "video_tutorial": "https://www.youtube.com/embed/huAVIzSbgyM"
     }, {
         "name": "Easy to Overlook",
         "progressState": "locked",
@@ -14040,11 +14054,11 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+         "mode": ["multiplayer"],
+        "titles": ["reach"],
+        "maps": ["boardwalk"],
+        "tutorial": "On Boardwalk, go the radio location seen in the guide above, and wait around it until you here the UNSC chatter.",
+        "video_tutorial": "https://www.youtube.com/embed/HaKU-kR4PAM?start=70"
     }, {
         "name": "New Ways to Save a Quid",
         "progressState": "locked",
@@ -14060,10 +14074,10 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": [""],
-        "titles": [""],
-        "maps": [""],
-        "tutorial": "",
-        "video_tutorial": ""
+          "mode": ["campaign"],
+        "titles": ["reach"],
+        "maps": ["new_alexandria"],
+        "tutorial": "On New Alexandria, you will need to get the side mission where you escort Buck. This is random, so keep playing the mission until you get it.",
+        "video_tutorial": "https://www.youtube.com/embed/xz5YyuPVzaU"
     }
 ]
