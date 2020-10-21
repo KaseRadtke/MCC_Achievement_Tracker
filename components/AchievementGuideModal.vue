@@ -25,7 +25,7 @@
       </iframe>
       <img v-show="videoTutorial.length == 0" class="no_video_background" :src="imageTutorial">
       <img v-show="videoTutorial.length == undefined" class="no_video_background" src="../static/videofalse_background.png">
-      <p class="achievement_main_tutorial">{{ achievementTutorial }}</p>
+      <h6 class="achievement_main_tutorial">{{ achievementTutorial }}</h6>
     </modal>
   </div>
 </template>

@@ -2,7 +2,12 @@
   <div id="games_bar_header">
     <ul class="nav nav-tabs navbar">
       <GameLogo
-        :isSelected="true"
+      :isSelected="true"
+        @selected="gameSelected('crossgame')"
+        game="crossgame"
+        size="80px"
+      />
+      <GameLogo
         @selected="gameSelected('reach')"
         game="reach"
         size="100px"
@@ -12,11 +17,6 @@
       <GameLogo @selected="gameSelected('odst')" game="odst" size="55px" />
       <GameLogo @selected="gameSelected('halo3')" game="halo3" size="160px" />
       <GameLogo @selected="gameSelected('halo4')" game="halo4" size="160px" />
-      <GameLogo
-        @selected="gameSelected('crossgame')"
-        game="crossgame"
-        size="80px"
-      />
     </ul>
   </div>
 </template>
@@ -27,11 +27,16 @@ export default {
 
   created() {
     this.gameBar = this.$children;
+    this.$emit('gameSelected', 'crossgame') // On Creation, selects crossgames data to be displayed.
   },
   data() {
     return {
       isSelected: { default: false },
     };
+  },
+
+   mounted(){ // Once mounted, selected Reach as default.
+    
   },
 
   methods: {

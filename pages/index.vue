@@ -1,10 +1,14 @@
 <template>
-  <div class="container">
-    <StartPage />
+  <div>
+    <div class="container">
+      <StartPage />
+    </div>
+     <Background id="background_default" :gameBackground="gameBackground"/>
   </div>
 </template>
 
 <script>
+import Background from "C:/Users/kaser/Documents/MCC_Achievement_Tracker_Nuxt/MCC_Achievement_tracker/components/Background.vue";
 export default {
   head() {
     return {
@@ -17,6 +21,12 @@ export default {
             "Track and get guides for all 700 achievements in Halo: The Master Chief Collection",
         },
       ],
+    };
+  },
+
+  data() {
+    return {
+      gameBackground: "/game_backgrounds/crossgame_background.mp4",
     };
   },
 };

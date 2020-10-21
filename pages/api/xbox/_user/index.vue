@@ -20,7 +20,7 @@ export default {
       meta: [
         {
           hid: "description",
-          name: "description",
+          name: "Main Achievement Tracker",
           content:
             "Track and get guides for all 700 achievements in Halo: The Master Chief Collection",
         },
@@ -30,7 +30,7 @@ export default {
 
   data() {
     return {
-      gameBackground: "/game_backgrounds/crossgame_background.mp4",
+      gameBackground: "/game_backgrounds/reach_background.mp4",
     };
   },
 

@@ -1,9 +1,9 @@
 <template>
   <div
     class="achievement_tab"
-    @click.stop="toggleModal()"
+    @click.stop="achievementClicked()"
   >
-    <AchievementGuideModal
+ <!-- <AchievementGuideModal
       :show="showModal()"
       @close="toggleModal()"
       :achievementName="achievementName"
@@ -13,7 +13,7 @@
       :achievementTutorial="achievementTutorial"
       :videoTutorial="videoTutorial"
       :imageTutorial="imageTutorial"
-    />
+    /> -->
     <img :src="achievementThumbnail[0].thumbnail" class="achievement_icon" />
     <h6 class="achievement_title">{{ achievementName }}</h6>
     <h6 class="achievement_description">{{ achievementDescription }}</h6>
@@ -38,16 +38,21 @@ export default {
   },
 
   methods: {
-    showModal: function (id) {
+    showModal(id) {
       return this.activeModal === id;
     },
-    toggleModal: function (id) {
+    toggleModal(id) {
       if (this.activeModal !== 0) {
         this.activeModal = 0;
         return false;
       }
       this.activeModal = id;
+      
     },
+
+    achievementClicked(){
+      this.$emit("achievementSelected", this.achievementName, this.achievementDescription, this.achievementValue, this.achievementArt, this.achievementTutorial, this.videoTutorial, this.imageTutorial)
+    }
   },
   props: {
     achievementName: String,
@@ -77,6 +82,7 @@ export default {
     rgba(35, 34, 54, 1) 100%
   );
   cursor: pointer;
+  position: relative;
 }
 
 .achievement_tab:hover {
@@ -91,7 +97,7 @@ export default {
 .achievement_description {
   color: rgb(184, 184, 184);
   font-size: 14px;
-  position: fixed;
+  position: absolute;
   margin-left: 6em;
   margin-top: -3px;
   text-overflow: ellipsis;

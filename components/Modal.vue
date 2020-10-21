@@ -1,6 +1,6 @@
 <template>
     <transition name="modal">
-        <div class="modal-mask" @click.stop="close" v-show="show">
+        <div class="modal-mask" @click.stop="close" v-if="show">
             <div class="modal-container">
                 <slot></slot>
             </div>
@@ -49,12 +49,12 @@ export default {
     margin: 0px auto;
     margin-top: 3em;
     padding: 20px 30px;
-    background: rgb(16,40,60);
-    background: linear-gradient(83deg, rgba(16,40,60,1) 0%, rgba(0,9,16,1) 100%);
+   background: rgb(10,35,46);
+background: linear-gradient(174deg, rgba(10,35,46,1) 0%, rgba(0,0,0,0.835171568627451) 100%);
     border-radius: 25px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
     transition: all .8s ease;
-    border: #4a9fc6 solid 2px;
+    border: #255166 solid 2px;
 }
 .modal-body {
     margin: 20px 0;
