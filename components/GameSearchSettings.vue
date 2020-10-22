@@ -93,7 +93,6 @@ export default {
     },
 
     removeMapsInSelectedArray(mode) {
-      console.log(mode);
       switch (mode) {
         case "campaign":
           this.campaignSelected = false;

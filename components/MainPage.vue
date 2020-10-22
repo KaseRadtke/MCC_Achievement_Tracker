@@ -57,7 +57,7 @@
 import Gamesbar from "../components/Gamesbar";
 import FilterAchievements from "../components/FilterAchievements";
 import Achievement from "../components/Achievement";
-import json from "../static/mcc_achievement_master.json";
+import mccMasterTrackerJSON from "../static/mcc_achievement_master.json";
 
 export default {
   components: {
@@ -70,7 +70,7 @@ export default {
     return {
       game: "reach",
       filterAchievementState: "locked",
-      achievementsJSON: json,
+      achievementsJSON: [mccMasterTrackerJSON],
       searchCriteria: [],
       activeModal: 0,
       lockSymbol: require("../static/achievement_locked.png"),
@@ -161,7 +161,8 @@ export default {
   },
 
   created() {
-    console.log(this.$route.params.user)
+    console.log(this.$route.params.user);
+    this.achievementsJSON = this.$route.params.userAchievementsMaster;
   },
 };
 </script>

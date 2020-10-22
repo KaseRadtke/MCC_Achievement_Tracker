@@ -55,7 +55,7 @@
             "currentCategory": "",
             "currentPercentage": 0
         },
-        "mode": ["campaign", "coop"],
+        "mode": ["campaign"],
         "titles": ["crossgame"],
         "maps": ["all_campaign"],
         "tutorial": "Kill a combined total of 100 Grunts in PVE mode (Campaign, Firefight, Spartan Ops). This achievement is easily unlocked by playing normally.",
@@ -789,7 +789,7 @@
         "tutorial": "You need to complete the mission in under 15 minutes. Using a Warthog, you can skip the majority of the mission.",
         "video_tutorial": "https://www.youtube.com/embed/SiR0c9M_APg"
     }, {
-        "name": "Would It've Killed You To Take The Lift",
+        "name": "Would It've Killed You To Take The Elevator",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8B5QuSoJA28uy2uLgphuZUOgCHIHe67eEj8_uw5eQw2AcfVTJKiDiHVH9ZODCo0_h_VeDpLLvrBFLDVr89WvNd2CGqj5Fkx7CDHxKM6Mn6Y2nXt63.mJxH9IKtdQ3o5ZXYz0jOm.8zAXrI1bbw7xSM-",
@@ -990,7 +990,7 @@
         "video_tutorial": "https://www.youtube.com/embed/Dxqf962DNWU"
     }, {
         "name": "Charted",
-        "progressState": "unlocked",
+        "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzwXAUBFc057LBMpjPdcMR0Bc4.E8lyhFwey9vFize1uiCBgpjHEJJGmgiU5ay1.ZB1FVXATB5Z3C8CwbqmlkRoSlN2h5ZMzdPHW0ozj0AG85ngXhwP5D3D5j5SZgZkPYleUS6ybZgb7NjdXvLf1KeE-",
                 "thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/1d75ceaf8aa20c85925da0741f20f1b4854f286b.jpg"
@@ -2237,7 +2237,7 @@
         "tutorial": "Grab a friend or second controller and play a mission on Heroic while you hide the entire time to ensure you dont take damage.",
         "video_tutorial": "https://www.youtube.com/embed/qKMZtLFLuXE"
     }, {
-        "name": "The Good, The Bad and The Dead",
+        "name": "The Good, The Bad, and The Dead",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxk8viWCc6EcDqQV5eUVb.4utUOcSqqhG2TWWpkgEwxr6jX2zj9Z8dy3Y6U4l5eNf1FRGdeA3LbN.i0pNd5FXm0evUogfbDeIEiH4uyNvVec5FtlcuwFaoPsimRP4KkDUrSh5Hr1qKn7QbI6l24zHSk-",
@@ -3334,10 +3334,30 @@
         },
         "mode": ["campaign"],
         "titles": ["halo2"],
+        "maps": ["uprising"],
+		"tutorial": "Terminal 11 is located near the end of the mission, in the pit where you encounter the wraiths. It is on the upper level, behind one of the pillar walls.",
+        "video_tutorial": "https://www.youtube.com/embed/4TTKFwym_aw?start=327"
+    },{
+        "name": "Reviewer",
+        "progressState": "locked",
+        "mediaAssets": [{
+                "url": "http://images-eds.xboxlive.com//image?url=27S1DHqE.cHkmFg4nspsdz76nUdJTRPnefpJddp0ZLRHiUvd0HVL_Nv4HzI0cq4UgbClCs.xC5d0WvzABzqp9xynQEjHVqx81w5yloW6bIn5zdOIZQqEzD5BF_qyd_rez4mESeWnyH1smd7Gwk0K1ABj8.2N_xvwQFvQmwTp8NY-",
+                "thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/98035f9b208a3a623da8a497008a678d6c3044b4.jpg"
+            }
+        ],
+        "description": "Halo 2: Activate Terminal 12 on High Charity.",
+        "lockedDescription": "Halo 2: Activate Terminal 12 on High Charity.",
+        "value": 5,
+        "rarity": {
+            "currentCategory": "",
+            "currentPercentage": 0
+        },
+        "mode": ["campaign"],
+        "titles": ["halo2"],
         "maps": ["high_charity"],
-        "tutorial": "Terminal 12 is located in the destroyed room with an Energy sword you normal venture through, on the left side near your entrance.",
+        "tutorial": "Terminal 12 is in the destroyed room before the gravity lift, directly left of the entrance.",
         "video_tutorial": "https://www.youtube.com/embed/4TTKFwym_aw?start=363"
-    }, {
+    },	{
         "name": "Obsessed",
         "progressState": "locked",
         "mediaAssets": [{
@@ -4663,7 +4683,7 @@
         "tutorial": "This one is very challenging, but do-able if you know all the techniques and tricks in Halo 2's campaign. Watch Halo Completionist's great walkthrough of Halo 2 on LASO. If you play in co-op, you can use checkpoints. Good luck!",
         "video_tutorial": "https://www.youtube.com/embed/-ZExV7Ac3zo"
     }, {
-        "name": "Monopolised",
+        "name": "Monopolized",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.XS2qHpwtS_ipohhZp0IlT9GL6HSLj8hqEUVERbeOFiaKkFtavkOFUVhFECQqZphleGPTnNewsiwadeLzIwyNSdiULbTQka.96B50vQlY.2jhqHT1nb2WwnqZgdlyCLJA3H9xpGcZOwFpJok4Hc9uA-",
@@ -6047,7 +6067,7 @@
         "video_tutorial": "https://www.youtube.com/embed/7W8cjPQcQ9k"
     }, {
         "name": "Devastating",
-        "progressState": "unlocked",
+        "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd67.NPp34ehpOd4dMPKUtqAWuCvTDT4L1geP09p1QnUzOWBdzctc2Ccc7XC77pybtGK4PHYGksa..GIE5uu_B12JRY0jaxEUO86twyKZsUBASTIEczXwysRjSal7ed5oTechVE4ClAmq_Pp6yL0RqK4-",
                 "thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/39104694ee261b9cbec17b55b02431b0bef8c6be.jpg"
@@ -6067,7 +6087,7 @@
         "video_tutorial": "https://www.youtube.com/embed/T8qtocOvW5M"
     }, {
         "name": "Dawn",
-        "progressState": "unlocked",
+        "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd64MntG6rw8Ted4FZnYXhcMYE10kN9ghVvdB4JBa9sWkDsPYuIXrBmTUDwVMeY4KHOFfku1pMKoVOn5dcf6Rce8y9_wPzfTMtMUTecLcpSixCWIK1p.PeT_Vq.OxPnsTbMmUkMFiGZy84yAp_N27Wjc-",
                 "thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/88b7b73be25252076034d0815d2613a6c98425df.jpg"
@@ -7696,7 +7716,7 @@
         "video_tutorial": "https://www.youtube.com/embed/vS2CYjoqOfo"
     }, {
         "name": "Bloody Thirsty!",
-        "progressState": "unlocked",
+        "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd83aQREBSaES9ItKxj_nYzo552FWGSSwyBsnmqt7iMT8r4uNSHvPrpm5d6OXEkY6TooJ6JhWLR5Oy3MNjjBYh9WJymTspC6MdFRlaZrvqLX5KAhdq7CNdSNemYE8O9175qYs0ZtRAM2wZeCZBamptbc-",
                 "thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/6df57681f1ca5c4ca77a90a570205fc6746a8133.jpg"
@@ -8313,7 +8333,7 @@
         "video_tutorial": "",
 		"image_tutorial":"https://www.halodiehards.net/wp-content/uploads/2013/02/2822920-gallery.jpg"
     }, {
-        "name": "Battle-Hardened",
+        "name": "Battle Hardened",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1Q_zFnennNjnuFbYPctFjyUKkBNtoDvNvlAvAUTJRyvT9Y4N9dpfET0X3Rs6WHuAPY5HIalf3HQzBJ8ls8ofcEIMuiHhl8NOPWjtwqGAhaSYwJuybkmfmVBpccBtAACepnc4qNdP4ZlWi0hwY2Q.mM-",
@@ -8482,7 +8502,7 @@
 		"image_tutorial":"https://i.pinimg.com/originals/ae/07/5a/ae075a46a65bfc840f9388082ebc5658.jpg"
     }, {
         "name": "Quick Trigger Finger",
-        "progressState": "unlocked",
+        "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0M4WA_0Bv7N12942zOgBWVKzn6CLK1GyEriubxKIMzXiYla5WG2yR6jHZR9GRduM7sjusjPrxUWp.G3YNmMR.R7zuyM663aPMzjkrRNVNTz53rW0dHjdYH.Rd8osx2G3zE9kkfRvvxrScTtRLCKsJ0-",
                 "thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/887c25ab0d57729c4d476d61377084ec556f831c.jpg"
@@ -8502,7 +8522,7 @@
         "video_tutorial": "",
 		"image_tutorial": "https://i.ytimg.com/vi/WLJagcey0kQ/maxresdefault.jpg"
     }, {
-        "name": "Long-Time Fan",
+        "name": "Long Time Fan",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwDvJCM_uolocxCX9OYkmGBNikBHyPiEhhWTqYhbRFxCIx4M_thFIFfYsmqU5p.d2XDof_QGVbxRheEusmV_2uZ71GXvurQ3YdmiUXjt_UcddzOu.WipAkfZO6UqXhkc7jf65POCE0i.k.ws75bg77w-",
@@ -9988,7 +10008,7 @@
         "tutorial": "Start and end a game with 4 different gametypes in Halo 2 Classic Multiplayer. This does not have to be in matchmaking.",
         "video_tutorial": "https://www.youtube.com/embed/AIyIaEbW96c"
     }, {
-        "name": "World Traveller",
+        "name": "World Traveler",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0W70QW8EcDZP7AxuLja0gi3mYjE7zpSXp2axQbXDlqnD.vAAihHjHrOajrl4ngb2514Wexot0jib9I3K8k4tn.JHzbvgs_Rwv7pe3zwqOC2SRpocU8HhUxHDraAYUWVRb7c2anPlcxAs4mLJD7gZE4-",
@@ -10128,7 +10148,7 @@
         "tutorial": "Find audio log #1 in Mombassa Streets. Watch Maka91's complete guide to find all 30 hidden in the city.",
         "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
-        "name": "An Earful",
+        "name": "An Ear Full",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxk8viWCc6EcDqQV5eUVb.7cvne_N1NETIzoW0lnxyj5QnwJb6uKlZLuoMOkjrjood4AzV5JUMQlxfkMoAsao2ip5HUQ7sARBFz0A29CM3yBmlf061UfwAkrnaZhTIiqkg9rdjC35FuEMWTm6AOkXmQ-",
@@ -10229,7 +10249,7 @@
         "video_tutorial": "https://www.youtube.com/embed/wvhBG-cSQKU"
     }, {
         "name": "Auditor",
-        "progressState": "unlocked",
+        "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd3kqH3CU1qUUHKrEUxWPNofMLq_eBozQ_PRLPYQcIumi_Nc__XQtUHnJi_Hbd7EHZbPr_phklk6roz_PvgcCwfL20bfGGcyZ4k9nf0cm9nbKqCPIs80._gY1d4.d8jRb46FXjSlFIWRNZLTA2AZsNzE-",
                 "thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/8785409485b50e38fb258b2a3168cab4ade1f678.jpg"
@@ -10912,7 +10932,7 @@
         "tutorial": "If you play through the game normally you will unlock these achievements by default. The are rewarded when you find the 'clues' for each mission.",
         "video_tutorial": "https://www.youtube.com/embed/9onVhCPuTKg"
     }, {
-        "name": "Record Shop Owner",
+        "name": "Record Store Owner",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2rDHBm1DYtIcaugq_tELzBKo5i.IN9h7GGiI.7kaMI3CxQzVX9Hf_Cr6KMY9vPiwK481VrgK44MJcSUkatJQMhF53X1SnIZtYtAA4wEK6On9fC47FdPsBiYh3gs4zSvg2m9ZChTGCVyt2Dz5J9sT7Q-",
@@ -11192,7 +11212,7 @@
         "tutorial": "Finish the mission NMPD HQ in under 10 minutes.",
         "video_tutorial": "https://www.youtube.com/embed/sijJU8t1X90"
     }, {
-        "name": "Feet, Don't Fail Me Now",
+        "name": "Feet Don't Fail Me Now",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzLl6hd_Hnrtt4Tp9YKSkBiqxBoKxQV.cYtim1BOxsc3CHienfUr7jtVa5hL8OLKWqrTX_581iIgmNtw0XAHP1L4AYbQ7wa18ECbONYHOvH1RDLa7XDGrMi2qOHkdbP_sf94Wd9b38MV.0N7PuNvdyo-",
@@ -11614,7 +11634,7 @@
         "tutorial": "Start Kikowani Station on Legendary difficulty at rally point Charlie. Fly the Banshee to the right of the first area you go into, and land into the dark red area ontop of the small roof. Then, stand still and be prepared for greatness.",
         "video_tutorial": "https://www.youtube.com/embed/QDLjiLMh3mg"
     }, {
-        "name": "Vandalised",
+        "name": "Vandalized",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0wsvf8rmK9Dr61KsBqB_ArWJpQi8p7_KFLXsfRDxauKWszGHd5nk61bSI8lfzaBjwXIgD2WfasOdImOEpnfuh88MdiVNKhN2VqITRbE1wOpifLlqgyB1RhZ1sDvUakZNj7qlBDQBo35XZdX_3WMVUI-",
@@ -11834,7 +11854,7 @@
         "tutorial": "At the start of Coastal Highway when you fight the first enemies, pick up a Rocket Launcher near the corner of the buildings. Then, walk up to Dare and swap weapons with her.",
         "video_tutorial": "https://www.youtube.com/embed/YJIvRhQdp-Y"
     }, {
-        "name": "One-Way Ride",
+        "name": "One Way Ride",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4K7nw3nlwo9l1xckR7DOLlZ4AGf8250RyyxIf0_qg_RhQ7CupmsuM.LuLoZObvdzP0aLUaFRYBVKIRT3XiSMH3.NnO5YFww4uvnEUtd9X7HyEf8xBaI5vkqmC2oRIw__n8bt8rlhZVBNvQnmbKoAZg-",
@@ -12438,7 +12458,7 @@
         "tutorial": "Complete the mission Nightfall in under 10 minutes. This mission can be done in under 3 minutes but running past all the enemies and using a Forklift to clip through a gate.",
         "video_tutorial": "https://www.youtube.com/embed/X1eUvtzRVoo"
     }, {
-        "name": "Generous Tipper",
+        "name": "Just the Tip",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd92ghIBdL.xQNK9ffdfzYbdIWgMgpTaZPzJ9nUU.JDXbZtKEA4FcYrzhDSnWcSTZxHToxPPB58WPOpBC0PBffZ3q3oRqvD3p8lJlv8.rpOyiAA2GWAdgaT0u9bahGel.HQ--",
@@ -12579,7 +12599,7 @@
         "video_tutorial": "https://www.youtube.com/embed/qGDwkcMCgKI?list=PL3bi5dIhs8VUnggiwfZusaLdNE6w5PffI"
     }, {
         "name": "Ice In Your Veins",
-        "progressState": "unlocked",
+        "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdyxV5tzQTZ1JjC2L74yWt16dUih78Ix05GOo6AI8L6zA3KJko83sR4YLgRSjLAvolIZzW5s9Q9IoNtxpNWHeIu9jLeWqRq4pJb_cevAtk0vuCX331iLeglytWc93ON.6qw--",
                 "thumbnail": "https://steamcdn-a.akamaihd.net/steamcommunity/public/images/apps/976730/d5b6077bca2012671ddb8c946bc05eeb8b8c2b67.jpg"
@@ -14060,7 +14080,7 @@
         "tutorial": "On Boardwalk, go the radio location seen in the guide above, and wait around it until you here the UNSC chatter.",
         "video_tutorial": "https://www.youtube.com/embed/HaKU-kR4PAM?start=70"
     }, {
-        "name": "New Ways to Save a Quid",
+        "name": "New Ways to Save a Buck",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "http://images-eds.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz.uVVOTh0HxNWDBun27i6RV2WooGces7InTddvAydZv14jOJQ3kz37KWj6RvnLNT5eI8COkJpFBuiQha1GqcsBA31adWl9gsz70rSizrsR4ee8R32HgufFLsqZR3phd_A--",

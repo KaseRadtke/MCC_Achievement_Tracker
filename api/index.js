@@ -33,15 +33,16 @@ const config = {
 
         // If XUID is valid, then get JSON of users Halo: The Master Chief Collection achievements using their XUID.
         if(userXUID) {
-            const userXboxAchievements = await axios.get(`https://xapi.us/v2/${userXUID}/achievements/1144039928`, config, {timeout: 5000})
+            const xboxAchievementsFiltered = await axios.get(`https://xapi.us/v2/${userXUID}/achievements/1144039928`, config, {timeout: 5000})
                 .then(function (response) {
                     const achievementsJSON = response.data
+                    console.log(achievementsJSON[699])
                     return achievementsJSON;
                 })
                 .catch(function (error) {
                 console.log("error! : " + error);
                 });
-            return userXboxAchievements;
+            return xboxAchievementsFiltered;
         // If XUID is invalid (i.e. gamertag doesnt exist), return false
         } else {
             return false;

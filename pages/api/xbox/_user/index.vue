@@ -20,7 +20,7 @@ export default {
       meta: [
         {
           hid: "description",
-          name: "Main Achievement Tracker",
+          name: "Main",
           content:
             "Track and get guides for all 700 achievements in Halo: The Master Chief Collection",
         },
