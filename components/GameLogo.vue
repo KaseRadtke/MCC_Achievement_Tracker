@@ -1,5 +1,5 @@
 <template>
-  <div :class="active ? 'selected' : 'unselected'">
+  <div :class="active ? 'game_selected' : 'game_unselected'">
     <li class="nav-item logoselection">
       <img
         :src="require(`../static/game_symbols/${game}_symbol.png`)"
@@ -28,12 +28,12 @@ export default {
 };
 </script>
 
-<style>
-.selected {
-  opacity: 100%;
+<style scoped>
+.game_selected {
+  opacity: 1;
 }
-.unselected {
-  opacity: 25%;
+.game_unselected {
+  opacity: 0.25
 }
 .logoselection {
   cursor: pointer;

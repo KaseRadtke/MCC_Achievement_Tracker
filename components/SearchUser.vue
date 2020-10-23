@@ -2,19 +2,19 @@
   <div id="search_component">
     <div id="platform_selection">
       <input
-        :class="xboxSelected ? 'selected' : 'unselected'"
+        :class="xboxSelected ? 'platform_selected' : 'platform_unselected'"
         id="xboxButton"
         type="image"
-        src="../static/icons/xbox_button.png"
+        :src="require(`../static/icons/xbox_button.png`)"
         alt="Submit"
         :xboxSelected="true"
         @click="buttonSelected('xbox')"
       />
       <input
-        :class="steamSelected ? 'selected' : 'unselected'"
+        :class="steamSelected ? 'platform_selected' : 'platform_unselected'"
         id="steamButoon"
         type="image"
-        src="../static/icons/steam_button.png"
+        :src="require(`../static/icons/steam_button.png`)"
         alt="Submit"
         :steamSelected="false"
         @click="buttonSelected('steam')"
@@ -83,7 +83,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #platform_selection {
   position: relative;
   width: 200px;
@@ -95,12 +95,12 @@ export default {
   margin-right: 20px;
 }
 
-.unselected {
-  opacity: 20%;
+.platform_unselected {
+  opacity: 0.2;
 }
 
-.selected {
-  opacity: 100%;
+.platform_selected {
+  opacity: 1
 }
 </style>
     

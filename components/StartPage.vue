@@ -4,7 +4,10 @@
     <h1 class="title">MCC Achievement Tracker</h1>
     <div id="bio">
       <p class="description">
-        Track and get guides for all 700 achievements in Halo: The Master Chief Collection! MCC Achievement Tracker lets you filter achievements by individual game, gamemode, and map they can be unlocked on. Click any achievement to instantly open up a guide.
+        Track and get guides for all 700 achievements in Halo: The Master Chief
+        Collection! MCC Achievement Tracker lets you filter achievements by
+        individual game, gamemode, and map they can be unlocked on. Click any
+        achievement to instantly open up a guide.
       </p>
     </div>
     <div id="search_content">
@@ -21,14 +24,14 @@
       Halo: The Master Chief Collection
     </p>
     <div class="author_links">
-        <a href="https://www.twitter.com/NoWise10" target="_blank">
+      <a href="https://www.twitter.com/NoWise10">
+        <img
+          class="twitter_bird_logo"
+          src="../static/icons/Twitter_Bird_Logo.svg"
+          alt="d"
+        />
         <p class="made_by">Made with love by Kase Radtke</p>
-      <img
-        class="twitter_bird_logo"
-        src="../static/icons/Twitter_Bird_Logo.svg"
-        alt="d"
-      />
-      </a> 
+      </a>
     </div>
   </div>
 </template>
@@ -118,18 +121,18 @@ export default {
 <style>
 .author_links {
   cursor: pointer;
+  height: 2px;
 }
 .twitter_bird_logo {
   filter: invert(100%);
   padding-top: 2em;
+  margin-left: -0.7em;
   position: absolute;
 }
-.made_by{
+.made_by {
   padding-top: 4.5em;
   color: white;
-  padding-left: 35.5em;
   font-size: 12px;
-  position: absolute;
 }
 #notFoundText {
   color: rgb(252, 65, 65);

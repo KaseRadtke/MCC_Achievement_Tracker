@@ -3,7 +3,7 @@
     <div class="container">
       <StartPage />
     </div>
-    <Background id="background_default" :gameBackground="gameBackground" />
+    <Background :gameBackground="gameBackground" />
   </div>
 </template>
 
