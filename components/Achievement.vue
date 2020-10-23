@@ -1,9 +1,6 @@
 <template>
-  <div
-    class="achievement_tab"
-    @click.stop="achievementClicked()"
-  >
- <!-- <AchievementGuideModal
+  <div class="achievement_tab" @click.stop="achievementClicked()">
+    <!-- <AchievementGuideModal
       :show="showModal()"
       @close="toggleModal()"
       :achievementName="achievementName"
@@ -47,12 +44,20 @@ export default {
         return false;
       }
       this.activeModal = id;
-      
     },
 
-    achievementClicked(){
-      this.$emit("achievementSelected", this.achievementName, this.achievementDescription, this.achievementValue, this.achievementArt, this.achievementTutorial, this.videoTutorial, this.imageTutorial)
-    }
+    achievementClicked() {
+      this.$emit(
+        "achievementSelected",
+        this.achievementName,
+        this.achievementDescription,
+        this.achievementValue,
+        this.achievementArt,
+        this.achievementTutorial,
+        this.videoTutorial,
+        this.imageTutorial
+      );
+    },
   },
   props: {
     achievementName: String,

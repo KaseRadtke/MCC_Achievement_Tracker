@@ -1,9 +1,13 @@
 <template>
-  <img class="NuxtLogo" src="../static/Logo_placeholder2.png" alt="Logo Placeholder">
+  <img
+    class="MCCTrackerLogo"
+    src="../static/Logo_placeholder2.png"
+    alt="Logo Placeholder"
+  />
 </template>
 
 <style>
-.NuxtLogo {
+.MCCTrackerLogo {
   margin: auto;
   width: 175px;
   position: relative;

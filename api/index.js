@@ -9,7 +9,8 @@ const app      = express()
 const config = {
     headers: {
         'X-AUTH': process.env.API_KEY,
-        'Content-Type' : 'application/json'
+        'Content-Type' : 'application/json',
+        'Accept-Language': 'en-US'
     }
 }
 
@@ -36,7 +37,6 @@ const config = {
             const xboxAchievementsFiltered = await axios.get(`https://xapi.us/v2/${userXUID}/achievements/1144039928`, config, {timeout: 5000})
                 .then(function (response) {
                     const achievementsJSON = response.data
-                    console.log(achievementsJSON[699])
                     return achievementsJSON;
                 })
                 .catch(function (error) {

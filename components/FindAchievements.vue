@@ -7,12 +7,20 @@
           <b-input
             type="text"
             class="form-control"
-            id="achievement_search"
+            name="achievement_search"
+            v-model="achievementName"
             placeholder="Search for specific achievement"
           ></b-input>
-          <b-button variant="primary" type="submit" value="Search Achievements"
+          <b-button
+            variant="primary"
+            type="submit"
+            value="Search Achievements"
+            :disabled="!isFilledOut"
             >Find Achievement</b-button
           >
+          <h6 id="achievement_not_found" v-if="achievementNotFound == true">
+            Achievement not found. Are you sure you spelled it correctly?
+          </h6>
         </div>
       </b-form>
     </div>
@@ -30,11 +38,27 @@
 import GameSearchSettings from "../components/GameSearchSettings";
 
 export default {
-  name: "FilterAchievements",
+  name: "FindAchievements",
+
+  data() {
+    return {
+      achievementNotFound: false,
+      achievementName: "",
+    };
+  },
 
   methods: {
     gameSelection(gameSelectionArray) {
       this.$emit("searchCriteriaRecieved", gameSelectionArray);
+    },
+    onSubmit: function () {
+      this.$emit("achievementSearched", this.achievementName);
+    },
+  },
+
+  computed: {
+    isFilledOut() {
+      return this.achievementName;
     },
   },
 
@@ -49,6 +73,15 @@ export default {
 </script>
 
 <style>
+#achievement_not_found {
+  color: rgb(252, 65, 65);
+  margin-top: 5px;
+  position: absolute;
+  width: 400px;
+  margin-left: -30px; /* Sloppy but it works ;) */
+  overflow: visible;
+}
+
 .criteria_selection {
   padding-top: 2em;
 }

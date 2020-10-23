@@ -23,8 +23,16 @@
         frameborder="0"
       >
       </iframe>
-      <img v-show="videoTutorial.length == 0" class="no_video_background" :src="imageTutorial">
-      <img v-show="videoTutorial.length == undefined" class="no_video_background" src="../static/videofalse_background.png">
+      <img
+        v-show="videoTutorial.length == 0"
+        class="no_video_background"
+        :src="imageTutorial"
+      />
+      <img
+        v-show="videoTutorial.length == undefined"
+        class="no_video_background"
+        src="../static/videofalse_background.png"
+      />
       <h6 class="achievement_main_tutorial">{{ achievementTutorial }}</h6>
     </modal>
   </div>
@@ -42,7 +50,7 @@ export default {
     "achievementArt",
     "achievementTutorial",
     "videoTutorial",
-    "imageTutorial"
+    "imageTutorial",
   ],
   components: { Modal },
   methods: {
@@ -77,7 +85,7 @@ export default {
   z-index: 100;
   color: white;
   padding-left: 2em;
-    padding-top: 0.5em;
+  padding-top: 0.5em;
 }
 .gamerscore_icon_small {
   width: 25px;
@@ -94,11 +102,11 @@ export default {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   z-index: 100;
 }
-.video_tutorial{
-    padding-top: 1em;
+.video_tutorial {
+  padding-top: 1em;
 }
-.no_video_background{
-    width: 100%;
-    padding-top: 1em;
+.no_video_background {
+  width: 100%;
+  padding-top: 1em;
 }
 </style>

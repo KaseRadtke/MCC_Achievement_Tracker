@@ -3,6 +3,9 @@
     <div>
       <Gamesbar @gameSelected="gameSelected" />
     </div>
+    <h4 class="username">
+      {{ achievementsCalculated + " / 700" }}
+    </h4>
     <img
       class="toggle_lock"
       :src="lockSymbol"
@@ -23,9 +26,10 @@
       />
     </div>
     <div id="wrapper">
-      <FilterAchievements
+      <FindAchievements
         :currentGame="this.game"
         @searchCriteriaRecieved="getSearchCriteria"
+        @achievementSearched="searchForAchievement"
       />
       <div class="achievements_container">
         <div class="achievements_grid">
@@ -47,6 +51,14 @@
             @achievementSelected="openAchievement"
           />
         </div>
+        <div v-if="achievementsCalculated == 0">
+          <h1 class="congratulations_celebration_baby_oh_yeah">
+            Congratulations!
+          </h1>
+          <h2 class="celebration_baby_oh_yeah">
+            You have all 700 achievements in Halo: The Master Chief Collection!
+          </h2>
+        </div>
         <div class="scroll_filler"></div>
       </div>
     </div>
@@ -55,19 +67,20 @@
 
 <script>
 import Gamesbar from "../components/Gamesbar";
-import FilterAchievements from "../components/FilterAchievements";
+import FindAchievements from "../components/FindAchievements";
 import Achievement from "../components/Achievement";
 import mccMasterTrackerJSON from "../static/mcc_achievement_master.json";
 
 export default {
   components: {
     Gamesbar,
-    FilterAchievements,
+    FindAchievements,
     Achievement,
   },
 
   data() {
     return {
+      achievementsCalculated: 0,
       game: "reach",
       filterAchievementState: "locked",
       achievementsJSON: [mccMasterTrackerJSON],
@@ -96,6 +109,26 @@ export default {
       this.$emit("backgroundChanged", this.game);
     },
 
+    searchForAchievement(searchedAchievementName) {
+      for (var achievement in mccMasterTrackerJSON) {
+        if (
+          mccMasterTrackerJSON[achievement].name.toLowerCase() ==
+          searchedAchievementName.toLowerCase()
+        ) {
+          this.openAchievement(
+            mccMasterTrackerJSON[achievement].name,
+            mccMasterTrackerJSON[achievement].description,
+            mccMasterTrackerJSON[achievement].value,
+            mccMasterTrackerJSON[achievement].mediaAssets[0].url,
+            mccMasterTrackerJSON[achievement].tutorial,
+            mccMasterTrackerJSON[achievement].video_tutorial,
+            mccMasterTrackerJSON[achievement].image_tutorial
+          );
+          break;
+        }
+      }
+    },
+
     getSearchCriteria(gameSelectionArray) {
       this.searchCriteria = gameSelectionArray;
     },
@@ -115,15 +148,21 @@ export default {
       if (this.filterAchievementState == "locked") {
         this.filterAchievementState = "unlocked";
         this.lockSymbol = require("../static/achievement_unlocked.png");
+        this.$confetti.stop();
+        this.achievementsCalculated = this.$route.params.userUnlockedAchievements;
       } else {
         this.filterAchievementState = "locked";
         this.lockSymbol = require("../static/achievement_locked.png");
+        this.achievementsCalculated =
+          700 - this.$route.params.userUnlockedAchievements;
+        if (this.achievementsCalculated == 0) {
+          this.$confetti.start();
+        }
       }
     },
 
     // The Achievenment.vue component emits a request to open up a modal, and sends the achievements data to be populated in the modal.
-    // This had to be done here as the webkit-mask-image attribute in the CSS caused a bug with opening a modal in the div with that attribute.
-    // Not sure if this could be done in a prettier way, but it gets the job done!
+    // Also used with the FindAchievement.vue component
     openAchievement(
       recievedAchievementName,
       recievedAchievementDescription,
@@ -161,13 +200,26 @@ export default {
   },
 
   created() {
-    console.log(this.$route.params.user);
+    //console.log(this.$route.params.user);
     this.achievementsJSON = this.$route.params.userAchievementsMaster;
+    this.achievementsCalculated =
+      700 - this.$route.params.userUnlockedAchievements;
+    if (this.achievementsCalculated == 0) {
+      this.$confetti.start();
+    }
   },
 };
 </script>
 
 <style>
+.username {
+  color: #a2a2a2;
+  position: absolute;
+  padding-left: 12.5em;
+  padding-top: 0.5em;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 40px;
+}
 .toggle_lock {
   width: 35px;
   position: absolute;
@@ -194,6 +246,19 @@ export default {
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: minmax(70px, auto);
   grid-gap: 5px;
+}
+.congratulations_celebration_baby_oh_yeah {
+  color: white;
+  position: absolute;
+  padding-left: 8em;
+  padding-top: 2em;
+  font-size: 50px;
+}
+.celebration_baby_oh_yeah {
+  color: white;
+  position: absolute;
+  padding-top: 7em;
+  padding-left: 3.5em;
 }
 
 .mainpage {

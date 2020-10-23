@@ -3,12 +3,12 @@
     <div class="container">
       <StartPage />
     </div>
-     <Background id="background_default" :gameBackground="gameBackground"/>
+    <Background id="background_default" :gameBackground="gameBackground" />
   </div>
 </template>
 
 <script>
-import Background from "C:/Users/kaser/Documents/MCC_Achievement_Tracker_Nuxt/MCC_Achievement_tracker/components/Background.vue";
+import Background from "../components/Background.vue";
 export default {
   head() {
     return {

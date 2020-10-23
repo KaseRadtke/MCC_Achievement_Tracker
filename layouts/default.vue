@@ -14,7 +14,7 @@ export default {
 
   methods: {
     changeBackground(selectedGame) {
-      console.log('game selected 2: ' + selectedGame)
+      console.log("game selected 2: " + selectedGame);
     },
   },
 
@@ -40,8 +40,12 @@ html {
 }
 
 body {
-background: rgb(3,14,19);
-background: linear-gradient(185deg, rgba(3,14,19,1) 0%, rgba(0,0,0,1) 100%);
+  background: rgb(3, 14, 19);
+  background: linear-gradient(
+    185deg,
+    rgba(3, 14, 19, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 *,
 *::before,

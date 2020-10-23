@@ -22,29 +22,33 @@
           ></b-form-checkbox-group>
         </div>
       </div>
-      <h5 class="maps_heading" v-show="campaignSelected || multiplayerSelected">
-        Filter by Map
-      </h5>
-      <div id="maps_div">
-        <div class="campaign_maps" v-show="campaignSelected">
-          <div>
+      <div v-show="currentGame != 'crossgame'">
+        <!-- QOL improvement and easiest way to not show the redundant maps options for crossgame -->
+        <h5
+          class="maps_heading"
+          v-show="campaignSelected || multiplayerSelected"
+        >
+          Filter by Map
+        </h5>
+        <div id="maps_div">
+          <div class="campaign_maps" v-show="campaignSelected">
+            <div>
+              <b-form-checkbox-group
+                v-model="selected"
+                :options="campaign_maps"
+                plain
+                stacked
+              ></b-form-checkbox-group>
+            </div>
+          </div>
+          <div class="multiplayer_maps" v-show="multiplayerSelected">
             <b-form-checkbox-group
               v-model="selected"
-              :options="campaign_maps"
+              :options="multiplayer_maps"
               plain
               stacked
             ></b-form-checkbox-group>
           </div>
-        </div>
-        <div class="multiplayer_maps" v-show="multiplayerSelected">
-          <b-form-checkbox-group
-            v-model="selected"
-            :options="multiplayer_maps"
-            plain
-            stacked
-          ></b-form-checkbox-group>
-        </div>
-        <div id="maps_div">
           <div class="spartan_ops_maps" v-show="spartanOpsSelected">
             <div>
               <b-form-checkbox-group

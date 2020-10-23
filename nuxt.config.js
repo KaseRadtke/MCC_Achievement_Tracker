@@ -1,5 +1,11 @@
 
 export default {
+
+  target: 'static',
+
+  router: {
+    base: 'MCC_Achievement_Tracker'
+  },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -38,8 +44,9 @@ export default {
  plugins: [
   {
     src: '~/plugins/vue-video-background',
-    ssr: false
-  }
+    ssr: false,
+  },
+  { src: '~/plugins/vue-confetti.js', mode: 'client' },
  ],
 
   serverMiddleware: [
