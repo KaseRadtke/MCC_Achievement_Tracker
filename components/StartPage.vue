@@ -97,12 +97,12 @@ export default {
           if (
             this.mccTrackerAchievements[x].name === usersAchievements[y].name
           ) {
-            switch (usersAchievements[y].progressState) {
-              case "Achieved":
+            switch (usersAchievements[y].progressState.toLowerCase()) {
+              case "achieved":
                 this.mccTrackerAchievements[x].progressState = "unlocked";
                 achievementUnlockCounter++;
                 break;
-              case "NotStarted":
+              case "notStarted":
                 this.mccTrackerAchievements[x].progressState = "locked";
                 break;
             }
