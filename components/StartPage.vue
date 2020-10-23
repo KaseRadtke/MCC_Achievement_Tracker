@@ -4,10 +4,7 @@
     <h1 class="title">MCC Achievement Tracker</h1>
     <div id="bio">
       <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        Track and get guides for all 700 achievements in Halo: The Master Chief Collection! MCC Achievement Tracker lets you filter achievements by individual game, gamemode, and map they can be unlocked on. Click any achievement to instantly open up a guide.
       </p>
     </div>
     <div id="search_content">
@@ -144,7 +141,6 @@ export default {
   padding-top: 10px;
   padding-bottom: 2%;
   margin: 0 auto;
-  text-align: left;
 }
 
 #search_content {
