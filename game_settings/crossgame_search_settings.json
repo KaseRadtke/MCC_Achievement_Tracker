@@ -1,0 +1,26 @@
+{  
+    "modes":[
+        { "text": "Campaign", "value": "campaign" },
+        { "text": "Co-op Campaign", "value": "coop" },
+        { "text": "Multiplayer", "value": "multiplayer" }
+    ],
+
+    "campaign_maps":[
+        { "text": "All Campaign", "value": "all_campaign" }
+    ],
+
+    "multiplayer_maps":[
+       { "text": "Multiplayer", "value": "all_multiplayer" }
+    ],
+
+    "selected": [
+        "campaign",
+        "coop",
+        "multiplayer",
+        "all_campaign",
+        "all_multiplayer"
+    ],
+    "allSelected" : true,
+    "campaignSelected": true,
+    "multiplayerSelected": true
+}  

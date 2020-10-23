@@ -1,0 +1,52 @@
+{  
+    "modes":[
+        { "text": "Campaign", "value": "campaign" },
+        { "text": "Co-op Campaign", "value": "coop" },
+        { "text": "Multiplayer", "value": "multiplayer" }
+    ],
+
+    "campaign_maps":[
+        { "text": "Winter Contingency", "value": "winter_contingency" },
+        { "text": "ONI: Swordbase", "value": "oni_swordbase" },
+        { "text": "Nightfall", "value": "nightfall" },
+        { "text": "Tip of The Spear", "value": "tip_of_the_spear" },
+        { "text": "Long Night of Solace", "value": "long_night_of_solace" },
+        { "text": "Exodus", "value": "exodus" },
+        { "text": "New Alexandria", "value": "new_alexandria" },
+        { "text": "The Package", "value": "the_package" },
+        { "text": "Pillar of Autumn", "value": "the_pillar_of_autumn" },
+        { "text": "Lone Wolf", "value": "lone_wolf" },
+        { "text": "All Campaign (non mission specific)", "value": "all_campaign" },
+        { "text": "Firefight (any map)", "value": "all_firefight" }
+    ],
+
+    "multiplayer_maps":[
+        { "text": "Boardwalk", "value": "boardwalk" },
+        { "text": "Forgeworld", "value": "forgeworld" },
+        { "text": "All Multiplayer (not map specific)", "value": "all_multiplayer"}
+    ],
+
+    "selected": [ 
+        "campaign",
+        "coop",
+        "multiplayer",
+        "winter_contingency",
+        "oni_swordbase",
+        "nightfall",
+        "tip_of_the_spear",
+        "long_night_of_solace",
+        "exodus",
+        "new_alexandria",
+        "the_package",
+        "the_pillar_of_autumn",
+        "lone_wolf",
+        "boardwalk",
+        "forgeworld",
+        "all_campaign",
+        "all_multiplayer",
+        "all_firefight"
+    ],
+    "allSelected" : true,
+    "campaignSelected": true,
+    "multiplayerSelected": true
+}  

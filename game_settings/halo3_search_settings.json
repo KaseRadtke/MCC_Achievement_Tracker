@@ -1,0 +1,64 @@
+{  
+    "modes":[
+        { "text": "Campaign", "value": "campaign" },
+        { "text": "Co-op Campaign", "value": "coop" },
+        { "text": "Multiplayer", "value": "multiplayer" }
+    ],
+
+    "campaign_maps":[
+        { "text": "Sierra 117", "value": "sierra_117" },
+        { "text": "Crows Nest", "value": "crows_nest" },
+        { "text": "Tsavo Highway", "value": "tsavo_highway" },
+        { "text": "The Storm", "value": "the_storm" },
+        { "text": "Floodgate", "value": "floodgate" },
+        { "text": "The Ark", "value": "the_ark" },
+        { "text": "The Covenant", "value": "the_covenant" },
+        { "text": "Cortana", "value": "cortana" },
+        { "text": "Halo", "value": "halo_h3" },
+        { "text": "All Campaign (non mission specific)", "value": "all_campaign" }
+    ],
+
+    "multiplayer_maps":[
+        { "text": "Assembly", "value": "assembly" },
+        { "text": "Citadel", "value": "citadel" },
+        { "text": "Foundry", "value": "foundry" },
+        { "text": "Heretic", "value": "heretic" },
+        { "text": "High Ground", "value": "high_ground" },
+        { "text": "Longshore", "value": "longshore" },
+        { "text": "Orbital", "value": "orbital" },
+        { "text": "Sandbox", "value": "sandbox" },
+        { "text": "Standoff", "value": "standoff" },
+        { "text": "Valhalla", "value": "valhalla" },
+        { "text": "All Multiplayer (not map specific)", "value": "all_multiplayer" }
+    ],
+
+    "selected": [
+        "campaign",
+        "coop",
+        "multiplayer",
+        "sierra_117",
+        "crows_nest",
+        "tsavo_highway",
+        "the_storm",
+        "floodgate",
+        "the_ark",
+        "the_covenant",
+        "cortana",
+        "halo_h3",
+        "assembly",
+        "citadel",
+        "foundry",
+        "heretic",
+        "high_ground",
+        "longshore",
+        "orbital",
+        "sandbox",
+        "standoff",
+        "valhalla",
+        "all_campaign",
+        "all_multiplayer"
+    ],
+    "allSelected" : true,
+    "campaignSelected": true,
+    "multiplayerSelected": true
+}  

@@ -1,0 +1,72 @@
+{  
+    "modes":[
+        { "text": "Campaign", "value": "campaign" },
+        { "text": "Co-op Campaign", "value": "coop" },
+        { "text": "Multiplayer", "value": "multiplayer"},
+        { "text": "Spartan Ops", "value": "spartan_ops"}
+    ],
+
+    "campaign_maps":[
+        { "text": "Dawn", "value": "dawn" },
+        { "text": "Requiem", "value": "requiem" },
+        { "text": "Forerunner", "value": "forerunner" },
+        { "text": "Infinity", "value": "infinity" },
+        { "text": "Reclaimer", "value": "reclaimer" },
+        { "text": "Shutdown", "value": "shutdown" },
+        { "text": "The Composer", "value": "composer" },
+        { "text": "Midnight", "value": "midnight" },
+        { "text": "All Campaign (non mission specific)", "value": "all_campaign" }
+    ],
+
+    "spartan_ops_maps":[
+        { "text": "Episode 1", "value": "episode_1" },
+        { "text": "Episode 2", "value": "episode_2" },
+        { "text": "Episode 3", "value": "episode_3" },
+        { "text": "Episode 4", "value": "episode_4" },
+        { "text": "Episode 5", "value": "episode_5" },
+        { "text": "Episode 6", "value": "episode_6" },
+        { "text": "Episode 7", "value": "episode_7" },
+        { "text": "Episode 8", "value": "episode_8" },
+        { "text": "Episode 9", "value": "episode_9" },
+        { "text": "Episode 10", "value": "episode_10" },
+        { "text": "All Spartan Ops (non mission specific)", "value": "all_spartan_ops" }
+    ],
+
+    "multiplayer_maps":[
+        { "text": "Forge Island", "value": "forge_island" },
+        { "text": "Multiplayer (not map specific)", "value": "all_multiplayer" }
+    ],
+
+    "selected": [
+        "campaign",
+        "coop",
+        "multiplayer",
+        "spartan_ops",
+        "dawn",
+        "requiem",
+        "forerunner",
+        "infinity",
+        "reclaimer",
+        "shutdown",
+        "composer",
+        "midnight",
+        "forge_island",
+        "episode_1",
+        "episode_2",
+        "episode_3",
+        "episode_4",
+        "episode_5",
+        "episode_6",
+        "episode_7",
+        "episode_8",
+        "episode_9",
+        "episode_10",
+        "all_campaign",
+        "all_multiplayer",
+        "all_spartan_ops"
+    ],
+    "allSelected" : true,
+    "campaignSelected": true,
+    "multiplayerSelected": true,
+    "spartanOpsSelected": true
+}  
