@@ -59,14 +59,7 @@ background: linear-gradient(174deg, rgba(10,35,46,1) 0%, rgba(0,0,0,0.8351715686
 .modal-body {
     margin: 20px 0;
 }
-/*
- * The following styles are auto-applied to elements with
- * transition="modal" when their visibility is toggled
- * by Vue.js.
- *
- * You can easily play with the modal transition by editing
- * these styles.
- */
+
 .modal-enter {
   opacity: 0;
 }

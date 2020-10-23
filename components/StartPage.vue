@@ -28,7 +28,7 @@
         <p class="made_by">Made with love by Kase Radtke</p>
       <img
         class="twitter_bird_logo"
-        src="../static/Twitter_Bird_Logo.svg"
+        src="../static/icons/Twitter_Bird_Logo.svg"
         alt="d"
       />
       </a> 

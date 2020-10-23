@@ -13,7 +13,7 @@
       @click.stop="toggleLockButton()"
     />
     <div>
-      <AchievementGuideModal
+      <AchievementModal
         :show="showModal()"
         @close="toggleModal()"
         :achievementName="achievementName"
@@ -33,7 +33,7 @@
       />
       <div class="achievements_container">
         <div class="achievements_grid">
-          <Achievement
+          <AchievementTab
             v-for="achievement in filteredAchievementsJSON"
             :key="achievement.name"
             :achievementName="achievement.name"
@@ -68,14 +68,16 @@
 <script>
 import Gamesbar from "../components/Gamesbar";
 import FindAchievements from "../components/FindAchievements";
-import Achievement from "../components/Achievement";
+import AchievementTab from "../components/AchievementTab";
 import mccMasterTrackerJSON from "../static/mcc_achievement_master.json";
+import AchievementModal from"../components/AchievementModal";
 
 export default {
   components: {
     Gamesbar,
     FindAchievements,
-    Achievement,
+    AchievementTab,
+    AchievementModal
   },
 
   data() {
@@ -86,7 +88,7 @@ export default {
       achievementsJSON: [mccMasterTrackerJSON],
       searchCriteria: [],
       activeModal: 0,
-      lockSymbol: require("../static/achievement_locked.png"),
+      lockSymbol: require("../static/icons/achievement_locked.png"),
       achievementName: "",
       achievementDescription: "",
       achievementValue: 99,
@@ -147,12 +149,12 @@ export default {
     toggleLockButton() {
       if (this.filterAchievementState == "locked") {
         this.filterAchievementState = "unlocked";
-        this.lockSymbol = require("../static/achievement_unlocked.png");
+        this.lockSymbol = require("../static/icons/achievement_unlocked.png");
         this.$confetti.stop();
         this.achievementsCalculated = this.$route.params.userUnlockedAchievements;
       } else {
         this.filterAchievementState = "locked";
-        this.lockSymbol = require("../static/achievement_locked.png");
+        this.lockSymbol = require("../static/icons/achievement_locked.png");
         this.achievementsCalculated =
           700 - this.$route.params.userUnlockedAchievements;
         if (this.achievementsCalculated == 0) {
