@@ -60,9 +60,11 @@ export default {
   width: 100px;
 }
 #mainpage_div {
-  margin-left: 15%;
   position: absolute;
+  padding-right: 15%;
+  padding-left: 15%;
   z-index: 1;
+  width: 100%;
 }
 
 h6 {

@@ -265,17 +265,19 @@ export default {
 
 .mainpage {
   border: #7e7f80 solid 2px;
-  border-radius: 15px;
-  margin: 0 auto;
-  width: 110rem;
-  height: 72rem;
-  overflow: auto;
-  min-width: 10vh;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
-  overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+    /* width: 110rem; */
+    min-width: 1200px;
+    height: 85vh;
+    overflow: auto;
+    min-width: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
 }
 
 #wrapper {

@@ -3,7 +3,7 @@
     <img :src="achievementThumbnail[0].thumbnail" class="achievement_icon" />
     <h6 class="achievement_title">{{ achievementName }}</h6>
     <h6 class="achievement_description">{{ achievementDescription }}</h6>
-    <span class="achievement_value"> {{ achievementValue }} </span>
+    <p class="achievement_value">{{ achievementValue }}</p>
     <img
       src="../static/icons/gamescore_icon_tab.png"
       alt="gamerscore_value_icon"
@@ -94,7 +94,7 @@ export default {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  width: 23em;
+  width: 60%;
 }
 
 .achievement_title {
@@ -106,9 +106,8 @@ export default {
 
 .achievement_value {
   color: white;
-  position: absolute;
-  margin-left: 23.7em;
   margin-top: -2em;
+  margin-right: 7%;
   text-align: right;
 }
 .achievement_icon {
@@ -122,7 +121,8 @@ export default {
 .gamerscore_icon {
   width: 15px;
   position: absolute;
-  margin-left: 25em;
-  margin-top: -27px;
+  margin-left: 94%;
+  margin-top: -34px;
+  margin-right: 30px;
 }
 </style>
