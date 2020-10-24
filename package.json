@@ -2,6 +2,9 @@
   "name": "MCC_Achievement_tracker",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "12.18.2"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
