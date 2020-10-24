@@ -5,7 +5,7 @@
       <h4 class="achievement_main_value">{{ achievementValue }}</h4>
       <img
         class="gamerscore_icon_small"
-        src="..\static\icons\gamerscore_icon.png"
+        :src="require('../static/icons/gamerscore_icon.png')"
       />
       <p class="achievement_main_description">{{ achievementDescription }}</p>
       <img
@@ -31,7 +31,7 @@
       <img
         v-show="videoTutorial.length == undefined"
         class="no_video_background"
-        src="../static/icons/video_false_background.png"
+        :src="require('../static/icons/video_false_background.png')"
       />
       <h6 class="achievement_main_tutorial">{{ achievementTutorial }}</h6>
     </modal>
