@@ -4,7 +4,7 @@
       <Gamesbar @gameSelected="gameSelected" />
     </div>
     <h4 class="username">
-      {{ achievementsCalculated + " / 700" }}
+      {{ achievementsCalculated + " / 700 " + filterAchievementState + " achievements" }}
     </h4>
     <img
       class="toggle_lock"
@@ -216,16 +216,16 @@ export default {
 <style>
 .username {
   color: #a2a2a2;
-  position: absolute;
-  padding-left: 12.5em;
-  padding-top: 0.5em;
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 40px;
+    position: absolute;
+    padding-left: 12.8em;
+    padding-top: 0.82em;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 35px;
 }
 .toggle_lock {
   width: 35px;
   position: absolute;
-  left: 27.5em;
+  left: 400px;
   padding-top: 15px;
   cursor: pointer;
 }
@@ -239,7 +239,7 @@ export default {
   margin-top: 4em;
   margin-right: 2em;
   overflow: scroll;
-  height: 80em;
+  height: 95vh;
   -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 72%);
 }
 
@@ -257,17 +257,17 @@ export default {
   font-size: 50px;
 }
 .celebration_baby_oh_yeah {
-  color: white;
-  position: absolute;
-  padding-top: 7em;
-  padding-left: 3.5em;
+        color: white;
+    position: absolute;
+         margin-left: 2vw;
+    margin-top: 13vh;
+    font-size: 160%;
 }
 
 .mainpage {
   border: #7e7f80 solid 2px;
     border-radius: 15px;
     margin: 0 auto;
-    /* width: 110rem; */
     min-width: 1200px;
     height: 85vh;
     overflow: auto;

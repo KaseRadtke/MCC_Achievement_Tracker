@@ -94,7 +94,7 @@ export default {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  width: 60%;
+  width: 80%;
 }
 
 .achievement_title {
