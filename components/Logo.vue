@@ -1,7 +1,7 @@
 <template>
   <img
     class="MCCTrackerLogo"
-    src="../static/icons/Logo_placeholder2.png"
+    src="../static/icons/MCC_Tracker_Logo.png"
     alt="Logo Placeholder"
   />
 </template>
@@ -9,7 +9,7 @@
 <style>
 .MCCTrackerLogo {
   margin: auto;
-  width: 175px;
+  width: 145px;
   position: relative;
 }
 
