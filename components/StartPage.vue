@@ -166,21 +166,21 @@ export default {
   margin-left: 20px;
 }
 .container #welcomeContainer {
-  border: rgb(230, 230, 230) solid 2px;
-  border-radius: 25px;
-  margin-top: 5%;
-  width: 1200px;
-  display: block;
-  min-width: 10vh;
-  padding: 70px;
-  padding-bottom: 75px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: blur(8px);
-  position: absolute;
-  z-index: 100;
+      border: rgb(230, 230, 230) solid 2px;
+    border-radius: 25px;
+    margin-top: 5%;
+ 
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+ 
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    z-index: 100;
 }
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
