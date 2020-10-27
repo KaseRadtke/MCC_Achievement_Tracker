@@ -4,7 +4,12 @@
       <Gamesbar @gameSelected="gameSelected" />
     </div>
     <h4 class="username">
-      {{ achievementsCalculated + " / 700 " + filterAchievementState + " achievements" }}
+      {{
+        achievementsCalculated +
+        " / 700 " +
+        filterAchievementState +
+        " achievements"
+      }}
     </h4>
     <img
       class="toggle_lock"
@@ -70,14 +75,14 @@ import Gamesbar from "../components/Gamesbar";
 import FindAchievements from "../components/FindAchievements";
 import AchievementTab from "../components/AchievementTab";
 import mccMasterTrackerJSON from "../static/mcc_achievement_master.json";
-import AchievementModal from"../components/AchievementModal";
+import AchievementModal from "../components/AchievementModal";
 
 export default {
   components: {
     Gamesbar,
     FindAchievements,
     AchievementTab,
-    AchievementModal
+    AchievementModal,
   },
 
   data() {
@@ -214,21 +219,6 @@ export default {
 </script>
 
 <style>
-.username {
-  color: #a2a2a2;
-    position: absolute;
-    padding-left: 12.8em;
-    padding-top: 0.82em;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 35px;
-}
-.toggle_lock {
-  width: 35px;
-  position: absolute;
-  left: 400px;
-  padding-top: 15px;
-  cursor: pointer;
-}
 .scroll_filler {
   width: 300px;
   height: 500px;
@@ -239,6 +229,7 @@ export default {
   margin-top: 4em;
   margin-right: 2em;
   overflow: scroll;
+  scrollbar-width: none;
   height: 95vh;
   -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 72%);
 }
@@ -257,27 +248,27 @@ export default {
   font-size: 50px;
 }
 .celebration_baby_oh_yeah {
-        color: white;
-    position: absolute;
-         margin-left: 2vw;
-    margin-top: 13vh;
-    font-size: 160%;
+  color: white;
+  position: absolute;
+  margin-left: 2vw;
+  margin-top: 13vh;
+  font-size: 160%;
 }
 
 .mainpage {
   border: #7e7f80 solid 2px;
-    border-radius: 15px;
-    margin: 0 auto;
-    min-width: 1200px;
-    height: 85vh;
-    overflow: auto;
-    min-width: 90vh;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    overflow: hidden;
+  border-radius: 15px;
+  margin: 0 auto;
+  min-width: 1200px;
+  height: 85vh;
+  overflow: auto;
+  min-width: 90vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
 }
 
 #wrapper {
@@ -290,5 +281,175 @@ export default {
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent; /* make scrollbar transparent */
+}
+
+@media screen and (min-width: 691px) and (max-width: 1366px) {
+  .username {
+    color: #a2a2a2;
+    position: absolute;
+    padding-left: 25rem;
+    padding-top: 2.2rem;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.85vw;
+  }
+
+  .toggle_lock {
+    width: 2.5vw;
+    position: absolute;
+    margin-left: 22.5rem;
+    padding-top: 15px;
+    cursor: pointer;
+  }
+  .congratulations_celebration_baby_oh_yeah {
+    color: white;
+    position: absolute;
+    padding-left: 6vw;
+    padding-top: 1em;
+    font-size: 40px;
+  }
+  .celebration_baby_oh_yeah {
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 320px;
+    margin-left: 5vw;
+    margin-top: 15vh;
+    font-size: 18px;
+  }
+  .achievements_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(70px, auto);
+    grid-gap: 5px;
+  }
+}
+
+
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+  .username {
+    color: #a2a2a2;
+    position: absolute;
+    padding-left: 27.5rem;
+    padding-top: 2.2rem;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.4vw;
+  }
+
+  .toggle_lock {
+    width: 1.9vw;
+    position: absolute;
+    margin-left: 25rem;
+    padding-top: 15px;
+    cursor: pointer;
+  }
+  .congratulations_celebration_baby_oh_yeah {
+    color: white;
+    position: absolute;
+    padding-left: 12vw;
+    padding-top: 2em;
+    font-size: 40px;
+  }
+  .celebration_baby_oh_yeah {
+    color: white;
+    position: absolute;
+    margin-left: 3vw;
+    margin-top: 17vh;
+    font-size: 20px;
+  }
+  .achievements_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(70px, auto);
+    grid-gap: 5px;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .username {
+    color: #a2a2a2;
+    position: absolute;
+    padding-left: 27.8rem;
+    padding-top: 2rem;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.6vw;
+  }
+
+  .toggle_lock {
+    width: 1.9vw;
+    position: absolute;
+    margin-left: 25rem;
+    padding-top: 15px;
+    cursor: pointer;
+  }
+
+  .congratulations_celebration_baby_oh_yeah {
+    color: white;
+    position: absolute;
+    padding-left: 13vw;
+    padding-top: 2em;
+    font-size: 50px;
+  }
+  .celebration_baby_oh_yeah {
+    color: white;
+    position: absolute;
+    margin-left: 3vw;
+    margin-top: 17vh;
+    font-size: 160%;
+  }
+  .achievements_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(70px, auto);
+  grid-gap: 5px;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .username {
+    color: #a2a2a2;
+    position: absolute;
+    padding-left: 31.5rem;
+    padding-top: 1.1em;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.2vw;
+  }
+  .toggle_lock {
+    width: 1.6vw;
+    position: absolute;
+    margin-left: 450px;
+    padding-top: 15px;
+    cursor: pointer;
+  }
+  .congratulations_celebration_baby_oh_yeah {
+    color: white;
+    position: absolute;
+    padding-left: 17vw;
+    padding-top: 2em;
+    font-size: 50px;
+  }
+  .celebration_baby_oh_yeah {
+    color: white;
+    position: absolute;
+    margin-left: 9vw;
+    margin-top: 9vw;
+    font-size: 160%;
+  }
+}
+
+@media screen and (min-width: 691px) and (max-width: 1200px) {
+  .mainpage {
+    border: #7e7f80 solid 2px;
+    border-radius: 15px;
+    margin: 0 auto;
+    min-width: 1200px;
+    height: 85vh;
+    overflow: auto;
+    min-width: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+  }
 }
 </style>

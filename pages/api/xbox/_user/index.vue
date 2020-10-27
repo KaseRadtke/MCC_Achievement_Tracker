@@ -3,7 +3,7 @@
     <div id="mainpage_div">
       <div class="header" @click="goHome">
         <Logo id="mainpage_logo" />
-        <h6>MCC Achievement Tracker</h6>
+        <h6 class="tracker_title">MCC Achievement Tracker</h6>
       </div>
       <MainPage @backgroundChanged="changeBackground" />
     </div>
@@ -57,7 +57,8 @@ export default {
   margin: 0 auto;
 }
 #mainpage_logo {
-  width: 100px;
+  width: 30%;
+  padding-top: 5%;
 }
 #mainpage_div {
   position: absolute;
@@ -67,6 +68,9 @@ export default {
   width: 100%;
 }
 
+.tracker_title{
+  font-size:0.7vw;
+}
 h6 {
   color: white;
 }

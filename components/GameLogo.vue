@@ -2,8 +2,9 @@
   <div :class="active ? 'game_selected' : 'game_unselected'">
     <li class="nav-item logoselection">
       <img
+      class="logo_image"
         :src="require(`../static/game_symbols/${game}_symbol.png`)"
-        :width="size"
+        :style="'width:'+ (size+'vw')"
         @click="$emit('selected', game)"
       />
     </li>

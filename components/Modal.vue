@@ -44,13 +44,13 @@ export default {
     overflow-x: auto;
 }
 .modal-container {
-   width: 55em;
-    height: 65em;
+    width: 45%;
+    height: auto;
     margin: 0px auto;
     margin-top: 3em;
     padding: 20px 30px;
    background: rgb(10,35,46);
-background: linear-gradient(174deg, rgba(10,35,46,1) 0%, rgba(0,0,0,0.835171568627451) 100%);
+    background: linear-gradient(174deg, rgba(10,35,46,1) 0%, rgba(0,0,0,0.835171568627451) 100%);
     border-radius: 25px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
     transition: all .8s ease;

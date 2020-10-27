@@ -260,6 +260,7 @@ export default {
 
 .multiplayer_maps {
   display: grid;
+  width: 5vw;
 }
 
 .spartan_ops_maps {
@@ -270,5 +271,12 @@ export default {
 .maps_heading {
   color: white;
   font-size: 17px;
+}
+
+@media screen and (min-width: 691px) and (max-width: 1366px) {
+  .multiplayer_maps {
+    display: grid;
+    width: 9vw;
+  }
 }
 </style>

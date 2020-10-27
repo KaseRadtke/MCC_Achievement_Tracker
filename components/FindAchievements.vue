@@ -126,4 +126,15 @@ export default {
 .header {
   color: white;
 }
+
+@media screen and (min-width: 691px) and (max-width: 1366px) {
+  #filter_achievements {
+    grid-column: 1;
+    grid-row: 1/11;
+    transform: scale(0.75);
+    padding-top: -50;
+    margin-top: -160px;
+    margin-left: -40px;
+  }
+}
 </style>
