@@ -24,11 +24,11 @@
       Halo: The Master Chief Collection
     </p>
     <div class="author_links">
-      <a href="https://www.twitter.com/NoWise10">
+      <a href="https://www.twitter.com/NoWise10" target="_blank">
         <img
           class="twitter_bird_logo"
           src="../static/icons/Twitter_Bird_Logo.svg"
-          alt="d"
+          alt="Developers Twitter"
         />
         <p class="made_by">Made with love by Kase Radtke</p>
       </a>

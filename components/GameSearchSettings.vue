@@ -22,13 +22,13 @@
           ></b-form-checkbox-group>
         </div>
       </div>
-      <div v-show="currentGame != 'crossgame'">
+      <div >
         <!-- QOL improvement and easiest way to not show the redundant maps options for crossgame -->
         <h5
           class="maps_heading"
           v-show="campaignSelected || multiplayerSelected"
         >
-          Filter by Map
+          Filter by Mission / Map
         </h5>
         <div id="maps_div">
           <div class="campaign_maps" v-show="campaignSelected">
