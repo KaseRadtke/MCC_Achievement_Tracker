@@ -279,4 +279,16 @@ export default {
     width: 9vw;
   }
 }
+
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+  #filter_achievements{
+    transform: scale(.9);
+    margin-top: -60px;
+    margin-left: -20px;
+  }
+  .multiplayer_maps {
+    display: grid;
+    width: 8vw;
+  }
+}
 </style>

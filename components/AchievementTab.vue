@@ -125,6 +125,22 @@ export default {
   margin-top: -34px;
   margin-right: 30px;
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .achievement_description {
+    width: 70%;
+  }
+   .achievement_title {
+    color: white;
+    font-size: 16px;
+    margin-left: 5em;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 220px;
+  }
+}
 @media screen and (min-width: 1921px) {
   .achievement_title {
     color: white;
@@ -136,5 +152,6 @@ export default {
     overflow: hidden;
     width: 300px;
   }
+  
 }
 </style>

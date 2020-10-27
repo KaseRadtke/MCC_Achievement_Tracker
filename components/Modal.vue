@@ -71,4 +71,14 @@ export default {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+@media screen and (min-width: 1201px) and (max-width: 1700px) {
+    .modal-container {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1701px) and (max-width: 1920px) {
+    .modal-container {
+        width: 60%;
+    }
+}
 </style>

@@ -282,7 +282,23 @@ export default {
   width: 0px;
   background: transparent; /* make scrollbar transparent */
 }
-
+@media screen and (min-width: 291px) and (max-width: 690px) {
+  .username {
+    color: #a2a2a2;
+    position: absolute;
+    padding-left: 25rem;
+    padding-top: 2.2rem;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.85vw;
+  }
+.toggle_lock {
+    width: 4%;
+    position: absolute;
+    margin-left: 22.5rem;
+    padding-top: 15px;
+    cursor: pointer;
+  }
+}
 @media screen and (min-width: 691px) and (max-width: 1366px) {
   .username {
     color: #a2a2a2;

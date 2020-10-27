@@ -166,15 +166,13 @@ export default {
   margin-left: 20px;
 }
 .container #welcomeContainer {
-      border: rgb(230, 230, 230) solid 2px;
+    border: rgb(230, 230, 230) solid 2px;
     border-radius: 25px;
     margin-top: 5%;
- 
     padding-right: 3%;
     padding-left: 3%;
     padding-top: 1.5%;
     padding-bottom: 1%;
- 
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
     -webkit-backdrop-filter: blur(8px);
@@ -191,5 +189,11 @@ export default {
   color: #ffffff;
   letter-spacing: 1px;
   padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  .container #welcomeContainer {
+    transform: scale(0.9);
+  }
 }
 </style>

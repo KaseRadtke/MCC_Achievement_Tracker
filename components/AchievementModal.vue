@@ -15,15 +15,15 @@
         width="100%"
       />
       <div v-show="videoTutorial.length > 1" class="videoWrapper">
-      <iframe
-        v-show="videoTutorial.length > 1"
-        class="video_tutorial"
-        width="100%"
-        height="47%"
-        :src="videoTutorial"
-        frameborder="0"
-      >
-      </iframe>
+        <iframe
+          v-show="videoTutorial.length > 1"
+          class="video_tutorial"
+          width="100%"
+          height="47%"
+          :src="videoTutorial"
+          frameborder="0"
+        >
+        </iframe>
       </div>
       <img
         v-show="videoTutorial.length == 0"
@@ -64,7 +64,6 @@ export default {
 </script>
 
 <style scoped>
-
 .achievement_main_art {
   position: relative;
 }
@@ -91,7 +90,7 @@ export default {
   padding-left: 4em;
   padding-top: 2.5em;
   font-style: italic;
-  font-size:0.6vw;
+  font-size: 0.6vw;
 }
 .achievement_main_tutorial {
   position: relative;
@@ -118,7 +117,7 @@ export default {
 }
 .video_tutorial {
   padding-top: 1em;
-   position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -129,7 +128,27 @@ export default {
   padding-top: 1em;
 }
 
-@media only screen and (min-device-width: 1200) and (max-width: 2000){
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .achievement_main_value {
+    padding-top: 0.4em;
+    padding-left: 35vw;
+  }
+  .gamerscore_icon_small {
+    width: 1.4vw;
+    position: absolute;
+    z-index: 100;
+    margin-left: 43.7em;
+    margin-top: 0.5em;
+  }
+
+  .achievement_main_description {
+    padding-left: 4em;
+    padding-top: 2.6em;
+    font-size: 0.7vw;
+  }
+}
+
+@media only screen and (min-device-width: 1200) and (max-width: 1600) {
   .gamerscore_icon_small {
     width: 3vw;
     position: absolute;
