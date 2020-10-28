@@ -1,6 +1,6 @@
 <template>
-  <div id="search_component">
-    <div id="platform_selection">
+  <div class="search_component">
+    <div class="platform_selection">
       <input
         :class="xboxSelected ? 'platform_selected' : 'platform_unselected'"
         id="xboxButton"
@@ -14,7 +14,7 @@
         :class="steamSelected ? 'platform_selected' : 'platform_unselected tooltip-target-1'"
         v-b-tooltip.hover
         title="Steam API coming soon™"
-        id="steamButoon"
+        id="steamButton"
         type="image"
         :src="require(`../static/icons/steam_button.png`)"
         alt="Submit"
@@ -23,14 +23,13 @@
     </div>
     <b-form @submit.prevent="onSubmit" class="form-inline">
       <div
-        class="form-group mx-sm-3 mb-2"
-        style="flex-flow: nowrap; width: 320px"
+        class="form-group mx-sm-3 mb-2 searchform"
+        id="searchDiv"
       >
         <b-input
           type="text"
           v-model="gamertag"
-          class="form-control"
-          id="user_search"
+          class="form-control user_search"
           :placeholder="placeholder_text"
         ></b-input>
         <b-button variant="primary" type="submit" value="Search Achievements"
@@ -85,13 +84,13 @@ export default {
 </script>
 
 <style scoped>
-#platform_selection {
+.platform_selection {
   position: relative;
   width: 200px;
   right: 35px;
   margin-bottom: 5px;
 }
-#user_search {
+.user_search {
   width: 80%;
   margin-right: 20px;
 }
@@ -102,6 +101,46 @@ export default {
 
 .platform_selected {
   opacity: 1
+}
+#searchDiv{
+    flex-flow: nowrap;
+    width: 320px;
+  }
+
+@media screen and (max-width: 960px) {
+  #searchDiv{
+    flex-flow: column;
+  }
+  .search_component {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .search_component > * {
+    padding-bottom: 12px;
+  }
+  .platform_selection {
+   right: 100px;
+  }
+  .search_component .form-inline {
+    flex-flow: column;
+  }
+  .search_component .form-inline .form-group {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+  }
+  .user_search {
+    margin-right: 0;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  .instructions {
+    width: unset;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
 }
 </style>
     

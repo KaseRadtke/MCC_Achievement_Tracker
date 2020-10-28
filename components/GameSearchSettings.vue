@@ -22,7 +22,7 @@
           ></b-form-checkbox-group>
         </div>
       </div>
-      <div >
+      <div>
         <!-- QOL improvement and easiest way to not show the redundant maps options for crossgame -->
         <h5
           class="maps_heading"
@@ -77,6 +77,9 @@ export default {
   methods: {
     toggleAllCheckboxes(checked) {
       var checkboxArray = [];
+      if (this.currentGame != "crossgame") {
+        checkboxArray = ['all_campaign',"all_multiplayer"]
+      }
       for (var i = 0; i < this.modes.length; i++) {
         checkboxArray.push(this.modes[i].value);
       }
@@ -281,8 +284,8 @@ export default {
 }
 
 @media screen and (min-width: 1367px) and (max-width: 1600px) {
-  #filter_achievements{
-    transform: scale(.9);
+  #filter_achievements {
+    transform: scale(0.9);
     margin-top: -60px;
     margin-left: -20px;
   }

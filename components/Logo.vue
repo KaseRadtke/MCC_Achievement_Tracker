@@ -9,7 +9,6 @@
 <style>
 .MCCTrackerLogo {
   margin: auto;
-  width: 15%;
   position: relative;
 }
 

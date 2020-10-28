@@ -10,7 +10,7 @@
     ],
 
     "multiplayer_maps":[
-       { "text": "Multiplayer", "value": "all_multiplayer" }
+       { "text": "All Multiplayer", "value": "all_multiplayer" }
     ],
 
     "selected": [

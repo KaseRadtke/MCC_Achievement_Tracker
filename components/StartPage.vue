@@ -1,8 +1,8 @@
 <template>
   <div class="container" id="welcomeContainer">
-    <Logo />
+    <Logo class="startscreen_logo" />
     <h1 class="title">MCC Achievement Tracker</h1>
-    <div id="bio">
+    <div class="MCCTrackerBio">
       <p class="description">
         Track and get guides for all 700 achievements in Halo: The Master Chief
         Collection! MCC Achievement Tracker lets you filter achievements by
@@ -10,13 +10,13 @@
         achievement to instantly open up a guide.
       </p>
     </div>
-    <div id="search_content">
+    <div class="search_content">
       <SearchUser
         @search-user="searchUser"
         @platformSelected="changePlatformText"
       />
     </div>
-    <h6 id="notFoundText" v-if="userNotFound">
+    <h6 class="notFoundText" v-if="userNotFound">
       Xbox LIVE Gamertag not found. Are you sure you spelled it correctly?
     </h6>
     <p class="instructions">
@@ -138,7 +138,7 @@ export default {
   color: rgb(252, 65, 65);
 }
 
-#bio {
+.MCCTrackerBio {
   width: 70%;
   line-height: 2;
   padding-top: 10px;
@@ -146,7 +146,7 @@ export default {
   margin: 0 auto;
 }
 
-#search_content {
+.search_content {
   display: table;
   margin: 0 auto;
 }
@@ -166,19 +166,19 @@ export default {
   margin-left: 20px;
 }
 .container #welcomeContainer {
-    border: rgb(230, 230, 230) solid 2px;
-    border-radius: 25px;
-    margin-top: 5%;
-    padding-right: 3%;
-    padding-left: 3%;
-    padding-top: 1.5%;
-    padding-bottom: 1%;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    position: absolute;
-    z-index: 100;
+  border: rgb(230, 230, 230) solid 2px;
+  border-radius: 25px;
+  margin-top: 5%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  position: absolute;
+  z-index: 100;
 }
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
@@ -191,9 +191,40 @@ export default {
   padding-bottom: 10px;
 }
 
+.startscreen_logo {
+    width: 15%;
+  }
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
   .container #welcomeContainer {
     transform: scale(0.9);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .startscreen_logo {
+    margin: 12px;
+    padding-top: 30px;
+    width: 25%;
+  }
+  .container {
+    padding-left: 0;
+  }
+  .bio {
+    width: unset;
+  }
+  .title {
+    font-size: 32px;
+    padding: 12px;
+  }
+  .description {
+    margin-left: 0;
+    font-size: 16px;
+  }
+  .instructions {
+    width: unset;
+    font-size: 14px;
+    margin-bottom: 12px;
   }
 }
 </style>
