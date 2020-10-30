@@ -77,9 +77,7 @@ export default {
   methods: {
     toggleAllCheckboxes(checked) {
       var checkboxArray = [];
-      if (this.currentGame != "crossgame") {
-        checkboxArray = ['all_campaign',"all_multiplayer"]
-      }
+
       for (var i = 0; i < this.modes.length; i++) {
         checkboxArray.push(this.modes[i].value);
       }
@@ -292,6 +290,18 @@ export default {
   .multiplayer_maps {
     display: grid;
     width: 8vw;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  #filter_achievements {
+    transform: scale(0.9);
+    margin-top: -70px;
+    margin-left: -25px;
+  }
+  .multiplayer_maps {
+    display: grid;
+    width: 6.5vw;
   }
 }
 </style>

@@ -9577,7 +9577,7 @@
         "mode": ["multiplayer"],
         "titles": ["crossgame"],
         "maps": ["all_multiplayer"],
-        "tutorial": "One of the harder and longer achievements with no way to farm. You need to get 100 Legendary medals in matchmaking. Legendary medals are the ones circled in red. Steaktaculars are the easiest, which is winning a game with over a 30 point lead. Good luck!",
+        "tutorial": "One of the harder and longer achievements with no way to farm. You need to get 100 Legendary medals in matchmaking. Legendary medals are the ones circled in red. Steaktaculars are the easiest, which is winning a game with over a 20 kill lead. Halo 4 Infinity Slayer is 60 kills to win, making it your best chance to win by over 20 kills. Good luck!",
         "video_tutorial": "",
 		"image_tutorial":"https://i.imgur.com/BkLnjW7.png"
     }, {

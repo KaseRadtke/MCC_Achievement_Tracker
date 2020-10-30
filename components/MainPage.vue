@@ -303,17 +303,17 @@ export default {
   .username {
     color: #a2a2a2;
     position: absolute;
-    padding-left: 25rem;
-    padding-top: 2.2rem;
-    font-family: Verdana, Geneva, sans-serif;
+    padding-left: 26rem;
+    padding-top: 2.7rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 1.85vw;
   }
 
   .toggle_lock {
-    width: 2.5vw;
+    width: 5%;
     position: absolute;
     margin-left: 22.5rem;
-    padding-top: 15px;
+    padding-top: 25px;
     cursor: pointer;
   }
   .congratulations_celebration_baby_oh_yeah {
@@ -346,16 +346,16 @@ export default {
     color: #a2a2a2;
     position: absolute;
     padding-left: 27.5rem;
-    padding-top: 2.2rem;
-    font-family: Verdana, Geneva, sans-serif;
+    padding-top: 2.6rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 1.4vw;
   }
 
   .toggle_lock {
-    width: 1.9vw;
+    width: 2.6vw;
     position: absolute;
-    margin-left: 25rem;
-    padding-top: 15px;
+    margin-left: 24rem;
+    padding-top: 25px;
     cursor: pointer;
   }
   .congratulations_celebration_baby_oh_yeah {
@@ -384,17 +384,17 @@ export default {
   .username {
     color: #a2a2a2;
     position: absolute;
-    padding-left: 27.8rem;
-    padding-top: 2rem;
-    font-family: Verdana, Geneva, sans-serif;
+    padding-left: 28.3rem;
+    padding-top: 2.2rem;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 1.6vw;
   }
 
   .toggle_lock {
-    width: 1.9vw;
+    width: 2.2vw;
     position: absolute;
     margin-left: 25rem;
-    padding-top: 15px;
+    padding-top: 25px;
     cursor: pointer;
   }
 
@@ -424,15 +424,15 @@ export default {
     color: #a2a2a2;
     position: absolute;
     padding-left: 31.5rem;
-    padding-top: 1.1em;
-    font-family: Verdana, Geneva, sans-serif;
+    padding-top: 1.2em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-size: 1.2vw;
   }
   .toggle_lock {
-    width: 1.6vw;
+    width: 2vw;
     position: absolute;
-    margin-left: 450px;
-    padding-top: 15px;
+    margin-left: 440px;
+    padding-top: 20px;
     cursor: pointer;
   }
   .congratulations_celebration_baby_oh_yeah {
