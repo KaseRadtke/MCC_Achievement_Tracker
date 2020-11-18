@@ -1,20 +1,15 @@
-# MCC_Achievement_tracker
+# MCC Achievement Tracker
+https://www.MCCAchievementTracker.app
 
-## Build Setup
+MCC Achievement Tracker lets users track, filter, and get guides for all 700 achievements in Halo: The Master Chief Collection. Users can filter achievements from all six titles, by gamemode, and by the idividual map the achievement can be unlocked on. Guides for all 700 achievements are available at the click of a button, along with the full achievement data provided by Xbox.
 
-```bash
-# install dependencies
-$ npm install
+This is an open source project created by Kase Radtke, and is built using the Nuxt.js framework. MCCAchievementTracker is a universal application, with content being rendered both on the server, and one the client side.
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+![Start page](https://i.imgur.com/Zjnyk2N.jpg)
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+![Main page](https://i.imgur.com/4sNIqWV.jpg)
 
-# generate static project
-$ npm run generate
-```
+![Guide page](https://i.imgur.com/llOCro6.jpg)
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+And to the people who have all 700 achievements already...
+![Celebration page](https://i.imgur.com/bo9iIS9.jpg)
