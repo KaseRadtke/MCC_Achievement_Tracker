@@ -30,6 +30,10 @@ export default {
 </script>
 
 <style scoped>
+
+.logo_image{
+  width: 20%;
+}
 .game_selected {
   opacity: 1;
 }

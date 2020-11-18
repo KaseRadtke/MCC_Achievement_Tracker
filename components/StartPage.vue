@@ -7,7 +7,7 @@
         Track and get guides for all 700 achievements in Halo: The Master Chief
         Collection! MCC Achievement Tracker lets you filter achievements by
         individual game, gamemode, and map they can be unlocked on. Click any
-        achievement to instantly open up a guide.
+        achievement to instantly open up a guide. Click the lock symbol to toggle between locked and unlocked achievements.
       </p>
     </div>
     <div class="search_content">

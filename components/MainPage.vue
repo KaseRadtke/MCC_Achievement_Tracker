@@ -291,7 +291,7 @@ export default {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 1.85vw;
   }
-.toggle_lock {
+  .toggle_lock {
     width: 4%;
     position: absolute;
     margin-left: 22.5rem;
@@ -339,7 +339,6 @@ export default {
     grid-gap: 5px;
   }
 }
-
 
 @media screen and (min-width: 1367px) and (max-width: 1600px) {
   .username {
@@ -413,10 +412,10 @@ export default {
     font-size: 160%;
   }
   .achievements_grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-rows: minmax(70px, auto);
-  grid-gap: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(70px, auto);
+    grid-gap: 5px;
   }
 }
 @media screen and (min-width: 1921px) {
@@ -466,6 +465,53 @@ export default {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #background_default {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  #mainpage_div {
+    top: 0;
+    left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+  .mainpage {
+    min-width: unset;
+  }
+  .achievements_grid {
+    grid-template-columns: 1fr;
+  }
+  #filter_achievements:not(.active) {
+    display: none;
+    /* you would have to implement a button to toggle the filters on/off the screen 
+         * in Vue, you can do something like 
+         * <div id="filter_achievements :class="{'active': menuOpen}"></div> 
+         * and a button like <button type="button" @click="() => { menuOpen = !menuOpen }">menu</button>
+         */
+  }
+  #wrapper {
+    display: block;
+  }
+  .achievements_container {
+    margin-right: unset;
+  }
+  .username {
+    padding-left: 75px;
+    padding-top: 12px;
+    font-size: 18px;
+  }
+  .toggle_lock {
+    margin-left: unset;
+    left: 12px;
+    width: 45px;
   }
 }
 </style>

@@ -68,10 +68,16 @@ export default {
   width: 100%;
 }
 
-.tracker_title{
-  font-size:0.7vw;
+.tracker_title {
+  font-size: 13px;
 }
 h6 {
   color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    width: 180px;
+  }
 }
 </style>
