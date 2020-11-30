@@ -14,7 +14,8 @@
         { "text": "Kikowani Station","value": "kikowani_station" },
         { "text": "Data Hive","value": "data_hive" },
         { "text": "Coastal Highway","value": "coastal_highway" },
-        { "text": "Epilogue","value": "epilogue" }
+        { "text": "Epilogue","value": "epilogue" },
+        { "text": "All Campaign (non mission specific)", "value": "all_campaign" }
     ],
 
     "multiplayer_maps":[
@@ -32,7 +33,8 @@
         "kikowani_station",
         "data_hive",
         "coastal_highway",
-        "epilogue"
+        "epilogue",
+        "all_campaign"
     ],
     "allSelected" : true,
     "campaignSelected": true,

@@ -6,7 +6,7 @@
     <h4 class="username">
       {{
         achievementsCalculated +
-        " / 700 " +
+        " " +
         filterAchievementState +
         " achievements"
       }}
@@ -105,6 +105,12 @@ export default {
   },
 
   mounted() {
+    
+    for(let x = 0; x < this.achievementsJSON.length; x++){
+      if(this.achievementsJSON[x].name == 'Trifecta'){
+          console.log(this.achievementsJSON[x])
+      }
+    }
     this.$nextTick(() => {
       setTimeout(() => this.$nuxt.$loading.finish(), 500);
     });
