@@ -9703,7 +9703,7 @@
 		"mode": ["multiplayer"],
         "titles": ["crossgame"],
         "maps": ["all_multiplayer"],
-        "tutorial": "Get 250 King of The Hill related medals in matchmaking. Halo 4 and Halo 2 Annivesary give the most medals, so stick with those two if you want to speed this achievement up.",
+        "tutorial": "Get 250 King of The Hill related medals in matchmaking. In Halo 2 Annivesary you can farm this by waiting 5 seconds in the hill to get the 'Loitering' medal, then quickly leaving/re-entering to reset the countdown and get it again.",
         "video_tutorial": "",
 		"image_tutorial":"https://i.imgur.com/8FQYBDt.png"
     }, {
