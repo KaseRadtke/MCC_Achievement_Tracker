@@ -30,7 +30,7 @@
           src="../static/icons/Twitter_Bird_Logo.svg"
           alt="Developers Twitter"
         />
-        <p class="made_by">Made with love by Kase Radtke</p>
+        <p class="made_by">Made with love by NoWise10</p>
       </a>
     </div>
   </div>
@@ -65,12 +65,12 @@ export default {
     async searchUser(userGamerID) {
       this.$nuxt.$loading.start();
       try {
-        const res = await axios.get(`/api/data/xbox/${userGamerID}`);
+        var res = await axios.get(`/api/data/xbox/${userGamerID}`);
         if (res.data == false) {
           this.$nuxt.$loading.finish();
           this.userNotFound = true;
         } else {
-          const usersAchievements = await this.filterAchievements(res.data);
+          var usersAchievements = await this.filterAchievements(res.data);
           this.$router.push({
             name: `api-xbox-user`,
             params: {

@@ -194,7 +194,7 @@ export default {
     // Method that updates which achievements to display.
     // Checks if achievement includes the game title, the map, the mode, and its current lock state. If it does, then the achievement is added to the filtered array and returned.
     filteredAchievementsJSON() {
-      const hasMapInSearchCriteria = (currentValue) =>
+      var hasMapInSearchCriteria = (currentValue) =>
         this.searchCriteria.includes(currentValue);
       return this.achievementsJSON.filter(
         (i) =>
