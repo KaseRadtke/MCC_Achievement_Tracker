@@ -11,14 +11,13 @@
         @click="buttonSelected('xbox')"
       />
       <input
-        :class="steamSelected ? 'platform_selected' : 'platform_unselected tooltip-target-1'"
-        v-b-tooltip.hover
-        title="Steam API coming soon™"
+        :class="steamSelected ? 'platform_selected' : 'platform_unselected'"
         id="steamButton"
         type="image"
         :src="require(`../static/icons/steam_button.png`)"
         alt="Submit"
         :steamSelected="false"
+        @click="buttonSelected('steam')"
       />
     </div>
     <b-form @submit.prevent="onSubmit" class="form-inline">
@@ -58,13 +57,14 @@ export default {
 
   methods: {
     onSubmit() {
-      this.$emit("search-user", this.gamertag);
+      this.$emit("search-user", this.gamertag, this.platform);
       this.gamertag = "";
     },
 
     buttonSelected(selectedPlatform) {
       if (selectedPlatform == "xbox") {
         if (this.xboxSelected == false) {
+          this.platform = "xbox";
           this.xboxSelected = true;
           this.steamSelected = false;
           this.placeholder_text = "Enter Xbox LIVE Gamertag";
@@ -72,6 +72,7 @@ export default {
         }
       } else if (selectedPlatform == "steam") {
         if (this.steamSelected == false) {
+          this.platform = "steam";
           this.steamSelected = true;
           this.xboxSelected = false;
           this.placeholder_text = "Enter Steam ID";
