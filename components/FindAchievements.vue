@@ -18,8 +18,12 @@
             :disabled="!isFilledOut"
             >Find Achievement</b-button
           >
-          <h6 id="achievement_not_found" v-if="achievementNotFound == true">
+          <h6 id="achievement_not_found" v-if="achievementNotFound === true">
             Achievement not found. Are you sure you spelled it correctly?
+          </h6>
+          <!-- xxx warned me site was down on 08/24/2022 along with some naming bugs. Thanks! -->
+          <h6 id="achievement_not_found" v-if="achievementName === 'machinegunFTW'">
+            Thanks for the help 🙂
           </h6>
         </div>
       </b-form>

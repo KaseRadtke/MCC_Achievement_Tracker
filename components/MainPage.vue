@@ -152,6 +152,7 @@ export default {
     },
 
     toggleLockButton() {
+      console.log(this.filteredAchievementsJSON)
       if (this.filterAchievementState == "locked") {
         this.filterAchievementState = "unlocked";
         this.lockSymbol = require("../static/icons/achievement_unlocked.png");
@@ -196,6 +197,7 @@ export default {
     filteredAchievementsJSON() {
       var hasMapInSearchCriteria = (currentValue) =>
         this.searchCriteria.includes(currentValue);
+        console.log(this.achievementsJSON)
       return this.achievementsJSON.filter(
         (i) =>
           i.titles.includes(this.game) &&
