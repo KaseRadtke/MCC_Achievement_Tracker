@@ -134,7 +134,7 @@ export default {
   color: white;
   font-size: 12px;
 }
-#notFoundText {
+.notFoundText {
   color: rgb(252, 65, 65);
 }
 

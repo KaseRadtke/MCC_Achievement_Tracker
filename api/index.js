@@ -8,7 +8,7 @@ const cors     = require('cors')
 const app      = express()
 const config = {
     headers: {
-        'X-AUTH': process.env.API_KEY,
+        'Authorization': `Bearer ${process.env.API_KEY}`,
         'Content-Type' : 'application/json',
         'Accept-Language': 'en-US'
     }
@@ -21,11 +21,11 @@ const config = {
 
 
     async function getUserXboxAchievements() {
-
+        console.log(process.env.API_KEY)
         // Gets users needed XUID from XAPI using axio's request.
-        const userXUID = await axios.get(`https://xapi.us/v2/xuid/${req.params.gamertag}`, config, {timeout: 5000})
+        const userXUID = await axios.get(`https://xapi.us/api/${req.params.gamertag}/profile-for-gamertag`, config, {timeout: 5000})
                             .then(response => {
-                            return response.data['xuid'];
+                            return response.data['id'];
                             })
                             .catch(error => {
                                 console.log(`error: ${error}`);
@@ -34,9 +34,9 @@ const config = {
 
         // If XUID is valid, then get JSON of users Halo: The Master Chief Collection achievements using their XUID.
         if(userXUID) {
-            const xboxAchievementsFiltered = await axios.get(`https://xapi.us/v2/${userXUID}/achievements/1144039928`, config, {timeout: 5000})
+            const xboxAchievementsFiltered = await axios.get(`https://xapi.us/api/${userXUID}/achievements/1144039928`, config, {timeout: 5000})
                 .then(function (response) {
-                    const achievementsJSON = response.data
+                    const achievementsJSON = response.data['achievements']
                     return achievementsJSON;
                 })
                 .catch(function (error) {
