@@ -21,7 +21,7 @@ const config = {
 
 
     async function getUserXboxAchievements() {
-        console.log(process.env.API_KEY)
+        console.log(req.params.gamertag)
         // Gets users needed XUID from XAPI using axio's request.
         const userXUID = await axios.get(`https://xapi.us/api/${req.params.gamertag}/profile-for-gamertag`, config, {timeout: 5000})
                             .then(response => {
