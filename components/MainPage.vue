@@ -152,7 +152,6 @@ export default {
     },
 
     toggleLockButton() {
-      console.log(this.filteredAchievementsJSON)
       if (this.filterAchievementState == "locked") {
         this.filterAchievementState = "unlocked";
         this.lockSymbol = require("../static/icons/achievement_unlocked.png");
@@ -197,19 +196,17 @@ export default {
     filteredAchievementsJSON() {
       var hasMapInSearchCriteria = (currentValue) =>
         this.searchCriteria.includes(currentValue);
-        console.log(this.achievementsJSON)
       return this.achievementsJSON.filter(
-        (i) =>
-          i.titles.includes(this.game) &&
-          this.searchCriteria.some((val) => i.maps.indexOf(val) !== -1) &&
-          this.searchCriteria.some((val) => i.mode.indexOf(val) !== -1) &&
-          i.progressState === this.filterAchievementState
+        (achievement) =>
+          achievement.titles.includes(this.game) &&
+          this.searchCriteria.some((val) => achievement.maps.indexOf(val) !== -1) &&
+          this.searchCriteria.some((val) => achievement.mode.indexOf(val) !== -1) &&
+          achievement.progressState === this.filterAchievementState
       );
     },
   },
 
   created() {
-    //console.log(this.$route.params.user);
     this.achievementsJSON = this.$route.params.userAchievementsMaster;
     this.achievementsCalculated =
       700 - this.$route.params.userUnlockedAchievements;
