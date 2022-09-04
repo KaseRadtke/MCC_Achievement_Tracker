@@ -2,19 +2,26 @@
   <div>
     <div id="mainpage_div">
       <div class="header" @click="goHome">
-        <Logo id="mainpage_logo" />
+        <MCCTrackerLogo id="mainpage_logo" />
         <h6 class="tracker_title">MCC Achievement Tracker</h6>
       </div>
-      <MainPage @backgroundChanged="changeBackground" />
+      <AchievementTracker @backgroundChanged="changeBackground" />
     </div>
     <Background id="background_default" :gameBackground="gameBackground" />
   </div>
 </template>
 
 <script>
-import Background from "../../../../components/Background.vue";
+import Background from "../../../../components/Background/Background.vue";
+import AchievementTracker from "../../../../components/AchievementTracker/AchievementTracker.vue"
+import MCCTrackerLogo from "../../../../components/MCCTrackerLogo/MCCTrackerLogo.vue"
 export default {
   middleware: "redirect_check",
+  components:{ 
+    Background,
+    AchievementTracker,
+    MCCTrackerLogo,
+  },
   head() {
     return {
       title: `${this.$route.params.user}'s Achievements`,

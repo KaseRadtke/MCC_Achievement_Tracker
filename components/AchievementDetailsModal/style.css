@@ -1,0 +1,93 @@
+.achievement_main_art {
+    position: relative;
+  }
+  .achievement_main_value {
+    position: absolute;
+    color: white;
+    font-size: 1.3vw;
+    z-index: 100;
+    padding-top: 0.1em;
+    padding-left: 25vw;
+  }
+  .gamerscore_icon_small {
+    width: 1vw;
+    position: absolute;
+    z-index: 100;
+    margin-left: 26.5vw;
+    margin-top: 0.5vh;
+  }
+  
+  .achievement_main_description {
+    position: absolute;
+    z-index: 100;
+    color: #dedede;
+    padding-left: 4em;
+    padding-top: 2.5em;
+    font-style: italic;
+    font-size: 0.6vw;
+  }
+  .achievement_main_tutorial {
+    position: relative;
+    z-index: 100;
+    color: white;
+    padding-left: 1em;
+    padding-top: 0.9em;
+    font-size: 0.7vw;
+  }
+  
+  .achievement_main_name {
+    position: absolute;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    z-index: 100;
+    font-size: 1vw;
+  }
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .video_tutorial {
+    padding-top: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .no_video_background {
+    width: 100%;
+    padding-top: 1em;
+  }
+  
+  @media screen and (min-width: 1601px) and (max-width: 1920px) {
+    .achievement_main_value {
+      padding-top: 0.4em;
+      padding-left: 35vw;
+    }
+    .gamerscore_icon_small {
+      width: 1.4vw;
+      position: absolute;
+      z-index: 100;
+      margin-left: 43.7em;
+      margin-top: 0.5em;
+    }
+  
+    .achievement_main_description {
+      padding-left: 4em;
+      padding-top: 2.6em;
+      font-size: 0.7vw;
+    }
+  }
+  
+  @media only screen and (min-device-width: 1200) and (max-width: 1600) {
+    .gamerscore_icon_small {
+      width: 3vw;
+      position: absolute;
+      z-index: 100;
+      margin-left: 30em;
+      margin-top: 0.5em;
+    }
+  }

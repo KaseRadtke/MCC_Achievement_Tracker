@@ -1,0 +1,69 @@
+<div class="mainpage">
+    <div>
+      <GamesNavBar @gameSelected="gameSelected" />
+    </div>
+    <h4 class="username">
+      {{
+        achievementsCalculated +
+        " " +
+        filterAchievementState +
+        " achievements"
+      }}
+    </h4>
+    <img
+      class="toggle_lock"
+      :src="lockSymbol"
+      alt="symbol to toggle locked and unlocked achievements"
+      @click.stop="toggleLockButton()"
+    />
+    <div>
+      <AchievementDetailModal
+        :show="showModal()"
+        @close="toggleModal()"
+        :achievementName="achievementName"
+        :achievementDescription="achievementDescription"
+        :achievementValue="achievementValue"
+        :achievementArt="achievementArt"
+        :achievementTutorial="achievementTutorial"
+        :videoTutorial="videoTutorial"
+        :imageTutorial="imageTutorial"
+      />
+    </div>
+    <div id="wrapper">
+      <SearchForAchievement
+        :currentGame="this.game"
+        @searchCriteriaRecieved="getSearchCriteria"
+        @achievementSearched="searchForAchievement"
+      />
+      <div class="achievements_container">
+        <div class="achievements_grid">
+          <AchievementTile
+            v-for="achievement in filteredAchievementsJSON"
+            :key="achievement.name"
+            :achievementName="achievement.name"
+            :achievementDescription="achievement.description"
+            :achievementValue="achievement.value"
+            :achievementThumbnail="achievement.mediaAssets"
+            :achievementArt="achievement.mediaAssets[0].url"
+            :achievementTutorial="achievement.tutorial"
+            :videoTutorial="achievement.video_tutorial"
+            :imageTutorial="achievement.image_tutorial"
+            :gameTitlesArray="achievement.titles"
+            :currentGame="game"
+            :achievementMaps="achievement.maps"
+            :searchCriteria="searchCriteria"
+            @achievementSelected="openAchievement"
+          />
+        </div>
+        <div v-if="achievementsCalculated == 0">
+          <h1 class="congratulations_celebration_baby_oh_yeah">
+            Congratulations!
+          </h1>
+          <h2 class="celebration_baby_oh_yeah">
+            You have all 700 achievements in Halo: The Master Chief Collection!
+          </h2>
+        </div>
+        <div class="scroll_filler"></div>
+      </div>
+    </div>
+  </div>

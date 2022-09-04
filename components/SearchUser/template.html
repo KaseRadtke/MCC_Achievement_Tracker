@@ -1,0 +1,39 @@
+<div class="search_component">
+    <div class="platform_selection">
+      <input
+        :class="xboxSelected ? 'platform_selected' : 'platform_unselected'"
+        id="xboxButton"
+        type="image"
+        :src="require(`../../static/icons/xbox_button.png`)"
+        alt="Submit"
+        :xboxSelected="true"
+        @click="buttonSelected('xbox')"
+      />
+      <input
+        :class="steamSelected ? 'platform_selected' : 'platform_unselected tooltip-target-1'"
+        v-b-tooltip.hover
+        title="Steam API coming soon™"
+        id="steamButton"
+        type="image"
+        :src="require(`../../static/icons/steam_button.png`)"
+        alt="Submit"
+        :steamSelected="false"
+      />
+    </div>
+    <b-form @submit.prevent="onSubmit" class="form-inline">
+      <div
+        class="form-group mx-sm-3 mb-2 searchform"
+        id="searchDiv"
+      >
+        <b-input
+          type="text"
+          v-model="gamertag"
+          class="form-control user_search"
+          :placeholder="placeholder_text"
+        ></b-input>
+        <b-button variant="primary" type="submit" value="Search Achievements"
+          >Search</b-button
+        >
+      </div>
+    </b-form>
+  </div>

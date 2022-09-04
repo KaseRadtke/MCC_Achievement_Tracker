@@ -1,0 +1,15 @@
+.logo_image{
+    width: 20%;
+  }
+
+.game_selected {
+    opacity: 1;
+}
+
+.game_unselected {
+    opacity: 0.25
+}
+
+.logoselection {
+    cursor: pointer;
+}
