@@ -28,15 +28,15 @@ export default {
   },
 
   methods: {
-    async searchUser(userGamerID) {
+    async searchUser(userGamerID, platform) {
       this.$nuxt.$loading.start();
       try {
-        var res = await axios.get(`/api/data/xbox/${userGamerID}`);
+        var res = await axios.get(`/api/data/${platform}/${userGamerID}`);
         if (res.data == false) {
           this.$nuxt.$loading.finish();
           this.userNotFound = true;
         } else {
-          var usersAchievements = await this.filterAchievements(res.data);
+          var usersAchievements = await this.filterAchievements(res.data, platform);
           this.$router.push({
             name: `api-xbox-user`,
             params: {
@@ -56,19 +56,23 @@ export default {
       this.userNotFound = false;
     },
 
-    filterAchievements(usersAchievements) {
+    filterAchievements(usersAchievements, platform) {
       var achievementUnlockCounter = 0;
+      var nameKey = platform === "xbox" ? "name" : "apiname";
+      var progressKey = platform === "xbox" ? "progressState" : "achieved";
       for (var x in this.mccTrackerAchievements) {
         for (var y in usersAchievements) {
           if (
-            this.mccTrackerAchievements[x].name === usersAchievements[y].name || this.mccTrackerAchievements[x]?.altname === usersAchievements[y].name
+            this.mccTrackerAchievements[x][nameKey] === usersAchievements[y][nameKey] || this.mccTrackerAchievements[x]?.altname === usersAchievements[y][nameKey]
           ) {
-            switch (usersAchievements[y].progressState.toLowerCase()) {
-              case "achieved":
+            switch (usersAchievements[y][progressKey]) {
+              case "Achieved":
+              case 1:
                 this.mccTrackerAchievements[x].progressState = "unlocked";
                 achievementUnlockCounter++;
                 break;
-              case "notstarted":
+              case "NotStarted":
+              case 0:
                 this.mccTrackerAchievements[x].progressState = "locked";
                 break;
             }
