@@ -830,6 +830,7 @@
     }, {
         "name": "Would It've Killed You To Take The Elevator",
         "apiname": "2_10_WOULD_ITVE_KILLED_YOU_TO_TAKE_THE_ELEVATOR",
+        "altname":"Would It've Killed You To Take The Lift",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd8B5QuSoJA28uy2uLgphuZUOgCHIHe67eEj8_uw5eQw2AcfVTJKiDiHVH9ZODCo0_h_VeDpLLvrBFLDVr89WvNd2CGqj5Fkx7CDHxKM6Mn6Y2nXt63.mJxH9IKtdQ3o5ZXYz0jOm.8zAXrI1bbw7xSM-",
@@ -2350,6 +2351,7 @@
     }, {
         "name": "The Good, The Bad, and The Dead",
         "apiname": "4_15_THE_GOOD_THE_BAD_AND_THE_DEAD",
+        "altname": "The Good, The Bad and The Dead",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxk8viWCc6EcDqQV5eUVb.4utUOcSqqhG2TWWpkgEwxr6jX2zj9Z8dy3Y6U4l5eNf1FRGdeA3LbN.i0pNd5FXm0evUogfbDeIEiH4uyNvVec5FtlcuwFaoPsimRP4KkDUrSh5Hr1qKn7QbI6l24zHSk-",
@@ -3401,6 +3403,7 @@
     }, {
         "name": "Enamored",
         "apiname": "6_1_ENAMORED",
+        "altname":"Enamoured",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4A8BhLyLnTtpSMBecP5opp2OUo6nnb8pgJSSXO.GZPA7KlIpUpXfdqsC4K5Dtnn.r6bXx2flU63NGGRb3LAGPuB9VqmfqNOu5VX9wKI6KmjLFPAlK0ey5Cdqjf2ceO1mUOSXx7xWNP9vcf_A9uQB4A-",
@@ -3464,6 +3467,7 @@
     }, {
         "name": "Knowledgable",
         "apiname": "6_4_KNOWLEDGABLE",
+        "altname": "Knowledgeable",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd6K.gmGPV3u2mHCHzqFBW3DZIx7yxfg5zWDBij5qLW2A6VtDKN4f_X4mXbjsyUlZ1al10gLwilD7JkTLzGxCmcrwiPjWsMkWzrAZdqI1Hjus89865cHbmADKqX6qemHPA3nAXcGWbVVo0heWRVQoroA-",
@@ -4918,6 +4922,7 @@
     }, {
         "name": "Monopolized",
         "apiname": "8_10_MONOPOLIZED",
+        "altname":"Monopolised",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd.XS2qHpwtS_ipohhZp0IlT9GL6HSLj8hqEUVERbeOFiaKkFtavkOFUVhFECQqZphleGPTnNewsiwadeLzIwyNSdiULbTQka.96B50vQlY.2jhqHT1nb2WwnqZgdlyCLJA3H9xpGcZOwFpJok4Hc9uA-",
@@ -8747,8 +8752,9 @@
         "video_tutorial": "",
 		"image_tutorial":"https://www.halodiehards.net/wp-content/uploads/2013/02/2822920-gallery.jpg"
     }, {
-        "name": "Battle Hardened",
+        "name": "Battle-Hardened",
         "apiname": "13_31_BATTLE_HARDENED",
+        "altname": "Battle Hardened",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd1Q_zFnennNjnuFbYPctFjyUKkBNtoDvNvlAvAUTJRyvT9Y4N9dpfET0X3Rs6WHuAPY5HIalf3HQzBJ8ls8ofcEIMuiHhl8NOPWjtwqGAhaSYwJuybkmfmVBpccBtAACepnc4qNdP4ZlWi0hwY2Q.mM-",
@@ -8947,6 +8953,7 @@
     }, {
         "name": "Long Time Fan",
         "apiname": "14_8_LONG_TIME_FAN",
+        "altname": "Long-Time Fan",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdwDvJCM_uolocxCX9OYkmGBNikBHyPiEhhWTqYhbRFxCIx4M_thFIFfYsmqU5p.d2XDof_QGVbxRheEusmV_2uZ71GXvurQ3YdmiUXjt_UcddzOu.WipAkfZO6UqXhkc7jf65POCE0i.k.ws75bg77w-",
@@ -10506,6 +10513,7 @@
     }, {
         "name": "World Traveler",
         "apiname": "16_17_WORLD_TRAVELER",
+        "altname": "World Traveller",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0W70QW8EcDZP7AxuLja0gi3mYjE7zpSXp2axQbXDlqnD.vAAihHjHrOajrl4ngb2514Wexot0jib9I3K8k4tn.JHzbvgs_Rwv7pe3zwqOC2SRpocU8HhUxHDraAYUWVRb7c2anPlcxAs4mLJD7gZE4-",
@@ -10653,6 +10661,7 @@
     }, {
         "name": "An Ear Full",
         "apiname": "16_24_AN_EAR_FULL",
+        "altname":"An Earful",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdxk8viWCc6EcDqQV5eUVb.7cvne_N1NETIzoW0lnxyj5QnwJb6uKlZLuoMOkjrjood4AzV5JUMQlxfkMoAsao2ip5HUQ7sARBFz0A29CM3yBmlf061UfwAkrnaZhTIiqkg9rdjC35FuEMWTm6AOkXmQ-",
@@ -11476,6 +11485,7 @@
     }, {
         "name": "Record Store Owner",
         "apiname": "17_31_RECORD_STORE_OWNER",
+        "altname":"Record Shop Owner",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd2rDHBm1DYtIcaugq_tELzBKo5i.IN9h7GGiI.7kaMI3CxQzVX9Hf_Cr6KMY9vPiwK481VrgK44MJcSUkatJQMhF53X1SnIZtYtAA4wEK6On9fC47FdPsBiYh3gs4zSvg2m9ZChTGCVyt2Dz5J9sT7Q-",
@@ -11770,6 +11780,7 @@
     }, {
         "name": "Feet Don't Fail Me Now",
         "apiname": "18_13_FEET_DONT_FAIL_ME_NOW",
+        "altname": "Feet, Don't Fail Me Now",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdzLl6hd_Hnrtt4Tp9YKSkBiqxBoKxQV.cYtim1BOxsc3CHienfUr7jtVa5hL8OLKWqrTX_581iIgmNtw0XAHP1L4AYbQ7wa18ECbONYHOvH1RDLa7XDGrMi2qOHkdbP_sf94Wd9b38MV.0N7PuNvdyo-",
@@ -12213,6 +12224,7 @@
     }, {
         "name": "Vandalized",
         "apiname": "19_2_VANDALIZED",
+        "altname":"Vandalised",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd0wsvf8rmK9Dr61KsBqB_ArWJpQi8p7_KFLXsfRDxauKWszGHd5nk61bSI8lfzaBjwXIgD2WfasOdImOEpnfuh88MdiVNKhN2VqITRbE1wOpifLlqgyB1RhZ1sDvUakZNj7qlBDQBo35XZdX_3WMVUI-",
@@ -12444,6 +12456,7 @@
     }, {
         "name": "One Way Ride",
         "apiname": "19_13_ONE_WAY_RIDE",
+        "altname": "One-Way Ride",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd4K7nw3nlwo9l1xckR7DOLlZ4AGf8250RyyxIf0_qg_RhQ7CupmsuM.LuLoZObvdzP0aLUaFRYBVKIRT3XiSMH3.NnO5YFww4uvnEUtd9X7HyEf8xBaI5vkqmC2oRIw__n8bt8rlhZVBNvQnmbKoAZg-",
@@ -13078,6 +13091,7 @@
     }, {
         "name": "Generous Tipper",
         "apiname": "20_11_GENEROUS_TIPPER",
+        "altname":"Just the Tip",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsd92ghIBdL.xQNK9ffdfzYbdIWgMgpTaZPzJ9nUU.JDXbZtKEA4FcYrzhDSnWcSTZxHToxPPB58WPOpBC0PBffZ3q3oRqvD3p8lJlv8.rpOyiAA2GWAdgaT0u9bahGel.HQ--",
@@ -14781,6 +14795,7 @@
     }, {
         "name": "New Ways to Save a Buck",
         "apiname": "22_28_NEW_WAYS_TO_SAVE_A_BUCK",
+        "altname":"New Ways to Save a Quid",
         "progressState": "locked",
         "mediaAssets": [{
                 "url": "https://images-eds-ssl.xboxlive.com/image?url=27S1DHqE.cHkmFg4nspsdz.uVVOTh0HxNWDBun27i6RV2WooGces7InTddvAydZv14jOJQ3kz37KWj6RvnLNT5eI8COkJpFBuiQha1GqcsBA31adWl9gsz70rSizrsR4ee8R32HgufFLsqZR3phd_A--",

@@ -1,7 +1,7 @@
 <template>
   <img
     class="MCCTrackerLogo"
-    src="../static/icons/MCC_Tracker_Logo.png"
+    src="../../static/icons/MCC_Tracker_Logo.png"
     alt="Logo Placeholder"
   />
 </template>

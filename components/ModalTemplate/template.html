@@ -1,0 +1,7 @@
+<transition name="modal">
+    <div class="modal-mask" @click.stop="close" v-if="show">
+        <div class="modal-container">
+            <slot></slot>
+        </div>
+    </div>
+</transition>

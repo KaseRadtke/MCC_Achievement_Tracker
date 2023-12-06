@@ -1,5 +1,4 @@
-<template>
-  <div id="games_bar_header">
+<div id="games_bar_header">
     <ul class="nav nav-tabs navbar">
       <GameLogo
         :isSelected="true"
@@ -14,42 +13,4 @@
       <GameLogo class="game_icon" @selected="gameSelected('halo3')" game="halo3" size="6.5" />
       <GameLogo class="game_icon" @selected="gameSelected('halo4')" game="halo4" size="6.2" />
     </ul>
-  </div>
-</template>
-
-<script>
-export default {
-  name: "Gamesbar",
-
-  created() {
-    this.gameBar = this.$children;
-    this.$emit("gameSelected", "crossgame"); // On Creation, selects crossgames data to be displayed.
-  },
-  data() {
-    return {
-      isSelected: { default: false },
-    };
-  },
-
-  mounted() {
-    // Once mounted, selected Reach as default.
-  },
-
-  methods: {
-    gameSelected(game) {
-      this.$emit("gameSelected", game);
-      this.gameBar.forEach((gameLogo) => {
-        if (game == gameLogo.game) {
-          gameLogo.active = true;
-        } else {
-          gameLogo.active = false;
-        }
-      });
-    },
-  },
-};
-</script>
-
-<style>
-
-</style>
+</div>

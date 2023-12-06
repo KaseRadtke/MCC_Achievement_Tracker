@@ -1,15 +1,18 @@
 <template>
   <div>
     <div class="container">
-      <StartPage />
+      <HomePage />
     </div>
     <Background :gameBackground="gameBackground" />
   </div>
 </template>
 
 <script>
-import Background from "../components/Background.vue";
+import Background from "../components/Background/Background.vue";
 export default {
+  components:{
+    Background
+    },
   head() {
     return {
       title: "MCC - Achievement Tracker",
