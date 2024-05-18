@@ -13791,8 +13791,8 @@
          "mode": ["campaign"],
         "titles": ["reach"],
         "maps": ["lone_wolf"],
-        "tutorial": "Start Lone Wolf on Easy with all skulls on besides Blind and cowbell. Then, follow the guide in the video to easily get 30,000 points. The achievement will unlock once you 'die' and finish the mission. Do NOT kill yourself but going out of bounds, as that will restart the mission instead.",
-        "video_tutorial": "https://www.youtube.com/embed/w_2D-7d4_3o&t=2s"
+        "tutorial": "Start Lone Wolf on Easy with all skulls on besides Blind and cowbell. Then, follow the guide in the video to easily get 30,000 points. The achievement will unlock once you 'die' and finish the mission. Do NOT kill yourself by going out of bounds, as that will restart the mission instead.",
+        "video_tutorial": "https://www.youtube.com/embed/w_2D-7d4_3o?si=pU1G54Zj1zqlMKots"
     }, {
         "name": "One Final Firefight",
         "progressState": "locked",
@@ -13811,8 +13811,8 @@
         "mode": ["campaign"],
         "titles": ["reach"],
         "maps": ["lone_wolf"],
-        "tutorial": "Start Lone Wolf on Easy with all skulls on besides Blind and cowbell. Then, follow the guide in the video to easily get 150,000 points. The achievement will unlock once you 'die' and finish the mission. Do NOT kill yourself but going out of bounds, as that will restart the mission instead.",
-        "video_tutorial": "https://www.youtube.com/embed/w_2D-7d4_3o&t=2s"
+        "tutorial": "Start Lone Wolf on Easy with all skulls on besides Blind and cowbell. Then, follow the guide in the video. The achievement will unlock once you 'die' and finish the mission. Do NOT kill yourself by going out of bounds, as that will restart the mission instead. Good luck Veronika!",
+        "video_tutorial": "https://www.youtube.com/embed/w_2D-7d4_3o?si=pU1G54Zj1zqlMKot"
     }, {
         "name": "What About Bob?",
         "progressState": "locked",
