@@ -19,13 +19,14 @@ export default {
 
   methods: {
     onSubmit() {
-      this.$emit("search-user", this.gamertag);
+      this.$emit("search-user", this.gamertag, this.platform);
       this.gamertag = "";
     },
 
     buttonSelected(selectedPlatform) {
       if (selectedPlatform == "xbox") {
         if (this.xboxSelected == false) {
+          this.platform = "xbox";
           this.xboxSelected = true;
           this.steamSelected = false;
           this.placeholder_text = "Enter Xbox LIVE Gamertag";
@@ -33,6 +34,7 @@ export default {
         }
       } else if (selectedPlatform == "steam") {
         if (this.steamSelected == false) {
+          this.platform = "steam";
           this.steamSelected = true;
           this.xboxSelected = false;
           this.placeholder_text = "Enter Steam ID";
@@ -43,4 +45,3 @@ export default {
   },
 };
 </script>
-    
