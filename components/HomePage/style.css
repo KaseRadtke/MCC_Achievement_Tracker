@@ -68,12 +68,11 @@
 
 /* Instructions */
 .instructions {
-  max-width: 500px;
-  margin: var(--spacing-md) auto 0;
-  padding: 0 var(--spacing-md);
   color: var(--color-text-secondary);
-  font-size: clamp(0.875rem, 1.5vw, 1rem);
-  line-height: 1.5;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  margin: 0 0 var(--spacing-lg) 0;
+  padding-bottom: var(--spacing-md);
 }
 
 /* Error message */
@@ -83,35 +82,45 @@
   margin: var(--spacing-sm) 0;
 }
 
-/* Author section */
+/* Author Links Section */
 .author-links {
-  margin-top: var(--spacing-xl);
-  padding-top: var(--spacing-lg);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.author-links a {
-  display: inline-flex;
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
   align-items: center;
-  gap: var(--spacing-sm);
-  color: var(--color-text-primary);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-md);
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 0.2s ease;
   text-decoration: none;
-  transition: opacity 0.2s ease;
 }
 
-.author-links a:hover {
-  opacity: 0.8;
+.social-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
 }
 
-.twitter-bird-logo {
-  width: 24px;
-  height: 24px;
-  filter: invert(100%);
+.social-icon {
+  width: 20px;
+  height: 20px;
+  color: white;
 }
 
-.made-by {
-  font-size: 0.75rem;
-  margin: 0;
+.author-credit {
+  color: var(--color-text-secondary);
+  font-size: 0.875rem;
+  margin: 0 0 var(--spacing-md) 0;
+  padding-top: var(--spacing-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 /* Tablet and below */
@@ -147,10 +156,5 @@
 
   .description {
     line-height: 1.5;
-  }
-
-  .author-links {
-    margin-top: var(--spacing-md);
-    padding-top: var(--spacing-md);
   }
 }
