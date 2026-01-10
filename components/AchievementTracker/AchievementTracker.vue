@@ -18,12 +18,23 @@ export default {
     AchievementDetailModal,
   },
 
+  props: {
+    initialAchievements: {
+      type: Array,
+      default: () => [],
+    },
+    initialUnlockedCount: {
+      type: Number,
+      default: 0,
+    },
+  },
+
   data() {
     return {
       achievementsCalculated: 0,
       game: "reach",
       filterAchievementState: "locked",
-      achievementsJSON: JSON.parse(JSON.stringify(mccMasterTrackerJSON)),
+      achievementsJSON: [],
       searchCriteria: [],
       activeModal: 0,
       lockSymbol: require("../../static/icons/achievement_locked.png"),
@@ -37,6 +48,7 @@ export default {
       mobileMenuOpen: false,
     };
   },
+
 
   computed: {
     filteredAchievementsJSON() {
@@ -73,9 +85,14 @@ export default {
   },
 
   created() {
-    this.achievementsJSON = this.$route.params.userAchievementsMaster;
-    this.achievementsCalculated =
-      700 - this.$route.params.userUnlockedAchievements;
+    // Use passed-in data
+    this.achievementsJSON = this.initialAchievements.length
+      ? this.initialAchievements
+      : JSON.parse(JSON.stringify(mccMasterTrackerJSON));
+
+    this.achievementsCalculated = this.initialUnlockedCount
+      ? 700 - this.initialUnlockedCount
+      : 700;
 
     if (this.achievementsCalculated === 0) {
       this.$confetti.start();

@@ -14,7 +14,7 @@ export default {
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
   */
- 
+
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -69,9 +69,18 @@ export default {
   */
   modules: [
     // Doc: https://bootstrap-vue.js.org
+    '@nuxtjs/google-gtag',
     'bootstrap-vue/nuxt',
     ['@nuxtjs/dotenv', { only: [] }]
   ],
+
+  'google-gtag': {
+    id: 'G-95W6F0N5VN',
+    config: {
+      send_page_view: true, // Automatically track page views
+    },
+    debug: process.env.NODE_ENV !== 'production', // Debug in development
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/

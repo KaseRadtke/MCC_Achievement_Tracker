@@ -36,15 +36,30 @@ export default {
   methods: {
     async searchUser(userGamerId) {
       this.$nuxt.$loading.start();
-      this.userNotFound = false; // Reset error state
+      this.userNotFound = false;
 
       try {
         const { data } = await axios.get(`/api/data/xbox/${userGamerId}`);
 
         if (!data) {
           this.userNotFound = true;
+
+          // Track failed search
+          this.$gtag('event', 'gamertag_search_failed', {
+            event_category: 'Search',
+            event_label: userGamerId,
+            gamertag: userGamerId
+          });
+
           return;
         }
+
+        // Track successful search
+        this.$gtag('event', 'gamertag_search_success', {
+          event_category: 'Search',
+          event_label: userGamerId,
+          gamertag: userGamerId
+        });
 
         const userAchievements = this.filterAchievements(data);
 
@@ -59,6 +74,14 @@ export default {
       } catch (error) {
         console.error('Error fetching user achievements:', error);
         this.userNotFound = true;
+
+        // Track error
+        this.$gtag('event', 'gamertag_search_error', {
+          event_category: 'Search',
+          event_label: userGamerId,
+          gamertag: userGamerId,
+          error: error.message
+        });
       } finally {
         this.$nuxt.$loading.finish();
       }

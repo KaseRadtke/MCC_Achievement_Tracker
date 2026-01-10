@@ -11,7 +11,7 @@ export default {
       gamertag: "",
       validation: true,
       platform: "xbox",
-      placeholder_text: "Enter Xbox LIVE Gamertag",
+      placeholder_text: "Enter Xbox Gamertag",
       steamSelected: false,
       xboxSelected: true,
     };
@@ -24,15 +24,15 @@ export default {
     },
 
     buttonSelected(selectedPlatform) {
-      if (selectedPlatform == "xbox") {
-        if (this.xboxSelected == false) {
+      if (selectedPlatform === "xbox") {
+        if (this.xboxSelected === false) {
           this.xboxSelected = true;
           this.steamSelected = false;
-          this.placeholder_text = "Enter Xbox LIVE Gamertag";
+          this.placeholder_text = "Enter Xbox Gamertag";
           this.$emit("platformSelected", " Xbox LIVE gamertag");
         }
-      } else if (selectedPlatform == "steam") {
-        if (this.steamSelected == false) {
+      } else if (selectedPlatform === "steam") {
+        if (this.steamSelected === false) {
           this.steamSelected = true;
           this.xboxSelected = false;
           this.placeholder_text = "Enter Steam ID";
@@ -43,4 +43,3 @@ export default {
   },
 };
 </script>
-    

@@ -2,11 +2,11 @@
     padding-bottom: 5px;
     display: contents;
   }
-  
+
   .form-check {
-    padding-left: 0em;
+    padding-left: 0;
   }
-  
+
   .criteria_selection {
     padding-left: 2em;
   }
@@ -14,15 +14,15 @@
     color: #ffffff;
     font-size: 17px;
   }
-  
+
   .modes {
     padding-left: 3em;
   }
-  
+
   #modes_div {
     padding-bottom: 1em;
   }
-  
+
   #maps_div {
     padding-left: 3em;
   }
@@ -31,29 +31,29 @@
     width: 12em;
     padding-right: 3em;
   }
-  
+
   .multiplayer_maps {
     display: grid;
     width: 5vw;
   }
-  
+
   .spartan_ops_maps {
     display: grid;
   }
-  
+
   .modes_heading,
   .maps_heading {
     color: white;
     font-size: 17px;
   }
-  
+
   @media screen and (min-width: 691px) and (max-width: 1366px) {
     .multiplayer_maps {
       display: grid;
       width: 9vw;
     }
   }
-  
+
   @media screen and (min-width: 1367px) and (max-width: 1600px) {
     #filter_achievements {
       transform: scale(0.9);
@@ -63,17 +63,5 @@
     .multiplayer_maps {
       display: grid;
       width: 8vw;
-    }
-  }
-  
-  @media screen and (min-width: 1601px) and (max-width: 1920px) {
-    #filter_achievements {
-      transform: scale(0.9);
-      margin-top: -70px;
-      margin-left: -25px;
-    }
-    .multiplayer_maps {
-      display: grid;
-      width: 6.5vw;
     }
   }

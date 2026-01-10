@@ -1,13 +1,13 @@
 #games_bar_header {
   width: 100%;
-  padding: 0; /* Remove any default padding */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 4rem;
   padding: 0.75rem 1rem;
   margin: 0;
   list-style: none;
@@ -16,6 +16,11 @@
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none; /* Firefox */
+  border-bottom: none !important; /* Remove Bootstrap's nav-tabs border */
+}
+
+.nav-tabs {
+  border-bottom: none !important; /* Extra specificity to override Bootstrap */
 }
 
 .navbar::-webkit-scrollbar {
@@ -32,6 +37,10 @@
     gap: 0.75rem;
     padding: 0.625rem 0.75rem;
     justify-content: flex-start;
+  }
+
+  #games_bar_header {
+    margin-bottom: 0;
   }
 }
 
