@@ -1,15 +1,59 @@
-.logo_image{
-    width: 20%;
-  }
+.logo_image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 0.2s ease;
+}
 
 .game_selected {
-    opacity: 1;
+  opacity: 1;
+}
+
+.game_selected .logo_image {
+  filter: drop-shadow(0 0 8px rgba(0, 123, 255, 0.6));
 }
 
 .game_unselected {
-    opacity: 0.25
+  opacity: 0.4;
+}
+
+.game_unselected:hover {
+  opacity: 0.7;
 }
 
 .logoselection {
-    cursor: pointer;
+  cursor: pointer;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: transform 0.2s ease;
+}
+
+.logoselection:hover {
+  transform: scale(1.05);
+}
+
+.logoselection:active {
+  transform: scale(0.95);
+}
+
+/* Desktop sizing - keep using vw */
+@media screen and (min-width: 769px) {
+  .logo_image {
+    width: var(--logo-size, 5vw);
+  }
+}
+
+/* Mobile sizing - use fixed pixel sizes */
+@media screen and (max-width: 768px) {
+  .logo_image {
+    width: var(--logo-size-mobile, 48px);
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo_image {
+    width: var(--logo-size-mobile, 42px);
+  }
 }

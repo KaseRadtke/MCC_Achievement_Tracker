@@ -1,0 +1,43 @@
+#games_bar_header {
+  width: 100%;
+  padding: 0; /* Remove any default padding */
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  margin: 0;
+  list-style: none;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none; /* Firefox */
+}
+
+.navbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.game_icon {
+  flex-shrink: 0;
+}
+
+/* Mobile optimizations */
+@media screen and (max-width: 768px) {
+  .navbar {
+    gap: 0.75rem;
+    padding: 0.625rem 0.75rem;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    gap: 0.625rem;
+    padding: 0.5rem 0.625rem;
+  }
+}

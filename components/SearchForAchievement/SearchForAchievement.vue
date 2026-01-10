@@ -7,6 +7,17 @@ import GameSearchFilters from "../GameSearchFilters/GameSearchFilters.vue";
 export default {
   name: "SearchForAchievement",
 
+  components: {
+    GameSearchFilters,
+  },
+
+  props: {
+    currentGame: {
+      type: String,
+      required: true,
+    },
+  },
+
   data() {
     return {
       achievementNotFound: false,
@@ -14,27 +25,23 @@ export default {
     };
   },
 
+  computed: {
+    isFilledOut() {
+      return this.achievementName.trim().length > 0;
+    },
+  },
+
   methods: {
     gameSelection(gameSelectionArray) {
       this.$emit("searchCriteriaRecieved", gameSelectionArray);
     },
-    onSubmit: function () {
-      this.$emit("achievementSearched", this.achievementName);
+
+    onSubmit() {
+      const trimmedName = this.achievementName.trim();
+      if (trimmedName) {
+        this.$emit("achievementSearched", trimmedName);
+      }
     },
-  },
-
-  computed: {
-    isFilledOut() {
-      return this.achievementName;
-    },
-  },
-
-  components: {
-    GameSearchFilters,
-  },
-
-  props: {
-    currentGame: String,
   },
 };
 </script>

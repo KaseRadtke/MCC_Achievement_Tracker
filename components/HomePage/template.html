@@ -1,35 +1,41 @@
-<div class="container" id="welcomeContainer">
-  <MCCTrackerLogo class="startscreen_logo" />
+<div class="welcome-container">
+  <MCCTrackerLogo class="startscreen-logo" />
   <h1 class="title">MCC Achievement Tracker</h1>
-  <div class="MCCTrackerBio">
+
+  <div class="mcc-tracker-bio">
     <p class="description">
       Track and get guides for all 700 achievements in Halo: The Master Chief
       Collection! MCC Achievement Tracker lets you filter achievements by
       individual game, gamemode, and map they can be unlocked on. Click any
-      achievement to instantly open up a guide. Click the lock symbol to toggle between locked and unlocked achievements.
+      achievement to instantly open up a guide. Click the lock symbol to toggle
+      between locked and unlocked achievements.
     </p>
   </div>
-  <div class="search_content">
+
+  <div class="search-content">
     <SearchUser
       @search-user="searchUser"
       @platformSelected="changePlatformText"
     />
   </div>
-  <h6 class="notFoundText" v-if="userNotFound">
+
+  <p v-if="userNotFound" class="not-found-text">
     Xbox LIVE Gamertag not found. Are you sure you spelled it correctly?
-  </h6>
+  </p>
+
   <p class="instructions">
-    Enter your {{ platform_id }} to pull your current achievement progress for
+    Enter your {{ platformId }} to pull your current achievement progress for
     Halo: The Master Chief Collection
   </p>
-  <div class="author_links">
-    <a href="https://www.twitter.com/NoWise10" target="_blank">
+
+  <div class="author-links">
+    <a href="https://www.twitter.com/NoWise10" target="_blank" rel="noopener">
       <img
-        class="twitter_bird_logo"
+        class="twitter-bird-logo"
         src="../../static/icons/Twitter_Bird_Logo.svg"
-        alt="Developers Twitter"
+        alt="Developer's Twitter"
       />
-      <p class="made_by">Made with love by NoWise10</p>
+      <span class="made-by">Made with love by NoWise10</span>
     </a>
   </div>
 </div>

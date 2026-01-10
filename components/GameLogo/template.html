@@ -1,10 +1,14 @@
 <div :class="active ? 'game_selected' : 'game_unselected'">
-    <li class="nav-item logoselection">
-      <img
+  <li class="nav-item logoselection">
+    <img
       class="logo_image"
-        :src="require(`../../static/game_symbols/${game}_symbol.png`)"
-        :style="'width:'+ (size+'vw')"
-        @click="$emit('selected', game)"
-      />
-    </li>
+      :src="require(`../../static/game_symbols/${game}_symbol.png`)"
+      :style="{
+        '--logo-size': size + 'vw',
+        '--logo-size-mobile': getMobileSize(size) + 'px'
+      }"
+      :alt="`${game} logo`"
+      @click="$emit('selected', game)"
+    />
+  </li>
 </div>

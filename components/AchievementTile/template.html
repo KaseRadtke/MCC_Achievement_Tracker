@@ -1,11 +1,21 @@
-<div class="achievement_tab" @click.stop="achievementClicked()">
-    <img :src="achievementThumbnail[0].thumbnail" class="achievement_icon" />
+<div class="achievement_tab" @click="achievementClicked">
+  <img
+    :src="achievementThumbnail[0].thumbnail"
+    :alt="`${achievementName} icon`"
+    class="achievement_icon"
+  />
+
+  <div class="achievement_content">
     <h6 class="achievement_title">{{ achievementName }}</h6>
-    <h6 class="achievement_description">{{ achievementDescription }}</h6>
-    <p class="achievement_value">{{ achievementValue }}</p>
+    <p class="achievement_description">{{ achievementDescription }}</p>
+  </div>
+
+  <div class="achievement_value_wrapper">
+    <span class="achievement_value">{{ achievementValue }}</span>
     <img
       src="../../static/icons/gamescore_icon_tab.png"
-      alt="gamerscore_value_icon"
+      alt="Gamerscore"
       class="gamerscore_icon"
     />
   </div>
+</div>

@@ -5,11 +5,12 @@
 import GamesNavBar from "../GamesNavBar/GamesNavBar.vue";
 import SearchForAchievement from "../SearchForAchievement/SearchForAchievement.vue";
 import AchievementTile from "../AchievementTile/AchievementTile.vue";
-import mccMasterTrackerJSON from "../../static/mcc_achievement_master.json";
 import AchievementDetailModal from "../AchievementDetailsModal/AchievementDetailModal.vue";
+import mccMasterTrackerJSON from "../../static/mcc_achievement_master.json";
 
 export default {
   name: "AchievementTracker",
+
   components: {
     GamesNavBar,
     SearchForAchievement,
@@ -22,7 +23,7 @@ export default {
       achievementsCalculated: 0,
       game: "reach",
       filterAchievementState: "locked",
-      achievementsJSON: [mccMasterTrackerJSON],
+      achievementsJSON: JSON.parse(JSON.stringify(mccMasterTrackerJSON)),
       searchCriteria: [],
       activeModal: 0,
       lockSymbol: require("../../static/icons/achievement_locked.png"),
@@ -33,13 +34,52 @@ export default {
       achievementTutorial: "",
       videoTutorial: "",
       imageTutorial: "",
+      mobileMenuOpen: false,
     };
+  },
+
+  computed: {
+    filteredAchievementsJSON() {
+      return this.achievementsJSON.filter(
+        (achievement) =>
+          achievement.titles.includes(this.game) &&
+          this.searchCriteria.some((val) => achievement.maps.includes(val)) &&
+          this.searchCriteria.some((val) => achievement.mode.includes(val)) &&
+          achievement.progressState === this.filterAchievementState
+      );
+    },
+  },
+
+  watch: {
+    // Close mobile menu when filters change
+    searchCriteria() {
+      if (window.innerWidth <= 768) {
+        this.mobileMenuOpen = false;
+      }
+    },
   },
 
   mounted() {
     this.$nextTick(() => {
       setTimeout(() => this.$nuxt.$loading.finish(), 500);
     });
+
+    // Close mobile menu when clicking achievement
+    this.$on('achievementSelected', () => {
+      if (window.innerWidth <= 768) {
+        this.mobileMenuOpen = false;
+      }
+    });
+  },
+
+  created() {
+    this.achievementsJSON = this.$route.params.userAchievementsMaster;
+    this.achievementsCalculated =
+      700 - this.$route.params.userUnlockedAchievements;
+
+    if (this.achievementsCalculated === 0) {
+      this.$confetti.start();
+    }
   },
 
   methods: {
@@ -49,22 +89,20 @@ export default {
     },
 
     searchForAchievement(searchedAchievementName) {
-      for (var achievement in mccMasterTrackerJSON) {
-        if (
-          mccMasterTrackerJSON[achievement].name.toLowerCase() ==
-          searchedAchievementName.toLowerCase()
-        ) {
-          this.openAchievement(
-            mccMasterTrackerJSON[achievement].name,
-            mccMasterTrackerJSON[achievement].description,
-            mccMasterTrackerJSON[achievement].value,
-            mccMasterTrackerJSON[achievement].mediaAssets[0].url,
-            mccMasterTrackerJSON[achievement].tutorial,
-            mccMasterTrackerJSON[achievement].video_tutorial,
-            mccMasterTrackerJSON[achievement].image_tutorial
-          );
-          break;
-        }
+      const achievement = mccMasterTrackerJSON.find(
+        (ach) => ach.name.toLowerCase() === searchedAchievementName.toLowerCase()
+      );
+
+      if (achievement) {
+        this.openAchievement(
+          achievement.name,
+          achievement.description,
+          achievement.value,
+          achievement.mediaAssets[0].url,
+          achievement.tutorial,
+          achievement.video_tutorial,
+          achievement.image_tutorial
+        );
       }
     },
 
@@ -72,19 +110,16 @@ export default {
       this.searchCriteria = gameSelectionArray;
     },
 
-    showModal: function (id) {
-      return this.activeModal === id;
+    showModal() {
+      return this.activeModal !== 0;
     },
-    toggleModal: function (id) {
-      if (this.activeModal !== 0) {
-        this.activeModal = 0;
-        return false;
-      }
-      this.activeModal = id;
+
+    toggleModal(id = 0) {
+      this.activeModal = this.activeModal === 0 ? id || 1 : 0;
     },
 
     toggleLockButton() {
-      if (this.filterAchievementState == "locked") {
+      if (this.filterAchievementState === "locked") {
         this.filterAchievementState = "unlocked";
         this.lockSymbol = require("../../static/icons/achievement_unlocked.png");
         this.$confetti.stop();
@@ -94,57 +129,31 @@ export default {
         this.lockSymbol = require("../../static/icons/achievement_locked.png");
         this.achievementsCalculated =
           700 - this.$route.params.userUnlockedAchievements;
-        if (this.achievementsCalculated == 0) {
+
+        if (this.achievementsCalculated === 0) {
           this.$confetti.start();
         }
       }
     },
 
-    // The Achievenment.vue component emits a request to open up a modal, and sends the achievements data to be populated in the modal.
-    // Also used with the SearchForAchievement.vue component
     openAchievement(
-      recievedAchievementName,
-      recievedAchievementDescription,
-      recievedAchievementValue,
-      recievedAchievementArt,
-      recievedAchievementTutorial,
-      recievedVideoTutorial,
-      recievedImageTutorial
+      receivedAchievementName,
+      receivedAchievementDescription,
+      receivedAchievementValue,
+      receivedAchievementArt,
+      receivedAchievementTutorial,
+      receivedVideoTutorial,
+      receivedImageTutorial
     ) {
-      this.achievementName = recievedAchievementName;
-      this.achievementDescription = recievedAchievementDescription;
-      this.achievementValue = recievedAchievementValue;
-      this.achievementArt = recievedAchievementArt;
-      this.achievementTutorial = recievedAchievementTutorial;
-      this.videoTutorial = recievedVideoTutorial;
-      this.imageTutorial = recievedImageTutorial;
+      this.achievementName = receivedAchievementName;
+      this.achievementDescription = receivedAchievementDescription;
+      this.achievementValue = receivedAchievementValue;
+      this.achievementArt = receivedAchievementArt;
+      this.achievementTutorial = receivedAchievementTutorial;
+      this.videoTutorial = receivedVideoTutorial;
+      this.imageTutorial = receivedImageTutorial;
       this.toggleModal();
     },
-  },
-
-  computed: {
-    // Method that updates which achievements to display.
-    // Checks if achievement includes the game title, the map, the mode, and its current lock state. If it does, then the achievement is added to the filtered array and returned.
-    filteredAchievementsJSON() {
-      var hasMapInSearchCriteria = (currentValue) =>
-        this.searchCriteria.includes(currentValue);
-      return this.achievementsJSON.filter(
-        (achievement) =>
-          achievement.titles.includes(this.game) &&
-          this.searchCriteria.some((val) => achievement.maps.indexOf(val) !== -1) &&
-          this.searchCriteria.some((val) => achievement.mode.indexOf(val) !== -1) &&
-          achievement.progressState === this.filterAchievementState
-      );
-    },
-  },
-
-  created() {
-    this.achievementsJSON = this.$route.params.userAchievementsMaster;
-    this.achievementsCalculated =
-      700 - this.$route.params.userUnlockedAchievements;
-    if (this.achievementsCalculated == 0) {
-      this.$confetti.start();
-    }
   },
 };
 </script>

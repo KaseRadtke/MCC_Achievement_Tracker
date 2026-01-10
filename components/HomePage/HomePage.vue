@@ -1,14 +1,16 @@
 <template src='./template.html'></template>
-<style src='./style.css'></style>
-<script>
-import axios from "axios";
-import SearchUser from "../SearchUser/SearchUser.vue";
-import MCCTrackerLogo from "../MCCTrackerLogo/MCCTrackerLogo.vue"
+<style src='./style.css' scoped></style>
 
-const xboxMasterJSON = require("../../static/mcc_achievement_master.json");
+<script>
+import axios from 'axios';
+import SearchUser from '../SearchUser/SearchUser.vue';
+import MCCTrackerLogo from '../MCCTrackerLogo/MCCTrackerLogo.vue';
+
+// Import JSON data
+import xboxMasterJSON from '../../static/mcc_achievement_master.json';
 
 export default {
-  name: "HomePage",
+  name: 'HomePage',
 
   components: {
     SearchUser,
@@ -16,65 +18,83 @@ export default {
   },
 
   props: {
-    wasRedirected: { default: false },
+    wasRedirected: {
+      type: Boolean,
+      default: false,
+    },
   },
 
   data() {
     return {
       userNotFound: false,
-      platform_id: "Xbox LIVE Gamertag",
-      mccTrackerAchievements: xboxMasterJSON,
+      platformId: 'Xbox LIVE Gamertag',
+      // Deep clone to avoid mutating the imported JSON
+      mccTrackerAchievements: JSON.parse(JSON.stringify(xboxMasterJSON)),
     };
   },
 
   methods: {
-    async searchUser(userGamerID) {
+    async searchUser(userGamerId) {
       this.$nuxt.$loading.start();
+      this.userNotFound = false; // Reset error state
+
       try {
-        var res = await axios.get(`/api/data/xbox/${userGamerID}`);
-        if (res.data == false) {
-          this.$nuxt.$loading.finish();
+        const { data } = await axios.get(`/api/data/xbox/${userGamerId}`);
+
+        if (!data) {
           this.userNotFound = true;
-        } else {
-          var usersAchievements = await this.filterAchievements(res.data);
-          this.$router.push({
-            name: `api-xbox-user`,
-            params: {
-              user: userGamerID,
-              userAchievementsMaster: usersAchievements.filteredAchievements,
-              userUnlockedAchievements: usersAchievements.unlockedAchievements,
-            },
-          });
+          return;
         }
-      } catch (err) {
-        console.log("error!: " + err);
+
+        const userAchievements = this.filterAchievements(data);
+
+        await this.$router.push({
+          name: 'api-xbox-user',
+          params: {
+            user: userGamerId,
+            userAchievementsMaster: userAchievements.filteredAchievements,
+            userUnlockedAchievements: userAchievements.unlockedAchievements,
+          },
+        });
+      } catch (error) {
+        console.error('Error fetching user achievements:', error);
+        this.userNotFound = true;
+      } finally {
+        this.$nuxt.$loading.finish();
       }
     },
 
     changePlatformText(selectedPlatform) {
-      this.platform_id = selectedPlatform;
+      this.platformId = selectedPlatform;
       this.userNotFound = false;
     },
 
-    filterAchievements(usersAchievements) {
-      var achievementUnlockCounter = 0;
-      for (var x in this.mccTrackerAchievements) {
-        for (var y in usersAchievements) {
-          if (
-            this.mccTrackerAchievements[x].name === usersAchievements[y].name || this.mccTrackerAchievements[x]?.altname === usersAchievements[y].name
-          ) {
-            switch (usersAchievements[y].progressState.toLowerCase()) {
-              case "achieved":
-                this.mccTrackerAchievements[x].progressState = "unlocked";
-                achievementUnlockCounter++;
-                break;
-              case "notstarted":
-                this.mccTrackerAchievements[x].progressState = "locked";
-                break;
-            }
+    filterAchievements(userAchievements) {
+      let achievementUnlockCounter = 0;
+
+      // Create a map for O(1) lookup instead of nested loops
+      const userAchievementMap = new Map(
+        userAchievements.map(achievement => [achievement.name, achievement])
+      );
+
+      // Update achievement progress state
+      this.mccTrackerAchievements.forEach(achievement => {
+        const userAchievement =
+          userAchievementMap.get(achievement.name) ||
+          userAchievementMap.get(achievement.altname);
+
+        if (userAchievement) {
+          const progressState = userAchievement.progressState.toLowerCase();
+
+          if (progressState === 'achieved') {
+            achievement.progressState = 'unlocked';
+            achievementUnlockCounter++;
+          } else if (progressState === 'notstarted') {
+            achievement.progressState = 'locked';
           }
         }
-      }
+      });
+
       return {
         filteredAchievements: this.mccTrackerAchievements,
         unlockedAchievements: achievementUnlockCounter,

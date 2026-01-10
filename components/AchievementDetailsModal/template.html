@@ -1,39 +1,75 @@
 <div>
-    <ModalTemplate :show="show" @close="close">
-      <h3 class="achievement_main_name">{{ achievementName }}</h3>
-      <h4 class="achievement_main_value">{{ achievementValue }}</h4>
-      <img
-        class="gamerscore_icon_small"
-        :src="require('../../static/icons/gamerscore_icon.png')"
-      />
-      <p class="achievement_main_description">{{ achievementDescription }}</p>
-      <img
-        class="achievement_main_art"
-        :src="achievementArt"
-        alt="Achievement Art"
-        width="100%"
-      />
-      <div v-show="videoTutorial.length > 1" class="videoWrapper">
-        <iframe
-          v-show="videoTutorial.length > 1"
-          class="video_tutorial"
-          width="100%"
-          height="47%"
-          :src="videoTutorial"
-          frameborder="0"
-        >
-        </iframe>
+  <ModalTemplate :show="show" @close="close">
+    <div class="achievement-modal-content">
+      <!-- Header with Achievement Art -->
+      <div class="section-label-container">
+        <div class="section-label">Achievement Details</div>
       </div>
-      <img
-        v-show="videoTutorial.length == 0"
-        class="no_video_background"
-        :src="imageTutorial"
-      />
-      <img
-        v-show="videoTutorial.length == undefined"
-        class="no_video_background"
-        :src="require('../../static/icons/video_false_background.png')"
-      />
-      <h6 class="achievement_main_tutorial">{{ achievementTutorial }}</h6>
-    </ModalTemplate>
-  </div>
+      <div class="achievement-modal-header">
+        <img
+          class="achievement-main-art"
+          :src="achievementArt"
+          :alt="`${achievementName} achievement art`"
+        />
+        <div class="achievement-header-overlay">
+          <h3 class="achievement-main-name">{{ achievementName }}</h3>
+          <p class="achievement-main-description">{{ achievementDescription }}</p>
+          <div class="achievement-value-badge">
+            <span class="achievement-main-value">{{ achievementValue }}</span>
+            <img
+              class="gamerscore-icon-small"
+              :src="require('../../static/icons/gamerscore_icon.png')"
+              alt="Gamerscore"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Tutorial -->
+      <div v-if="videoTutorial && videoTutorial.length > 1">
+        <div class="section-label-container">
+          <div class="section-label">Video Tutorial</div>
+        </div>
+        <div class="video-wrapper">
+          <iframe
+            class="video-tutorial"
+            :src="videoTutorial"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Image Tutorial Fallback -->
+      <template v-else>
+        <div class="section-label-container">
+          <div class="section-label">Tutorial Image</div>
+        </div>
+        <img
+          v-if="imageTutorial"
+          class="no-video-background"
+          :src="imageTutorial"
+          alt="Tutorial image"
+        />
+        <img
+          v-else
+          class="no-video-background"
+          :src="require('../../static/icons/video_false_background.png')"
+          alt="No tutorial available"
+        />
+      </template>
+
+      <!-- Tutorial Text -->
+      <template v-if="achievementTutorial">
+        <div class="section-label-container">
+          <div class="section-label">Tutorial Guide</div>
+        </div>
+        <div class="achievement-tutorial-section">
+          <p class="achievement-main-tutorial">{{ achievementTutorial }}</p>
+        </div>
+      </template>
+    </div>
+  </ModalTemplate>
+</div>

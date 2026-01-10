@@ -1,42 +1,57 @@
-<div class="mainpage">
-    <div>
+<div>
+  <div class="mainpage">
+    <!-- Header Section -->
+    <div class="header-section">
       <GamesNavBar @gameSelected="gameSelected" />
+
+      <div class="achievement-counter">
+        <div class="achievement-stats">
+          <h4 class="username">
+            {{ achievementsCalculated }} {{ filterAchievementState }} achievements
+          </h4>
+        </div>
+
+        <button
+          class="toggle-lock-button"
+          @click="toggleLockButton"
+          :aria-label="`Currently showing ${filterAchievementState} achievements. Click to toggle.`"
+        >
+          <img
+            class="toggle-lock-icon"
+            :src="lockSymbol"
+            alt=""
+          />
+          <span class="toggle-text">
+            Toggle
+          </span>
+        </button>
+      </div>
     </div>
-    <h4 class="username">
-      {{
-        achievementsCalculated +
-        " " +
-        filterAchievementState +
-        " achievements"
-      }}
-    </h4>
-    <img
-      class="toggle_lock"
-      :src="lockSymbol"
-      alt="symbol to toggle locked and unlocked achievements"
-      @click.stop="toggleLockButton()"
-    />
-    <div>
-      <AchievementDetailModal
-        :show="showModal()"
-        @close="toggleModal()"
-        :achievementName="achievementName"
-        :achievementDescription="achievementDescription"
-        :achievementValue="achievementValue"
-        :achievementArt="achievementArt"
-        :achievementTutorial="achievementTutorial"
-        :videoTutorial="videoTutorial"
-        :imageTutorial="imageTutorial"
-      />
-    </div>
+
+    <!-- Main Content Wrapper -->
     <div id="wrapper">
-      <SearchForAchievement
-        :currentGame="this.game"
-        @searchCriteriaRecieved="getSearchCriteria"
-        @achievementSearched="searchForAchievement"
-      />
-      <div class="achievements_container">
-        <div class="achievements_grid">
+      <!-- Filter Sidebar -->
+      <div
+        class="filter-sidebar"
+        :class="{ active: mobileMenuOpen }"
+      >
+        <SearchForAchievement
+          :currentGame="game"
+          @searchCriteriaRecieved="getSearchCriteria"
+          @achievementSearched="searchForAchievement"
+        />
+      </div>
+
+      <!-- Sidebar Overlay (mobile only) -->
+      <div
+        class="sidebar-overlay"
+        :class="{ active: mobileMenuOpen }"
+        @click="mobileMenuOpen = false"
+      ></div>
+
+      <!-- Achievements Grid -->
+      <div class="achievements-container">
+        <div class="achievements-grid">
           <AchievementTile
             v-for="achievement in filteredAchievementsJSON"
             :key="achievement.name"
@@ -55,15 +70,37 @@
             @achievementSelected="openAchievement"
           />
         </div>
-        <div v-if="achievementsCalculated == 0">
-          <h1 class="congratulations_celebration_baby_oh_yeah">
-            Congratulations!
-          </h1>
-          <h2 class="celebration_baby_oh_yeah">
+
+        <!-- Congratulations Message -->
+        <div v-if="achievementsCalculated === 0" class="congratulations-celebration">
+          <h1>Congratulations!</h1>
+          <h2>
             You have all 700 achievements in Halo: The Master Chief Collection!
           </h2>
         </div>
-        <div class="scroll_filler"></div>
       </div>
     </div>
+
+    <!-- Mobile Menu Toggle Button -->
+    <button
+      class="mobile-menu-toggle"
+      @click="mobileMenuOpen = !mobileMenuOpen"
+      :aria-label="mobileMenuOpen ? 'Close filters' : 'Open filters'"
+    >
+      {{ mobileMenuOpen ? '✕' : '☰' }}
+    </button>
   </div>
+
+  <!-- Achievement Detail Modal - MOVED OUTSIDE mainpage -->
+  <AchievementDetailModal
+    :show="showModal()"
+    @close="toggleModal()"
+    :achievementName="achievementName"
+    :achievementDescription="achievementDescription"
+    :achievementValue="achievementValue"
+    :achievementArt="achievementArt"
+    :achievementTutorial="achievementTutorial"
+    :videoTutorial="videoTutorial"
+    :imageTutorial="imageTutorial"
+  />
+</div>

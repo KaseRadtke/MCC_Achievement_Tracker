@@ -4,6 +4,7 @@
       <div class="header" @click="goHome">
         <MCCTrackerLogo id="mainpage_logo" />
         <h6 class="tracker_title">MCC Achievement Tracker</h6>
+        <p class="gamertag">{{ $route.params.user }}</p>
       </div>
       <AchievementTracker @backgroundChanged="changeBackground" />
     </div>
@@ -17,7 +18,7 @@ import AchievementTracker from "../../../../components/AchievementTracker/Achiev
 import MCCTrackerLogo from "../../../../components/MCCTrackerLogo/MCCTrackerLogo.vue"
 export default {
   middleware: "redirect_check",
-  components:{ 
+  components:{
     Background,
     AchievementTracker,
     MCCTrackerLogo,
@@ -62,29 +63,91 @@ export default {
   cursor: pointer;
   width: 220px;
   margin: 0 auto;
+  padding-top: 1rem;
 }
+
 #mainpage_logo {
   width: 30%;
-  padding-top: 5%;
+  padding-top: 0.5rem;
 }
+
 #mainpage_div {
   position: absolute;
-  padding-right: 15%;
-  padding-left: 15%;
   z-index: 1;
   width: 100%;
+  padding: 0 2rem;
 }
 
 .tracker_title {
   font-size: 13px;
+  margin: 0;
 }
+
+.gamertag {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0.375rem 0 0;
+  letter-spacing: 0.5px;
+}
+
 h6 {
   color: white;
 }
 
-@media screen and (max-width: 960px) {
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  #mainpage_div {
+    padding: 0 1.5rem;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  #mainpage_div {
+    padding: 0 0.5rem;
+  }
+
   .header {
-    width: 180px;
+    width: 160px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  #mainpage_logo {
+    width: 50%; /* Changed from 100% - more reasonable size */
+    padding-top: 0.25rem;
+  }
+
+  .tracker_title {
+    display: none;
+  }
+
+  .gamertag {
+    font-size: 13px;
+    margin-top: 0.25rem;
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+  #mainpage_div {
+    padding: 0 0.375rem;
+  }
+
+  .header {
+    width: 140px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  #mainpage_logo {
+    width: 50%; /* Changed from 100% */
+    padding-top: 0.25rem;
+  }
+
+  .gamertag {
+    font-size: 12px;
   }
 }
 </style>

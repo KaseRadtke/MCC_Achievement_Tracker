@@ -1,64 +1,142 @@
+/* Search Filter Container */
+#filter_achievements {
+  padding: var(--spacing-lg);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+/* Search Section */
+.search {
+  width: 100%;
+}
+
+.search_header {
+  margin-bottom: var(--spacing-md);
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+/* Achievement Form */
+.achievement_form {
+  width: 100%;
+}
+
+.search_achievement_bar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  width: 100%;
+}
+
+.search_achievement_bar .form-control {
+  width: 100%;
+  padding: 0.625rem 0.875rem;
+  font-size: 0.9375rem;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.search_achievement_bar .form-control:focus {
+  outline: none;
+  border-color: rgba(0, 123, 255, 0.6);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.search_achievement_bar .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search_achievement_bar .btn-primary {
+  width: 100%;
+  padding: 0.625rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  border-radius: 6px;
+  background: rgba(0, 123, 255, 0.9);
+  border: 1px solid rgba(0, 123, 255, 0.5);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.search_achievement_bar .btn-primary:hover:not(:disabled) {
+  background: rgba(0, 123, 255, 1);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+.search_achievement_bar .btn-primary:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.search_achievement_bar .btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Error/Info Messages */
 #achievement_not_found {
-    color: rgb(252, 65, 65);
-    margin-top: 5px;
-    position: absolute;
-    width: 400px;
-    margin-left: -30px; /* Sloppy but it works ;) */
-    overflow: visible;
-  }
-  
-  .criteria_selection {
-    padding-top: 2em;
-  }
-  .selection_heading {
-    color: #ffffff;
-    font-size: 17px;
-  }
-  
-  .form-check {
-    margin-left: 0em;
-  }
-  
+  color: rgb(252, 65, 65);
+  font-size: 0.875rem;
+  margin: var(--spacing-sm) 0 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Criteria Selection Section */
+.criteria_selection {
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.selection_heading {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: var(--spacing-md);
+}
+
+/* Form Checkboxes */
+.form-check {
+  color: white;
+  margin: var(--spacing-xs) 0;
+  cursor: pointer;
+}
+
+.form-check input[type="checkbox"] {
+  cursor: pointer;
+  margin-right: var(--spacing-sm);
+}
+
+.form-check label {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Mobile Adjustments */
+@media screen and (max-width: 768px) {
   #filter_achievements {
-    grid-column: 1;
-    grid-row: 1/11;
+    padding: var(--spacing-md);
   }
-  
+
   .heading {
-    font-size: 18px;
-    padding-bottom: 10px;
+    font-size: 1rem;
   }
-  .search_header {
-    text-align: left;
-    color: white;
-    padding-left: 2em;
-    margin-top: 2em;
+
+  .search_achievement_bar .form-control,
+  .search_achievement_bar .btn-primary {
+    font-size: 1rem;
+    padding: 0.75rem;
   }
-  .search_achievement_bar {
-    flex-flow: nowrap;
-    width: 20em;
-    text-align: center;
-  }
-  
-  .achievement_form {
-    padding-left: 3em;
-  }
-  
-  .form-check {
-    color: white;
-  }
-  
-  .header {
-    color: white;
-  }
-  
-  @media screen and (min-width: 691px) and (max-width: 1366px) {
-    #filter_achievements {
-      grid-column: 1;
-      grid-row: 1/11;
-      transform: scale(0.75);
-      padding-top: -50;
-      margin-top: -160px;
-      margin-left: -40px;
-    }
-  }
+}

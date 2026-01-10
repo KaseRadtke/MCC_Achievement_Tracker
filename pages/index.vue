@@ -1,18 +1,18 @@
 <template>
-  <div>
-    <div class="container">
+  <div class="page-wrapper">
+    <Background :gameBackground="gameBackground" />
+    <div class="content-wrapper">
       <HomePage />
     </div>
-    <Background :gameBackground="gameBackground" />
   </div>
 </template>
 
 <script>
 import Background from "../components/Background/Background.vue";
 export default {
-  components:{
+  components: {
     Background
-    },
+  },
   head() {
     return {
       title: "MCC - Achievement Tracker",
@@ -38,6 +38,28 @@ export default {
 <style>
 body {
   background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.content-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  overflow-y: auto;
 }
 </style>
-

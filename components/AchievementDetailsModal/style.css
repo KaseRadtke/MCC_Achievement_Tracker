@@ -1,93 +1,272 @@
-.achievement_main_art {
-    position: relative;
+/* Modal Content Container */
+.achievement-modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: white;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 1rem 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(20, 30, 40, 0.3) 0%,
+    rgba(25, 35, 45, 0.5) 100%
+  );
+}
+
+/* Section Labels */
+.section-label-container {
+  padding: 0 1rem;
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+/* Header Section */
+.achievement-modal-header {
+  position: relative;
+}
+
+.achievement-main-art {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.achievement-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.85) 50%,
+    transparent 100%
+  );
+  border-radius: 8px 8px 0 0;
+}
+
+.achievement-main-name {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+  color: white;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.3px;
+}
+
+.achievement-main-description {
+  font-style: italic;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 0.75rem 0;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+  line-height: 1.5;
+}
+
+.achievement-value-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 123, 255, 0.2);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 123, 255, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.achievement-main-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.gamerscore-icon-small {
+  height: 22px;
+}
+
+/* Tutorial Section */
+.achievement-tutorial-section {
+  padding: 1.25rem;
+  background: rgba(30, 45, 60, 0.6);
+  border-radius: 8px;
+  border: 1px solid rgba(100, 180, 255, 0.2);
+  margin: 0 1rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.achievement-main-tutorial {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+/* Video Section */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #000;
+  border: 1px solid rgba(100, 180, 255, 0.2);
+  margin: 0 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.video-tutorial {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.no-video-background {
+  width: calc(100% - 2rem);
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  border: 1px solid rgba(100, 180, 255, 0.2);
+  margin: 0 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Scrollbar styling */
+.achievement-modal-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.achievement-modal-content::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.achievement-modal-content::-webkit-scrollbar-thumb {
+  background: rgba(100, 180, 255, 0.4);
+  border-radius: 5px;
+}
+
+.achievement-modal-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 180, 255, 0.6);
+}
+
+/* Mobile Optimizations */
+@media screen and (max-width: 768px) {
+  .achievement-modal-content {
+    max-height: 90vh;
+    gap: 0.625rem;
+    padding: 0.75rem 0;
   }
-  .achievement_main_value {
-    position: absolute;
-    color: white;
-    font-size: 1.3vw;
-    z-index: 100;
-    padding-top: 0.1em;
-    padding-left: 25vw;
+
+  .section-label-container {
+    padding: 0 0.75rem;
   }
-  .gamerscore_icon_small {
-    width: 1vw;
-    position: absolute;
-    z-index: 100;
-    margin-left: 26.5vw;
-    margin-top: 0.5vh;
+
+  .section-label {
+    font-size: 0.6875rem;
+    letter-spacing: 1.2px;
   }
-  
-  .achievement_main_description {
-    position: absolute;
-    z-index: 100;
-    color: #dedede;
-    padding-left: 4em;
-    padding-top: 2.5em;
-    font-style: italic;
-    font-size: 0.6vw;
+
+  .achievement-header-overlay {
+    padding: 1.25rem;
   }
-  .achievement_main_tutorial {
-    position: relative;
-    z-index: 100;
-    color: white;
-    padding-left: 1em;
-    padding-top: 0.9em;
-    font-size: 0.7vw;
+
+  .achievement-main-name {
+    font-size: 1.5rem;
+    margin-bottom: 0.625rem;
   }
-  
-  .achievement_main_name {
-    position: absolute;
-    padding-left: 1em;
-    padding-top: 0.5em;
-    color: white;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    z-index: 100;
-    font-size: 1vw;
+
+  .achievement-main-description {
+    font-size: 0.9375rem;
+    margin-bottom: 0.625rem;
   }
-  .videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
+
+  .achievement-value-badge {
+    padding: 0.625rem 1rem;
   }
-  .video_tutorial {
-    padding-top: 1em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+  .achievement-main-value {
+    font-size: 1.125rem;
   }
-  .no_video_background {
-    width: 100%;
-    padding-top: 1em;
+
+  .gamerscore-icon-small {
+    height: 20px;
   }
-  
-  @media screen and (min-width: 1601px) and (max-width: 1920px) {
-    .achievement_main_value {
-      padding-top: 0.4em;
-      padding-left: 35vw;
-    }
-    .gamerscore_icon_small {
-      width: 1.4vw;
-      position: absolute;
-      z-index: 100;
-      margin-left: 43.7em;
-      margin-top: 0.5em;
-    }
-  
-    .achievement_main_description {
-      padding-left: 4em;
-      padding-top: 2.6em;
-      font-size: 0.7vw;
-    }
+
+  .achievement-tutorial-section {
+    padding: 1rem;
+    margin: 0 0.75rem;
   }
-  
-  @media only screen and (min-device-width: 1200) and (max-width: 1600) {
-    .gamerscore_icon_small {
-      width: 3vw;
-      position: absolute;
-      z-index: 100;
-      margin-left: 30em;
-      margin-top: 0.5em;
-    }
+
+  .achievement-main-tutorial {
+    font-size: 0.9375rem;
+    line-height: 1.6;
   }
+
+  .video-wrapper,
+  .no-video-background {
+    margin: 0 0.75rem;
+  }
+
+  .no-video-background {
+    width: calc(100% - 1.5rem);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .achievement-modal-content {
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+  }
+
+  .section-label-container {
+    padding: 0 0.5rem;
+  }
+
+  .achievement-header-overlay {
+    padding: 1rem;
+  }
+
+  .achievement-main-name {
+    font-size: 1.375rem;
+  }
+
+  .achievement-main-description {
+    font-size: 0.875rem;
+  }
+
+  .achievement-tutorial-section {
+    padding: 0.875rem;
+    margin: 0 0.5rem;
+  }
+
+  .achievement-main-tutorial {
+    font-size: 0.875rem;
+  }
+
+  .video-wrapper,
+  .no-video-background {
+    margin: 0 0.5rem;
+  }
+
+  .no-video-background {
+    width: calc(100% - 1rem);
+  }
+}

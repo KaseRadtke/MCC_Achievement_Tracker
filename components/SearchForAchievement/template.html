@@ -1,37 +1,48 @@
 <div id="filter_achievements">
-    <div class="search">
-      <div class="search_header"><h5 class="heading">Search Criteria</h5></div>
-      <b-form class="achievement_form" @submit.prevent="onSubmit">
-        <div class="form-group mx-sm-3 mb-2 search_achievement_bar">
-          <b-input
-            type="text"
-            class="form-control"
-            name="achievement_search"
-            v-model="achievementName"
-            placeholder="Search for specific achievement"
-          ></b-input>
-          <b-button
-            variant="primary"
-            type="submit"
-            value="Search Achievements"
-            :disabled="!isFilledOut"
-            >Find Achievement</b-button
-          >
-          <h6 id="achievement_not_found" v-if="achievementNotFound === true">
-            Achievement not found. Are you sure you spelled it correctly?
-          </h6>
-          <!-- McButtClap warned me site was down on 08/24/2022 along with some naming bugs. Thanks! -->
-          <h6 id="achievement_not_found" v-if="achievementName === 'McButtClap'">
-            Thanks for the help 🙂
-          </h6>
-        </div>
-      </b-form>
+  <div class="search">
+    <div class="search_header">
+      <h5 class="heading">Search Criteria</h5>
     </div>
-    <GameSearchFilters
-      :currentGame="currentGame"
-      :gameData="
-        require(`../../static/game_settings/${currentGame}_search_settings.json`)
-      "
-      @gameSelection="gameSelection"
-    />
+
+    <b-form class="achievement_form" @submit.prevent="onSubmit">
+      <div class="search_achievement_bar">
+        <b-input
+          type="text"
+          class="form-control"
+          name="achievement_search"
+          v-model="achievementName"
+          placeholder="Search for specific achievement"
+        />
+
+        <b-button
+          variant="primary"
+          type="submit"
+          :disabled="!isFilledOut"
+        >
+          Find Achievement
+        </b-button>
+
+        <h6
+          v-if="achievementNotFound"
+          id="achievement_not_found"
+        >
+          Achievement not found. Are you sure you spelled it correctly?
+        </h6>
+
+        <h6
+          v-if="achievementName === 'McButtClap'"
+          id="achievement_not_found"
+          style="color: #4CAF50;"
+        >
+          Thanks for the help 🙂
+        </h6>
+      </div>
+    </b-form>
   </div>
+
+  <GameSearchFilters
+    :currentGame="currentGame"
+    :gameData="require(`../../static/game_settings/${currentGame}_search_settings.json`)"
+    @gameSelection="gameSelection"
+  />
+</div>
