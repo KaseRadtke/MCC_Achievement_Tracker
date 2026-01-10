@@ -24,6 +24,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=2' }
+    ],
+    script: [
+      {
+        async: true,
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1575411387449407',
+        crossorigin: 'anonymous'
+      }
     ]
   },
   /*
