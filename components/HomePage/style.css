@@ -20,11 +20,12 @@
   margin: 5% auto 0;
   padding: var(--spacing-xl) var(--spacing-lg);
   text-align: center;
-  border: 2px solid var(--color-border);
+  border: 1px solid rgba(255, 255, 255, 0.08); /* Changed from 2px solid var(--color-border) */
   border-radius: var(--border-radius);
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4); /* Added subtle shadow for depth */
 }
 
 /* Logo */

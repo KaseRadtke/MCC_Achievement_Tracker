@@ -4,8 +4,8 @@
   flex-direction: column;
   gap: 0.75rem;
   color: white;
-  max-height: 80vh;
-  overflow-y: auto;
+  max-height: none; /* Remove height restriction on desktop */
+  overflow-y: visible; /* No scrolling needed */
   padding: 1rem 0;
   background: linear-gradient(
     to bottom,
@@ -117,7 +117,7 @@
 }
 
 /* Video Section */
-.video-wrapper {
+.yt-video-wrapper {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
@@ -170,7 +170,8 @@
 /* Mobile Optimizations */
 @media screen and (max-width: 768px) {
   .achievement-modal-content {
-    max-height: 90vh;
+    max-height: 85vh; /* Only limit height on mobile */
+    overflow-y: auto; /* Allow scrolling on mobile */
     gap: 0.625rem;
     padding: 0.75rem 0;
   }
@@ -220,7 +221,7 @@
     line-height: 1.6;
   }
 
-  .video-wrapper,
+  .yt-video-wrapper,
   .no-video-background {
     margin: 0 0.75rem;
   }
@@ -261,7 +262,7 @@
     font-size: 0.875rem;
   }
 
-  .video-wrapper,
+  .yt-video-wrapper,
   .no-video-background {
     margin: 0 0.5rem;
   }
