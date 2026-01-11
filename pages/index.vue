@@ -16,6 +16,13 @@ export default {
   head() {
     return {
       title: "MCC - Achievement Tracker",
+      script: [
+        {
+          async: true,
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1575411387449407',
+          crossorigin: 'anonymous'
+        }
+      ],
       meta: [
         {
           hid: "description",
