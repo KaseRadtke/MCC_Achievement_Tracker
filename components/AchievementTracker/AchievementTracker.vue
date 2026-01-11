@@ -62,15 +62,6 @@ export default {
     },
   },
 
-  watch: {
-    // Close mobile menu when filters change
-    searchCriteria() {
-      if (window.innerWidth <= 768) {
-        this.mobileMenuOpen = false;
-      }
-    },
-  },
-
   mounted() {
     this.$nextTick(() => {
       setTimeout(() => this.$nuxt.$loading.finish(), 500);
